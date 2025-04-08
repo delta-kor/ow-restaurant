@@ -1,1 +1,108 @@
+@import url('https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
 @import "tailwindcss";
+
+@theme inline {
+  --spacing-*: initial;
+  --color-*: initial;
+  --radius-*: initial;
+
+  --unit--20: -20px;
+  --unit--16: -16px;
+  --unit--12: -12px;
+  --unit--8: -8px;
+  --unit--4: -4px;
+  --unit--2: -2px;
+  --unit--1: -1px;
+  --unit-0: 0px;
+  --unit-05: 0.5px;
+  --unit-1: 1px;
+  --unit-2: 2px;
+  --unit-4: 4px;
+  --unit-6: 6px;
+  --unit-8: 8px;
+  --unit-10: 10px;
+  --unit-12: 12px;
+  --unit-14: 14px;
+  --unit-16: 16px;
+  --unit-18: 18px;
+  --unit-20: 20px;
+  --unit-24: 24px;
+  --unit-28: 28px;
+  --unit-32: 32px;
+  --unit-36: 36px;
+  --unit-40: 40px;
+  --unit-44: 44px;
+  --unit-48: 48px;
+  --unit-52: 52px;
+  --unit-56: 56px;
+  --unit-64: 64px;
+  --unit-72: 72px;
+  --unit-80: 80px;
+  --unit-96: 96px;
+  --unit-128: 128px;
+  --unit-160: 160px;
+  --unit-192: 192px;
+  --unit-256: 256px;
+
+  --spacing--20: var(--unit--20);
+  --spacing--16: var(--unit--16);
+  --spacing--12: var(--unit--12);
+  --spacing--8: var(--unit--8);
+  --spacing--4: var(--unit--4);
+  --spacing--2: var(--unit--2);
+  --spacing--1: var(--unit--1);
+  --spacing-0: var(--unit-0);
+  --spacing-2: var(--unit-2);
+  --spacing-4: var(--unit-4);
+  --spacing-6: var(--unit-6);
+  --spacing-8: var(--unit-8);
+  --spacing-10: var(--unit-10);
+  --spacing-12: var(--unit-12);
+  --spacing-16: var(--unit-16);
+  --spacing-20: var(--unit-20);
+  --spacing-24: var(--unit-24);
+  --spacing-28: var(--unit-28);
+  --spacing-32: var(--unit-32);
+  --spacing-36: var(--unit-36);
+  --spacing-40: var(--unit-40);
+  --spacing-48: var(--unit-48);
+  --spacing-56: var(--unit-56);
+  --spacing-64: var(--unit-64);
+  --spacing-72: var(--unit-72);
+  --spacing-80: var(--unit-80);
+  --spacing-96: var(--unit-96);
+  --spacing-128: var(--unit-128);
+  --spacing-192: var(--unit-192);
+  --spacing-256: var(--unit-256);
+
+  --spacing-pc-x-padding: var(--unit-160);
+
+  --radius-0: var(--unit-0);
+  --radius-4: var(--unit-4);
+  --radius-8: var(--unit-8);
+  --radius-12: var(--unit-12);
+  --radius-16: var(--unit-16);
+  --radius-24: var(--unit-24);
+  --radius-32: var(--unit-32);
+  --radius-full: 9999px;
+
+  --color-primary: #2858DD;
+  --color-primary-background: #EFF3FF;
+  --color-primary-light: #ADC3FF;
+  --color-black: #2C2D31;
+  --color-gray: #6C707C;
+  --color-white: #FFFFFF;
+}
+
+body {
+  font-family: 'Wanted Sans Variable', sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
