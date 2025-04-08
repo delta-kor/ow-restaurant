@@ -1,3 +1,5 @@
+import BookTemplate from '@/components/template/BookTemplate'
+
 export default function MainPage() {
-  return <div>Main</div>
+  return <BookTemplate />
 }

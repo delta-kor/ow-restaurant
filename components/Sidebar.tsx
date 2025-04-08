@@ -3,8 +3,8 @@
 import { Link, usePathname } from '@/i18n/routing'
 import Icon, { IconType } from './Icon'
 
-const MenuList: [IconType, string][] = [
-  [Icon.Book, '/'],
+const MenuList: [IconType, string | null][] = [
+  [Icon.Book, null],
   [Icon.Game, '/game'],
   [Icon.Settings, '/settings'],
 ]
@@ -16,10 +16,12 @@ export default function Sidebar() {
     <div className="left-pc-x-padding fixed top-1/2 -translate-y-1/2">
       <div className="rounded-16 bg-primary-background flex flex-col gap-40 px-24 py-32">
         {MenuList.map(([Icon, path]) => (
-          <Link href={path} key={path} className="-m-20 p-20">
+          <Link href={path || '/'} key={path} className="-m-20 p-20">
             <Icon
               className="text-primary-light data-[active=true]:text-primary size-48 transition-colors"
-              data-active={pathname === path}
+              data-active={
+                path ? pathname.startsWith(path) : pathname === '/' || pathname.startsWith('/book')
+              }
             />
           </Link>
         ))}

@@ -66,7 +66,7 @@ export class Recipe {
   private constructor(
     private readonly items: Item[],
     private readonly actions: Action[],
-    private readonly stages: Stage[]
+    public readonly stages: Stage[]
   ) {}
 
   public getLayer() {

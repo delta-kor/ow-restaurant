@@ -5,6 +5,7 @@
   --spacing-*: initial;
   --color-*: initial;
   --radius-*: initial;
+  --text-*: initial;
 
   --unit--20: -20px;
   --unit--16: -16px;
@@ -92,6 +93,15 @@
   --color-black: #2C2D31;
   --color-gray: #6C707C;
   --color-white: #FFFFFF;
+
+  --text-12: var(--unit-12);
+  --text-14: var(--unit-14);
+  --text-16: var(--unit-16);
+  --text-18: var(--unit-18);
+  --text-20: var(--unit-20);
+  --text-24: var(--unit-24);
+  --text-28: var(--unit-28);
+  --text-32: var(--unit-32);
 }
 
 body {

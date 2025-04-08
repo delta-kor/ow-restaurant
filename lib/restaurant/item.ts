@@ -21,6 +21,19 @@ export class Item {
     this.canMelt = config.canMelt
   }
 
+  public getName(locale: string) {
+    switch (locale) {
+      case 'ko':
+        return this.koreanName
+      case 'en':
+        return this.englishName
+      case 'ja':
+        return this.japaneseName
+      default:
+        return this.koreanName
+    }
+  }
+
   public toJSON() {
     return {
       id: this.id,

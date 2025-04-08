@@ -20,10 +20,16 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={lang}>
+    <html>
       <NextIntlClientProvider messages={messages}>
         <body>{children}</body>
       </NextIntlClientProvider>
     </html>
   )
+}
+
+export function generateStaticParams() {
+  return routing.locales.map((lang) => ({
+    lang,
+  }))
 }
