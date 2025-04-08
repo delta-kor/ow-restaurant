@@ -1,4 +1,5 @@
-import BookTemplate from '@/components/template/BookTemplate'
+import { recipe } from '@/lib/restaurant/restaurant'
+import { Effect } from 'effect'
 import { notFound } from 'next/navigation'
 
 export default async function StagePage({ params }: { params: Promise<{ stageId: string }> }) {
@@ -9,11 +10,10 @@ export default async function StagePage({ params }: { params: Promise<{ stageId:
     notFound()
   }
 
-  return <BookTemplate stageId={stageId} />
-}
+  !recipe.getStage(stageId).pipe(
+    Effect.catchTag('RecipeStageNotFoundError', () => Effect.succeed(false)),
+    Effect.runSync
+  ) && notFound()
 
-export function generateStaticParams() {
-  return Array.from({ length: 10 }, (_, i) => ({
-    stageId: i.toString(),
-  }))
+  return <div className="flex flex-col"></div>
 }

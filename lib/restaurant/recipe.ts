@@ -35,6 +35,11 @@ export class RecipeItemNotFoundError extends Schema.TaggedError<RecipeItemNotFou
   { itemId: Schema.Number }
 ) {}
 
+export class RecipeStageNotFoundError extends Schema.TaggedError<RecipeStageNotFoundError>()(
+  'RecipeStageNotFoundError',
+  { stageId: Schema.Number }
+) {}
+
 export class Recipe {
   public static create(json: RecipeJson) {
     const items = json.items.map(
@@ -79,6 +84,15 @@ export class Recipe {
       if (!item) return yield* Effect.fail(new RecipeItemNotFoundError({ itemId: id }))
 
       return item
+    })
+  }
+
+  public getStage(id: number) {
+    return Effect.gen(this, function* (this: Recipe) {
+      const stage = this.stages.find((stage) => stage.id === id)
+      if (!stage) return yield* Effect.fail(new RecipeStageNotFoundError({ stageId: id }))
+
+      return stage
     })
   }
 }

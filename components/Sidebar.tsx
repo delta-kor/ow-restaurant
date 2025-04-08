@@ -31,5 +31,5 @@ export default function Sidebar() {
 }
 
 export function SidebarPlaceholder() {
-  return <div className="w-96"></div>
+  return <div className="w-96 shrink-0"></div>
 }

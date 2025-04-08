@@ -21,6 +21,14 @@ const nextConfig: NextConfig = {
     })
     return config
   },
+  async rewrites() {
+    return [
+      {
+        source: '/:lang',
+        destination: '/:lang/book/0',
+      },
+    ]
+  },
 }
 
 export default withNextIntl(nextConfig)
