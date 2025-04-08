@@ -81,6 +81,10 @@ WorkshopConfigKeys.set('MELT_LIST', {
   name: 'meltList',
   type: WorkshopConfigType.Array,
 })
+WorkshopConfigKeys.set('STAGE_NAME', {
+  name: 'stageName',
+  type: WorkshopConfigType.STRING,
+})
 
 export interface WorkshopConfig {
   itemName: string[]
@@ -101,4 +105,5 @@ export interface WorkshopConfig {
   hazardMenuList: number[][]
   fridgeList: number[][]
   meltList: number[]
+  stageName: string[]
 }

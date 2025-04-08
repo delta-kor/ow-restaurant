@@ -1,6 +1,7 @@
 import { Effect, Schema } from 'effect'
 import { Action, ActionType } from '../../lib/restaurant/action'
 import { Item } from '../../lib/restaurant/item'
+import { StageJson } from '../../lib/restaurant/recipe'
 import { WorkshopConfig } from './code-keys'
 
 export class CuttingActionConfigError extends Schema.TaggedError<CuttingActionConfigError>()(
@@ -51,6 +52,7 @@ export class RecipeBuilder {
       this.items.clear()
 
       const names = this.workshopConfig.itemName
+      const meltList = this.workshopConfig.meltList
       for (let index = 0; index < names.length; index++) {
         const name = names[index]
         const item = new Item({
@@ -58,6 +60,7 @@ export class RecipeBuilder {
           koreanName: name,
           englishName: name,
           japaneseName: name,
+          canMelt: meltList.includes(index),
         })
         this.items.add(item)
       }
@@ -289,10 +292,33 @@ export class RecipeBuilder {
     })
   }
 
+  private createStageJson() {
+    const menuList = this.workshopConfig.menuList
+    const hazardMenuList = this.workshopConfig.hazardMenuList
+    const stageName = this.workshopConfig.stageName
+    const fridgeList = this.workshopConfig.fridgeList
+
+    const stages: StageJson[] = []
+    for (let id = 0; id < stageName.length; id++) {
+      const stage: StageJson = {
+        id,
+        name: [stageName[id], stageName[id], stageName[id]],
+        fridge: fridgeList[id],
+        menus: menuList[id],
+        hazardMenus: hazardMenuList[id],
+      }
+
+      stages.push(stage)
+    }
+
+    return stages
+  }
+
   public toJSON() {
     return {
       items: [...this.items].map((item) => item.toJSON()),
       actions: [...this.actions].map((action) => action.toJSON()),
+      stages: this.createStageJson(),
     }
   }
 }

@@ -28,9 +28,15 @@ export async function run() {
           workshopCodeType: error.workshopCodeType,
         }),
       WorkshopConfigBlockExtractionError: (error) =>
-        Effect.logError(`Failed to extract block from workshop code`, {
+        Effect.logError(`Failed to extract config block from workshop code`, {
           workshopConfigKey: error.workshopConfigKey,
         }),
+      WorkshopArrayBlockParsingError: (error) =>
+        Effect.logError(`Failed to parse workshop code file (Array block)`),
+      WorkshopStringBlockParsingError: (error) =>
+        Effect.logError(`Failed to parse workshop code file (String block)`),
+      RecipeFileSaveError: (error) =>
+        Effect.logError(`Failed to save recipe file`, { path: error.path }),
     }),
     Effect.catchAll((error) => Effect.logError(`Uncaught error occurred`, error)),
     Effect.catchAllDefect((error) => Effect.logFatal(`Fatal error occurred`, error))
