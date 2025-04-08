@@ -43,7 +43,6 @@ export class RecipeBuilder {
     return Effect.gen(this, function* (this: RecipeBuilder) {
       yield* this.buildItems()
       yield* this.buildActions()
-      yield* Effect.logDebug(this.actions)
     })
   }
 
@@ -288,5 +287,12 @@ export class RecipeBuilder {
         this.actions.add(action)
       }
     })
+  }
+
+  public toJSON() {
+    return {
+      items: [...this.items].map((item) => item.toJSON()),
+      actions: [...this.actions].map((action) => action.toJSON()),
+    }
   }
 }

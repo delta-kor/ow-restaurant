@@ -17,4 +17,11 @@ export class Item {
     this.englishName = config.englishName
     this.japaneseName = config.japaneseName
   }
+
+  public toJSON() {
+    return {
+      id: this.id,
+      name: [this.koreanName, this.englishName, this.japaneseName],
+    }
+  }
 }

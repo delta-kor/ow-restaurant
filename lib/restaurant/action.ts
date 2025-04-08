@@ -43,4 +43,13 @@ export class Action {
       this.effort = (config as EffortfulActionConfig).effort
     }
   }
+
+  public toJSON() {
+    return {
+      type: this.type,
+      input: this.input.map((item) => item.id),
+      output: this.output.map((item) => item.id),
+      effort: this.effort,
+    }
+  }
 }
