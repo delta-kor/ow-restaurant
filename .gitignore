@@ -42,3 +42,6 @@ next-env.d.ts
 
 # intellij
 .idea
+
+# workshop codes
+scripts/load-workshop-code/code
