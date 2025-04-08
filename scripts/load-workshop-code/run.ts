@@ -1,13 +1,16 @@
 import { Effect, Logger, LogLevel } from 'effect'
 import { loadWorkshopCode, WorkshopCodeType } from './code-loader'
 import { CodeParser } from './code-parser'
+import { RecipeBuilder } from './recipe-builder'
 
 export async function run() {
   const program = Effect.gen(function* () {
     const koreanWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.Ko)
     const koreanWorkshopCodeParser = new CodeParser(koreanWorkshopCode)
     const config = yield* koreanWorkshopCodeParser.parse()
-    yield* Effect.logDebug(config)
+
+    const recipeBuilder = new RecipeBuilder(config)
+    yield* recipeBuilder.build()
   }).pipe(Effect.andThen(Effect.void))
 
   const caughtProgram = program.pipe(
