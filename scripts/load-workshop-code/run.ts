@@ -7,13 +7,26 @@ import { saveRecipeToJson } from './recipe-saver'
 export async function run() {
   const program = Effect.gen(function* () {
     const koreanWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.Ko)
+    const englishWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.En)
+    const japaneseWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.Ja)
     yield* Effect.logInfo('Loaded workshop codes')
 
     const koreanWorkshopCodeParser = new CodeParser(koreanWorkshopCode)
     const koreanConfig = yield* koreanWorkshopCodeParser.parse()
+
+    const englishWorkshopCodeParser = new CodeParser(englishWorkshopCode)
+    const englishConfig = yield* englishWorkshopCodeParser.parse()
+
+    const japaneseWorkshopCodeParser = new CodeParser(japaneseWorkshopCode)
+    const japaneseConfig = yield* japaneseWorkshopCodeParser.parse()
+
     yield* Effect.logInfo('Parsed workshop codes')
 
-    const recipeBuilder = new RecipeBuilder(koreanConfig)
+    const recipeBuilder = new RecipeBuilder({
+      koreanWorkshopConfig: koreanConfig,
+      englishWorkshopConfig: englishConfig,
+      japaneseWorkshopConfig: japaneseConfig,
+    })
     yield* recipeBuilder.build()
     yield* Effect.logInfo('Built recipes from workshop codes')
 

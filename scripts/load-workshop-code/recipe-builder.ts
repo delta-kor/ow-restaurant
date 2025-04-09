@@ -4,6 +4,12 @@ import { Item } from '../../lib/restaurant/item'
 import { StageJson } from '../../lib/restaurant/recipe'
 import { WorkshopConfig } from './code-keys'
 
+export interface RecipeBuilderConfig {
+  koreanWorkshopConfig: WorkshopConfig
+  englishWorkshopConfig: WorkshopConfig
+  japaneseWorkshopConfig: WorkshopConfig
+}
+
 export class CuttingActionConfigError extends Schema.TaggedError<CuttingActionConfigError>()(
   'CuttingActionConfigError',
   { itemId: Schema.Number }
@@ -35,10 +41,18 @@ export class RecipeBuilderItemNotFoundError extends Schema.TaggedError<RecipeBui
 ) {}
 
 export class RecipeBuilder {
-  private items: Set<Item> = new Set()
-  private actions: Set<Action> = new Set()
+  private readonly workshopConfig: WorkshopConfig
+  private readonly englishWorkshopConfig: WorkshopConfig
+  private readonly japaneseWorkshopConfig: WorkshopConfig
 
-  constructor(private workshopConfig: WorkshopConfig) {}
+  private readonly items: Set<Item> = new Set()
+  private readonly actions: Set<Action> = new Set()
+
+  constructor(recipeBuilderConfig: RecipeBuilderConfig) {
+    this.workshopConfig = recipeBuilderConfig.koreanWorkshopConfig
+    this.englishWorkshopConfig = recipeBuilderConfig.englishWorkshopConfig
+    this.japaneseWorkshopConfig = recipeBuilderConfig.japaneseWorkshopConfig
+  }
 
   public build() {
     return Effect.gen(this, function* (this: RecipeBuilder) {
@@ -51,15 +65,21 @@ export class RecipeBuilder {
     return Effect.gen(this, function* (this: RecipeBuilder) {
       this.items.clear()
 
-      const names = this.workshopConfig.itemName
+      const koreanNames = this.workshopConfig.itemName
+      const englishNames = this.englishWorkshopConfig.itemName
+      const japaneseNames = this.japaneseWorkshopConfig.itemName
+
       const meltList = this.workshopConfig.meltList
-      for (let index = 0; index < names.length; index++) {
-        const name = names[index]
+      for (let index = 0; index < koreanNames.length; index++) {
+        const koreanName = koreanNames[index]
+        const englishName = englishNames[index]
+        const japaneseName = japaneseNames[index]
+
         const item = new Item({
           id: index,
-          koreanName: name,
-          englishName: name,
-          japaneseName: name,
+          koreanName,
+          englishName,
+          japaneseName,
           canMelt: meltList.includes(index),
         })
         this.items.add(item)
@@ -295,14 +315,17 @@ export class RecipeBuilder {
   private createStageJson() {
     const menuList = this.workshopConfig.menuList
     const hazardMenuList = this.workshopConfig.hazardMenuList
-    const stageName = this.workshopConfig.stageName
     const fridgeList = this.workshopConfig.fridgeList
 
+    const koreanStageName = this.workshopConfig.stageName
+    const englishStageName = this.englishWorkshopConfig.stageName
+    const japaneseStageName = this.japaneseWorkshopConfig.stageName
+
     const stages: StageJson[] = []
-    for (let id = 0; id < stageName.length; id++) {
+    for (let id = 0; id < koreanStageName.length; id++) {
       const stage: StageJson = {
         id,
-        name: [stageName[id], stageName[id], stageName[id]],
+        name: [koreanStageName[id], englishStageName[id], japaneseStageName[id]],
         fridge: fridgeList[id],
         menus: menuList[id],
         hazardMenus: hazardMenuList[id],
