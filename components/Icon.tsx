@@ -9,6 +9,7 @@ import IcecreamSvg from '@/public/icons/icecream.svg'
 import NoodlesSvg from '@/public/icons/noodles.svg'
 import PancakeSvg from '@/public/icons/pancake.svg'
 import PizzaSvg from '@/public/icons/pizza.svg'
+import RightChevronSvg from '@/public/icons/right-chevron.svg'
 import SettingsSvg from '@/public/icons/settings.svg'
 import SteakSvg from '@/public/icons/steak.svg'
 import TacoSvg from '@/public/icons/taco.svg'
@@ -28,6 +29,7 @@ const Icon = {
   Pizza: PizzaSvg,
   Steak: SteakSvg,
   Taco: TacoSvg,
+  RightChevron: RightChevronSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]
