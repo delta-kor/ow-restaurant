@@ -95,6 +95,12 @@ export class Recipe {
       return stage
     })
   }
+
+  public getAllActions() {
+    return Effect.gen(this, function* (this: Recipe) {
+      return this.actions
+    })
+  }
 }
 
 export class RecipeService extends Context.Tag('RecipeService')<RecipeService, Recipe>() {}

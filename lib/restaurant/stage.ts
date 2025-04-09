@@ -20,9 +20,9 @@ export class Stage {
     private readonly koreanName: string,
     private readonly englishName: string,
     private readonly japaneseName: string,
-    private readonly fridge: Item[],
-    private readonly menus: Item[],
-    private readonly hazardMenus: Item[]
+    public readonly fridge: Item[],
+    public readonly menus: Item[],
+    public readonly hazardMenus: Item[]
   ) {}
 
   public getName(locale: string) {

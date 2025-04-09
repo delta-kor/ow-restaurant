@@ -27,10 +27,10 @@ export interface EffortfulActionConfig extends ActionConfigBase {
 export type ActionConfig = EffortlessActionConfig | EffortfulActionConfig
 
 export class Action {
-  private readonly type: ActionType
-  private readonly input: Item[]
-  private readonly output: Item[]
-  private readonly effort: number | null
+  public readonly type: ActionType
+  public readonly input: Item[]
+  public readonly output: Item[]
+  public readonly effort: number | null
 
   constructor(config: ActionConfig) {
     this.type = config.type
@@ -51,5 +51,36 @@ export class Action {
       output: this.output.map((item) => item.id),
       effort: this.effort,
     }
+  }
+
+  public toDebugString() {
+    let type: string
+    switch (this.type) {
+      case ActionType.Cut:
+        type = 'Cut'
+        break
+      case ActionType.Grill:
+        type = 'Grill'
+        break
+      case ActionType.Fry:
+        type = 'Fry'
+        break
+      case ActionType.Pot:
+        type = 'Pot'
+        break
+      case ActionType.Pan:
+        type = 'Pan'
+        break
+      case ActionType.Impact:
+        type = 'Impact'
+        break
+      case ActionType.Mix:
+        type = 'Mix'
+        break
+    }
+
+    return `${type} ${this.input.map((item) => item.getName('ko')).join(' + ')} -> ${this.output
+      .map((item) => item.getName('ko'))
+      .join(', ')}`
   }
 }
