@@ -10,7 +10,7 @@ export default function ItemFlowGraph({ flowLine }: { flowLine: FlowLine }) {
   const matrix = graph.create().pipe(Effect.runSync)
 
   return (
-    <div className="flow-graph overflow-x-scroll pb-16">
+    <div className="flow-graph -mt-16 overflow-x-scroll pt-16 pb-16">
       <div className="flex flex-col gap-20">
         {matrix.map((layer, layerIndex) => (
           <div key={layerIndex} className="flex items-center gap-12">
