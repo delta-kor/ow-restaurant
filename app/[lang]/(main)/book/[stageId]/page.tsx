@@ -28,7 +28,7 @@ export default async function StagePage({ params }: { params: Promise<{ stageId:
     const menus = stage.menus
 
     const menuFlowLineInfos: MenuFlowLineInfo[] = []
-    for (const menu of menus.slice(7, 8)) {
+    for (const menu of menus) {
       const flowLines = yield* Solution.solve(menu, ingredients)
       menuFlowLineInfos.push({ item: menu, flowLines })
     }

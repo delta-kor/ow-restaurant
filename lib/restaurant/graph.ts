@@ -23,6 +23,11 @@ export class CompanyLaneNotFoundError extends Schema.TaggedError<CompanyLaneNotF
   {}
 ) {}
 
+export class CompanyLayerNotFoundError extends Schema.TaggedError<CompanyLayerNotFoundError>()(
+  'CompanyLayerNotFoundError',
+  {}
+) {}
+
 export class TargetLaneNotFoundError extends Schema.TaggedError<TargetLaneNotFoundError>()(
   'TargetLaneNotFoundError',
   {}
@@ -97,7 +102,6 @@ export class FlowGraph {
       yield* this.updateMergePoint()
       yield* this.createLanes()
       yield* this.createLayers()
-      console.log(this.layers)
       yield* this.updateLayers()
       yield* this.createMatrix()
       return this.matrix
@@ -308,13 +312,29 @@ export class FlowGraph {
         const occupiedLayers = this.layers.filter((layer) => {
           const layerStartStep = layer.step
           const layerEndStep = layer.step + layer.level.segments.length - 1
-          return (
+          const isOccupied =
             (layerStartStep >= startStep && layerStartStep <= endStep) ||
             (layerEndStep >= startStep && layerEndStep <= endStep)
-          )
+          return isOccupied
         })
 
         const occupiedLayerIndexes = occupiedLayers.map((layer) => layer.index)
+
+        for (const layer of this.layers) {
+          if (layer.mergeIndex !== null) {
+            const mergeStep = layer.step + layer.level.segments.length - 1
+            if (mergeStep >= startStep && mergeStep <= endStep) {
+              const layerIndex = layer.index
+              const mergeLayerIndex = layer.mergeIndex
+              for (let i = mergeLayerIndex; i <= layerIndex; i++) {
+                if (!occupiedLayerIndexes.includes(i)) {
+                  occupiedLayerIndexes.push(i)
+                }
+              }
+            }
+          }
+        }
+
         let index: number = 1
         while (occupiedLayerIndexes.includes(index)) {
           index++
@@ -327,6 +347,8 @@ export class FlowGraph {
           mergeIndex: null,
         }
         this.layers.push(layer)
+
+        yield* this.updateLayers()
       }
     })
   }
@@ -338,6 +360,22 @@ export class FlowGraph {
         if (!companyLayer) continue
 
         layer.mergeIndex = companyLayer.index
+      }
+
+      for (const layer of this.layers) {
+        if (layer.mergeIndex !== null) {
+          if (layer.mergeIndex > layer.index) {
+            const companyLayer = yield* this.getCompanyLayer(layer)
+            if (!companyLayer) return yield* Effect.fail(new CompanyLayerNotFoundError())
+
+            const lastLayerIndex = layer.index
+            const lastCompanyLayerIndex = companyLayer.index
+
+            layer.index = lastCompanyLayerIndex
+            layer.mergeIndex = lastLayerIndex
+            companyLayer.index = lastLayerIndex
+          }
+        }
       }
     })
   }
