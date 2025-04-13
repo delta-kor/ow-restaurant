@@ -18,6 +18,11 @@ export class TargetLevelNotFoundError extends Schema.TaggedError<TargetLevelNotF
   {}
 ) {}
 
+export class CompanyLaneNotFoundError extends Schema.TaggedError<CompanyLaneNotFoundError>()(
+  'CompanyLaneNotFoundError',
+  {}
+) {}
+
 export interface Node {
   type: 'node'
   item: Item
@@ -62,7 +67,7 @@ export class FlowGraph {
       yield* this.updateMergePoint()
       console.log(this.toDebugString())
 
-      yield* this.updateLanes()
+      yield* this.createLanes()
     })
   }
 
@@ -190,7 +195,7 @@ export class FlowGraph {
     })
   }
 
-  private updateLanes() {
+  private createLanes() {
     return Effect.gen(this, function* (this: FlowGraph) {
       const targetLevel = this.levels.find((level) =>
         level.segments.some(
@@ -199,6 +204,50 @@ export class FlowGraph {
       )
 
       if (!targetLevel) return yield* Effect.fail(new TargetLevelNotFoundError())
+
+      const targetLane: Lane = {
+        level: targetLevel,
+        step: 0,
+      }
+      this.lanes.push(targetLane)
+
+      const updatedLevels: Level[] = [targetLevel]
+      while (updatedLevels.length < this.levels.length) {
+        const filteredLevels = this.levels.filter(
+          (level) => !updatedLevels.some((updatedLevel) => updatedLevel === level)
+        )
+
+        for (const level of filteredLevels) {
+          const companyLevel = yield* this.getCompanyLevel(level)
+          if (!companyLevel) continue
+          if (!updatedLevels.includes(companyLevel)) continue
+
+          const mergeEdge = level.segments.findLast(
+            (segment) => segment.type === 'edge' && segment.action.input.length > 1
+          ) as Edge
+          const companyLevelMergeEdgeIndex = companyLevel.segments.findIndex(
+            (segment) => segment.type === 'edge' && segment.action === mergeEdge.action
+          )
+
+          const relativeStep = companyLevelMergeEdgeIndex - level.segments.length + 1
+          const companyLane = this.lanes.find((lane) => lane.level === companyLevel)
+          if (!companyLane) return yield* Effect.fail(new CompanyLaneNotFoundError())
+
+          const step = companyLane.step + relativeStep
+
+          console.log(
+            `step: ${step} | index: ${companyLevelMergeEdgeIndex} | length: ${level.segments.length}`
+          )
+
+          const lane: Lane = {
+            level: level,
+            step: step,
+          }
+          this.lanes.push(lane)
+
+          updatedLevels.push(level)
+        }
+      }
     })
   }
 
@@ -246,6 +295,19 @@ export class FlowGraph {
       }
 
       return levels
+    })
+  }
+
+  private getCompanyLevel(level: Level) {
+    return Effect.gen(this, function* (this: FlowGraph) {
+      const mergeEdge = level.segments.findLast(
+        (segment) => segment.type === 'edge' && segment.action.input.length > 1
+      ) as Edge
+      if (!mergeEdge) return null
+
+      const levels = yield* this.getLevelsFromMergeAction(mergeEdge.action)
+      const companyLevel = levels.find((item) => item !== level)
+      return companyLevel
     })
   }
 
