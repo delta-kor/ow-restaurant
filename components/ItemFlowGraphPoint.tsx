@@ -8,7 +8,7 @@ export default function ItemFlowGraphPoint({ point }: { point: Point }) {
   const name = item.getName(locale)
 
   return (
-    <div className="bg-primary-background text-12 flex size-56 shrink-0 items-center justify-center rounded-full text-center font-semibold text-black">
+    <div className="bg-primary-background text-12 flex size-56 shrink-0 items-center justify-center rounded-full text-center font-semibold text-pretty text-black">
       {name}
     </div>
   )
