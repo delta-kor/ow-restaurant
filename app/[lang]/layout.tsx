@@ -1,6 +1,6 @@
 import { routing } from '@/i18n/routing'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import React from 'react'
 
@@ -18,6 +18,7 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages()
+  setRequestLocale(lang)
 
   return (
     <html>

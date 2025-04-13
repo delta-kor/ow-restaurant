@@ -3,6 +3,7 @@ import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { FlowLine, Solution } from '@/lib/restaurant/solution'
 import { Effect } from 'effect'
+import { setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
 export interface StagePageExecuteResult {
@@ -14,8 +15,12 @@ export interface MenuFlowLineInfo {
   flowLines: FlowLine[]
 }
 
-export default async function StagePage({ params }: { params: Promise<{ stageId: string }> }) {
-  const { stageId: stageIdText } = await params
+export default async function StagePage({
+  params,
+}: {
+  params: Promise<{ stageId: string; lang: string }>
+}) {
+  const { stageId: stageIdText, lang } = await params
   const stageId = parseInt(stageIdText)
 
   if (isNaN(stageId)) {
@@ -52,6 +57,7 @@ export default async function StagePage({ params }: { params: Promise<{ stageId:
   }
 
   const menuFlowLineInfos = result.menuFlowLineInfos
+  setRequestLocale(lang)
 
   return (
     <div className="flex flex-col gap-72 pb-32">

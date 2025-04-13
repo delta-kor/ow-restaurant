@@ -1,7 +1,17 @@
 import StageSelector from '@/components/StageSelector'
+import { setRequestLocale } from 'next-intl/server'
 import React from 'react'
 
-export default async function BookLayout({ children }: { children: React.ReactNode }) {
+export default async function BookLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode
+  params: Promise<{ lang: string }>
+}) {
+  const { lang } = await params
+  setRequestLocale(lang)
+
   return (
     <div className="pt-pc-y-padding flex flex-col gap-72 overflow-hidden">
       <StageSelector />

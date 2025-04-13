@@ -42,7 +42,6 @@ export default function StageSelector() {
               href={`/book/${stage.id}`}
               data-active={stageId === stage.id}
               className="rounded-8 group data-[active=true]:bg-primary bg-primary-background flex items-center gap-4 px-12 py-6 transition-colors"
-              prefetch
             >
               <IconComponent className="text-primary size-16 shrink-0 transition-colors group-data-[active=true]:text-white" />
               <div className="text-14 text-primary font-semibold transition-colors group-data-[active=true]:text-white">
