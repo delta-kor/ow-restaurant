@@ -16,7 +16,7 @@ export default function Sidebar() {
     <div className="left-pc-x-padding fixed top-1/2 -translate-y-1/2">
       <div className="rounded-16 bg-primary-background flex flex-col gap-40 px-24 py-32">
         {MenuList.map(([Icon, path]) => (
-          <Link href={path || '/'} key={path} className="-m-20 p-20">
+          <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
             <Icon
               className="text-primary-light data-[active=true]:text-primary size-48 transition-colors"
               data-active={
