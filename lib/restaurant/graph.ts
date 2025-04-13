@@ -54,12 +54,31 @@ export interface Layer extends Lane {
   mergeIndex: null | number
 }
 
+export interface Point {
+  type: 'point'
+  item: Item
+}
+
+export interface Arrow {
+  type: 'arrow'
+  action: Action
+}
+
+export interface Merge {
+  type: 'merge'
+  action: Action
+  mergeIndex: number
+}
+
+export type Cell = Point | Arrow | Merge | null
+
 export class FlowGraph {
   private readonly target: Item
   private readonly actions: Action[]
   private readonly levels: Level[]
   private readonly lanes: Lane[] = []
   private readonly layers: Layer[] = []
+  private readonly matrix: Cell[][] = []
 
   private readonly updatedItems: Item[] = []
   private readonly updatedActions: Action[] = []
@@ -78,7 +97,10 @@ export class FlowGraph {
       yield* this.updateMergePoint()
       yield* this.createLanes()
       yield* this.createLayers()
+      console.log(this.layers)
       yield* this.updateLayers()
+      yield* this.createMatrix()
+      return this.matrix
     })
   }
 
@@ -315,8 +337,42 @@ export class FlowGraph {
         const companyLayer = yield* this.getCompanyLayer(layer)
         if (!companyLayer) continue
 
-        console.log(companyLayer.index)
         layer.mergeIndex = companyLayer.index
+      }
+    })
+  }
+
+  private createMatrix() {
+    return Effect.gen(this, function* (this: FlowGraph) {
+      for (const layer of this.layers) {
+        const index = layer.index
+        const step = layer.step
+
+        let relativeStep: number = 0
+        for (const segment of layer.level.segments) {
+          let cell: Cell =
+            segment.type === 'node'
+              ? { type: 'point', item: segment.item }
+              : { type: 'arrow', action: segment.action }
+          if (
+            relativeStep === layer.level.segments.length - 1 &&
+            layer.mergeIndex !== null &&
+            segment.type === 'edge'
+          ) {
+            cell = { type: 'merge', action: segment.action, mergeIndex: layer.mergeIndex }
+          }
+
+          if (!this.matrix[index]) this.matrix[index] = []
+          this.matrix[index][step + relativeStep] = cell
+
+          for (let i = 0; i < this.matrix[index].length; i++) {
+            if (!this.matrix[index][i]) {
+              this.matrix[index][i] = null
+            }
+          }
+
+          relativeStep++
+        }
       }
     })
   }

@@ -1,10 +1,40 @@
+import ItemFlowGraphArrow, { ItemFlowGraphArrowPlaceholder } from '@/components/ItemFlowGraphArrow'
+import ItemFlowGraphPoint, { ItemFlowGraphPointPlaceholder } from '@/components/ItemFlowGraphPoint'
 import { FlowGraph } from '@/lib/restaurant/graph'
 import { FlowLine } from '@/lib/restaurant/solution'
 import { Effect } from 'effect'
 
 export default function ItemFlowGraph({ flowLine }: { flowLine: FlowLine }) {
   const graph = new FlowGraph(flowLine)
-  graph.create().pipe(Effect.runSync)
+  const matrix = graph.create().pipe(Effect.runSync)
 
-  return <div></div>
+  return (
+    <div className="flex flex-col gap-20">
+      {matrix.map((layer, layerIndex) => (
+        <div key={layerIndex} className="flex items-center gap-12">
+          {layer.map((cell, cellIndex) => {
+            if (cell === null) {
+              if (cellIndex % 2 === 0) {
+                return <ItemFlowGraphPointPlaceholder key={cellIndex} />
+              } else {
+                return <ItemFlowGraphArrowPlaceholder key={cellIndex} />
+              }
+            }
+
+            if (cell.type === 'point') {
+              return <ItemFlowGraphPoint key={cellIndex} point={cell} />
+            }
+
+            if (cell.type === 'arrow') {
+              return <ItemFlowGraphArrow key={cellIndex} arrow={cell} />
+            }
+
+            if (cell.type === 'merge') {
+              return <ItemFlowGraphArrowPlaceholder key={cellIndex} />
+            }
+          })}
+        </div>
+      ))}
+    </div>
+  )
 }
