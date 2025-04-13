@@ -12,13 +12,13 @@ export default async function LocaleLayout({
   params: Promise<{ lang: never }>
 }) {
   const { lang } = await params
+  setRequestLocale(lang)
 
   if (!routing.locales.includes(lang)) {
     notFound()
   }
 
   const messages = await getMessages()
-  setRequestLocale(lang)
 
   return (
     <html>

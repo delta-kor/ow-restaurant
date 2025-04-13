@@ -21,6 +21,8 @@ export default async function StagePage({
   params: Promise<{ stageId: string; lang: string }>
 }) {
   const { stageId: stageIdText, lang } = await params
+  setRequestLocale(lang)
+
   const stageId = parseInt(stageIdText)
 
   if (isNaN(stageId)) {
@@ -57,7 +59,6 @@ export default async function StagePage({
   }
 
   const menuFlowLineInfos = result.menuFlowLineInfos
-  setRequestLocale(lang)
 
   return (
     <div className="flex flex-col gap-72 pb-32">
