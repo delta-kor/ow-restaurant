@@ -102,7 +102,7 @@ export class FlowGraph {
       yield* this.updateMergePoint()
       yield* this.createLanes()
       yield* this.createLayers()
-      yield* this.updateLayers()
+      yield* this.flattenLayers()
       yield* this.createMatrix()
       return this.matrix
     })
@@ -300,40 +300,15 @@ export class FlowGraph {
       }
       this.layers.push(targetLayer)
 
-      const sortedLane = [...this.lanes].sort(
-        (a, b) => a.step + a.level.segments.length - (b.step + b.level.segments.length)
-      )
+      const sortedLane = [...this.lanes]
+        .filter((lane) => lane !== targetLane)
+        .sort((a, b) => a.step + a.level.segments.length - (b.step + b.level.segments.length))
 
       for (const lane of sortedLane) {
-        if (lane === targetLane) continue
         const startStep = lane.step
         const endStep = lane.step + lane.level.segments.length - 1
 
-        const occupiedLayers = this.layers.filter((layer) => {
-          const layerStartStep = layer.step
-          const layerEndStep = layer.step + layer.level.segments.length - 1
-          const isOccupied =
-            (layerStartStep >= startStep && layerStartStep <= endStep) ||
-            (layerEndStep >= startStep && layerEndStep <= endStep)
-          return isOccupied
-        })
-
-        const occupiedLayerIndexes = occupiedLayers.map((layer) => layer.index)
-
-        for (const layer of this.layers) {
-          if (layer.mergeIndex !== null) {
-            const mergeStep = layer.step + layer.level.segments.length - 1
-            if (mergeStep >= startStep && mergeStep <= endStep) {
-              const layerIndex = layer.index
-              const mergeLayerIndex = layer.mergeIndex
-              for (let i = mergeLayerIndex; i <= layerIndex; i++) {
-                if (!occupiedLayerIndexes.includes(i)) {
-                  occupiedLayerIndexes.push(i)
-                }
-              }
-            }
-          }
-        }
+        const occupiedLayerIndexes = yield* this.getOccupiedLayerIndexes(startStep, endStep)
 
         let index: number = 1
         while (occupiedLayerIndexes.includes(index)) {
@@ -365,17 +340,59 @@ export class FlowGraph {
       for (const layer of this.layers) {
         if (layer.mergeIndex !== null) {
           if (layer.mergeIndex > layer.index) {
-            const companyLayer = yield* this.getCompanyLayer(layer)
-            if (!companyLayer) return yield* Effect.fail(new CompanyLayerNotFoundError())
-
             const lastLayerIndex = layer.index
-            const lastCompanyLayerIndex = companyLayer.index
+            const newIndex = Math.max(...this.layers.map((layer) => layer.index)) + 1
 
-            layer.index = lastCompanyLayerIndex
-            layer.mergeIndex = lastLayerIndex
-            companyLayer.index = lastLayerIndex
+            for (const targetLayer of this.layers) {
+              if (targetLayer.mergeIndex === lastLayerIndex) {
+                targetLayer.mergeIndex = newIndex
+              }
+            }
+
+            layer.index = newIndex
           }
         }
+      }
+
+      for (const layer of this.layers.filter((layer) => layer.index !== 0)) {
+        const index = layer.index
+        const startStep = layer.step
+        const endStep = layer.step + layer.level.segments.length - 1
+        const occupiedLayerIndexes = yield* this.getOccupiedLayerIndexes(startStep, endStep, layer)
+
+        if (layer.mergeIndex !== null) {
+          for (let i = 0; i < layer.mergeIndex; i++) {
+            occupiedLayerIndexes.push(i)
+          }
+        }
+
+        let newIndex: number = 1
+        while (occupiedLayerIndexes.includes(newIndex)) {
+          newIndex++
+        }
+
+        if (newIndex < index) {
+          const lastLayerIndex = layer.index
+          layer.index = newIndex
+          for (const targetLayer of this.layers) {
+            if (targetLayer.mergeIndex === lastLayerIndex) {
+              targetLayer.mergeIndex = newIndex
+            }
+          }
+        }
+      }
+    })
+  }
+
+  private flattenLayers(): Effect.Effect<void> {
+    return Effect.gen(this, function* (this: FlowGraph) {
+      const indexes = [...new Set(this.layers.map((layer) => layer.index))]
+      const maxIndex = Math.max(...indexes)
+      const minIndex = Math.min(...indexes)
+      const isContinuous = indexes.length === maxIndex - minIndex + 1
+      if (!isContinuous) {
+        yield* this.updateLayers()
+        yield* this.flattenLayers()
       }
     })
   }
@@ -412,6 +429,48 @@ export class FlowGraph {
           relativeStep++
         }
       }
+
+      for (let i = 0; i < this.matrix.length; i++) {
+        if (!this.matrix[i]) {
+          this.matrix[i] = [null]
+        }
+      }
+    })
+  }
+
+  private getOccupiedLayerIndexes(startStep: number, endStep: number, excludedLayer?: Layer) {
+    return Effect.gen(this, function* (this: FlowGraph) {
+      const layers = this.layers.filter((layer) => layer.level !== excludedLayer?.level)
+
+      const occupiedLayers = layers.filter((layer) => {
+        const layerStartStep = layer.step
+        const layerEndStep = layer.step + layer.level.segments.length - 1
+        const isOccupied =
+          (layerStartStep >= startStep && layerStartStep <= endStep) ||
+          (layerEndStep >= startStep && layerEndStep <= endStep) ||
+          (layerStartStep <= startStep && layerEndStep >= endStep)
+
+        return isOccupied
+      })
+
+      const occupiedLayerIndexes = occupiedLayers.map((layer) => layer.index)
+
+      for (const layer of layers) {
+        if (layer.mergeIndex !== null) {
+          const mergeStep = layer.step + layer.level.segments.length - 1
+          if (mergeStep >= startStep && mergeStep <= endStep) {
+            const layerIndex = layer.index
+            const mergeLayerIndex = layer.mergeIndex
+            for (let i = mergeLayerIndex; i <= layerIndex; i++) {
+              if (!occupiedLayerIndexes.includes(i)) {
+                occupiedLayerIndexes.push(i)
+              }
+            }
+          }
+        }
+      }
+
+      return occupiedLayerIndexes
     })
   }
 

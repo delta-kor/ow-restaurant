@@ -54,7 +54,7 @@ export default async function StagePage({ params }: { params: Promise<{ stageId:
   const menuFlowLineInfos = result.menuFlowLineInfos
 
   return (
-    <div className="flex flex-col gap-72">
+    <div className="flex flex-col gap-72 pb-32">
       {menuFlowLineInfos.map((info) => (
         <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
       ))}
