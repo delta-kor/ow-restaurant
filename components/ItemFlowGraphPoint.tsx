@@ -8,12 +8,12 @@ export default function ItemFlowGraphPoint({ point }: { point: Point }) {
   const name = item.getName(locale)
 
   return (
-    <div className="bg-primary-background text-12 flex size-48 items-center justify-center rounded-full text-center">
+    <div className="bg-primary-background text-12 flex size-56 shrink-0 items-center justify-center rounded-full text-center font-semibold text-black">
       {name}
     </div>
   )
 }
 
 export function ItemFlowGraphPointPlaceholder() {
-  return <div className="size-48"></div>
+  return <div className="size-56 shrink-0"></div>
 }

@@ -93,6 +93,8 @@
   --color-primary-light: #ADC3FF;
   --color-black: #2C2D31;
   --color-gray: #6C707C;
+  --color-light-gray: #E6E7E9;
+  --color-light-gray-hover: #CCD0DB;
   --color-white: #FFFFFF;
 
   --text-12: var(--unit-12);
@@ -116,4 +118,20 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.flow-graph::-webkit-scrollbar {
+  background: transparent;
+  height: 6px;
+}
+
+.flow-graph::-webkit-scrollbar-thumb {
+  background: var(--color-light-gray);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.flow-graph::-webkit-scrollbar-thumb:hover,
+.flow-graph::-webkit-scrollbar-thumb:active {
+  background: var(--color-light-gray-hover);
 }
