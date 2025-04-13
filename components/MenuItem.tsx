@@ -1,15 +1,13 @@
 import Icon from '@/components/Icon'
+import ItemFlowGraph from '@/components/ItemFlowGraph'
 import { Item } from '@/lib/restaurant/item'
 import { FlowLine } from '@/lib/restaurant/solution'
 import { useLocale } from 'next-intl'
 
-interface Props {
-  item: Item
-  flowLines: FlowLine[]
-}
-
-export default function MenuItem({ item, flowLines }: Props) {
+export default function MenuItem({ item, flowLines }: { item: Item; flowLines: FlowLine[] }) {
   const locale = useLocale()
+
+  const flowLine = flowLines[0]
 
   return (
     <div className="flex flex-col gap-16">
@@ -22,6 +20,7 @@ export default function MenuItem({ item, flowLines }: Props) {
           </div>
         )}
       </div>
+      <ItemFlowGraph flowLine={flowLine} />
     </div>
   )
 }
