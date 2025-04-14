@@ -15,6 +15,14 @@ namespace GameConstraints {
     FontWeight: '600',
   }
 
+  export const Area = {
+    Rounded: 4,
+    BackgroundColor: Color.PrimaryBackground,
+    HoveringBackgroundColor: Color.PrimaryLight,
+    StrokeColor: Color.White,
+    HighlightedStrokeColor: Color.PrimaryLight,
+  }
+
   export const Machine = {
     BackgroundColor: Color.PrimaryBackground,
   }

@@ -28,11 +28,13 @@ export class Entity extends Container {
     const onDragMove = (e: FederatedPointerEvent) => {
       this.x = e.screenX
       this.y = e.screenY
+      this.gameManager.onEntityDrag(this)
     }
 
     const onDragStart = () => {
       this.alpha = 0.5
       this.zIndex = this.gameManager.getNextEntityIndex()
+      this.gameManager.onEntityHold(this)
 
       if (this.isInFridge) {
         this.isInFridge = false
@@ -45,6 +47,7 @@ export class Entity extends Container {
     const onDragEnd = () => {
       app.stage.off('pointermove', onDragMove)
       this.alpha = 1
+      this.gameManager.onEntityDrop(this)
     }
 
     const bubble = new Graphics()

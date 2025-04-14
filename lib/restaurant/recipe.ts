@@ -101,6 +101,12 @@ export class Recipe {
       return this.actions
     })
   }
+
+  public getActionsByItem(item: Item) {
+    return Effect.gen(this, function* (this: Recipe) {
+      return this.actions.filter((action) => action.input.some((value) => value.id === item.id))
+    })
+  }
 }
 
 export class RecipeService extends Context.Tag('RecipeService')<RecipeService, Recipe>() {}
