@@ -7,7 +7,7 @@ import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { Effect } from 'effect'
 import { useLocale, useTranslations } from 'next-intl'
-import { Application, Renderer } from 'pixi.js'
+import { Application, Renderer, TickerCallback } from 'pixi.js'
 import { useEffect, useRef, useState } from 'react'
 
 export interface GameManager {
@@ -34,19 +34,12 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
   const areasRef = useRef<Area[]>([])
 
-  const intervalRef = useRef<any>(0)
+  const tickMsRef = useRef<any>(0)
 
   useEffect(() => {
     if (!app) return
 
     initializeGame()
-    // intervalRef.current = setInterval(() => {
-    //   handleTick()
-    // }, 100)
-    //
-    // return () => {
-    //   clearInterval(intervalRef.current)
-    // }
   }, [app])
 
   useEffect(() => {
@@ -64,6 +57,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     app.stage.removeChildren()
     app.renderer.render(app.stage)
+
+    app.ticker.add(handleMicroTick)
 
     renderBackground()
     renderArea()
@@ -101,6 +96,14 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   const handleDestroyEntity = (entity: Entity) => {
     entitiesRef.current = entitiesRef.current.filter((e) => e !== entity)
     entity.destroy()
+  }
+
+  const handleMicroTick: TickerCallback<any> = (e) => {
+    tickMsRef.current += e.deltaMS
+    if (tickMsRef.current > 100) {
+      tickMsRef.current = tickMsRef.current % 100
+      handleTick()
+    }
   }
 
   const handleTick = () => {
