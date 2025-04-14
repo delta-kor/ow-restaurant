@@ -6,7 +6,7 @@ import { recipe } from '@/lib/restaurant/restaurant'
 import { useLocale, useTranslations } from 'next-intl'
 import { useParams } from 'next/navigation'
 
-const IconMap = [
+export const StageIconMap = [
   Icon.Steak,
   Icon.Burger,
   Icon.Chicken,
@@ -35,7 +35,7 @@ export default function StageSelector() {
       <div className="text-gray text-16 font-bold">{t('stage')}</div>
       <div className="flex flex-wrap gap-8">
         {stages.map((stage) => {
-          const IconComponent = IconMap[stage.id]
+          const IconComponent = StageIconMap[stage.id]
           return (
             <Link
               key={stage.id}

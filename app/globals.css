@@ -60,6 +60,7 @@
   --spacing-8: var(--unit-8);
   --spacing-10: var(--unit-10);
   --spacing-12: var(--unit-12);
+  --spacing-14: var(--unit-14);
   --spacing-16: var(--unit-16);
   --spacing-20: var(--unit-20);
   --spacing-24: var(--unit-24);
@@ -68,6 +69,7 @@
   --spacing-36: var(--unit-36);
   --spacing-40: var(--unit-40);
   --spacing-48: var(--unit-48);
+  --spacing-52: var(--unit-52);
   --spacing-56: var(--unit-56);
   --spacing-64: var(--unit-64);
   --spacing-72: var(--unit-72);

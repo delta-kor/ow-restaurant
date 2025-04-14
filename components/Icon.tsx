@@ -1,6 +1,7 @@
 import BookSvg from '@/public/icons/book.svg'
 import BurgerSvg from '@/public/icons/burger.svg'
 import ChickenSvg from '@/public/icons/chicken.svg'
+import DownChevronSvg from '@/public/icons/down-chevron.svg'
 import DumplingSvg from '@/public/icons/dumpling.svg'
 import EggSvg from '@/public/icons/egg.svg'
 import FishSvg from '@/public/icons/fish.svg'
@@ -38,6 +39,7 @@ const Icon = {
   Steak: SteakSvg,
   Taco: TacoSvg,
   RightChevron: RightChevronSvg,
+  DownChevron: DownChevronSvg,
   Fridge: FridgeSvg,
   Fry: FrySvg,
   Grill: GrillSvg,

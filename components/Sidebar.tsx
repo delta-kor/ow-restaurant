@@ -5,7 +5,7 @@ import Icon, { IconType } from './Icon'
 
 const MenuList: [IconType, string | null][] = [
   [Icon.Book, null],
-  [Icon.Game, '/game'],
+  [Icon.Game, '/sandbox'],
   [Icon.Settings, '/settings'],
 ]
 
