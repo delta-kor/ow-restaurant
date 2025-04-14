@@ -1,7 +1,8 @@
-import createBackgroundGraphics from '@/lib/game/background'
+import { createBackgroundGraphics } from '@/lib/game/background'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { extend, useApplication } from '@pixi/react'
 import { Effect } from 'effect'
+import { useTranslations } from 'next-intl'
 import { Container } from 'pixi.js'
 import { useEffect } from 'react'
 
@@ -11,6 +12,7 @@ extend({
 
 export default function GameRenderer({ stageId }: { stageId: number }) {
   const { app } = useApplication()
+  const t = useTranslations()
 
   useEffect(() => {
     clearApp()
@@ -23,7 +25,7 @@ export default function GameRenderer({ stageId }: { stageId: number }) {
   }
 
   const renderBackground = () => {
-    const graphics = createBackgroundGraphics(app)
+    const graphics = createBackgroundGraphics(app, t)
     app.stage.addChild(...graphics)
   }
 

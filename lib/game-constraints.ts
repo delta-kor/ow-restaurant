@@ -92,6 +92,65 @@ namespace GameConstraints {
     getLabelY: () => View.PaddingTop + Grill.getHeight() + Grill.LabelMargin,
   }
 
+  export const Sink = {
+    PaddingX: 8,
+    PaddingY: 8,
+    AreaWidth: 76,
+    AreaHeight: 124,
+    Rounded: 8,
+    getWidth: () => Sink.PaddingX * 2 + Sink.AreaWidth,
+    getHeight: () => Sink.PaddingY * 2 + Sink.AreaHeight,
+    getX: (screenWidth: number) => screenWidth - View.PaddingRight - Sink.getWidth(),
+    getY: (screenHeight: number) => screenHeight / 2,
+    LabelMargin: 4,
+    getLabelX: (screenWidth: number) => Sink.getX(screenWidth) + Sink.getWidth(),
+    getLabelY: (screenHeight: number) =>
+      Sink.getY(screenHeight) + Sink.getHeight() + Sink.LabelMargin,
+  }
+
+  export const Knife = {
+    PaddingX: 8,
+    PaddingY: 8,
+    AreaWidth: 76,
+    AreaHeight: 178,
+    Rounded: 8,
+    getWidth: () => Knife.PaddingX * 2 + Knife.AreaWidth,
+    getHeight: () => Knife.PaddingY * 2 + Knife.AreaHeight,
+    getX: (screenWidth: number) =>
+      screenWidth -
+      View.PaddingRight -
+      Sink.getWidth() * 2 -
+      View.MachineGap * 2 -
+      Knife.getWidth(),
+    getY: (screenHeight: number) => screenHeight / 2,
+    LabelMargin: 4,
+    getLabelX: (screenWidth: number) => Knife.getX(screenWidth) + Knife.getWidth(),
+    getLabelY: (screenHeight: number) =>
+      Knife.getY(screenHeight) + Knife.getHeight() + Knife.LabelMargin,
+  }
+
+  export const Fryer = {
+    PaddingX: 8,
+    PaddingY: 8,
+    AreaWidth: 116,
+    AreaHeight: 68,
+    Rounded: 8,
+    getWidth: () => Fryer.PaddingX * 2 + Fryer.AreaWidth,
+    getHeight: () => Fryer.PaddingY * 2 + Fryer.AreaHeight,
+    getX: (screenWidth: number) =>
+      screenWidth -
+      View.PaddingRight -
+      Sink.getWidth() * 3 -
+      Knife.getWidth() -
+      View.MachineGap * 4 -
+      Fryer.getWidth(),
+    getY: (screenHeight: number) => screenHeight / 2,
+    LabelMargin: 4,
+    getLabelX: (screenWidth: number) => Fryer.getX(screenWidth) + Fryer.getWidth(),
+    getLabelY: (screenHeight: number) =>
+      Fryer.getY(screenHeight) + Fryer.getHeight() + Fryer.LabelMargin,
+  }
+
   export const Label = {
     FontSize: '12px',
     FontWeight: '600',

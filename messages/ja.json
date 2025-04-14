@@ -1,10 +1,13 @@
 {
   "cut": "Cut",
+  "cuttingBoard": "Cutting Board",
+  "fridge": "Fridge",
   "fry": "Fry",
   "grill": "Grill",
   "impact": "Impact",
   "mix": "Mix",
   "pan": "Pan",
   "pot": "Pot",
+  "sink": "Sink",
   "stage": "ステージ"
 }
