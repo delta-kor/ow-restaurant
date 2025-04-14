@@ -210,22 +210,22 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
-  const getHighlightEntities = (entity: Entity | null) => {
-    if (!entity) return []
+  const getHighlightEntities = (targetEntity: Entity | null) => {
+    if (!targetEntity) return []
 
-    const item = entity.item
+    const item = targetEntity.item
     const actions = recipe.getActionsByItemAndActionType(item, ActionType.Mix).pipe(Effect.runSync)
     if (!actions.length) return []
 
     const input = actions.map((action) => action.input).flat()
-    const companyItems = input.filter((value) => value.id !== item.id)
-    const companyItemIds = companyItems.map((value) => value.id)
+    const itemsIds = input.map((value) => value.id)
 
     const entities: Entity[] = []
     for (const entity of entitiesRef.current) {
       if (entity.isInFridge) continue
+      if (entity === targetEntity) continue
 
-      const highlight = companyItemIds.includes(entity.item.id)
+      const highlight = itemsIds.includes(entity.item.id)
       if (highlight) entities.push(entity)
     }
 

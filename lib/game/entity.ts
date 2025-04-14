@@ -175,8 +175,8 @@ export class Entity extends Container {
       this.gameManager.addEntity(output[0], x, y, false)
     }
     if (output.length === 2) {
-      this.gameManager.addEntity(output[0], x - 10, y, false)
-      this.gameManager.addEntity(output[1], x + 10, y, false)
+      this.gameManager.addEntity(output[0], x - 30, y + Math.floor(Math.random() * 20) - 10, false)
+      this.gameManager.addEntity(output[1], x + 30, y + Math.floor(Math.random() * 20) - 10, false)
     }
 
     this.gameManager.destroyEntity(this)
