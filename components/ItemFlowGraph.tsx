@@ -10,10 +10,10 @@ export default function ItemFlowGraph({ flowLine }: { flowLine: FlowLine }) {
   const matrix = graph.create().pipe(Effect.runSync)
 
   return (
-    <div className="flow-graph -mt-16 overflow-x-scroll pt-16 pb-16">
+    <div className="flow-graph tablet:mr-0 -mt-16 -mr-16 overflow-x-scroll pt-16 pb-16">
       <div className="flex flex-col gap-20">
         {matrix.map((layer, layerIndex) => (
-          <div key={layerIndex} className="flex items-center gap-12">
+          <div key={layerIndex} className="tablet:gap-12 flex items-center gap-8">
             {layer.map((cell, cellIndex) => {
               if (cell === null) {
                 if (cellIndex % 2 === 0) {

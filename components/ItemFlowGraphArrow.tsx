@@ -10,7 +10,7 @@ export default async function ItemFlowGraphArrow({ arrow }: { arrow: Arrow }) {
 
   return (
     <div className="flex shrink-0 translate-y-1/2 flex-col gap-8">
-      <div className="bg-primary-light relative h-2 w-[100px] items-center justify-center rounded-full">
+      <div className="bg-primary-light tablet:w-[100px] relative h-2 w-[80px] items-center justify-center rounded-full">
         <div className="bg-primary-light absolute -right-2 bottom-2 h-2 w-12 -translate-y-full rotate-45 rounded-full" />
         <div className="bg-primary-light absolute -right-2 -bottom-2 h-2 w-12 translate-y-full -rotate-45 rounded-full" />
       </div>
@@ -23,5 +23,5 @@ export default async function ItemFlowGraphArrow({ arrow }: { arrow: Arrow }) {
 }
 
 export function ItemFlowGraphArrowPlaceholder() {
-  return <div className="h-2 w-[100px] shrink-0"></div>
+  return <div className="tablet:w-[100px] h-2 w-[80px] shrink-0"></div>
 }

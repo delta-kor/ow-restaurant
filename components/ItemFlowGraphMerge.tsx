@@ -15,8 +15,8 @@ export default async function ItemFlowGraphMerge({
   const height = pointSize / 2 + (layerGap + pointSize) * (delta - 1)
 
   return (
-    <div className="relative w-[100px] shrink-0">
-      <div className="bg-primary-light h-2 w-[50px] rounded-full"></div>
+    <div className="tablet:w-[100px] relative w-[80px] shrink-0">
+      <div className="bg-primary-light tablet:w-[50px] h-2 w-[40px] rounded-full"></div>
       <div
         style={{ height: `${height}px` }}
         className="bg-primary-light absolute bottom-0 left-1/2 w-2 -translate-x-1/2 rounded-full"

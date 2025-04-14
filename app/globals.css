@@ -6,6 +6,7 @@
   --color-*: initial;
   --radius-*: initial;
   --text-*: initial;
+  --breakpoint-*: initial;
 
   --unit--20: -20px;
   --unit--16: -16px;
@@ -79,8 +80,11 @@
   --spacing-192: var(--unit-192);
   --spacing-256: var(--unit-256);
 
-  --spacing-pc-x-padding: var(--unit-160);
+  --spacing-pc-x-padding: calc(max(min(160px, (100vw - 960px) / 2), 32px));
+  --spacing-mobile-x-padding: var(--unit-16);
   --spacing-pc-y-padding: var(--unit-128);
+  --spacing-tablet-y-padding: var(--unit-64);
+  --spacing-mobile-y-padding: var(--unit-16);
 
   --radius-0: var(--unit-0);
   --radius-4: var(--unit-4);
@@ -108,6 +112,9 @@
   --text-24: var(--unit-24);
   --text-28: var(--unit-28);
   --text-32: var(--unit-32);
+
+  --breakpoint-pc: 1100px;
+  --breakpoint-tablet: 768px;
 }
 
 body {
