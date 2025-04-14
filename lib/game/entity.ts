@@ -17,6 +17,7 @@ export class Entity extends Container {
   private action: Action | null = null
   private preservedAction: Action | null = null
   private actionProgress: number = 0
+  private isDragging: boolean = false
   public potIndex: number | null = null
 
   constructor(
@@ -40,6 +41,7 @@ export class Entity extends Container {
     }
 
     const onDragStart = () => {
+      this.isDragging = true
       this.alpha = 0.5
       this.zIndex = this.gameManager.getNextEntityIndex()
       this.gameManager.onEntityHold(this)
@@ -54,6 +56,7 @@ export class Entity extends Container {
 
     const onDragEnd = () => {
       app.stage.off('pointermove', onDragMove)
+      this.isDragging = false
       this.alpha = 1
       this.gameManager.onEntityDrop(this)
     }
@@ -96,6 +99,32 @@ export class Entity extends Container {
       app.stage.off('pointerupoutside', onDragEnd)
       app.stage.off('pointermove', onDragMove)
     })
+  }
+
+  public setHighlight(active: boolean) {
+    const existingChild = this.getChildByLabel('highlight')
+    if (existingChild) {
+      this.removeChild(existingChild)
+    }
+
+    if (active) {
+      const graphics = new Graphics()
+        .circle(0, 0, GameConstraints.Entity.Radius + 5)
+        .stroke({ width: 2, color: GameConstraints.Color.PrimaryLight })
+
+      graphics.zIndex = 10
+      graphics.label = 'highlight'
+
+      this.addChild(graphics)
+    }
+  }
+
+  public setHover(active: boolean) {
+    if (active) {
+      this.alpha = 0.8
+    } else {
+      this.alpha = this.isDragging ? 0.5 : 1
+    }
   }
 
   private updateProgress() {
@@ -159,8 +188,8 @@ export class Entity extends Container {
 
   public impact() {
     const action = recipe
-      .getActionByItemAndActionType(this.item, ActionType.Impact)
-      .pipe(Effect.runSync)
+      .getActionsByItemAndActionType(this.item, ActionType.Impact)
+      .pipe(Effect.runSync)[0]
     if (!action) return
 
     this.onFinish(action.output)

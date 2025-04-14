@@ -50,6 +50,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown)
     highlightAreaByType(getHighlightAreaTypes(holdingEntity))
+    highlightEntities(getHighlightEntities(holdingEntity))
 
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
@@ -111,8 +112,6 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   const handleDestroyEntity = (entity: Entity) => {
     entitiesRef.current = entitiesRef.current.filter((e) => e !== entity)
     setHoldingEntity((prev) => {
-      console.log(prev)
-
       if (prev === entity) {
         return null
       }
@@ -182,6 +181,54 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
+  const getCollisionEntities = (targetEntity: Entity) => {
+    const result: [Entity, number][] = []
+
+    for (const entity of entitiesRef.current) {
+      if (entity === targetEntity) continue
+
+      const distance = Math.sqrt(
+        Math.pow(entity.x - targetEntity.x, 2) + Math.pow(entity.y - targetEntity.y, 2)
+      )
+
+      if (distance < GameConstraints.Entity.Radius * 2) {
+        result.push([entity, distance])
+      }
+    }
+
+    result.sort((a, b) => a[1] - b[1])
+
+    const entities = result.map((value) => value[0])
+    return entities
+  }
+
+  const highlightEntities = (candidates: Entity[]) => {
+    for (const entity of entitiesRef.current) {
+      const highlight = candidates.includes(entity)
+      entity.setHighlight(highlight)
+    }
+  }
+
+  const getHighlightEntities = (entity: Entity | null) => {
+    if (!entity) return []
+
+    const item = entity.item
+    const actions = recipe.getActionsByItemAndActionType(item, ActionType.Mix).pipe(Effect.runSync)
+    if (!actions.length) return []
+
+    const input = actions.map((action) => action.input).flat()
+    const companyItems = input.filter((value) => value.id !== item.id)
+    const companyItemIds = companyItems.map((value) => value.id)
+
+    const entities: Entity[] = []
+    for (const entity of entitiesRef.current) {
+      const highlight = companyItemIds.includes(entity.item.id)
+      if (highlight) entities.push(entity)
+    }
+
+    return entities
+  }
+
   const highlightAreaByType = (types: AreaType[]) => {
     for (const area of areasRef.current) {
       if (types.includes(area.type)) {
@@ -237,6 +284,25 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
+  const highlightHoveringEntity = (targetEntity: Entity | null) => {
+    if (!targetEntity) {
+      for (const entity of entitiesRef.current) {
+        entity.setHover(false)
+      }
+
+      return
+    }
+
+    const entities = getCollisionEntities(targetEntity)
+    for (const entity of entitiesRef.current) {
+      if (entities.includes(entity)) {
+        entity.setHover(true)
+      } else {
+        entity.setHover(false)
+      }
+    }
+  }
+
   const getPotStatus = () => {
     const status: [boolean, boolean] = [false, false]
 
@@ -265,8 +331,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     if (area.type === AreaType.Grill) {
       const action = recipe
-        .getActionByItemAndActionType(entity.item, ActionType.Grill)
-        .pipe(Effect.runSync)
+        .getActionsByItemAndActionType(entity.item, ActionType.Grill)
+        .pipe(Effect.runSync)[0]
       if (!action) return
 
       entity.setAction(action)
@@ -274,8 +340,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     if (area.type === AreaType.Pan) {
       const action = recipe
-        .getActionByItemAndActionType(entity.item, ActionType.Pan)
-        .pipe(Effect.runSync)
+        .getActionsByItemAndActionType(entity.item, ActionType.Pan)
+        .pipe(Effect.runSync)[0]
       if (!action) return
 
       entity.setAction(action)
@@ -283,8 +349,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     if (area.type === AreaType.Fry) {
       const action = recipe
-        .getActionByItemAndActionType(entity.item, ActionType.Fry)
-        .pipe(Effect.runSync)
+        .getActionsByItemAndActionType(entity.item, ActionType.Fry)
+        .pipe(Effect.runSync)[0]
       if (!action) return
 
       entity.setAction(action)
@@ -292,8 +358,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     if (area.type === AreaType.Pot1 || area.type === AreaType.Pot2) {
       const action = recipe
-        .getActionByItemAndActionType(entity.item, ActionType.Pot)
-        .pipe(Effect.runSync)
+        .getActionsByItemAndActionType(entity.item, ActionType.Pot)
+        .pipe(Effect.runSync)[0]
       if (!action) return
 
       const potStatus = getPotStatus()
@@ -317,8 +383,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       const area = getCollisionArea(entity)
       if (area && area.type === AreaType.Knife) {
         const action = recipe
-          .getActionByItemAndActionType(entity.item, ActionType.Cut)
-          .pipe(Effect.runSync)
+          .getActionsByItemAndActionType(entity.item, ActionType.Cut)
+          .pipe(Effect.runSync)[0]
         if (!action) return
 
         entity.setAction(action)
@@ -335,8 +401,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     if (holdingEntity === null) return
 
     const action = recipe
-      .getActionByItemAndActionType(holdingEntity.item, ActionType.Impact)
-      .pipe(Effect.runSync)
+      .getActionsByItemAndActionType(holdingEntity.item, ActionType.Impact)
+      .pipe(Effect.runSync)[0]
     if (!action) return
 
     holdingEntity.impact()
@@ -354,6 +420,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
   const handleEntityDrag = (entity: Entity | null) => {
     highlightHoveringAreaByEntity(entity)
+    highlightHoveringEntity(entity)
     entity && performActionByEntity(entity, true)
   }
 

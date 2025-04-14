@@ -108,9 +108,9 @@ export class Recipe {
     })
   }
 
-  public getActionByItemAndActionType(item: Item, actionType: ActionType) {
+  public getActionsByItemAndActionType(item: Item, actionType: ActionType) {
     return Effect.gen(this, function* (this: Recipe) {
-      return this.actions.find(
+      return this.actions.filter(
         (action) => action.input.some((value) => value.id === item.id) && action.type === actionType
       )
     })
