@@ -68,6 +68,7 @@ export class Entity extends Container {
     }
 
     const onRightDown = () => {
+      console.log('wow')
       this.impact()
     }
 

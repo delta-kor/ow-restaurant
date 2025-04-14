@@ -94,11 +94,11 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   }
 
   const handleKeyDown = (e: KeyboardEvent) => {
-    if (e.key === 'f') {
+    if (e.code === 'KeyF') {
       handleKnifeChop()
     }
 
-    if (e.key === 'v') {
+    if (e.code === 'KeyV') {
       handleImpact()
     }
   }
