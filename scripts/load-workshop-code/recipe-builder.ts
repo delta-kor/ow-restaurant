@@ -81,6 +81,7 @@ export class RecipeBuilder {
           englishName,
           japaneseName,
           canMelt: meltList.includes(index),
+          colorCode: this.workshopConfig.itemColor[index],
         })
         this.items.add(item)
       }

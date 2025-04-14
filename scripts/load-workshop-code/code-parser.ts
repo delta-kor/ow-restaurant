@@ -36,6 +36,11 @@ export class CodeParser {
           const data = yield* this.parseStringBlock(block)
           workshopConfig[configName] = data as any
         }
+
+        if (configInfo.type === WorkshopConfigType.COLOR) {
+          const data = yield* this.parseColorBlock(block)
+          workshopConfig[configName] = data as any
+        }
       }
 
       return workshopConfig as WorkshopConfig
@@ -129,6 +134,13 @@ export class CodeParser {
       splits.pop()
 
       return splits
+    })
+  }
+
+  private parseColorBlock(block: string) {
+    return Effect.gen(this, function* (this: CodeParser) {
+      const stringBlock = block.split(`Custom String("/")`)[0]
+      return yield* this.parseStringBlock(stringBlock)
     })
   }
 }

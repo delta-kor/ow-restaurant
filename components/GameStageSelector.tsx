@@ -60,7 +60,7 @@ export default function GameStageSelector({
                   className="hover:bg-primary-background rounded-4 flex min-w-0 basis-0 items-center gap-8 self-stretch px-8 py-4 transition-colors"
                 >
                   <IconComponent className="text-gray size-14 shrink-0 opacity-70" />
-                  <div className="text-14 text-gray shrink-0 font-medium select-none">
+                  <div className="text-14 text-gray w-full grow truncate font-medium select-none">
                     {stage.getName(locale)}
                   </div>
                 </div>

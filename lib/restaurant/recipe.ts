@@ -20,6 +20,7 @@ export interface ItemJson {
   id: number
   name: string[]
   canMelt: boolean
+  colorCode: string
 }
 
 export interface StageJson {
@@ -50,6 +51,7 @@ export class Recipe {
           englishName: item.name[1],
           japaneseName: item.name[2],
           canMelt: item.canMelt,
+          colorCode: item.colorCode,
         })
     )
 

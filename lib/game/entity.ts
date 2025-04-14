@@ -1,5 +1,6 @@
 import GameConstraints from '@/lib/game-constraints'
 import { GameManager } from '@/lib/game/game-manager'
+import { getItemColor, getItemTextColor } from '@/lib/item-color'
 import { Action, ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
@@ -68,18 +69,18 @@ export class Entity extends Container {
     }
 
     const onRightDown = () => {
-      console.log('wow')
       this.impact()
     }
 
     const bubble = new Graphics()
       .circle(0, 0, GameConstraints.Entity.Radius)
-      .fill(GameConstraints.Color.Primary)
+      .fill(getItemColor(this.item))
 
+    const textColor = getItemTextColor(this.item)
     const text = new Text({
       text: this.item.getName(locale),
       style: new TextStyle({
-        fill: GameConstraints.Color.White,
+        fill: textColor,
         fontFamily: 'Wanted Sans Variable',
         fontSize: GameConstraints.Entity.FontSize,
         fontWeight: GameConstraints.Entity.FontWeight as TextStyleFontWeight,
@@ -87,7 +88,7 @@ export class Entity extends Container {
         wordWrapWidth: GameConstraints.Entity.Radius * 2.5,
         align: 'center',
         breakWords: true,
-        stroke: 0,
+        stroke: textColor === '#ffffff' ? GameConstraints.Color.Black : undefined,
       }),
       anchor: { x: 0.5, y: 0.5 },
       x: 0,

@@ -4,6 +4,7 @@ export interface ItemConfig {
   englishName: string
   japaneseName: string
   canMelt: boolean
+  colorCode: string
 }
 
 export class Item {
@@ -12,6 +13,7 @@ export class Item {
   private readonly englishName: string
   private readonly japaneseName: string
   private readonly canMelt: boolean
+  public readonly colorCode: string
 
   constructor(config: ItemConfig) {
     this.id = config.id
@@ -19,6 +21,7 @@ export class Item {
     this.englishName = config.englishName
     this.japaneseName = config.japaneseName
     this.canMelt = config.canMelt
+    this.colorCode = config.colorCode
   }
 
   public getName(locale: string) {
@@ -39,6 +42,7 @@ export class Item {
       id: this.id,
       name: [this.koreanName, this.englishName, this.japaneseName],
       canMelt: this.canMelt,
+      colorCode: this.colorCode,
     }
   }
 }

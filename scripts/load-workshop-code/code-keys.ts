@@ -1,6 +1,7 @@
 export enum WorkshopConfigType {
   Array,
   STRING,
+  COLOR,
 }
 
 export interface WorkshopConfigInfo {
@@ -9,6 +10,10 @@ export interface WorkshopConfigInfo {
 }
 
 export const WorkshopConfigKeys: Map<string, WorkshopConfigInfo> = new Map()
+WorkshopConfigKeys.set('ITEM_COLOR', {
+  name: 'itemColor',
+  type: WorkshopConfigType.COLOR,
+})
 WorkshopConfigKeys.set('ITEM_NAME', {
   name: 'itemName',
   type: WorkshopConfigType.STRING,
@@ -87,6 +92,7 @@ WorkshopConfigKeys.set('STAGE_NAME', {
 })
 
 export interface WorkshopConfig {
+  itemColor: string[]
   itemName: string[]
   cuttingNeeded: number[]
   cuttingResult: (number | number[] | false)[]
