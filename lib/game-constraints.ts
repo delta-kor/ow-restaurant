@@ -1,4 +1,10 @@
 namespace GameConstraints {
+  export const Tick = {
+    Length: 10,
+    Speed: 1,
+    getEffortMultiplier: () => 1000 / Tick.Length,
+  }
+
   export const Color = {
     PrimaryBackground: 0xeff3ff,
     PrimaryLight: 0xadc3ff,

@@ -221,7 +221,7 @@ export class Entity extends Container {
     const effort = this.action.effort
     if (effort === null) return 0
 
-    const effortTick = effort * 10
+    const effortTick = effort * GameConstraints.Tick.getEffortMultiplier()
     const progress = this.actionProgress / effortTick
 
     return progress

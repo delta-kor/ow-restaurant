@@ -124,8 +124,9 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
   const handleMicroTick: TickerCallback<any> = (e) => {
     tickMsRef.current += e.deltaMS
-    if (tickMsRef.current > 100) {
-      tickMsRef.current = tickMsRef.current % 100
+    const tickLength = GameConstraints.Tick.Length / GameConstraints.Tick.Speed
+    if (tickMsRef.current > tickLength) {
+      tickMsRef.current = tickMsRef.current % tickLength
       handleTick()
     }
   }
