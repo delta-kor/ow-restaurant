@@ -1,38 +1,30 @@
-import GameConstraints from '@/lib/game-constraints'
+import createBackgroundGraphics from '@/lib/game/background'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { extend, useApplication } from '@pixi/react'
 import { Effect } from 'effect'
-import { Container, Graphics } from 'pixi.js'
+import { Container } from 'pixi.js'
 import { useEffect } from 'react'
 
 extend({
   Container,
-  Graphics,
 })
 
 export default function GameRenderer({ stageId }: { stageId: number }) {
   const { app } = useApplication()
 
   useEffect(() => {
+    clearApp()
     renderBackground()
   }, [])
 
+  const clearApp = () => {
+    app.stage.removeChildren()
+    app.renderer.render(app.stage)
+  }
+
   const renderBackground = () => {
-    const screenWidth = app.screen.width
-    const screenHeight = app.screen.height
-
-    // Render fridge
-    const fridge = new Graphics()
-      .roundRect(
-        GameConstraints.Fridge.getX(screenWidth),
-        GameConstraints.Fridge.getY(),
-        GameConstraints.Fridge.getWidth(),
-        GameConstraints.Fridge.getHeight(),
-        GameConstraints.Fridge.Rounded
-      )
-      .fill(GameConstraints.Color.PrimaryBackground)
-
-    app.stage.addChild(fridge)
+    const graphics = createBackgroundGraphics(app)
+    app.stage.addChild(...graphics)
   }
 
   const stage = recipe.getStage(stageId).pipe(Effect.runSync)
