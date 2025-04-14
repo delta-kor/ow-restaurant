@@ -202,7 +202,7 @@ export class Entity extends Container {
   public nextChop() {
     if (this.action === null) return
     if (this.action.type !== ActionType.Cut) return
-    this.actionProgress += 10
+    this.actionProgress += GameConstraints.Tick.getEffortMultiplier()
     this.updateProgress()
   }
 
