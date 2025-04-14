@@ -10,10 +10,12 @@
     "load-workshop-code": "ts-node --project scripts/tsconfig.json scripts/load-workshop-code/index.ts"
   },
   "dependencies": {
+    "@pixi/react": "^8.0.1",
     "effect": "^3.14.6",
     "motion": "^12.6.5",
     "next": "15.2.4",
     "next-intl": "^4.0.2",
+    "pixi.js": "^8.9.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
