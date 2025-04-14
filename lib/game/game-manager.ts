@@ -13,11 +13,13 @@ export interface GameManager {
   addEntity(item: Item, x: number, y: number, isInFridge: boolean): void
   destroyEntity(entity: Entity): void
   stockFridge(): void
+  getNextEntityIndex(): number
 }
 
 export default function useGameManager(app: Application<Renderer>, fridge: Item[]) {
   const locale = useLocale()
   const t = useTranslations()
+  const entityIndexRef = useRef<number>(0)
   const entitiesRef = useRef<Entity[]>([])
 
   useEffect(() => {
@@ -90,6 +92,12 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
+  const handleNextEntityIndex = () => {
+    const index = entityIndexRef.current
+    entityIndexRef.current++
+    return index
+  }
+
   const gameManager: GameManager = {
     app,
     t,
@@ -97,6 +105,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     addEntity: handleAddEntity,
     destroyEntity: handleDestroyEntity,
     stockFridge: stockFridge,
+    getNextEntityIndex: handleNextEntityIndex,
   }
 
   return gameManager

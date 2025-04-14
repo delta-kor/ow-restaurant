@@ -32,10 +32,13 @@ export class Entity extends Container {
 
     const onDragStart = () => {
       this.alpha = 0.5
+      this.zIndex = this.gameManager.getNextEntityIndex()
+
       if (this.isInFridge) {
         this.isInFridge = false
         this.gameManager.stockFridge()
       }
+
       app.stage.on('pointermove', onDragMove)
     }
 
@@ -67,6 +70,7 @@ export class Entity extends Container {
     this.eventMode = 'static'
     this.cursor = 'pointer'
     this.on('pointerdown', onDragStart)
+    this.zIndex = this.gameManager.getNextEntityIndex()
 
     app.stage.on('pointerup', onDragEnd)
     app.stage.on('pointerupoutside', onDragEnd)

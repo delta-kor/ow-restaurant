@@ -21,5 +21,5 @@ export default function GameRenderer({ stageId }: { stageId: number }) {
     // app.stage.addChild(graphics)
   }, [])
 
-  return <pixiContainer />
+  return <pixiContainer sortableChildren={true} />
 }
