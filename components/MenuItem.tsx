@@ -8,6 +8,7 @@ export default function MenuItem({ item, flowLines }: { item: Item; flowLines: F
   const locale = useLocale()
 
   const flowLine = flowLines[0]
+  if (!flowLine) return null
 
   return (
     <div className="flex flex-col gap-16">
@@ -20,7 +21,7 @@ export default function MenuItem({ item, flowLines }: { item: Item; flowLines: F
           </div>
         )}
       </div>
-      <ItemFlowGraph flowLine={flowLine} />
+      {flowLine && <ItemFlowGraph flowLine={flowLine} />}
     </div>
   )
 }

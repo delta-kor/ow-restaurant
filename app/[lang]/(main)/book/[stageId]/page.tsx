@@ -3,11 +3,12 @@ import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { FlowLine, Solution } from '@/lib/restaurant/solution'
 import { Effect } from 'effect'
-import { setRequestLocale } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
 export interface StagePageExecuteResult {
   menuFlowLineInfos: MenuFlowLineInfo[]
+  hazardMenuFlowLineInfos: MenuFlowLineInfo[]
 }
 
 export interface MenuFlowLineInfo {
@@ -24,6 +25,7 @@ export default async function StagePage({
   setRequestLocale(lang)
 
   const stageId = parseInt(stageIdText)
+  const t = await getTranslations()
 
   if (isNaN(stageId)) {
     notFound()
@@ -32,7 +34,9 @@ export default async function StagePage({
   const program = Effect.gen(function* () {
     const stage = yield* recipe.getStage(stageId)
     const ingredients = stage.fridge
+
     const menus = stage.menus
+    const hazardMenus = stage.hazardMenus
 
     const menuFlowLineInfos: MenuFlowLineInfo[] = []
     for (const menu of menus) {
@@ -40,8 +44,16 @@ export default async function StagePage({
       menuFlowLineInfos.push({ item: menu, flowLines })
     }
 
+    const hazardMenuFlowLineInfos: MenuFlowLineInfo[] = []
+    for (const hazardMenu of hazardMenus) {
+      if (hazardMenu.id === 0) continue
+      const flowLines = yield* Solution.solve(hazardMenu, ingredients)
+      hazardMenuFlowLineInfos.push({ item: hazardMenu, flowLines })
+    }
+
     const result: StagePageExecuteResult = {
       menuFlowLineInfos,
+      hazardMenuFlowLineInfos,
     }
 
     return result
@@ -59,12 +71,26 @@ export default async function StagePage({
   }
 
   const menuFlowLineInfos = result.menuFlowLineInfos
+  const hazardMenuFlowLineInfos = result.hazardMenuFlowLineInfos
 
   return (
-    <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
-      {menuFlowLineInfos.map((info) => (
-        <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
-      ))}
+    <div className="flex flex-col gap-32">
+      <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
+        {menuFlowLineInfos.map((info) => (
+          <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
+        ))}
+      </div>
+      <div className="tablet:gap-16 flex items-center gap-12">
+        <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
+          {t('sideMenu')}
+        </div>
+        <div className="bg-light-gray h-2 grow" />
+      </div>
+      <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
+        {hazardMenuFlowLineInfos.map((info) => (
+          <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
+        ))}
+      </div>
     </div>
   )
 }
