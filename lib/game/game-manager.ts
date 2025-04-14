@@ -217,8 +217,19 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     const actions = recipe.getActionsByItemAndActionType(item, ActionType.Mix).pipe(Effect.runSync)
     if (!actions.length) return []
 
-    const input = actions.map((action) => action.input).flat()
-    const itemsIds = input.map((value) => value.id)
+    const inputs = actions.map((action) => action.input)
+    const itemsIds: number[] = []
+    for (const input of inputs) {
+      if (input[0].id === input[1].id) {
+        itemsIds.push(input[1].id)
+        continue
+      }
+
+      const companyItem = input.find((value) => value.id !== item.id)
+      if (companyItem) {
+        itemsIds.push(companyItem.id)
+      }
+    }
 
     const entities: Entity[] = []
     for (const entity of entitiesRef.current) {
