@@ -2,6 +2,8 @@ import GameConstraints from '@/lib/game-constraints'
 import { GameManager } from '@/lib/game/game-manager'
 import { Action, ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
+import { recipe } from '@/lib/restaurant/restaurant'
+import { Effect } from 'effect'
 import {
   Container,
   FederatedPointerEvent,
@@ -105,7 +107,7 @@ export class Entity extends Container {
     const progress = this.getProgress()
     if (progress === null) return
 
-    if (progress > 1) {
+    if (progress >= 1) {
       return this.onFinish()
     }
 
@@ -119,17 +121,17 @@ export class Entity extends Container {
     this.addChild(graphics)
   }
 
-  private onFinish() {
-    if (this.action === null) return
+  private onFinish(overrideOutput?: Item[]) {
+    if (!overrideOutput && this.action === null) return
 
     let x = this.x
     let y = this.y
-    if (this.action.type === ActionType.Pot) {
+    if (this.action?.type === ActionType.Pot) {
       x += Math.floor(Math.random() * 40) - 20
       y += 80 + Math.floor(Math.random() * 40) - 20
     }
 
-    const output = this.action.output
+    const output = overrideOutput || this.action!.output
     if (output.length === 1) {
       this.gameManager.addEntity(output[0], x, y, false)
     }
@@ -143,8 +145,25 @@ export class Entity extends Container {
 
   public nextTick() {
     if (this.action === null) return
+    if (this.action.type === ActionType.Cut) return
     this.actionProgress++
     this.updateProgress()
+  }
+
+  public nextChop() {
+    if (this.action === null) return
+    if (this.action.type !== ActionType.Cut) return
+    this.actionProgress += 10
+    this.updateProgress()
+  }
+
+  public impact() {
+    const action = recipe
+      .getActionByItemAndActionType(this.item, ActionType.Impact)
+      .pipe(Effect.runSync)
+    if (!action) return
+
+    this.onFinish(action.output)
   }
 
   private getProgress() {

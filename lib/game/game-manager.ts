@@ -48,7 +48,12 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   }, [fridge])
 
   useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown)
     highlightAreaByType(getHighlightAreaTypes(holdingEntity))
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
   }, [holdingEntity])
 
   const initializeGame = () => {
@@ -87,6 +92,16 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
+  const handleKeyDown = (e: KeyboardEvent) => {
+    if (e.key === 'f') {
+      handleKnifeChop()
+    }
+
+    if (e.key === 'v') {
+      handleImpact()
+    }
+  }
+
   const handleAddEntity = (item: Item, x: number, y: number, isInFridge: boolean) => {
     const entity = new Entity(gameManager, item, x, y, isInFridge)
     entitiesRef.current.push(entity)
@@ -95,6 +110,16 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
   const handleDestroyEntity = (entity: Entity) => {
     entitiesRef.current = entitiesRef.current.filter((e) => e !== entity)
+    setHoldingEntity((prev) => {
+      console.log(prev)
+
+      if (prev === entity) {
+        return null
+      }
+
+      return prev
+    })
+
     entity.destroy()
   }
 
@@ -234,7 +259,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     if (isDragging) return
 
     if (area.type === AreaType.Sink) {
-      entity.destroy()
+      gameManager.destroyEntity(entity)
       return
     }
 
@@ -283,6 +308,38 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       entity.x = x
       entity.y = y
     }
+  }
+
+  const handleKnifeChop = () => {
+    const targetEntities: Entity[] = []
+
+    for (const entity of entitiesRef.current) {
+      const area = getCollisionArea(entity)
+      if (area && area.type === AreaType.Knife) {
+        const action = recipe
+          .getActionByItemAndActionType(entity.item, ActionType.Cut)
+          .pipe(Effect.runSync)
+        if (!action) return
+
+        entity.setAction(action)
+        targetEntities.push(entity)
+      }
+    }
+
+    for (const entity of targetEntities) {
+      entity.nextChop()
+    }
+  }
+
+  const handleImpact = () => {
+    if (holdingEntity === null) return
+
+    const action = recipe
+      .getActionByItemAndActionType(holdingEntity.item, ActionType.Impact)
+      .pipe(Effect.runSync)
+    if (!action) return
+
+    holdingEntity.impact()
   }
 
   const handleNextEntityIndex = () => {
