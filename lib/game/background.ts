@@ -1,15 +1,9 @@
 import GameConstraints from '@/lib/game-constraints'
-import {
-  Application,
-  ContainerChild,
-  Graphics,
-  Renderer,
-  Text,
-  TextStyle,
-  TextStyleFontWeight,
-} from 'pixi.js'
+import { GameManager } from '@/lib/game/game-manager'
+import { ContainerChild, Graphics, Text, TextStyle, TextStyleFontWeight } from 'pixi.js'
 
-export function createBackgroundGraphics(app: Application<Renderer>, t: any) {
+export function createBackgroundGraphics(gameManager: GameManager) {
+  const { app, t } = gameManager
   const graphics: ContainerChild[] = []
 
   const screenWidth = app.screen.width

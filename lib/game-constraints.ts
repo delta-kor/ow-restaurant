@@ -2,11 +2,17 @@ namespace GameConstraints {
   export const Color = {
     PrimaryBackground: 0xeff3ff,
     PrimaryLight: 0xadc3ff,
+    Primary: 0x2858dd,
+    Black: 0x2c2d31,
+    White: 0xffffff,
   }
 
   export const Entity = {
     Width: 52,
     Height: 52,
+    Radius: 26,
+    FontSize: '12px',
+    FontWeight: '600',
   }
 
   export const Machine = {

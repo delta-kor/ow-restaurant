@@ -10,7 +10,7 @@ export default function GameView({ stageId }: { stageId: number }) {
       className="rounded-16 border-primary-background relative h-[600px] w-[900px] overflow-hidden border-2"
       ref={wrapperRef}
     >
-      <Application resizeTo={wrapperRef} backgroundAlpha={0}>
+      <Application resizeTo={wrapperRef} backgroundAlpha={0} antialias={true} resolution={1}>
         <GameRenderer stageId={stageId} />
       </Application>
     </div>

@@ -1,8 +1,7 @@
-import { createBackgroundGraphics } from '@/lib/game/background'
+import useGameManager from '@/lib/game/game-manager'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { extend, useApplication } from '@pixi/react'
 import { Effect } from 'effect'
-import { useTranslations } from 'next-intl'
 import { Container } from 'pixi.js'
 import { useEffect } from 'react'
 
@@ -12,25 +11,15 @@ extend({
 
 export default function GameRenderer({ stageId }: { stageId: number }) {
   const { app } = useApplication()
-  const t = useTranslations()
-
-  useEffect(() => {
-    clearApp()
-    renderBackground()
-  }, [])
-
-  const clearApp = () => {
-    app.stage.removeChildren()
-    app.renderer.render(app.stage)
-  }
-
-  const renderBackground = () => {
-    const graphics = createBackgroundGraphics(app, t)
-    app.stage.addChild(...graphics)
-  }
 
   const stage = recipe.getStage(stageId).pipe(Effect.runSync)
   const fridge = stage.fridge
+  const gameManager = useGameManager(app, fridge)
+
+  useEffect(() => {
+    // const graphics = new Graphics().rect(634, 300, 10, 10).fill(0xff0000)
+    // app.stage.addChild(graphics)
+  }, [])
 
   return <pixiContainer />
 }
