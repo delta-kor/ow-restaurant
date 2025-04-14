@@ -7,7 +7,6 @@ import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { Effect } from 'effect'
 import { useLocale, useTranslations } from 'next-intl'
-import { clearInterval } from 'node:timers'
 import { Application, Renderer } from 'pixi.js'
 import { useEffect, useRef, useState } from 'react'
 
@@ -41,13 +40,13 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     if (!app) return
 
     initializeGame()
-    intervalRef.current = setInterval(() => {
-      handleTick()
-    }, 100)
-
-    return () => {
-      clearInterval(intervalRef.current)
-    }
+    // intervalRef.current = setInterval(() => {
+    //   handleTick()
+    // }, 100)
+    //
+    // return () => {
+    //   clearInterval(intervalRef.current)
+    // }
   }, [app])
 
   useEffect(() => {

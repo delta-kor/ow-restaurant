@@ -1,10 +1,8 @@
 'use client'
 
 import GameStageSelector from '@/components/GameStageSelector'
-import dynamic from 'next/dynamic'
+import GameView from '@/components/GameView'
 import { useState } from 'react'
-
-const DynamicGameView = dynamic(() => import('@/components/GameView'), { ssr: false })
 
 export default function Game() {
   const [stageId, setStageId] = useState<number>(0)
@@ -15,7 +13,7 @@ export default function Game() {
         <div className="text-primary-light text-32 font-semibold">Sandbox</div>
         <GameStageSelector stageId={stageId} onStageSelect={setStageId} />
       </div>
-      <DynamicGameView stageId={stageId} />
+      <GameView stageId={stageId} />
     </div>
   )
 }
