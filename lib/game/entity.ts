@@ -1,5 +1,6 @@
 import GameConstraints from '@/lib/game-constraints'
 import { GameManager } from '@/lib/game/game-manager'
+import { Action, ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
 import {
   Container,
@@ -11,6 +12,11 @@ import {
 } from 'pixi.js'
 
 export class Entity extends Container {
+  private action: Action | null = null
+  private preservedAction: Action | null = null
+  private actionProgress: number = 0
+  public potIndex: number | null = null
+
   constructor(
     private gameManager: GameManager,
     public item: Item,
@@ -67,8 +73,13 @@ export class Entity extends Container {
       y: 0,
     })
 
+    bubble.zIndex = 10
+    text.zIndex = 20
+
     this.x = x
     this.y = y
+    this.sortableChildren = true
+
     this.addChild(bubble, text)
     this.eventMode = 'static'
     this.cursor = 'pointer'
@@ -81,7 +92,99 @@ export class Entity extends Container {
     this.on('destroyed', () => {
       app.stage.off('pointerup', onDragEnd)
       app.stage.off('pointerupoutside', onDragEnd)
+      app.stage.off('pointermove', onDragMove)
     })
+  }
+
+  private updateProgress() {
+    const existingChild = this.getChildByLabel('progress')
+    if (existingChild) {
+      this.removeChild(existingChild)
+    }
+
+    const progress = this.getProgress()
+    if (progress === null) return
+
+    if (progress > 1) {
+      return this.onFinish()
+    }
+
+    const graphics = new Graphics()
+      .arc(0, 0, GameConstraints.Entity.Radius + 5, 0, Math.PI * 2 * progress)
+      .stroke({ width: 2, color: GameConstraints.Color.Primary })
+
+    graphics.zIndex = 5
+    graphics.label = 'progress'
+
+    this.addChild(graphics)
+  }
+
+  private onFinish() {
+    if (this.action === null) return
+
+    let x = this.x
+    let y = this.y
+    if (this.action.type === ActionType.Pot) {
+      x += Math.floor(Math.random() * 40) - 20
+      y += 80 + Math.floor(Math.random() * 40) - 20
+    }
+
+    const output = this.action.output
+    if (output.length === 1) {
+      this.gameManager.addEntity(output[0], x, y, false)
+    }
+    if (output.length === 2) {
+      this.gameManager.addEntity(output[0], x - 10, y, false)
+      this.gameManager.addEntity(output[1], x + 10, y, false)
+    }
+
+    this.gameManager.destroyEntity(this)
+  }
+
+  public nextTick() {
+    if (this.action === null) return
+    this.actionProgress++
+    this.updateProgress()
+  }
+
+  private getProgress() {
+    if (this.action === null) return null
+
+    const effort = this.action.effort
+    if (effort === null) return 0
+
+    const effortTick = effort * 10
+    const progress = this.actionProgress / effortTick
+
+    return progress
+  }
+
+  public setAction(action: Action | null, potIndex: number | null = null) {
+    const lastAction = this.action
+    if (action?.type === lastAction?.type) return
+
+    if (action === null) {
+      this.potIndex = null
+      this.action = action
+      this.preservedAction = lastAction
+      this.updateProgress()
+    } else {
+      if (action.type === ActionType.Pot && potIndex !== null) {
+        this.potIndex = potIndex
+      } else {
+        this.potIndex = null
+      }
+
+      if (this.preservedAction?.type === action.type) {
+        this.action = action
+        this.updateProgress()
+      } else {
+        this.actionProgress = 0
+        this.action = action
+        this.preservedAction = null
+        this.updateProgress()
+      }
+    }
   }
 
   public render() {

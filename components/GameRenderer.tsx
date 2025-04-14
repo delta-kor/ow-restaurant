@@ -17,7 +17,7 @@ export default function GameRenderer({ stageId }: { stageId: number }) {
   const gameManager = useGameManager(app, fridge)
 
   useEffect(() => {
-    // const graphics = new Graphics().rect(634, 300, 10, 10).fill(0xff0000)
+    // const graphics = new Graphics().rect(702, 300, 10, 10).fill(0xff0000)
     // app.stage.addChild(graphics)
   }, [])
 

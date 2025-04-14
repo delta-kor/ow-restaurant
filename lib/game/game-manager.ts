@@ -7,6 +7,7 @@ import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { Effect } from 'effect'
 import { useLocale, useTranslations } from 'next-intl'
+import { clearInterval } from 'node:timers'
 import { Application, Renderer } from 'pixi.js'
 import { useEffect, useRef, useState } from 'react'
 
@@ -34,8 +35,17 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
   const areasRef = useRef<Area[]>([])
 
+  const intervalRef = useRef<any>(0)
+
   useEffect(() => {
     initializeGame()
+    intervalRef.current = setInterval(() => {
+      handleTick()
+    }, 100)
+
+    return () => {
+      clearInterval(intervalRef.current)
+    }
   }, [])
 
   useEffect(() => {
@@ -90,6 +100,12 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   const handleDestroyEntity = (entity: Entity) => {
     entitiesRef.current = entitiesRef.current.filter((e) => e !== entity)
     entity.destroy()
+  }
+
+  const handleTick = () => {
+    for (const entity of entitiesRef.current) {
+      entity.nextTick()
+    }
   }
 
   const clearFridge = () => {
@@ -187,13 +203,76 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
-  const performActionByEntity = (entity: Entity) => {
+  const getPotStatus = () => {
+    const status: [boolean, boolean] = [false, false]
+
+    for (const entity of entitiesRef.current) {
+      if (entity.potIndex !== null) {
+        status[entity.potIndex] = true
+      }
+    }
+
+    return status
+  }
+
+  const performActionByEntity = (entity: Entity, isDragging: boolean) => {
     const area = getCollisionArea(entity)
-    if (!area) return
+    if (!area) {
+      entity.setAction(null)
+      return
+    }
+
+    if (isDragging) return
 
     if (area.type === AreaType.Sink) {
       entity.destroy()
       return
+    }
+
+    if (area.type === AreaType.Grill) {
+      const action = recipe
+        .getActionByItemAndActionType(entity.item, ActionType.Grill)
+        .pipe(Effect.runSync)
+      if (!action) return
+
+      entity.setAction(action)
+    }
+
+    if (area.type === AreaType.Pan) {
+      const action = recipe
+        .getActionByItemAndActionType(entity.item, ActionType.Pan)
+        .pipe(Effect.runSync)
+      if (!action) return
+
+      entity.setAction(action)
+    }
+
+    if (area.type === AreaType.Fry) {
+      const action = recipe
+        .getActionByItemAndActionType(entity.item, ActionType.Fry)
+        .pipe(Effect.runSync)
+      if (!action) return
+
+      entity.setAction(action)
+    }
+
+    if (area.type === AreaType.Pot1 || area.type === AreaType.Pot2) {
+      const action = recipe
+        .getActionByItemAndActionType(entity.item, ActionType.Pot)
+        .pipe(Effect.runSync)
+      if (!action) return
+
+      const potStatus = getPotStatus()
+      if (area.type === AreaType.Pot1 && potStatus[0]) return
+      if (area.type === AreaType.Pot2 && potStatus[1]) return
+
+      entity.setAction(action, area.type === AreaType.Pot1 ? 0 : 1)
+
+      const bounds = area.getBounds()
+      const x = bounds.x + bounds.width / 2
+      const y = bounds.y + bounds.height / 2
+      entity.x = x
+      entity.y = y
     }
   }
 
@@ -209,12 +288,13 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
   const handleEntityDrag = (entity: Entity | null) => {
     highlightHoveringAreaByEntity(entity)
+    entity && performActionByEntity(entity, true)
   }
 
   const handleEntityDrop = (entity: Entity) => {
     gameManager.onEntityHold(null)
     gameManager.onEntityDrag(null)
-    performActionByEntity(entity)
+    performActionByEntity(entity, false)
   }
 
   const gameManager: GameManager = {

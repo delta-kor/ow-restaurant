@@ -107,6 +107,14 @@ export class Recipe {
       return this.actions.filter((action) => action.input.some((value) => value.id === item.id))
     })
   }
+
+  public getActionByItemAndActionType(item: Item, actionType: ActionType) {
+    return Effect.gen(this, function* (this: Recipe) {
+      return this.actions.find(
+        (action) => action.input.some((value) => value.id === item.id) && action.type === actionType
+      )
+    })
+  }
 }
 
 export class RecipeService extends Context.Tag('RecipeService')<RecipeService, Recipe>() {}
