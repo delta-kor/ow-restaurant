@@ -161,7 +161,13 @@ export class Entity extends Container {
     }
 
     const graphics = new Graphics()
-      .arc(0, 0, GameConstraints.Entity.Radius + 5, 0, Math.PI * 2 * progress)
+      .arc(
+        0,
+        0,
+        GameConstraints.Entity.Radius + 5,
+        -Math.PI / 2,
+        Math.PI * 2 * progress - Math.PI / 2
+      )
       .stroke({ width: 2, color: GameConstraints.Color.Primary })
 
     graphics.zIndex = 5
