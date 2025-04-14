@@ -38,6 +38,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   const intervalRef = useRef<any>(0)
 
   useEffect(() => {
+    if (!app) return
+
     initializeGame()
     intervalRef.current = setInterval(() => {
       handleTick()
@@ -46,7 +48,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     return () => {
       clearInterval(intervalRef.current)
     }
-  }, [])
+  }, [app])
 
   useEffect(() => {
     clearFridge()
@@ -54,7 +56,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   }, [fridge])
 
   useEffect(() => {
-    highlightAreaByEntity(holdingEntity)
+    highlightAreaByType(getHighlightAreaTypes(holdingEntity))
   }, [holdingEntity])
 
   const initializeGame = () => {
@@ -163,8 +165,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
   }
 
-  const highlightAreaByEntity = (entity: Entity | null) => {
-    if (!entity) return highlightAreaByType([])
+  const getHighlightAreaTypes = (entity: Entity | null) => {
+    if (!entity) return []
 
     const item = entity.item
     const actions = recipe.getActionsByItem(item).pipe(Effect.runSync)
@@ -181,7 +183,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       }
     }
 
-    highlightAreaByType(types)
+    return types
   }
 
   const highlightHoveringAreaByEntity = (entity: Entity | null) => {
@@ -194,8 +196,13 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
 
     const hoveringArea = getCollisionArea(entity)
+    const availableAreaTypes = getHighlightAreaTypes(entity)
     for (const area of areasRef.current) {
-      if (hoveringArea && area.type === hoveringArea.type) {
+      if (
+        hoveringArea &&
+        area.type === hoveringArea.type &&
+        availableAreaTypes.includes(area.type)
+      ) {
         area.setBackground(GameConstraints.Area.HoveringBackgroundColor)
       } else {
         area.setBackground(GameConstraints.Area.BackgroundColor)
