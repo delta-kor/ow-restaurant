@@ -17,7 +17,7 @@ export class Entity extends Container {
   private action: Action | null = null
   private preservedAction: Action | null = null
   private actionProgress: number = 0
-  private isDragging: boolean = false
+  public isDragging: boolean = false
   public potIndex: number | null = null
 
   constructor(
@@ -35,12 +35,15 @@ export class Entity extends Container {
     const { app, locale } = this.gameManager
 
     const onDragMove = (e: FederatedPointerEvent) => {
+      if (!this.isDragging) return
       this.x = e.screenX
       this.y = e.screenY
       this.gameManager.onEntityDrag(this)
     }
 
     const onDragStart = () => {
+      if (this.isDragging) return
+
       this.isDragging = true
       this.alpha = 0.5
       this.zIndex = this.gameManager.getNextEntityIndex()
@@ -55,6 +58,8 @@ export class Entity extends Container {
     }
 
     const onDragEnd = () => {
+      if (!this.isDragging) return
+
       app.stage.off('pointermove', onDragMove)
       this.isDragging = false
       this.alpha = 1

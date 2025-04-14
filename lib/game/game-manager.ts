@@ -294,8 +294,10 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     }
 
     const entities = getCollisionEntities(targetEntity)
+    const highlightedEntities = getHighlightEntities(targetEntity)
+
     for (const entity of entitiesRef.current) {
-      if (entities.includes(entity)) {
+      if (entities.includes(entity) && highlightedEntities.includes(entity)) {
         entity.setHover(true)
       } else {
         entity.setHover(false)
@@ -319,21 +321,21 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     const area = getCollisionArea(entity)
     if (!area) {
       entity.setAction(null)
-      return
+      return true
     }
 
-    if (isDragging) return
+    if (isDragging) return true
 
     if (area.type === AreaType.Sink) {
       gameManager.destroyEntity(entity)
-      return
+      return false
     }
 
     if (area.type === AreaType.Grill) {
       const action = recipe
         .getActionsByItemAndActionType(entity.item, ActionType.Grill)
         .pipe(Effect.runSync)[0]
-      if (!action) return
+      if (!action) return true
 
       entity.setAction(action)
     }
@@ -342,7 +344,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       const action = recipe
         .getActionsByItemAndActionType(entity.item, ActionType.Pan)
         .pipe(Effect.runSync)[0]
-      if (!action) return
+      if (!action) return true
 
       entity.setAction(action)
     }
@@ -351,7 +353,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       const action = recipe
         .getActionsByItemAndActionType(entity.item, ActionType.Fry)
         .pipe(Effect.runSync)[0]
-      if (!action) return
+      if (!action) return true
 
       entity.setAction(action)
     }
@@ -360,11 +362,11 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       const action = recipe
         .getActionsByItemAndActionType(entity.item, ActionType.Pot)
         .pipe(Effect.runSync)[0]
-      if (!action) return
+      if (!action) return true
 
       const potStatus = getPotStatus()
-      if (area.type === AreaType.Pot1 && potStatus[0]) return
-      if (area.type === AreaType.Pot2 && potStatus[1]) return
+      if (area.type === AreaType.Pot1 && potStatus[0]) return true
+      if (area.type === AreaType.Pot2 && potStatus[1]) return true
 
       entity.setAction(action, area.type === AreaType.Pot1 ? 0 : 1)
 
@@ -374,12 +376,47 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
       entity.x = x
       entity.y = y
     }
+
+    return true
+  }
+
+  const performMixActionByEntity = (targetEntity: Entity) => {
+    const entities = getCollisionEntities(targetEntity)
+    const highlightedEntities = getHighlightEntities(targetEntity)
+
+    for (const companyEntity of entities) {
+      if (!highlightedEntities.includes(companyEntity)) continue
+
+      const actions = recipe
+        .getActionsByItemAndActionType(companyEntity.item, ActionType.Mix)
+        .pipe(Effect.runSync)
+      const action = actions.find(
+        (action) =>
+          action.input.includes(targetEntity.item) && action.input.includes(companyEntity.item)
+      )
+
+      if (!action) continue
+      const output = action.output
+      const newItem = output[0]
+
+      const x = (targetEntity.x + companyEntity.x) / 2
+      const y = (targetEntity.y + companyEntity.y) / 2
+
+      gameManager.addEntity(newItem, x, y, false)
+
+      gameManager.destroyEntity(targetEntity)
+      gameManager.destroyEntity(companyEntity)
+
+      break
+    }
   }
 
   const handleKnifeChop = () => {
     const targetEntities: Entity[] = []
 
     for (const entity of entitiesRef.current) {
+      if (entity.isDragging) continue
+
       const area = getCollisionArea(entity)
       if (area && area.type === AreaType.Knife) {
         const action = recipe
@@ -427,7 +464,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
   const handleEntityDrop = (entity: Entity) => {
     gameManager.onEntityHold(null)
     gameManager.onEntityDrag(null)
-    performActionByEntity(entity, false)
+    const pass = performActionByEntity(entity, false)
+    pass && performMixActionByEntity(entity)
   }
 
   const gameManager: GameManager = {
