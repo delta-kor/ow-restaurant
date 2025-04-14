@@ -186,6 +186,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     for (const entity of entitiesRef.current) {
       if (entity === targetEntity) continue
+      if (entity.isInFridge) continue
 
       const distance = Math.sqrt(
         Math.pow(entity.x - targetEntity.x, 2) + Math.pow(entity.y - targetEntity.y, 2)
@@ -222,6 +223,8 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
 
     const entities: Entity[] = []
     for (const entity of entitiesRef.current) {
+      if (entity.isInFridge) continue
+
       const highlight = companyItemIds.includes(entity.item.id)
       if (highlight) entities.push(entity)
     }
@@ -422,7 +425,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
         const action = recipe
           .getActionsByItemAndActionType(entity.item, ActionType.Cut)
           .pipe(Effect.runSync)[0]
-        if (!action) return
+        if (!action) continue
 
         entity.setAction(action)
         targetEntities.push(entity)

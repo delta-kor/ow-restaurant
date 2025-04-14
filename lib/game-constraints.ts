@@ -8,9 +8,9 @@ namespace GameConstraints {
   }
 
   export const Entity = {
-    Width: 52,
-    Height: 52,
-    Radius: 26,
+    Width: 56,
+    Height: 56,
+    Radius: 28,
     FontSize: '12px',
     FontWeight: '600',
   }
