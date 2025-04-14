@@ -8,6 +8,7 @@ export default function GameView({ stageId }: { stageId: number }) {
   return (
     <div
       className="rounded-16 border-primary-background relative h-[600px] w-[900px] overflow-hidden border-2"
+      onContextMenu={(e) => e.preventDefault()}
       ref={wrapperRef}
     >
       <Application resizeTo={wrapperRef} backgroundAlpha={0} antialias={true} resolution={1}>

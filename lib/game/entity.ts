@@ -41,8 +41,9 @@ export class Entity extends Container {
       this.gameManager.onEntityDrag(this)
     }
 
-    const onDragStart = () => {
+    const onDragStart = (e: FederatedPointerEvent) => {
       if (this.isDragging) return
+      if (e.data.button !== 0) return
 
       this.isDragging = true
       this.alpha = 0.5
@@ -64,6 +65,10 @@ export class Entity extends Container {
       this.isDragging = false
       this.alpha = 1
       this.gameManager.onEntityDrop(this)
+    }
+
+    const onRightDown = () => {
+      this.impact()
     }
 
     const bubble = new Graphics()
@@ -96,10 +101,13 @@ export class Entity extends Container {
     this.sortableChildren = true
 
     this.addChild(bubble, text)
+
     this.eventMode = 'static'
     this.cursor = 'pointer'
-    this.on('pointerdown', onDragStart)
     this.zIndex = this.gameManager.getNextEntityIndex()
+
+    this.on('pointerdown', onDragStart)
+    this.on('rightdown', onRightDown)
 
     app.stage.on('pointerup', onDragEnd)
     app.stage.on('pointerupoutside', onDragEnd)
