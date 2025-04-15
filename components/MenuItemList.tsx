@@ -19,7 +19,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
     const ingredients = stage.fridge
 
     const menus = [...new Set(stage.menus)]
-    const hazardMenus = stage.hazardMenus
+    const hazardMenus = [...new Set(stage.hazardMenus)]
 
     const menuFlowLineInfos: MenuFlowLineInfo[] = []
     for (const menu of menus) {

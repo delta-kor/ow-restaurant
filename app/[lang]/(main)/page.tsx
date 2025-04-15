@@ -1,6 +1,7 @@
 import Icon from '@/components/Icon'
 import WorkshopCode from '@/components/WorkshopCode'
 import { Link } from '@/i18n/routing'
+import { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 
 export default async function MainPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -77,4 +78,17 @@ export default async function MainPage({ params }: { params: Promise<{ lang: str
       </div>
     </div>
   )
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>
+}): Promise<Metadata> {
+  const { lang } = await params
+  const t = await getTranslations({ locale: lang })
+
+  return {
+    title: `OW Restaurant`,
+  } satisfies Metadata
 }

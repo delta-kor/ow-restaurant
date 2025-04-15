@@ -16,9 +16,13 @@ export default function GameStageMenus({
   const fridge = stage.fridge
 
   const menus = [...new Set(stage.menus)]
-  const hazardMenus = stage.hazardMenus.filter(
-    (item) => item.id !== 0 && !fridge.some((value) => value.id === item.id)
-  )
+  const hazardMenus = [
+    ...new Set(
+      stage.hazardMenus.filter(
+        (item) => item.id !== 0 && !fridge.some((value) => value.id === item.id)
+      )
+    ),
+  ]
 
   return (
     <div className="@container min-w-0 grow">

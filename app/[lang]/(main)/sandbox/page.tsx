@@ -1,6 +1,7 @@
 import Game from '@/components/Game'
 import MobileModal from '@/components/MobileModal'
-import { setRequestLocale } from 'next-intl/server'
+import { Metadata } from 'next'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 
 export default async function SandboxPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
@@ -12,4 +13,17 @@ export default async function SandboxPage({ params }: { params: Promise<{ lang: 
       <MobileModal />
     </div>
   )
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>
+}): Promise<Metadata> {
+  const { lang } = await params
+  const t = await getTranslations({ locale: lang })
+
+  return {
+    title: `${t('sandbox')} - OW Restaurant`,
+  } satisfies Metadata
 }
