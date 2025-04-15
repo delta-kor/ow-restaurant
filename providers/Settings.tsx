@@ -22,7 +22,7 @@ const SettingsContext = React.createContext<ISettingsContext>({} as ISettingsCon
 
 const DefaultSettings: Settings = {
   displayActionTime: false,
-  displayAlternative: false,
+  displayAlternative: true,
   displaySideMenus: true,
   displayMenuList: true,
   displayHint: true,
