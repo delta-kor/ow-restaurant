@@ -28,7 +28,7 @@ export default function Sidebar() {
         </div>
       </div>
       <div className="tablet:hidden fixed right-0 bottom-0 left-0 z-10 w-dvw">
-        <div className="bg-primary-background flex items-center justify-around px-48 py-24">
+        <div className="bg-primary-background flex items-center justify-around px-32 py-24">
           {MenuList.map(([Icon, path]) => (
             <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
               <Icon

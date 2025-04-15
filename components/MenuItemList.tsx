@@ -4,12 +4,15 @@ import { MenuFlowLineInfo, StagePageExecuteResult } from '@/app/[lang]/(main)/bo
 import MenuItem from '@/components/MenuItem'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { Solution } from '@/lib/restaurant/solution'
+import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
 import { useTranslations } from 'next-intl'
 import { notFound } from 'next/navigation'
+import { Fragment } from 'react'
 
 export default function MenuItemList({ stageId }: { stageId: number }) {
   const t = useTranslations()
+  const settings = useSettings()
 
   const program = Effect.gen(function* () {
     const stage = yield* recipe.getStage(stageId)
@@ -60,17 +63,21 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
           <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
         ))}
       </div>
-      <div className="tablet:gap-16 flex items-center gap-12">
-        <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
-          {t('sideMenu')}
-        </div>
-        <div className="bg-light-gray h-2 grow" />
-      </div>
-      <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
-        {hazardMenuFlowLineInfos.map((info) => (
-          <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
-        ))}
-      </div>
+      {settings.data.displaySideMenus && (
+        <Fragment>
+          <div className="tablet:gap-16 flex items-center gap-12">
+            <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
+              {t('sideMenu')}
+            </div>
+            <div className="bg-light-gray h-2 grow" />
+          </div>
+          <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
+            {hazardMenuFlowLineInfos.map((info) => (
+              <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
+            ))}
+          </div>
+        </Fragment>
+      )}
     </div>
   )
 }

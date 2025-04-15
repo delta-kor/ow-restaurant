@@ -25,6 +25,7 @@ import RightChevronSvg from '@/public/icons/right-chevron.svg'
 import SettingsSvg from '@/public/icons/settings.svg'
 import SteakSvg from '@/public/icons/steak.svg'
 import TacoSvg from '@/public/icons/taco.svg'
+import TimerSvg from '@/public/icons/timer.svg'
 
 const Icon = {
   Book: BookSvg,
@@ -54,6 +55,7 @@ const Icon = {
   Home: HomeSvg,
   Copy: CopySvg,
   Discord: DiscordSvg,
+  Timer: TimerSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]

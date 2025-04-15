@@ -1,4 +1,5 @@
 import { routing } from '@/i18n/routing'
+import SettingsProvider from '@/providers/Settings'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -23,7 +24,9 @@ export default async function LocaleLayout({
   return (
     <html>
       <NextIntlClientProvider messages={messages}>
-        <body>{children}</body>
+        <body>
+          <SettingsProvider>{children}</SettingsProvider>
+        </body>
       </NextIntlClientProvider>
     </html>
   )
