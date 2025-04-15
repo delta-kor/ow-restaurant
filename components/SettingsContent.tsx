@@ -54,7 +54,7 @@ export default function SettingsContent() {
         <div className="flex flex-col gap-56">
           <div className="flex flex-col gap-8">
             <div className="text-18 text-primary font-bold">Language</div>
-            <div className="flex max-w-[480px] items-center gap-16">
+            <div className="flex w-full max-w-[480px] items-center gap-12">
               {LocaleOptions.map(([lang, name]) => (
                 <a
                   href={`/${lang}/settings`}

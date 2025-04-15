@@ -1,7 +1,7 @@
 'use client'
 
 import { MenuFlowLineInfo } from '@/app/[lang]/(main)/book/[stageId]/page'
-import MenuItem from '@/components/MenuItem'
+import MenuItem, { MenuItemType } from '@/components/MenuItem'
 import { Recipe } from '@/lib/restaurant/recipe'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { Solution } from '@/lib/restaurant/solution'
@@ -15,6 +15,7 @@ export interface StagePageExecuteResult {
   menuFlowLineInfos: MenuFlowLineInfo[]
   hazardMenuFlowLineInfos: MenuFlowLineInfo[]
   weaverMenuFlowLineInfos: MenuFlowLineInfo[]
+  isAdditionalMenuStage: boolean
 }
 
 export default function MenuItemList({ stageId }: { stageId: number }) {
@@ -53,6 +54,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
       menuFlowLineInfos,
       hazardMenuFlowLineInfos,
       weaverMenuFlowLineInfos,
+      isAdditionalMenuStage,
     }
 
     return result
@@ -72,12 +74,18 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
   const menuFlowLineInfos = result.menuFlowLineInfos
   const hazardMenuFlowLineInfos = result.hazardMenuFlowLineInfos
   const weaverMenuFlowLineInfos = result.weaverMenuFlowLineInfos
+  const isAdditionalMenuStage = result.isAdditionalMenuStage
 
   return (
     <div className="flex flex-col gap-32">
       <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
         {menuFlowLineInfos.map((info) => (
-          <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
+          <MenuItem
+            key={info.item.id}
+            item={info.item}
+            flowLines={info.flowLines}
+            type={isAdditionalMenuStage ? MenuItemType.AdditionalStageMenu : MenuItemType.Menu}
+          />
         ))}
       </div>
 
@@ -91,7 +99,12 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
           </div>
           <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
             {weaverMenuFlowLineInfos.map((info) => (
-              <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
+              <MenuItem
+                key={info.item.id}
+                item={info.item}
+                flowLines={info.flowLines}
+                type={MenuItemType.WeaverMenu}
+              />
             ))}
           </div>
         </Fragment>
@@ -107,7 +120,12 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
           </div>
           <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
             {hazardMenuFlowLineInfos.map((info) => (
-              <MenuItem key={info.item.id} item={info.item} flowLines={info.flowLines} />
+              <MenuItem
+                key={info.item.id}
+                item={info.item}
+                flowLines={info.flowLines}
+                type={MenuItemType.HazardMenu}
+              />
             ))}
           </div>
         </Fragment>

@@ -11,7 +11,7 @@ export default async function SettingsPage({ params }: { params: Promise<{ lang:
   const region = process.env.VERCEL_REGION || '-'
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex w-full flex-col gap-4">
       <SettingsContent />
       <div className="text-12 text-light-gray-hover">
         R: {region} | D: {deployId} | H: {hash}
