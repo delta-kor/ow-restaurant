@@ -28,7 +28,7 @@ export default async function LocaleLayout({
         <body>
           <SettingsProvider>{children}</SettingsProvider>
         </body>
-        <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANGAGER_ID || ''} />
+        <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID || ''} />
       </NextIntlClientProvider>
     </html>
   )
