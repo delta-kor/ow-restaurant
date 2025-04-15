@@ -23,7 +23,11 @@ export interface GameManager {
   onEntityDrop(entity: Entity): void
 }
 
-export default function useGameManager(app: Application<Renderer>, fridge: Item[]) {
+export default function useGameManager(
+  app: Application<Renderer>,
+  fridge: Item[],
+  onItemCreate: (item: Item) => void
+) {
   const locale = useLocale()
   const t = useTranslations()
 
@@ -107,6 +111,7 @@ export default function useGameManager(app: Application<Renderer>, fridge: Item[
     const entity = new Entity(gameManager, item, x, y, isInFridge)
     entitiesRef.current.push(entity)
     entity.render()
+    onItemCreate(item)
   }
 
   const handleDestroyEntity = (entity: Entity) => {

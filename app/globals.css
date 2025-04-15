@@ -80,7 +80,7 @@
   --spacing-192: var(--unit-192);
   --spacing-256: var(--unit-256);
 
-  --spacing-pc-x-padding: calc(max(min(160px, (100vw - 960px) / 2), 32px));
+  --spacing-pc-x-padding: calc(max(min(160px, (100vw - 1400px) / 2), 32px));
   --spacing-mobile-x-padding: var(--unit-16);
   --spacing-pc-y-padding: var(--unit-128);
   --spacing-tablet-y-padding: var(--unit-64);

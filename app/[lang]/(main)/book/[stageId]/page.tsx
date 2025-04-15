@@ -35,7 +35,7 @@ export default async function StagePage({
     const stage = yield* recipe.getStage(stageId)
     const ingredients = stage.fridge
 
-    const menus = stage.menus
+    const menus = [...new Set(stage.menus)]
     const hazardMenus = stage.hazardMenus
 
     const menuFlowLineInfos: MenuFlowLineInfo[] = []
