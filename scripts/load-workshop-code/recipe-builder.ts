@@ -83,7 +83,28 @@ export class RecipeBuilder {
           canMelt: meltList.includes(index),
           colorCode: this.workshopConfig.itemColor[index] || 'D',
         })
+
         this.items.add(item)
+      }
+
+      const additionalMaterialList = this.workshopConfig.additionalMaterialList
+      for (let id = 0; id < additionalMaterialList.length; id++) {
+        const targetItem = yield* this.getItem(id)
+        const additionalMaterialData = additionalMaterialList[id]
+
+        if (!additionalMaterialData) continue
+
+        if (typeof additionalMaterialData === 'number') {
+          const item = yield* this.getItem(additionalMaterialData)
+          targetItem.addAdditionalItem(item)
+        }
+
+        if (Array.isArray(additionalMaterialData)) {
+          for (const additionalMaterial of additionalMaterialData) {
+            const item = yield* this.getItem(additionalMaterial)
+            targetItem.addAdditionalItem(item)
+          }
+        }
       }
     })
   }
@@ -316,6 +337,8 @@ export class RecipeBuilder {
   private createStageJson() {
     const menuList = this.workshopConfig.menuList
     const hazardMenuList = this.workshopConfig.hazardMenuList
+    const weaverMenuList = this.workshopConfig.weaverMenuList
+
     const fridgeList = this.workshopConfig.fridgeList
 
     const koreanStageName = this.workshopConfig.stageName
@@ -330,6 +353,7 @@ export class RecipeBuilder {
         fridge: fridgeList[id],
         menus: menuList[id],
         hazardMenus: hazardMenuList[id],
+        weaverMenus: weaverMenuList[id],
       }
 
       stages.push(stage)

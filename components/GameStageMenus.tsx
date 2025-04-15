@@ -23,6 +23,7 @@ export default function GameStageMenus({
       )
     ),
   ]
+  const weaverMenus = [...new Set(stage.weaverMenus)]
 
   return (
     <div className="@container min-w-0 grow">
@@ -40,9 +41,25 @@ export default function GameStageMenus({
               </div>
             ))}
           </div>
+
           <div className="bg-primary-background h-2 shrink-0" />
+
           <div className="grid grid-cols-1 gap-8 @min-[256px]:grid-cols-2 @min-[512px]:grid-cols-3">
-            {hazardMenus.map((menu, index) => (
+            {hazardMenus.map((menu) => (
+              <div
+                key={menu.id}
+                className="text-14 text-gray data-[finish=true]:text-light-gray-hover font-semibold data-[finish=true]:line-through"
+                data-finish={createdItems.some((value) => value.id === menu.id)}
+              >
+                {menu.getName(locale)}
+              </div>
+            ))}
+          </div>
+
+          <div className="bg-primary-background h-2 shrink-0" />
+
+          <div className="grid grid-cols-1 gap-8 @min-[256px]:grid-cols-2 @min-[512px]:grid-cols-3">
+            {weaverMenus.map((menu) => (
               <div
                 key={menu.id}
                 className="text-14 text-gray data-[finish=true]:text-light-gray-hover font-semibold data-[finish=true]:line-through"

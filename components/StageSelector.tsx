@@ -18,6 +18,7 @@ export const StageIconMap = [
   Icon.Taco,
   Icon.Icecream,
   Icon.Pancake,
+  Icon.Meat,
 ]
 
 export default function StageSelector() {

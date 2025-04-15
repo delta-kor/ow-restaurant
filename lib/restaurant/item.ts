@@ -1,3 +1,5 @@
+import { ItemJson } from '@/lib/restaurant/recipe'
+
 export interface ItemConfig {
   id: number
   koreanName: string
@@ -14,6 +16,7 @@ export class Item {
   private readonly japaneseName: string
   private readonly canMelt: boolean
   public readonly colorCode: string
+  private readonly additionalItems: Item[] = []
 
   constructor(config: ItemConfig) {
     this.id = config.id
@@ -37,12 +40,21 @@ export class Item {
     }
   }
 
-  public toJSON() {
+  public addAdditionalItem(item: Item) {
+    this.additionalItems.push(item)
+  }
+
+  public getAdditionalItems() {
+    return this.additionalItems
+  }
+
+  public toJSON(): ItemJson {
     return {
       id: this.id,
       name: [this.koreanName, this.englishName, this.japaneseName],
       canMelt: this.canMelt,
       colorCode: this.colorCode,
+      additionalItems: this.additionalItems.map((item) => item.id),
     }
   }
 }

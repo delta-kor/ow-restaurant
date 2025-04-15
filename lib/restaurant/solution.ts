@@ -11,12 +11,18 @@ export interface FlowLine {
 }
 
 export class Solution {
-  public static solve(target: Item, ingredients: Item[]) {
+  public static solve(target: Item, ingredients: Item[], isAdditional: boolean) {
     return Effect.gen(function* () {
-      const sequences = yield* Solution.getAllActionListFromItem(target, ingredients)
+      const mergedIngredients = [...ingredients]
+      if (isAdditional) {
+        const additionalItems = target.getAdditionalItems()
+        mergedIngredients.push(...additionalItems)
+      }
+
+      const sequences = yield* Solution.getAllActionListFromItem(target, mergedIngredients)
       const filteredSequences = yield* Solution.filterSequencesWithIngredients(
         sequences,
-        ingredients
+        mergedIngredients
       )
 
       const flowLines: FlowLine[] = []

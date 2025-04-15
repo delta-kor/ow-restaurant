@@ -46,6 +46,10 @@ export function getItemColorHex(item: Item): number {
       return 0x9f20c3
     case 'U':
       return 0x9f2222
+    case 'E':
+      return 0x676767
+    case 'J':
+      return 0x29a86d
     default:
       return 0x2858dd
   }

@@ -78,12 +78,20 @@ WorkshopConfigKeys.set('HAZARD_MENU_LIST', {
   name: 'hazardMenuList',
   type: WorkshopConfigType.Array,
 })
+WorkshopConfigKeys.set('WEAVER_MENU_LIST', {
+  name: 'weaverMenuList',
+  type: WorkshopConfigType.Array,
+})
 WorkshopConfigKeys.set('FRIDGE_LIST', {
   name: 'fridgeList',
   type: WorkshopConfigType.Array,
 })
 WorkshopConfigKeys.set('MELT_LIST', {
   name: 'meltList',
+  type: WorkshopConfigType.Array,
+})
+WorkshopConfigKeys.set('ADDITIONAL_MATERIAL_LIST', {
+  name: 'additionalMaterialList',
   type: WorkshopConfigType.Array,
 })
 WorkshopConfigKeys.set('STAGE_NAME', {
@@ -109,7 +117,9 @@ export interface WorkshopConfig {
   rawResult: number[]
   menuList: number[][]
   hazardMenuList: number[][]
+  weaverMenuList: number[][]
   fridgeList: number[][]
   meltList: number[]
+  additionalMaterialList: (number | number[] | false)[]
   stageName: string[]
 }

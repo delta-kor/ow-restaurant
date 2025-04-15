@@ -16,6 +16,7 @@ import HomeSvg from '@/public/icons/home.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
 import ImpactSvg from '@/public/icons/impact.svg'
 import KnifeSvg from '@/public/icons/knife.svg'
+import MeatSvg from '@/public/icons/meat.svg'
 import MixSvg from '@/public/icons/mix.svg'
 import NoodlesSvg from '@/public/icons/noodles.svg'
 import PanSvg from '@/public/icons/pan.svg'
@@ -58,6 +59,7 @@ const Icon = {
   Discord: DiscordSvg,
   Timer: TimerSvg,
   Github: GithubSvg,
+  Meat: MeatSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]
