@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react'
 
-interface Settings {
+export interface Settings {
   displayActionTime: boolean
   displayAlternative: boolean
   displaySideMenus: boolean
@@ -11,12 +11,14 @@ interface Settings {
   cookSpeed: number
 }
 
-interface Context {
+export type SettingsKey = keyof Settings
+
+export interface ISettingsContext {
   data: Settings
   setData: (key: keyof Settings, value: Settings[keyof Settings]) => void
 }
 
-const SettingsContext = React.createContext<Context>({} as Context)
+const SettingsContext = React.createContext<ISettingsContext>({} as ISettingsContext)
 
 const DefaultSettings: Settings = {
   displayActionTime: false,
@@ -72,12 +74,12 @@ export default function SettingsProvider({ children }: { children: React.ReactNo
   }
 
   const handleSetData = (key: keyof Settings, value: Settings[keyof Settings]) => {
-    const newSettings = { ...DefaultSettings, [key]: value }
-    setData(newSettings)
-    saveData(newSettings)
+    const newData = { ...data, [key]: value }
+    setData(newData)
+    saveData(newData)
   }
 
-  const context: Context = {
+  const context: ISettingsContext = {
     data,
     setData: handleSetData,
   }

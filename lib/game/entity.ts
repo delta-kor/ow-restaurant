@@ -198,10 +198,10 @@ export class Entity extends Container {
     this.gameManager.destroyEntity(this)
   }
 
-  public nextTick() {
+  public nextTick(cookSpeed: number) {
     if (this.action === null) return
     if (this.action.type === ActionType.Cut) return
-    this.actionProgress++
+    this.actionProgress += cookSpeed
     this.updateProgress()
   }
 

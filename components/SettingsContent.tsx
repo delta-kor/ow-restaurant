@@ -1,11 +1,8 @@
 'use client'
 
 import Icon from '@/components/Icon'
-import { usePathname, useRouter } from '@/i18n/routing'
-import { useSettings } from '@/providers/Settings'
+import { SettingsKey, useSettings } from '@/providers/Settings'
 import { useLocale } from 'next-intl'
-import { useParams } from 'next/navigation'
-import { useTransition } from 'react'
 
 const LocaleOptions = [
   ['ko', '한국어'],
@@ -13,19 +10,40 @@ const LocaleOptions = [
   ['ja', '日本語'],
 ]
 
+export function SettingsToggleOption({
+  settingsKey,
+  label,
+}: {
+  settingsKey: SettingsKey
+  label: string
+}) {
+  const settings = useSettings()
+
+  const handleToggleSetting = (settingsKey: SettingsKey) => {
+    const newValue = !settings.data[settingsKey]
+    settings.setData(settingsKey, newValue)
+  }
+
+  return (
+    <div
+      className="flex max-w-[480px] cursor-pointer items-center justify-between"
+      onClick={() => handleToggleSetting(settingsKey)}
+    >
+      <div className="text-18 font-medium text-black">{label}</div>
+      <div
+        className="bg-light-gray data-[active=true]:bg-primary size-16 rounded-full transition-colors"
+        data-active={settings.data[settingsKey]}
+      />
+    </div>
+  )
+}
+
 export default function SettingsContent() {
-  const router = useRouter()
-  const pathname = usePathname()
   const locale = useLocale()
   const settings = useSettings()
-  const [isPending, startTransition] = useTransition()
-  const params = useParams()
 
-  const handleLocaleChange = (lang: string) => {
-    startTransition(() => {
-      // @ts-expect-error
-      router.replace({ pathname, params }, { lang })
-    })
+  const handleCookSpeedChange = (newSpeed: number) => {
+    settings.setData('cookSpeed', newSpeed)
   }
 
   return (
@@ -37,16 +55,47 @@ export default function SettingsContent() {
             <div className="text-18 text-primary font-bold">언어</div>
             <div className="flex items-center gap-16">
               {LocaleOptions.map(([lang, name]) => (
-                <div
+                <a
+                  href={`/${lang}/settings`}
                   key={lang}
-                  onClick={() => handleLocaleChange(lang)}
                   className="rounded-8 border-primary-light bg-primary-background flex w-128 cursor-pointer items-center justify-between gap-8 px-12 py-8 data-[active=true]:border-2"
                   data-active={locale === lang}
                 >
                   <div className="text-14 font-medium text-black">{name}</div>
                   <Icon.RightChevron className="text-gray size-16" />
-                </div>
+                </a>
               ))}
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-8">
+            <div className="text-18 text-primary font-bold">레시피북</div>
+            <div className="flex flex-col gap-4">
+              <SettingsToggleOption settingsKey="displayActionTime" label="조리 시간 표시" />
+              <SettingsToggleOption settingsKey="displayAlternative" label="대안 표시" />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-8">
+            <div className="text-18 text-primary font-bold">샌드박스</div>
+            <div className="flex flex-col gap-4">
+              <SettingsToggleOption settingsKey="displayMenuList" label="메뉴 목록 표시" />
+              <SettingsToggleOption settingsKey="displayHint" label="힌트 표시" />
+              <div className="flex max-w-[480px] cursor-pointer flex-col gap-4">
+                <div className="text-18 font-medium text-black">조리 속도</div>
+                <div className="flex items-center gap-8">
+                  {[1, 2, 10].map((speed) => (
+                    <div
+                      key={speed}
+                      className="rounded-8 border-primary-light bg-primary-background flex cursor-pointer items-center justify-between gap-8 px-12 py-8 data-[active=true]:border-2"
+                      data-active={settings.data.cookSpeed === speed}
+                      onClick={() => handleCookSpeedChange(speed)}
+                    >
+                      <div className="text-14 font-medium text-black">x{speed}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>

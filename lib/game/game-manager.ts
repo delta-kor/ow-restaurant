@@ -5,6 +5,7 @@ import { Entity } from '@/lib/game/entity'
 import { ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
 import { recipe } from '@/lib/restaurant/restaurant'
+import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
 import { useLocale, useTranslations } from 'next-intl'
 import { Application, Renderer, TickerCallback } from 'pixi.js'
@@ -30,6 +31,7 @@ export default function useGameManager(
 ) {
   const locale = useLocale()
   const t = useTranslations()
+  const settings = useSettings()
 
   const [holdingEntity, setHoldingEntity] = useState<Entity | null>(null)
 
@@ -129,7 +131,9 @@ export default function useGameManager(
 
   const handleMicroTick: TickerCallback<any> = (e) => {
     tickMsRef.current += e.deltaMS
+
     const tickLength = GameConstraints.Tick.Length / GameConstraints.Tick.Speed
+
     if (tickMsRef.current > tickLength) {
       tickMsRef.current = tickMsRef.current % tickLength
       handleTick()
@@ -138,7 +142,7 @@ export default function useGameManager(
 
   const handleTick = () => {
     for (const entity of entitiesRef.current) {
-      entity.nextTick()
+      entity.nextTick(settings.data.cookSpeed)
     }
   }
 
