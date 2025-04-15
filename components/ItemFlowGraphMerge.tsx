@@ -1,12 +1,6 @@
 import { Merge } from '@/lib/restaurant/graph'
 
-export default async function ItemFlowGraphMerge({
-  merge,
-  index,
-}: {
-  merge: Merge
-  index: number
-}) {
+export default function ItemFlowGraphMerge({ merge, index }: { merge: Merge; index: number }) {
   const mergeIndex = merge.mergeIndex
   const delta = index - mergeIndex
 

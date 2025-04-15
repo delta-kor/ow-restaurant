@@ -22,7 +22,7 @@ export default function GameStageMenus({
 
   return (
     <div className="@container min-w-0 grow">
-      <div className="@container hidden flex-col gap-4 @min-[128px]:flex">
+      <div className="@container hidden flex-col gap-4 @min-[160px]:flex">
         <div className="-mb-4 h-48" />
         <div className="border-primary-background rounded-16 no-scrollbar flex h-[600px] flex-col gap-8 self-stretch overflow-y-scroll border-2 p-16">
           <div className="grid grid-cols-1 gap-8 @min-[256px]:grid-cols-2 @min-[512px]:grid-cols-3">

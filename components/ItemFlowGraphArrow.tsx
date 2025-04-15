@@ -1,9 +1,9 @@
 import { getActionIcon, getActionName } from '@/lib/action-arrow'
 import { Arrow } from '@/lib/restaurant/graph'
-import { getTranslations } from 'next-intl/server'
+import { useTranslations } from 'next-intl'
 
-export default async function ItemFlowGraphArrow({ arrow }: { arrow: Arrow }) {
-  const t = await getTranslations()
+export default function ItemFlowGraphArrow({ arrow }: { arrow: Arrow }) {
+  const t = useTranslations()
 
   const action = arrow.action
   const Icon = getActionIcon(action)
