@@ -1,6 +1,6 @@
 import { routing } from '@/i18n/routing'
 import SettingsProvider from '@/providers/Settings'
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -28,7 +28,7 @@ export default async function LocaleLayout({
         <body>
           <SettingsProvider>{children}</SettingsProvider>
         </body>
-        <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID || ''} />
+        <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANGAGER_ID || ''} />
       </NextIntlClientProvider>
     </html>
   )
