@@ -2,7 +2,7 @@
 
 import Icon from '@/components/Icon'
 import { SettingsKey, useSettings } from '@/providers/Settings'
-import { useLocale } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 
 const LocaleOptions = [
   ['ko', '한국어'],
@@ -39,6 +39,7 @@ export function SettingsToggleOption({
 }
 
 export default function SettingsContent() {
+  const t = useTranslations()
   const locale = useLocale()
   const settings = useSettings()
 
@@ -49,10 +50,10 @@ export default function SettingsContent() {
   return (
     <div className="tablet:pt-tablet-y-padding pc:pt-pc-y-padding pt-mobile-y-padding grow">
       <div className="flex flex-col gap-32">
-        <div className="text-48 text-primary-light font-bold">설정</div>
+        <div className="text-48 text-primary-light font-bold">{t('settings')}</div>
         <div className="flex flex-col gap-56">
           <div className="flex flex-col gap-8">
-            <div className="text-18 text-primary font-bold">언어</div>
+            <div className="text-18 text-primary font-bold">Language</div>
             <div className="flex items-center gap-16">
               {LocaleOptions.map(([lang, name]) => (
                 <a
@@ -69,20 +70,26 @@ export default function SettingsContent() {
           </div>
 
           <div className="flex flex-col gap-8">
-            <div className="text-18 text-primary font-bold">레시피북</div>
+            <div className="text-18 text-primary font-bold">{t('recipeBook')}</div>
             <div className="flex flex-col gap-4">
-              <SettingsToggleOption settingsKey="displayActionTime" label="조리 시간 표시" />
-              <SettingsToggleOption settingsKey="displayAlternative" label="대안 표시" />
+              <SettingsToggleOption
+                settingsKey="displayActionTime"
+                label={t('displayActionTime')}
+              />
+              <SettingsToggleOption
+                settingsKey="displayAlternative"
+                label={t('displayAlternative')}
+              />
             </div>
           </div>
 
           <div className="flex flex-col gap-8">
-            <div className="text-18 text-primary font-bold">샌드박스</div>
+            <div className="text-18 text-primary font-bold">{t('sandbox')}</div>
             <div className="flex flex-col gap-4">
-              <SettingsToggleOption settingsKey="displayMenuList" label="메뉴 목록 표시" />
-              <SettingsToggleOption settingsKey="displayHint" label="힌트 표시" />
+              <SettingsToggleOption settingsKey="displayMenuList" label={t('displayMenuList')} />
+              <SettingsToggleOption settingsKey="displayHint" label={t('displayHint')} />
               <div className="flex max-w-[480px] cursor-pointer flex-col gap-4">
-                <div className="text-18 font-medium text-black">조리 속도</div>
+                <div className="text-18 font-medium text-black">{t('cookSpeed')}</div>
                 <div className="flex items-center gap-8">
                   {[1, 2, 10].map((speed) => (
                     <div
