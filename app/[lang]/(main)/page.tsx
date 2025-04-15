@@ -26,20 +26,24 @@ export default async function MainPage({ params }: { params: Promise<{ lang: str
             <div className="flex basis-0 items-center gap-16 self-stretch">
               <Link
                 href={'/book'}
-                className="rounded-16 border-light-gray tablet:grow-0 flex grow items-center gap-12 border-2 px-24 py-16"
+                className="rounded-16 border-light-gray tablet:grow-0 tablet:px-24 tablet:py-16 flex grow items-center gap-12 border-2 px-20 py-14"
               >
-                <Icon.Book className="text-primary size-24 shrink-0" />
-                <div className="text-gray text-20 grow font-bold">{t('recipeBook')}</div>
-                <Icon.RightChevron className="text-gray size-20 shrink-0" />
+                <Icon.Book className="text-primary tablet:size-24 size-20 shrink-0" />
+                <div className="text-gray tablet:text-20 text-16 grow font-bold">
+                  {t('recipeBook')}
+                </div>
+                <Icon.RightChevron className="text-gray tablet:size-20 size-16 shrink-0" />
               </Link>
 
               <Link
                 href={'/sandbox'}
-                className="rounded-16 border-light-gray tablet:grow-0 flex grow items-center gap-12 border-2 px-24 py-16"
+                className="rounded-16 border-light-gray tablet:grow-0 tablet:px-24 tablet:py-16 flex grow items-center gap-12 border-2 px-20 py-14"
               >
-                <Icon.Game className="text-primary size-24 shrink-0" />
-                <div className="text-gray text-20 grow font-bold">{t('sandbox')}</div>
-                <Icon.RightChevron className="text-gray size-20 shrink-0" />
+                <Icon.Game className="text-primary tablet:size-24 size-20 shrink-0" />
+                <div className="text-gray tablet:text-20 text-16 grow font-bold">
+                  {t('sandbox')}
+                </div>
+                <Icon.RightChevron className="text-gray tablet:size-20 size-16 shrink-0" />
               </Link>
             </div>
 
