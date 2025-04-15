@@ -45,7 +45,7 @@ export default function MenuItem({
         {(type === MenuItemType.WeaverMenu || type === MenuItemType.AdditionalStageMenu) && (
           <div className="mb-16 flex items-center gap-4">
             <div className="text-14 text-gray font-semibold">{t('providedByCustomers')}:</div>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               {item.getAdditionalItems().map((additionalItem) => (
                 <div
                   key={additionalItem.id}
