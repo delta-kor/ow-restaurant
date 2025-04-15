@@ -3,6 +3,8 @@
   "cuttingBoard": "Cutting Board",
   "fridge": "Fridge",
   "fry": "Fry",
+  "gameTutorialChop": "Press <key>F</key> to chop items on the cutting board",
+  "gameTutorialImpact": "<key>Right Click</key> or hold the item and press <key>V</key> to throw (impact) the item",
   "grill": "Grill",
   "impact": "Impact",
   "mix": "Mix",
