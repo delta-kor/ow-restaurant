@@ -5,9 +5,12 @@ import GameStageSelector from '@/components/GameStageSelector'
 import GameTutorial from '@/components/GameTutorial'
 import GameView from '@/components/GameView'
 import { Item } from '@/lib/restaurant/item'
+import { useSettings } from '@/providers/Settings'
 import { useEffect, useState } from 'react'
 
 export default function Game() {
+  const settings = useSettings()
+
   const [stageId, setStageId] = useState<number>(0)
   const [createdItems, setCreatedItems] = useState<Item[]>([])
 
@@ -33,7 +36,9 @@ export default function Game() {
         </div>
         <GameTutorial />
       </div>
-      <GameStageMenus stageId={stageId} createdItems={createdItems} />
+      {settings.data.displayMenuList && (
+        <GameStageMenus stageId={stageId} createdItems={createdItems} />
+      )}
     </div>
   )
 }

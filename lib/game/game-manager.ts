@@ -214,6 +214,7 @@ export default function useGameManager(
   }
 
   const highlightEntities = (candidates: Entity[]) => {
+    if (!settings.data.displayHint) return
     for (const entity of entitiesRef.current) {
       const highlight = candidates.includes(entity)
       entity.setHighlight(highlight)
@@ -254,6 +255,8 @@ export default function useGameManager(
   }
 
   const highlightAreaByType = (types: AreaType[]) => {
+    if (!settings.data.displayHint) return
+
     for (const area of areasRef.current) {
       if (types.includes(area.type)) {
         area.setStrokeColor(GameConstraints.Area.HighlightedStrokeColor)
@@ -299,7 +302,7 @@ export default function useGameManager(
       if (
         hoveringArea &&
         area.type === hoveringArea.type &&
-        availableAreaTypes.includes(area.type)
+        (!settings.data.displayHint || availableAreaTypes.includes(area.type))
       ) {
         area.setBackground(GameConstraints.Area.HoveringBackgroundColor)
       } else {
