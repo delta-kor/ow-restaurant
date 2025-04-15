@@ -112,6 +112,7 @@
   --text-24: var(--unit-24);
   --text-28: var(--unit-28);
   --text-32: var(--unit-32);
+  --text-48: var(--unit-48);
 
   --breakpoint-pc: 1100px;
   --breakpoint-tablet: 768px;

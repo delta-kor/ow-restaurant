@@ -1,6 +1,8 @@
 import BookSvg from '@/public/icons/book.svg'
 import BurgerSvg from '@/public/icons/burger.svg'
 import ChickenSvg from '@/public/icons/chicken.svg'
+import CopySvg from '@/public/icons/copy.svg'
+import DiscordSvg from '@/public/icons/discord.svg'
 import DownChevronSvg from '@/public/icons/down-chevron.svg'
 import DumplingSvg from '@/public/icons/dumpling.svg'
 import EggSvg from '@/public/icons/egg.svg'
@@ -9,6 +11,7 @@ import FridgeSvg from '@/public/icons/fridge.svg'
 import FrySvg from '@/public/icons/fry.svg'
 import GameSvg from '@/public/icons/game.svg'
 import GrillSvg from '@/public/icons/grill.svg'
+import HomeSvg from '@/public/icons/home.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
 import ImpactSvg from '@/public/icons/impact.svg'
 import KnifeSvg from '@/public/icons/knife.svg'
@@ -48,6 +51,9 @@ const Icon = {
   Pan: PanSvg,
   Pot: PotSvg,
   Impact: ImpactSvg,
+  Home: HomeSvg,
+  Copy: CopySvg,
+  Discord: DiscordSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]

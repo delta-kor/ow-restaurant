@@ -4,7 +4,8 @@ import { Link, usePathname } from '@/i18n/routing'
 import Icon, { IconType } from './Icon'
 
 const MenuList: [IconType, string | null][] = [
-  [Icon.Book, null],
+  [Icon.Home, null],
+  [Icon.Book, '/book'],
   [Icon.Game, '/sandbox'],
   [Icon.Settings, '/settings'],
 ]
@@ -20,11 +21,7 @@ export default function Sidebar() {
             <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
               <Icon
                 className="text-primary-light data-[active=true]:text-primary size-48 transition-colors"
-                data-active={
-                  path
-                    ? pathname.startsWith(path)
-                    : pathname === '/' || pathname.startsWith('/book')
-                }
+                data-active={path ? pathname.startsWith(path) : pathname === '/'}
               />
             </Link>
           ))}
@@ -36,11 +33,7 @@ export default function Sidebar() {
             <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
               <Icon
                 className="text-primary-light data-[active=true]:text-primary size-32 transition-colors"
-                data-active={
-                  path
-                    ? pathname.startsWith(path)
-                    : pathname === '/' || pathname.startsWith('/book')
-                }
+                data-active={path ? pathname.startsWith(path) : pathname === '/'}
               />
             </Link>
           ))}

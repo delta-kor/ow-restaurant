@@ -24,7 +24,7 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: '/:lang',
+        source: '/:lang/book',
         destination: '/:lang/book/0',
       },
     ]
