@@ -25,7 +25,7 @@ export default function GameStageMenus({
       <div className="@container hidden flex-col gap-4 @min-[128px]:flex">
         <div className="-mb-4 h-48" />
         <div className="border-primary-background rounded-16 no-scrollbar flex h-[600px] flex-col gap-8 self-stretch overflow-y-scroll border-2 p-16">
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] gap-8">
+          <div className="grid grid-cols-1 gap-8 @min-[256px]:grid-cols-2 @min-[512px]:grid-cols-3">
             {menus.map((menu) => (
               <div
                 key={menu.id}
@@ -36,8 +36,8 @@ export default function GameStageMenus({
               </div>
             ))}
           </div>
-          <div className="bg-primary-background h-2" />
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] gap-8">
+          <div className="bg-primary-background h-2 shrink-0" />
+          <div className="grid grid-cols-1 gap-8 @min-[256px]:grid-cols-2 @min-[512px]:grid-cols-3">
             {hazardMenus.map((menu, index) => (
               <div
                 key={menu.id}
