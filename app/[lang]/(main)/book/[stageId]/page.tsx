@@ -7,11 +7,6 @@ import { Metadata } from 'next'
 import { setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
-export interface StagePageExecuteResult {
-  menuFlowLineInfos: MenuFlowLineInfo[]
-  hazardMenuFlowLineInfos: MenuFlowLineInfo[]
-}
-
 export interface MenuFlowLineInfo {
   item: Item
   flowLines: FlowLine[]

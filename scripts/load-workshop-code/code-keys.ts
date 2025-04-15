@@ -90,6 +90,10 @@ WorkshopConfigKeys.set('MELT_LIST', {
   name: 'meltList',
   type: WorkshopConfigType.Array,
 })
+WorkshopConfigKeys.set('ADDITIONAL_MATERIAL_LIST', {
+  name: 'additionalMaterialList',
+  type: WorkshopConfigType.Array,
+})
 WorkshopConfigKeys.set('STAGE_NAME', {
   name: 'stageName',
   type: WorkshopConfigType.STRING,
@@ -116,5 +120,6 @@ export interface WorkshopConfig {
   weaverMenuList: number[][]
   fridgeList: number[][]
   meltList: number[]
+  additionalMaterialList: (number | number[] | false)[]
   stageName: string[]
 }

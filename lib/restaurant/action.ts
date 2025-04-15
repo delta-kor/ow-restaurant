@@ -1,4 +1,5 @@
 import { Item } from '@/lib/restaurant/item'
+import { ActionJson } from '@/lib/restaurant/recipe'
 
 export enum ActionType {
   Cut,
@@ -44,7 +45,7 @@ export class Action {
     }
   }
 
-  public toJSON() {
+  public toJSON(): ActionJson {
     return {
       type: this.type,
       input: this.input.map((item) => item.id),

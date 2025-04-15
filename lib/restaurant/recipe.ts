@@ -21,6 +21,7 @@ export interface ItemJson {
   name: string[]
   canMelt: boolean
   colorCode: string
+  additionalItems: number[]
 }
 
 export interface StageJson {
@@ -44,31 +45,44 @@ export class RecipeStageNotFoundError extends Schema.TaggedError<RecipeStageNotF
 
 export class Recipe {
   public static create(json: RecipeJson) {
-    const items = json.items.map(
-      (item) =>
-        new Item({
-          id: item.id,
-          koreanName: item.name[0],
-          englishName: item.name[1],
-          japaneseName: item.name[2],
-          canMelt: item.canMelt,
-          colorCode: item.colorCode,
-        })
-    )
+    return Effect.gen(function* () {
+      const items = json.items.map(
+        (item) =>
+          new Item({
+            id: item.id,
+            koreanName: item.name[0],
+            englishName: item.name[1],
+            japaneseName: item.name[2],
+            canMelt: item.canMelt,
+            colorCode: item.colorCode,
+          })
+      )
 
-    const actions = json.actions.map(
-      (action) =>
-        new Action({
-          type: action.type,
-          input: action.input.map((id) => items.find((item) => item.id === id)!),
-          output: action.output.map((id) => items.find((item) => item.id === id)!),
-          effort: action.effort,
-        } as any)
-    )
+      for (const targetItem of items) {
+        const id = targetItem.id
+        const additionalItemIds = json.items.find((item) => item.id === id)?.additionalItems ?? []
+        for (const additionalItemId of additionalItemIds) {
+          const additionalItem = items.find((item) => item.id === additionalItemId)
+          if (!additionalItem)
+            return yield* Effect.fail(new RecipeItemNotFoundError({ itemId: additionalItemId }))
+          targetItem.addAdditionalItem(additionalItem)
+        }
+      }
 
-    const stages = json.stages.map((stage) => Stage.create(stage, items))
+      const actions = json.actions.map(
+        (action) =>
+          new Action({
+            type: action.type,
+            input: action.input.map((id) => items.find((item) => item.id === id)!),
+            output: action.output.map((id) => items.find((item) => item.id === id)!),
+            effort: action.effort,
+          } as any)
+      )
 
-    return new Recipe(items, actions, stages)
+      const stages = json.stages.map((stage) => Stage.create(stage, items))
+
+      return new Recipe(items, actions, stages)
+    })
   }
 
   private constructor(
@@ -117,6 +131,10 @@ export class Recipe {
         (action) => action.input.some((value) => value.id === item.id) && action.type === actionType
       )
     })
+  }
+
+  public static isAdditionalMenuStage(stage: Stage) {
+    return stage.id === 11
   }
 }
 
