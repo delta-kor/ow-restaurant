@@ -25,7 +25,7 @@ export default function Game() {
   }
 
   return (
-    <div className="flex grow items-start gap-16">
+    <div className="tablet:max-h-none tablet:max-w-none flex max-h-[calc(100dvh-80px)] max-w-[calc(100dvw-32px)] grow items-start gap-16 overflow-hidden">
       <div className="flex flex-col gap-4">
         <div className="flex flex-col">
           <div className="flex items-end justify-between">

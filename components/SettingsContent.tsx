@@ -54,16 +54,16 @@ export default function SettingsContent() {
         <div className="flex flex-col gap-56">
           <div className="flex flex-col gap-8">
             <div className="text-18 text-primary font-bold">Language</div>
-            <div className="flex items-center gap-16">
+            <div className="flex max-w-[480px] items-center gap-16">
               {LocaleOptions.map(([lang, name]) => (
                 <a
                   href={`/${lang}/settings`}
                   key={lang}
-                  className="rounded-8 border-primary-light bg-primary-background flex w-128 cursor-pointer items-center justify-between gap-8 px-12 py-8 data-[active=true]:border-2"
+                  className="rounded-8 border-primary-light bg-primary-background flex grow cursor-pointer items-center justify-between gap-8 px-12 py-8 data-[active=true]:border-2"
                   data-active={locale === lang}
                 >
                   <div className="text-14 font-medium text-black">{name}</div>
-                  <Icon.RightChevron className="text-gray size-16" />
+                  <Icon.RightChevron className="text-gray size-16 shrink-0" />
                 </a>
               ))}
             </div>

@@ -15,7 +15,7 @@ export default function Sidebar() {
 
   return (
     <>
-      <div className="tablet:block left-pc-x-padding fixed top-1/2 hidden -translate-y-1/2">
+      <div className="tablet:block left-pc-x-padding fixed top-1/2 z-20 hidden -translate-y-1/2">
         <div className="rounded-16 bg-primary-background flex flex-col gap-40 px-24 py-32">
           {MenuList.map(([Icon, path]) => (
             <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
@@ -27,7 +27,7 @@ export default function Sidebar() {
           ))}
         </div>
       </div>
-      <div className="tablet:hidden fixed right-0 bottom-0 left-0 z-10 w-dvw">
+      <div className="tablet:hidden fixed right-0 bottom-0 left-0 z-20 w-dvw">
         <div className="bg-primary-background flex items-center justify-around px-32 py-24">
           {MenuList.map(([Icon, path]) => (
             <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
