@@ -316,6 +316,8 @@ export class RecipeBuilder {
   private createStageJson() {
     const menuList = this.workshopConfig.menuList
     const hazardMenuList = this.workshopConfig.hazardMenuList
+    const weaverMenuList = this.workshopConfig.weaverMenuList
+
     const fridgeList = this.workshopConfig.fridgeList
 
     const koreanStageName = this.workshopConfig.stageName
@@ -330,6 +332,7 @@ export class RecipeBuilder {
         fridge: fridgeList[id],
         menus: menuList[id],
         hazardMenus: hazardMenuList[id],
+        weaverMenus: weaverMenuList[id],
       }
 
       stages.push(stage)

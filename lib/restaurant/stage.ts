@@ -6,13 +6,23 @@ export class Stage {
     const fridge = json.fridge.map((id) => items.find((item) => item.id === id)!)
     const menus = json.menus.map((id) => items.find((item) => item.id === id)!)
     const hazardMenus = json.hazardMenus.map((id) => items.find((item) => item.id === id)!)
+    const weaverMenus = json.weaverMenus.map((id) => items.find((item) => item.id === id)!)
 
     const id = json.id
     const koreanName = json.name[0]
     const englishName = json.name[1]
     const japaneseName = json.name[2]
 
-    return new Stage(id, koreanName, englishName, japaneseName, fridge, menus, hazardMenus)
+    return new Stage(
+      id,
+      koreanName,
+      englishName,
+      japaneseName,
+      fridge,
+      menus,
+      hazardMenus,
+      weaverMenus
+    )
   }
 
   private constructor(
@@ -22,7 +32,8 @@ export class Stage {
     private readonly japaneseName: string,
     public readonly fridge: Item[],
     public readonly menus: Item[],
-    public readonly hazardMenus: Item[]
+    public readonly hazardMenus: Item[],
+    public readonly weaverMenus: Item[]
   ) {}
 
   public getName(locale: string) {

@@ -29,6 +29,7 @@ export interface StageJson {
   fridge: number[]
   menus: number[]
   hazardMenus: number[]
+  weaverMenus: number[]
 }
 
 export class RecipeItemNotFoundError extends Schema.TaggedError<RecipeItemNotFoundError>()(
