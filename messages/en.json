@@ -1,4 +1,5 @@
 {
+  "copiedCode": "Workshop code has been copied!",
   "cut": "Cut",
   "cuttingBoard": "Cutting Board",
   "fridge": "Fridge",
@@ -8,9 +9,13 @@
   "grill": "Grill",
   "impact": "Impact",
   "mix": "Mix",
+  "officialDiscord": "Official Discord",
   "pan": "Pan",
   "pot": "Pot",
+  "recipeBook": "Recipes",
+  "sandbox": "Sandbox",
   "sideMenu": "Side Menu",
   "sink": "Sink",
-  "stage": "Stage"
+  "stage": "Stage",
+  "workshopCode": "Workshop Code"
 }

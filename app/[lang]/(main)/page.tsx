@@ -1,7 +1,14 @@
 import Icon from '@/components/Icon'
+import WorkshopCode from '@/components/WorkshopCode'
 import { Link } from '@/i18n/routing'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 
-export default function MainPage() {
+export default async function MainPage({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params
+  setRequestLocale(lang)
+
+  const t = await getTranslations()
+
   return (
     <div className="tablet:pt-0 tablet:h-dvh flex grow items-center pt-24">
       <div className="flex grow items-center justify-between">
@@ -13,26 +20,7 @@ export default function MainPage() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-8">
-            <div className="text-gray text-16 font-bold">워크샵 코드</div>
-            <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-12">
-                <div className="text-primary-light text-18 w-72 font-semibold">한국어</div>
-                <div className="text-primary text-18 w-64 font-bold">SPXXM</div>
-                <Icon.Copy className="text-primary-light size-20" />
-              </div>
-              <div className="flex items-center gap-12">
-                <div className="text-primary-light text-18 w-72 font-semibold">English</div>
-                <div className="text-primary text-18 w-64 font-bold">HTNZ3</div>
-                <Icon.Copy className="text-primary-light size-20" />
-              </div>
-              <div className="flex items-center gap-12">
-                <div className="text-primary-light text-18 w-72 font-semibold">日本語</div>
-                <div className="text-primary text-18 w-64 font-bold">4ND1P</div>
-                <Icon.Copy className="text-primary-light size-20" />
-              </div>
-            </div>
-          </div>
+          <WorkshopCode />
 
           <div className="flex flex-col gap-16 self-stretch">
             <div className="flex basis-0 items-center gap-16 self-stretch">
@@ -41,7 +29,7 @@ export default function MainPage() {
                 className="rounded-16 border-light-gray tablet:grow-0 flex grow items-center gap-12 border-2 px-24 py-16"
               >
                 <Icon.Book className="text-primary size-24 shrink-0" />
-                <div className="text-gray text-20 grow font-bold">레시피북</div>
+                <div className="text-gray text-20 grow font-bold">{t('recipeBook')}</div>
                 <Icon.RightChevron className="text-gray size-20 shrink-0" />
               </Link>
 
@@ -50,16 +38,20 @@ export default function MainPage() {
                 className="rounded-16 border-light-gray tablet:grow-0 flex grow items-center gap-12 border-2 px-24 py-16"
               >
                 <Icon.Game className="text-primary size-24 shrink-0" />
-                <div className="text-gray text-20 grow font-bold">샌드박스</div>
+                <div className="text-gray text-20 grow font-bold">{t('sandbox')}</div>
                 <Icon.RightChevron className="text-gray size-20 shrink-0" />
               </Link>
             </div>
 
-            <div className="flex items-center gap-8">
+            <a
+              href={'https://discord.gg/UwevjP2tC9'}
+              target="_blank"
+              className="flex items-center gap-8"
+            >
               <Icon.Discord className="text-light-gray-hover size-20 shrink-0" />
-              <div className="text-light-gray-hover text-16 font-bold">공식 디스코드</div>
+              <div className="text-light-gray-hover text-16 font-bold">{t('officialDiscord')}</div>
               <Icon.RightChevron className="text-light-gray-hover size-20 shrink-0" />
-            </div>
+            </a>
           </div>
         </div>
 

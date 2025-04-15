@@ -1,4 +1,5 @@
 {
+  "copiedCode": "ワークショップコードがコピーされました！",
   "cut": "スライス",
   "cuttingBoard": "まな板",
   "fridge": "冷蔵庫",
@@ -8,9 +9,13 @@
   "grill": "グリル",
   "impact": "ぶつける",
   "mix": "混ぜる",
+  "officialDiscord": "公式ディスコード",
   "pan": "フライパン",
   "pot": "鍋",
+  "recipeBook": "レシピブック",
+  "sandbox": "サンドボックス",
   "sideMenu": "サイドメニュー",
   "sink": "流し台",
-  "stage": "ステージ"
+  "stage": "ステージ",
+  "workshopCode": "ワークショップコード"
 }

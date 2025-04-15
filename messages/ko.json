@@ -1,4 +1,5 @@
 {
+  "copiedCode": "코드가 복사되었습니다!",
   "cut": "썰기",
   "cuttingBoard": "도마",
   "fridge": "냉장고",
@@ -8,9 +9,13 @@
   "grill": "그릴",
   "impact": "던지기",
   "mix": "섞기",
+  "officialDiscord": "공식 디스코드",
   "pan": "팬",
   "pot": "솥",
+  "recipeBook": "레시피북",
+  "sandbox": "샌드박스",
   "sideMenu": "사이드 메뉴",
   "sink": "싱크대",
-  "stage": "스테이지"
+  "stage": "스테이지",
+  "workshopCode": "워크샵 코드"
 }
