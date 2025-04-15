@@ -10,6 +10,7 @@
     "load-workshop-code": "ts-node --project scripts/tsconfig.json scripts/load-workshop-code/index.ts"
   },
   "dependencies": {
+    "@next/third-parties": "^15.3.0",
     "@pixi/react": "^8.0.1",
     "effect": "^3.14.6",
     "motion": "^12.6.5",
