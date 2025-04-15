@@ -10,6 +10,7 @@ import FishSvg from '@/public/icons/fish.svg'
 import FridgeSvg from '@/public/icons/fridge.svg'
 import FrySvg from '@/public/icons/fry.svg'
 import GameSvg from '@/public/icons/game.svg'
+import GithubSvg from '@/public/icons/github.svg'
 import GrillSvg from '@/public/icons/grill.svg'
 import HomeSvg from '@/public/icons/home.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
@@ -56,6 +57,7 @@ const Icon = {
   Copy: CopySvg,
   Discord: DiscordSvg,
   Timer: TimerSvg,
+  Github: GithubSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]

@@ -105,6 +105,15 @@ export default function SettingsContent() {
               </div>
             </div>
           </div>
+
+          <a
+            href="https://github.com/delta-kor/ow-restaurant"
+            target="_blank"
+            className="flex items-center gap-6"
+          >
+            <Icon.Github className="text-gray size-20" />
+            <div className="text-gray text-16 font-semibold">delta-kor/ow-restaurant</div>
+          </a>
         </div>
       </div>
     </div>
