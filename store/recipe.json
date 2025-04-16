@@ -4352,9 +4352,9 @@
         {
             "id": 392,
             "name": [
-                "빵+토+양+치킨",
-                "B+T+L+Chicken",
-                "パン＋トマト＋レタス＋チキン"
+                "빵+치킨",
+                "B+Chicken",
+                "パン＋チキン"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4606,9 +4606,9 @@
         {
             "id": 413,
             "name": [
-                "딸기바나나탕후루",
-                "Strawberry Banana Candied Skewer",
-                "イチゴバナナ飴がけ串"
+                "딸기탕후루",
+                "Strawberry Candied Skewer",
+                "イチゴ飴がけ串"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -10414,7 +10414,8 @@
             ],
             "weaverMenus": [
                 402,
-                403
+                403,
+                413
             ]
         },
         {
