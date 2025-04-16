@@ -12,7 +12,7 @@ export function saveRecipeToJson(recipeBuilder: RecipeBuilder) {
   return Effect.gen(function* () {
     const filePath = path.join(__dirname, '../../store/recipe.json')
     yield* Effect.tryPromise({
-      try: () => fs.writeFile(filePath, JSON.stringify(recipeBuilder), 'utf-8'),
+      try: () => fs.writeFile(filePath, JSON.stringify(recipeBuilder, null, 4), 'utf-8'),
       catch: () => new RecipeFileSaveError({ path: filePath }),
     })
   })
