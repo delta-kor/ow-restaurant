@@ -5,6 +5,7 @@ import { Item } from '@/lib/restaurant/item'
 import { FlowLine } from '@/lib/restaurant/solution'
 import { useSettings } from '@/providers/Settings'
 import { useLocale, useTranslations } from 'next-intl'
+import { useState } from 'react'
 
 export enum MenuItemType {
   Menu,
@@ -27,18 +28,41 @@ export default function MenuItem({
   const locale = useLocale()
   const settings = useSettings()
 
-  const flowLine = flowLines[0]
+  const [flowLineIndex, setFlowLineIndex] = useState<number>(0)
+
+  const handleNextClick = () => {
+    const nextIndex = (flowLineIndex + 1) % flowLines.length
+    setFlowLineIndex(nextIndex)
+  }
+
+  const handlePrevClick = () => {
+    const prevIndex = (flowLineIndex - 1 + flowLines.length) % flowLines.length
+    setFlowLineIndex(prevIndex)
+  }
+
+  const flowLine = flowLines[flowLineIndex]
   if (!flowLine) return null
+
+  const displayAlternative = settings.data.displayAlternative && flowLines.length > 1
 
   return (
     <div className="flex flex-col gap-16">
       <div className="flex flex-col gap-0">
-        <div className="flex items-center gap-12">
+        <div className="flex items-end gap-12">
           <div className="text-gray text-24 tablet:text-32 font-bold">{item.getName(locale)}</div>
-          {settings.data.displayAlternative && flowLines.length > 1 && (
-            <div className="bg-primary-light rounded-4 text-12 flex items-center gap-2 px-4 py-2 text-white">
-              <div className="leading-[14px]">+{flowLines.length - 1}</div>
-              <Icon.RightChevron className="size-12" />
+          {displayAlternative && (
+            <div className="mb-6 flex items-center gap-4">
+              <div className="-m-4 cursor-pointer p-4" onClick={handlePrevClick}>
+                <Icon.LeftChevron className="text-light-gray-hover size-20" />
+              </div>
+              <div className="flex items-center gap-12">
+                <div className="text-gray text-18 font-semibold">{flowLineIndex + 1}</div>
+                <div className="text-light-gray-hover text-18 font-medium">/</div>
+                <div className="text-light-gray-hover text-18 font-medium">{flowLines.length}</div>
+              </div>
+              <div className="-m-4 cursor-pointer p-4" onClick={handleNextClick}>
+                <Icon.RightChevron className="text-light-gray-hover size-20" />
+              </div>
             </div>
           )}
         </div>

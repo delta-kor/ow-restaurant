@@ -16,6 +16,7 @@ import HomeSvg from '@/public/icons/home.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
 import ImpactSvg from '@/public/icons/impact.svg'
 import KnifeSvg from '@/public/icons/knife.svg'
+import LeftChevronSvg from '@/public/icons/left-chevron.svg'
 import MeatSvg from '@/public/icons/meat.svg'
 import MixSvg from '@/public/icons/mix.svg'
 import NoodlesSvg from '@/public/icons/noodles.svg'
@@ -45,6 +46,7 @@ const Icon = {
   Steak: SteakSvg,
   Taco: TacoSvg,
   RightChevron: RightChevronSvg,
+  LeftChevron: LeftChevronSvg,
   DownChevron: DownChevronSvg,
   Fridge: FridgeSvg,
   Fry: FrySvg,
