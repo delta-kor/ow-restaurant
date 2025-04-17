@@ -29,6 +29,7 @@ import SettingsSvg from '@/public/icons/settings.svg'
 import SteakSvg from '@/public/icons/steak.svg'
 import TacoSvg from '@/public/icons/taco.svg'
 import TimerSvg from '@/public/icons/timer.svg'
+import WarningSvg from '@/public/icons/warning.svg'
 
 const Icon = {
   Book: BookSvg,
@@ -62,6 +63,7 @@ const Icon = {
   Timer: TimerSvg,
   Github: GithubSvg,
   Meat: MeatSvg,
+  Warning: WarningSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]
