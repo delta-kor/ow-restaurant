@@ -7,6 +7,7 @@ import MenuItemFilterButton from '@/components/MenuItemFilterButton'
 import { Recipe } from '@/lib/restaurant/recipe'
 import { recipe } from '@/lib/restaurant/restaurant'
 import { Solution } from '@/lib/restaurant/solution'
+import { filterFlowLineInfosWithSearchQuery } from '@/lib/search'
 import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
 import { useTranslations } from 'next-intl'
@@ -24,7 +25,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
   const t = useTranslations()
   const settings = useSettings()
 
-  const [menuFilter, setMenuFilter] = useState<[boolean, boolean, boolean]>([true, true, true])
+  const [searchText, setSearchText] = useState<string>('')
 
   const handleFilterChange = (type: MenuItemType, active: boolean) => {
     const newFilter: [boolean, boolean, boolean] = [...menuFilter]
@@ -44,15 +45,31 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
       return
     }
 
-    setMenuFilter(newFilter)
+    console.log(newFilter)
+
+    settings.setData('displayMainMenus', newFilter[0])
+    settings.setData('displaySpecialMenus', newFilter[1])
+    settings.setData('displaySideMenus', newFilter[2])
   }
+
+  const menuFilter: [boolean, boolean, boolean] = [
+    settings.data.displayMainMenus,
+    settings.data.displaySpecialMenus,
+    settings.data.displaySideMenus,
+  ]
 
   const program = Effect.gen(function* () {
     const stage = yield* recipe.getStage(stageId)
     const ingredients = stage.fridge
 
     const menus = [...new Set(stage.menus)]
-    const hazardMenus = [...new Set(stage.hazardMenus)]
+    const hazardMenus = [
+      ...new Set(
+        stage.hazardMenus.filter(
+          (item) => item.id !== 0 && !ingredients.some((value) => value.id === item.id)
+        )
+      ),
+    ]
 
     const isAdditionalMenuStage = Recipe.isAdditionalMenuStage(stage)
 
@@ -99,19 +116,35 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
   const menuFlowLineInfos = result.menuFlowLineInfos
   const hazardMenuFlowLineInfos = result.hazardMenuFlowLineInfos
   const weaverMenuFlowLineInfos = result.weaverMenuFlowLineInfos
+
+  const filteredMenuFlowLineInfos = filterFlowLineInfosWithSearchQuery(
+    menuFlowLineInfos,
+    searchText
+  )
+  const filteredHazardMenuFlowLineInfos = filterFlowLineInfosWithSearchQuery(
+    hazardMenuFlowLineInfos,
+    searchText
+  )
+  const filteredWeaverMenuFlowLineInfos = filterFlowLineInfosWithSearchQuery(
+    weaverMenuFlowLineInfos,
+    searchText
+  )
+
   const isAdditionalMenuStage = result.isAdditionalMenuStage
 
   return (
     <div className="flex flex-col gap-32">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-x-16 gap-y-8">
         <div className="flex grow items-center gap-16">
-          <Icon.Search className="text-light-gray-hover size-28" />
+          <Icon.Search className="text-light-gray-hover size-28 shrink-0" />
           <input
             autoComplete="off"
             spellCheck={false}
             type="text"
             className="placeholder:text-light-gray-hover text-gray text-28 grow font-medium outline-none"
             placeholder={'아이템 검색'}
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
           />
         </div>
         <div className="flex items-center gap-8">
@@ -134,18 +167,20 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
       </div>
 
       <div className="flex flex-col gap-32">
-        <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
-          {menuFlowLineInfos.map((info) => (
-            <MenuItem
-              key={info.item.id}
-              item={info.item}
-              flowLines={info.flowLines}
-              type={isAdditionalMenuStage ? MenuItemType.AdditionalStageMenu : MenuItemType.Menu}
-            />
-          ))}
-        </div>
+        {menuFilter[0] && filteredMenuFlowLineInfos.length > 0 && (
+          <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
+            {filteredMenuFlowLineInfos.map((info) => (
+              <MenuItem
+                key={info.item.id}
+                item={info.item}
+                flowLines={info.flowLines}
+                type={isAdditionalMenuStage ? MenuItemType.AdditionalStageMenu : MenuItemType.Menu}
+              />
+            ))}
+          </div>
+        )}
 
-        {settings.data.displaySideMenus && (
+        {menuFilter[1] && filteredWeaverMenuFlowLineInfos.length > 0 && (
           <Fragment>
             <div className="tablet:gap-16 flex items-center gap-12">
               <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
@@ -154,7 +189,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
               <div className="bg-light-gray h-2 grow" />
             </div>
             <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
-              {weaverMenuFlowLineInfos.map((info) => (
+              {filteredWeaverMenuFlowLineInfos.map((info) => (
                 <MenuItem
                   key={info.item.id}
                   item={info.item}
@@ -166,7 +201,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
           </Fragment>
         )}
 
-        {settings.data.displaySideMenus && (
+        {menuFilter[2] && filteredHazardMenuFlowLineInfos.length > 0 && (
           <Fragment>
             <div className="tablet:gap-16 flex items-center gap-12">
               <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
@@ -175,7 +210,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
               <div className="bg-light-gray h-2 grow" />
             </div>
             <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
-              {hazardMenuFlowLineInfos.map((info) => (
+              {filteredHazardMenuFlowLineInfos.map((info) => (
                 <MenuItem
                   key={info.item.id}
                   item={info.item}

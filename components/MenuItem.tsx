@@ -42,7 +42,10 @@ export default function MenuItem({
   }
 
   const flowLine = flowLines[flowLineIndex]
-  if (!flowLine) return null
+  if (!flowLine) {
+    console.warn(`No flow line found for item ${item.getName(locale)}`)
+    return null
+  }
 
   const displayAlternative = settings.data.displayAlternative && flowLines.length > 1
   const lowestEffort = Math.min(...flowLines.map((line) => line.effort))
