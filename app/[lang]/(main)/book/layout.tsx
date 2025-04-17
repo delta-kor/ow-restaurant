@@ -1,4 +1,5 @@
 import StageSelector from '@/components/StageSelector'
+import { recipe } from '@/lib/restaurant/restaurant'
 import { setRequestLocale } from 'next-intl/server'
 import React from 'react'
 
@@ -21,7 +22,8 @@ export default async function BookLayout({
 }
 
 export function generateStaticParams() {
-  return Array.from({ length: 10 }, (_, i) => ({
+  const stagesLength = recipe.stages.length
+  return Array.from({ length: stagesLength }, (_, i) => ({
     stageId: i.toString(),
   }))
 }

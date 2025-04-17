@@ -16,6 +16,7 @@ import HomeSvg from '@/public/icons/home.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
 import ImpactSvg from '@/public/icons/impact.svg'
 import KnifeSvg from '@/public/icons/knife.svg'
+import LeftChevronSvg from '@/public/icons/left-chevron.svg'
 import MeatSvg from '@/public/icons/meat.svg'
 import MixSvg from '@/public/icons/mix.svg'
 import NoodlesSvg from '@/public/icons/noodles.svg'
@@ -28,6 +29,7 @@ import SettingsSvg from '@/public/icons/settings.svg'
 import SteakSvg from '@/public/icons/steak.svg'
 import TacoSvg from '@/public/icons/taco.svg'
 import TimerSvg from '@/public/icons/timer.svg'
+import WarningSvg from '@/public/icons/warning.svg'
 
 const Icon = {
   Book: BookSvg,
@@ -45,6 +47,7 @@ const Icon = {
   Steak: SteakSvg,
   Taco: TacoSvg,
   RightChevron: RightChevronSvg,
+  LeftChevron: LeftChevronSvg,
   DownChevron: DownChevronSvg,
   Fridge: FridgeSvg,
   Fry: FrySvg,
@@ -60,6 +63,7 @@ const Icon = {
   Timer: TimerSvg,
   Github: GithubSvg,
   Meat: MeatSvg,
+  Warning: WarningSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]
