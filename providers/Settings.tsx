@@ -1,10 +1,12 @@
 'use client'
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 export interface Settings {
   displayActionTime: boolean
   displayAlternative: boolean
+  displayMainMenus: boolean
+  displaySpecialMenus: boolean
   displaySideMenus: boolean
   displayMenuList: boolean
   displayHint: boolean
@@ -23,6 +25,8 @@ const SettingsContext = React.createContext<ISettingsContext>({} as ISettingsCon
 const DefaultSettings: Settings = {
   displayActionTime: false,
   displayAlternative: true,
+  displayMainMenus: true,
+  displaySpecialMenus: true,
   displaySideMenus: true,
   displayMenuList: true,
   displayHint: true,
@@ -38,7 +42,8 @@ export function useSettings() {
 }
 
 export default function SettingsProvider({ children }: { children: React.ReactNode }) {
-  const [data, setData] = React.useState<Settings>(DefaultSettings)
+  const [data, setData] = useState<Settings>(DefaultSettings)
+  const dataRef = useRef<Settings>(DefaultSettings)
 
   useEffect(() => {
     loadSettings()
@@ -62,6 +67,7 @@ export default function SettingsProvider({ children }: { children: React.ReactNo
 
       const newSettings: Settings = { ...DefaultSettings, ...parsedSettings }
       setData(newSettings)
+      dataRef.current = newSettings
     } catch (e) {
       saveData(data)
       return
@@ -74,9 +80,10 @@ export default function SettingsProvider({ children }: { children: React.ReactNo
   }
 
   const handleSetData = (key: keyof Settings, value: Settings[keyof Settings]) => {
-    const newData = { ...data, [key]: value }
+    const newData = { ...dataRef.current, [key]: value }
     setData(newData)
     saveData(newData)
+    dataRef.current = newData
   }
 
   const context: ISettingsContext = {

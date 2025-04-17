@@ -25,6 +25,7 @@ import PancakeSvg from '@/public/icons/pancake.svg'
 import PizzaSvg from '@/public/icons/pizza.svg'
 import PotSvg from '@/public/icons/pot.svg'
 import RightChevronSvg from '@/public/icons/right-chevron.svg'
+import SearchSvg from '@/public/icons/search.svg'
 import SettingsSvg from '@/public/icons/settings.svg'
 import SteakSvg from '@/public/icons/steak.svg'
 import TacoSvg from '@/public/icons/taco.svg'
@@ -64,6 +65,7 @@ const Icon = {
   Github: GithubSvg,
   Meat: MeatSvg,
   Warning: WarningSvg,
+  Search: SearchSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]
