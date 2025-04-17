@@ -142,7 +142,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
             spellCheck={false}
             type="text"
             className="placeholder:text-light-gray-hover text-gray text-28 grow font-medium outline-none"
-            placeholder={'아이템 검색'}
+            placeholder={t('searchItem')}
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
