@@ -25,6 +25,7 @@ export class CodeParser {
 
       for (const [configKey, configInfo] of WorkshopConfigKeys) {
         const block = yield* this.extractBlock(configKey)
+
         const configName = configInfo.name
 
         if (configInfo.type === WorkshopConfigType.Array) {
@@ -60,7 +61,7 @@ export class CodeParser {
       }
 
       const blockEndIndex = lines.findIndex(
-        (line, index) => line.trimEnd().endsWith(';') && index > blockStartIndex
+        (line, index) => line.trimEnd().endsWith(';') && index >= blockStartIndex
       )
 
       if (blockEndIndex === -1) {
