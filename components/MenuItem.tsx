@@ -55,9 +55,11 @@ export default function MenuItem({
     <div className="flex flex-col gap-16">
       <div className="flex flex-col gap-0">
         <div className="flex items-end gap-12">
-          <div className="text-gray text-24 tablet:text-32 font-bold">{item.getName(locale)}</div>
+          <div className="text-gray text-24 tablet:text-32 shrink-0 font-bold">
+            {item.getName(locale)}
+          </div>
           {displayAlternative && (
-            <div className="mb-6 flex items-center gap-12">
+            <div className="mb-6 flex flex-wrap-reverse items-center gap-x-12 gap-y-2">
               <div className="flex items-center gap-4">
                 <div
                   className="-m-4 cursor-pointer p-4"
@@ -91,7 +93,7 @@ export default function MenuItem({
                     transition={{ duration: 0.2 }}
                     className="text-gray flex items-center gap-4"
                   >
-                    <Icon.Warning className="size-16" />
+                    <Icon.Warning className="size-16 shrink-0" />
                     <div className="text-14 font-semibold">{t('notTheFastestRecipe')}</div>
                   </motion.div>
                 )}

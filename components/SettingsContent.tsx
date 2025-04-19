@@ -30,10 +30,12 @@ export function SettingsToggleOption({
       onClick={() => handleToggleSetting(settingsKey)}
     >
       <div className="text-18 font-medium text-black">{label}</div>
-      <div
-        className="bg-light-gray data-[active=true]:bg-primary size-16 rounded-full transition-colors"
-        data-active={settings.data[settingsKey]}
-      />
+      <div className="bg-light-gray flex size-16 items-center justify-center rounded-full">
+        <div
+          className="data-[active=true]:bg-primary size-8 rounded-full bg-white transition-colors"
+          data-active={settings.data[settingsKey]}
+        />
+      </div>
     </div>
   )
 }
@@ -88,7 +90,7 @@ export default function SettingsContent() {
             <div className="flex flex-col gap-4">
               <SettingsToggleOption settingsKey="displayMenuList" label={t('displayMenuList')} />
               <SettingsToggleOption settingsKey="displayHint" label={t('displayHint')} />
-              <div className="flex max-w-[480px] cursor-pointer flex-col gap-4">
+              <div className="flex max-w-[480px] cursor-pointer justify-between gap-4">
                 <div className="text-18 font-medium text-black">{t('cookSpeed')}</div>
                 <div className="flex items-center gap-8">
                   {[1, 2, 10].map((speed) => (
