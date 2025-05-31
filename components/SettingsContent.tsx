@@ -8,7 +8,8 @@ const LocaleOptions = [
   ['ko', '한국어'],
   ['en', 'English'],
   ['ja', '日本語'],
-  ['cn', '中文']
+  ['zh-CN', '中文'],
+  ['zh-TW', '中文(亚洲)'],
 ]
 
 export function SettingsToggleOption({
@@ -57,7 +58,7 @@ export default function SettingsContent() {
         <div className="flex flex-col gap-56">
           <div className="flex flex-col gap-8">
             <div className="text-18 text-primary font-bold">Language</div>
-            <div className="flex w-full max-w-[480px] items-center gap-12">
+            <div className="tablet:max-w-[480px] flex w-full flex-col gap-8">
               {LocaleOptions.map(([lang, name]) => (
                 <a
                   href={`/${lang}/settings`}
