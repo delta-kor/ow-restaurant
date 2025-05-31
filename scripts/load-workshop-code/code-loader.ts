@@ -6,6 +6,7 @@ export enum WorkshopCodeType {
   Ko,
   En,
   Ja,
+  Cn
 }
 
 export class WorkshopCodeFileReadError extends Schema.TaggedError<WorkshopCodeFileReadError>()(
@@ -26,6 +27,8 @@ export function loadWorkshopCode(type: WorkshopCodeType) {
       case WorkshopCodeType.Ja:
         fileName = 'workshop-code-ja.txt'
         break
+      case WorkshopCodeType.Cn:
+        fileName = 'workshop-code-cn.txt'
     }
 
     const filePath = path.join(__dirname, 'code', fileName)
