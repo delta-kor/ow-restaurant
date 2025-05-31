@@ -9,7 +9,6 @@ const LocaleOptions = [
   ['en', 'English'],
   ['ja', '日本語'],
   ['zh-CN', '中文'],
-  ['zh-TW', '中文(亚洲)'],
 ]
 
 export function SettingsToggleOption({

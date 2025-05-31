@@ -40,8 +40,6 @@ export class Item {
         return this.japaneseName
       case 'zh-CN':
         return this.chineseName
-      case 'zh-TW':
-        return this.chineseName
       default:
         return this.koreanName
     }
