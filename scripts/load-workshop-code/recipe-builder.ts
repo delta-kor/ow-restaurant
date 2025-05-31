@@ -8,6 +8,7 @@ export interface RecipeBuilderConfig {
   koreanWorkshopConfig: WorkshopConfig
   englishWorkshopConfig: WorkshopConfig
   japaneseWorkshopConfig: WorkshopConfig
+  chineseWorkshopConfig: WorkshopConfig
 }
 
 export class CuttingActionConfigError extends Schema.TaggedError<CuttingActionConfigError>()(
@@ -44,6 +45,7 @@ export class RecipeBuilder {
   private readonly workshopConfig: WorkshopConfig
   private readonly englishWorkshopConfig: WorkshopConfig
   private readonly japaneseWorkshopConfig: WorkshopConfig
+  private readonly chineseWorkshopConfig: WorkshopConfig
 
   private readonly items: Set<Item> = new Set()
   private readonly actions: Set<Action> = new Set()
@@ -52,6 +54,7 @@ export class RecipeBuilder {
     this.workshopConfig = recipeBuilderConfig.koreanWorkshopConfig
     this.englishWorkshopConfig = recipeBuilderConfig.englishWorkshopConfig
     this.japaneseWorkshopConfig = recipeBuilderConfig.japaneseWorkshopConfig
+    this.chineseWorkshopConfig = recipeBuilderConfig.chineseWorkshopConfig
   }
 
   public build() {
@@ -68,18 +71,21 @@ export class RecipeBuilder {
       const koreanNames = this.workshopConfig.itemName
       const englishNames = this.englishWorkshopConfig.itemName
       const japaneseNames = this.japaneseWorkshopConfig.itemName
+      const chineseNames = this.chineseWorkshopConfig.itemName
 
       const meltList = this.workshopConfig.meltList
       for (let index = 0; index < koreanNames.length; index++) {
         const koreanName = koreanNames[index]
         const englishName = englishNames[index]
         const japaneseName = japaneseNames[index]
+        const chineseName = chineseNames[index]
 
         const item = new Item({
           id: index,
           koreanName,
           englishName,
           japaneseName,
+          chineseName,
           canMelt: meltList.includes(index),
           colorCode: this.workshopConfig.itemColor[index] || 'D',
         })
@@ -344,12 +350,13 @@ export class RecipeBuilder {
     const koreanStageName = this.workshopConfig.stageName
     const englishStageName = this.englishWorkshopConfig.stageName
     const japaneseStageName = this.japaneseWorkshopConfig.stageName
+    const chineseStageName = this.chineseWorkshopConfig.stageName
 
     const stages: StageJson[] = []
     for (let id = 0; id < koreanStageName.length; id++) {
       const stage: StageJson = {
         id,
-        name: [koreanStageName[id], englishStageName[id], japaneseStageName[id]],
+        name: [koreanStageName[id], englishStageName[id], japaneseStageName[id],chineseStageName[id]],
         fridge: fridgeList[id],
         menus: menuList[id],
         hazardMenus: hazardMenuList[id],
