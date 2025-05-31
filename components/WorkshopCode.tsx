@@ -43,6 +43,22 @@ export default function WorkshopCode() {
           <div className="text-primary text-18 w-64 font-bold">4ND1P</div>
           <Icon.Copy className="text-primary-light size-20" />
         </div>
+        <div
+          className="flex cursor-pointer items-center gap-12"
+          onClick={() => handleCopy('RCST4')}
+        >
+          <div className="text-primary-light text-18 w-72 font-semibold">中文</div>
+          <div className="text-primary text-18 w-64 font-bold">RCST4</div>
+          <Icon.Copy className="text-primary-light size-20" />
+        </div>
+        <div
+          className="flex cursor-pointer items-center gap-12"
+          onClick={() => handleCopy('DBFHB')}
+        >
+          <div className="text-primary-light text-18 w-73 font-semibold">中文(亚洲)</div>
+          <div className="text-primary text-18 w-64 font-bold">DBFHB</div>
+          <Icon.Copy className="text-primary-light size-20" />
+        </div>
       </div>
     </div>
   )

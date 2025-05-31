@@ -12,12 +12,14 @@ export class Stage {
     const koreanName = json.name[0]
     const englishName = json.name[1]
     const japaneseName = json.name[2]
+    const chineseName = json.name[3]
 
     return new Stage(
       id,
       koreanName,
       englishName,
       japaneseName,
+      chineseName,
       fridge,
       menus,
       hazardMenus,
@@ -30,6 +32,7 @@ export class Stage {
     private readonly koreanName: string,
     private readonly englishName: string,
     private readonly japaneseName: string,
+    private readonly chineseName: string,
     public readonly fridge: Item[],
     public readonly menus: Item[],
     public readonly hazardMenus: Item[],
@@ -44,6 +47,8 @@ export class Stage {
         return this.englishName
       case 'ja':
         return this.japaneseName
+      case 'cn':
+        return this.chineseName
       default:
         return this.koreanName
     }
