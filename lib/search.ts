@@ -20,14 +20,10 @@ export function filterFlowLineInfosWithSearchQuery(
     const japaneseMenuName = info.item.getName('ja')
     const normalizedJapaneseMenuName = normalizeSearchText(japaneseMenuName)
 
-    const chineseMenuName = info.item.getName('cn')
-    const normalizedChineseMenuName = normalizeSearchText(chineseMenuName)
-
     return (
       normalizedKoreanMenuName.includes(normalizedSearchText) ||
       normalizedEnglishMenuName.includes(normalizedSearchText) ||
-      normalizedJapaneseMenuName.includes(normalizedSearchText) ||
-      normalizedChineseMenuName.includes(normalizedSearchText)
+      normalizedJapaneseMenuName.includes(normalizedSearchText)
     )
   })
 }
