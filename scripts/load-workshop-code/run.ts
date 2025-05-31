@@ -9,7 +9,6 @@ export async function run() {
     const koreanWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.Ko)
     const englishWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.En)
     const japaneseWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.Ja)
-    const chineseWorkshopCode = yield* loadWorkshopCode(WorkshopCodeType.Cn)
     yield* Effect.logInfo('Loaded workshop codes')
 
     const koreanWorkshopCodeParser = new CodeParser(koreanWorkshopCode)
@@ -21,16 +20,12 @@ export async function run() {
     const japaneseWorkshopCodeParser = new CodeParser(japaneseWorkshopCode)
     const japaneseConfig = yield* japaneseWorkshopCodeParser.parse()
 
-    const chineseWorkshopCodeParser = new CodeParser(chineseWorkshopCode)
-    const chineseConfig = yield* chineseWorkshopCodeParser.parse()
-
     yield* Effect.logInfo('Parsed workshop codes')
 
     const recipeBuilder = new RecipeBuilder({
       koreanWorkshopConfig: koreanConfig,
       englishWorkshopConfig: englishConfig,
       japaneseWorkshopConfig: japaneseConfig,
-      chineseWorkshopConfig: chineseConfig
     })
     yield* recipeBuilder.build()
     yield* Effect.logInfo('Built recipes from workshop codes')
