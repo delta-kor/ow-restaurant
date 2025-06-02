@@ -70,6 +70,11 @@ export default function SettingsContent() {
                 </a>
               ))}
             </div>
+            {locale === 'zh-CN' && (
+              <div className="text-16 text-primary-light">
+                由于这是非官方翻译版本，可能与最新版本的食谱不一致。
+              </div>
+            )}
           </div>
 
           <div className="flex flex-col gap-8">
