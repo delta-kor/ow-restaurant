@@ -78,7 +78,7 @@ export class RecipeBuilder {
         const koreanName = koreanNames[index]
         const englishName = englishNames[index]
         const japaneseName = japaneseNames[index]
-        const chineseName = chineseNames[index]
+        const chineseName = chineseNames[index] || englishName
 
         const item = new Item({
           id: index,
@@ -356,7 +356,12 @@ export class RecipeBuilder {
     for (let id = 0; id < koreanStageName.length; id++) {
       const stage: StageJson = {
         id,
-        name: [koreanStageName[id], englishStageName[id], japaneseStageName[id],chineseStageName[id]],
+        name: [
+          koreanStageName[id],
+          englishStageName[id],
+          japaneseStageName[id],
+          chineseStageName[id],
+        ],
         fridge: fridgeList[id],
         menus: menuList[id],
         hazardMenus: hazardMenuList[id],
