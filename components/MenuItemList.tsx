@@ -10,6 +10,7 @@ import { Solution } from '@/lib/restaurant/solution'
 import { filterFlowLineInfosWithSearchQuery } from '@/lib/search'
 import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
+import { AnimatePresence, motion } from 'motion/react'
 import { useTranslations } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { Fragment, useState } from 'react'
@@ -28,28 +29,35 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
   const [searchText, setSearchText] = useState<string>('')
 
   const handleFilterChange = (type: MenuItemType, active: boolean) => {
-    const newFilter: [boolean, boolean, boolean] = [...menuFilter]
-    switch (type) {
-      case MenuItemType.Menu:
-        newFilter[0] = active
-        break
-      case MenuItemType.WeaverMenu:
-        newFilter[1] = active
-        break
-      case MenuItemType.HazardMenu:
-        newFilter[2] = active
-        break
+    let newFilter: [boolean, boolean, boolean]
+    if (!menuFilter.every((item) => item) && !active) {
+      newFilter = [true, true, true]
+    } else {
+      switch (type) {
+        case MenuItemType.Menu:
+          newFilter = [true, false, false]
+          break
+        case MenuItemType.WeaverMenu:
+          newFilter = [false, true, false]
+          break
+        case MenuItemType.HazardMenu:
+          newFilter = [false, false, true]
+          break
+        default:
+          newFilter = [true, true, true]
+          break
+      }
     }
-
-    if (newFilter.every((filter) => !filter)) {
-      return
-    }
-
-    console.log(newFilter)
 
     settings.setData('displayMainMenus', newFilter[0])
     settings.setData('displaySpecialMenus', newFilter[1])
     settings.setData('displaySideMenus', newFilter[2])
+  }
+
+  const handleFilterReset = () => {
+    settings.setData('displayMainMenus', true)
+    settings.setData('displaySpecialMenus', true)
+    settings.setData('displaySideMenus', true)
   }
 
   const menuFilter: [boolean, boolean, boolean] = [
@@ -131,6 +139,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
   )
 
   const isAdditionalMenuStage = result.isAdditionalMenuStage
+  const isFilterActive = menuFilter.some((item) => !item)
 
   return (
     <div className="flex flex-col gap-32">
@@ -147,7 +156,22 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
             onChange={(e) => setSearchText(e.target.value)}
           />
         </div>
-        <div className="flex items-center gap-8">
+        <div className="flex flex-wrap items-center gap-8">
+          <AnimatePresence>
+            {isFilterActive && (
+              <motion.div
+                key="filter-reset"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+                onClick={handleFilterReset}
+                className="rounded-8 bg-primary-background flex size-[33px] cursor-pointer items-center justify-center"
+              >
+                <Icon.Close className="text-gray size-12" />
+              </motion.div>
+            )}
+          </AnimatePresence>
           <MenuItemFilterButton
             active={menuFilter[0]}
             onActiveChange={(active) => handleFilterChange(MenuItemType.Menu, active)}

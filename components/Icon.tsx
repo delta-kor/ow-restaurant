@@ -1,6 +1,7 @@
 import BookSvg from '@/public/icons/book.svg'
 import BurgerSvg from '@/public/icons/burger.svg'
 import ChickenSvg from '@/public/icons/chicken.svg'
+import CloseSvg from '@/public/icons/close.svg'
 import CopySvg from '@/public/icons/copy.svg'
 import DiscordSvg from '@/public/icons/discord.svg'
 import DownChevronSvg from '@/public/icons/down-chevron.svg'
@@ -66,6 +67,7 @@ const Icon = {
   Meat: MeatSvg,
   Warning: WarningSvg,
   Search: SearchSvg,
+  Close: CloseSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]
