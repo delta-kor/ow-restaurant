@@ -53,6 +53,7 @@ export class Recipe {
             koreanName: item.name[0],
             englishName: item.name[1],
             japaneseName: item.name[2],
+            chineseName: item.name[3],
             canMelt: item.canMelt,
             colorCode: item.colorCode,
           })

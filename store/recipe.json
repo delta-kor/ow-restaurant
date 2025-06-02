@@ -5,7 +5,8 @@
             "name": [
                 "탄 음식",
                 "Burnt Food",
-                "焦げ物"
+                "焦げ物",
+                "烧焦的食物"
             ],
             "canMelt": false,
             "colorCode": "D",
@@ -16,6 +17,7 @@
             "name": [
                 "소고기",
                 "Beef",
+                "牛肉",
                 "牛肉"
             ],
             "canMelt": false,
@@ -27,7 +29,8 @@
             "name": [
                 "썬 소고기",
                 "Sliced Beef",
-                "スライス牛肉"
+                "スライス牛肉",
+                "牛排"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -38,7 +41,8 @@
             "name": [
                 "스테이크",
                 "Steak",
-                "ステーキ"
+                "ステーキ",
+                "煎牛肉"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -51,7 +55,8 @@
             "name": [
                 "찹스테이크",
                 "Chopped Steak",
-                "チョップステーキ"
+                "チョップステーキ",
+                "煎牛排"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -64,7 +69,8 @@
             "name": [
                 "감자",
                 "Potato",
-                "ジャガイモ"
+                "ジャガイモ",
+                "土豆"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -75,7 +81,8 @@
             "name": [
                 "썬 감자",
                 "Sliced Potato",
-                "スライスジャガイモ"
+                "スライスジャガイモ",
+                "土豆条"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -86,7 +93,8 @@
             "name": [
                 "감자튀김",
                 "French Fries",
-                "フライドポテト"
+                "フライドポテト",
+                "炸薯条"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -97,7 +105,8 @@
             "name": [
                 "구운 감자",
                 "Grilled Potato",
-                "焼きジャガイモ"
+                "焼きジャガイモ",
+                "烤土豆"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -108,7 +117,8 @@
             "name": [
                 "찐 감자",
                 "Steamed Potato",
-                "蒸しジャガイモ"
+                "蒸しジャガイモ",
+                "蒸土豆"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -119,7 +129,8 @@
             "name": [
                 "으깬 감자",
                 "Mashed Potato",
-                "マッシュポテト"
+                "マッシュポテト",
+                "土豆泥"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -130,7 +141,8 @@
             "name": [
                 "볶은 감자",
                 "Stir-fried Potato",
-                "炒めジャガイモ"
+                "炒めジャガイモ",
+                "炒土豆条"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -141,7 +153,8 @@
             "name": [
                 "파스타",
                 "Pasta",
-                "パスタ"
+                "パスタ",
+                "意大利面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -152,7 +165,8 @@
             "name": [
                 "삶은 파스타",
                 "Boiled Pasta",
-                "ゆでパスタ"
+                "ゆでパスタ",
+                "煮意大利面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -163,7 +177,8 @@
             "name": [
                 "토마토",
                 "Tomato",
-                "トマト"
+                "トマト",
+                "番茄"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -174,7 +189,8 @@
             "name": [
                 "썬 토마토",
                 "Sliced Tomato",
-                "スライスしたトマト"
+                "スライスしたトマト",
+                "番茄块"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -185,7 +201,8 @@
             "name": [
                 "구운 토마토",
                 "Grilled Tomato",
-                "焼きトマト"
+                "焼きトマト",
+                "烤番茄"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -196,7 +213,8 @@
             "name": [
                 "토마토 소스",
                 "Tomato Sauce",
-                "トマトソース"
+                "トマトソース",
+                "番茄酱"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -207,7 +225,8 @@
             "name": [
                 "크림 소스",
                 "Cream Sauce",
-                "クリームソース"
+                "クリームソース",
+                "奶油酱"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -218,7 +237,8 @@
             "name": [
                 "치즈",
                 "Cheese",
-                "チーズ"
+                "チーズ",
+                "芝士"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -229,7 +249,8 @@
             "name": [
                 "슬라이스 치즈",
                 "Sliced Cheese",
-                "スライスチーズ"
+                "スライスチーズ",
+                "芝士片"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -240,7 +261,8 @@
             "name": [
                 "녹인 치즈",
                 "Melted Cheese",
-                "とろけたチーズ"
+                "とろけたチーズ",
+                "融化芝士"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -251,7 +273,8 @@
             "name": [
                 "로제 소스",
                 "Rose Sauce",
-                "ロゼソース"
+                "ロゼソース",
+                "玫瑰酱"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -262,7 +285,8 @@
             "name": [
                 "치즈 감자튀김",
                 "Cheese Fries",
-                "チーズポテト"
+                "チーズポテト",
+                "芝士薯条"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -273,7 +297,8 @@
             "name": [
                 "토마토 파스타",
                 "Tomato Pasta",
-                "トマトパスタ"
+                "トマトパスタ",
+                "番茄意大利面"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -284,7 +309,8 @@
             "name": [
                 "크림 파스타",
                 "Creamy Pasta",
-                "クリームパスタ"
+                "クリームパスタ",
+                "奶油意大利面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -295,7 +321,8 @@
             "name": [
                 "로제 파스타",
                 "Rose Pasta",
-                "ロゼパスタ"
+                "ロゼパスタ",
+                "玫瑰意大利面"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -306,7 +333,8 @@
             "name": [
                 "로제치즈 파스타",
                 "Rose Cheese Pasta",
-                "ロゼチーズパスタ"
+                "ロゼチーズパスタ",
+                "玫瑰芝士意大利面"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -317,7 +345,8 @@
             "name": [
                 "크림치즈 파스타",
                 "Cream Cheese Pasta",
-                "クリームチーズパスタ"
+                "クリームチーズパスタ",
+                "奶油芝士意大利面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -328,7 +357,8 @@
             "name": [
                 "크림치즈 소스",
                 "Cream Cheese Sauce",
-                "クリームチーズソース"
+                "クリームチーズソース",
+                "奶油芝士酱"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -339,7 +369,8 @@
             "name": [
                 "로제치즈 소스",
                 "Rose Cheese Sauce",
-                "ロゼチーズソース"
+                "ロゼチーズソース",
+                "玫瑰芝士酱"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -350,7 +381,8 @@
             "name": [
                 "생 패티",
                 "Raw Patty",
-                "生パティ"
+                "生パティ",
+                "生肉饼"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -361,7 +393,8 @@
             "name": [
                 "익힌 패티",
                 "Cooked Patty",
-                "焼いたパティ"
+                "焼いたパティ",
+                "熟肉饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -372,7 +405,8 @@
             "name": [
                 "양상추",
                 "Lettuce",
-                "レタス"
+                "レタス",
+                "生菜"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -383,7 +417,8 @@
             "name": [
                 "썬 양상추",
                 "Sliced Lettuce",
-                "スライスしたレタス"
+                "スライスしたレタス",
+                "碎生菜"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -394,7 +429,8 @@
             "name": [
                 "구운 양상추",
                 "Grilled Lettuce",
-                "焼いたレタス"
+                "焼いたレタス",
+                "烤生菜"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -405,7 +441,8 @@
             "name": [
                 "볶은 양상추",
                 "Stir-fried Lettuce",
-                "炒めたレタス"
+                "炒めたレタス",
+                "炒生菜碎"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -416,7 +453,8 @@
             "name": [
                 "햄버거 빵",
                 "Burger Bun",
-                "ハンバーガーバン"
+                "ハンバーガーバン",
+                "汉堡面包"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -427,7 +465,8 @@
             "name": [
                 "아래 빵",
                 "Bottom Bun",
-                "下バンズ"
+                "下バンズ",
+                "底层面包"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -438,7 +477,8 @@
             "name": [
                 "윗 빵",
                 "Top Bun",
-                "上バンズ"
+                "上バンズ",
+                "上层面包"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -449,7 +489,8 @@
             "name": [
                 "빵+패티",
                 "B+P",
-                "パン＋パティ"
+                "パン＋パティ",
+                "面包+肉饼"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -460,7 +501,8 @@
             "name": [
                 "빵+치즈",
                 "B+C",
-                "パン＋チーズ"
+                "パン＋チーズ",
+                "面包+芝士"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -471,7 +513,8 @@
             "name": [
                 "빵+토마토",
                 "B+T",
-                "パン＋トマト"
+                "パン＋トマト",
+                "面包+番茄"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -482,7 +525,8 @@
             "name": [
                 "빵+양상추",
                 "B+L",
-                "パン＋レタス"
+                "パン＋レタス",
+                "面包+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -493,7 +537,8 @@
             "name": [
                 "빵+패티+치즈",
                 "B+P+C",
-                "パン＋パティ＋チーズ"
+                "パン＋パティ＋チーズ",
+                "面包+肉饼+芝士"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -504,7 +549,8 @@
             "name": [
                 "빵+패티+토마토",
                 "B+P+T",
-                "パン＋パティ＋トマト"
+                "パン＋パティ＋トマト",
+                "面包+肉饼+番茄"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -515,7 +561,8 @@
             "name": [
                 "빵+패티+양상추",
                 "B+P+L",
-                "パン＋パティ＋レタス"
+                "パン＋パティ＋レタス",
+                "面包+肉饼+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -526,7 +573,8 @@
             "name": [
                 "빵+치즈+토마토",
                 "B+C+T",
-                "パン＋チーズ＋トマト"
+                "パン＋チーズ＋トマト",
+                "面包+芝士+番茄"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -537,7 +585,8 @@
             "name": [
                 "빵+치즈+양상추",
                 "B+C+L",
-                "パン＋チーズ＋レタス"
+                "パン＋チーズ＋レタス",
+                "面包+芝士+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -548,7 +597,8 @@
             "name": [
                 "빵+토마토+양상추",
                 "B+T+L",
-                "パン＋トマト＋レタス"
+                "パン＋トマト＋レタス",
+                "面包+番茄+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -559,7 +609,8 @@
             "name": [
                 "빵+패+치+토",
                 "B+P+C+T",
-                "パン＋パティ＋チーズ＋トマト"
+                "パン＋パティ＋チーズ＋トマト",
+                "面包+肉饼+芝士+番茄"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -570,7 +621,8 @@
             "name": [
                 "빵+패+치+양",
                 "B+P+C+L",
-                "パン＋パティ＋チーズ＋レタス"
+                "パン＋パティ＋チーズ＋レタス",
+                "面包+肉饼+芝士+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -581,7 +633,8 @@
             "name": [
                 "빵+패+토+양",
                 "B+P+T+L",
-                "パン＋パティ＋トマト＋レタス"
+                "パン＋パティ＋トマト＋レタス",
+                "面包+肉饼+番茄+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -592,7 +645,8 @@
             "name": [
                 "빵+치+토+양",
                 "B+C+T+L",
-                "パン＋チーズ＋トマト＋レタス"
+                "パン＋チーズ＋トマト＋レタス",
+                "面包+芝士+番茄+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -603,7 +657,8 @@
             "name": [
                 "빵+패+치+토+양",
                 "B+P+C+T+L",
-                "パン＋パティ＋チーズ＋トマト＋レタス"
+                "パン＋パティ＋チーズ＋トマト＋レタス",
+                "面包+肉饼+芝士+番茄+生菜"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -614,7 +669,8 @@
             "name": [
                 "고기 버거",
                 "Hamburger",
-                "ミートバーガー"
+                "ミートバーガー",
+                "汉堡包"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -625,7 +681,8 @@
             "name": [
                 "치즈고기 버거",
                 "Cheeseburger",
-                "チーズミートバーガー"
+                "チーズミートバーガー",
+                "芝士汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -636,7 +693,8 @@
             "name": [
                 "야채 버거",
                 "Vegetable Burger",
-                "ベジバーガー"
+                "ベジバーガー",
+                "蔬菜汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -647,7 +705,8 @@
             "name": [
                 "치즈야채 버거",
                 "Cheese Vegetable Burger",
-                "チーズベジバーガー"
+                "チーズベジバーガー",
+                "芝士蔬菜汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -658,7 +717,8 @@
             "name": [
                 "일반 버거",
                 "Deluxe Burger",
-                "デラックスバーガー"
+                "デラックスバーガー",
+                "豪华汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -669,7 +729,8 @@
             "name": [
                 "치즈 버거",
                 "Cheese Deluxe Burger",
-                "チーズデラックスバーガー"
+                "チーズデラックスバーガー",
+                "芝士豪华汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -680,7 +741,8 @@
             "name": [
                 "양산형 칼",
                 "Butter Knife",
-                "安物のナイフ"
+                "安物のナイフ",
+                "普通菜刀"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -691,7 +753,8 @@
             "name": [
                 "보조도마용 칼",
                 "Auxiliary  Knife",
-                "補助ナイフ"
+                "補助ナイフ",
+                "辅助刀具"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -702,7 +765,8 @@
             "name": [
                 "휴대용 칼",
                 "Portable Knife",
-                "携帯ナイフ"
+                "携帯ナイフ",
+                "便携刀具"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -713,7 +777,8 @@
             "name": [
                 "날카로운 칼",
                 "Sharp Knife",
-                "鋭いナイフ"
+                "鋭いナイフ",
+                "锋利刀具"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -724,7 +789,8 @@
             "name": [
                 "겐지의 단검",
                 "Genji's Dagger",
-                "ゲンジの脇差"
+                "ゲンジの脇差",
+                "源の龙刃"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -735,7 +801,8 @@
             "name": [
                 "닭고기",
                 "Chicken",
-                "鶏肉"
+                "鶏肉",
+                "鸡肉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -746,7 +813,8 @@
             "name": [
                 "썬 닭고기",
                 "Sliced Chicken",
-                "スライス鶏肉"
+                "スライス鶏肉",
+                "鸡块"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -757,7 +825,8 @@
             "name": [
                 "조각낸 닭고기",
                 "Chopped Chicken",
-                "刻んだ鶏肉"
+                "刻んだ鶏肉",
+                "鸡排"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -768,7 +837,8 @@
             "name": [
                 "파",
                 "Green Onion",
-                "ネギ"
+                "ネギ",
+                "大葱"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -779,7 +849,8 @@
             "name": [
                 "썬 파",
                 "Sliced Green Onion",
-                "スライスしたネギ"
+                "スライスしたネギ",
+                "葱段"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -790,7 +861,8 @@
             "name": [
                 "다진 파",
                 "Minced Green Onion",
-                "刻ん切りネギ"
+                "刻ん切りネギ",
+                "葱花"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -801,7 +873,8 @@
             "name": [
                 "튀김가루",
                 "Frying Powder",
-                "天ぷら粉"
+                "天ぷら粉",
+                "炸粉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -812,7 +885,8 @@
             "name": [
                 "고추장",
                 "Red Pepper Paste",
-                "コチュジャン"
+                "コチュジャン",
+                "辣椒"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -823,7 +897,8 @@
             "name": [
                 "간장",
                 "Soy Sauce",
-                "醤油"
+                "醤油",
+                "酱油"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -834,7 +909,8 @@
             "name": [
                 "물엿",
                 "Corn Syrup",
-                "水飴"
+                "水飴",
+                "玉米糖浆"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -845,7 +921,8 @@
             "name": [
                 "고추장 소스",
                 "Red Pepper Sauce",
-                "コチュジャンソース"
+                "コチュジャンソース",
+                "辣椒酱料"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -856,7 +933,8 @@
             "name": [
                 "간장 소스",
                 "Sweet Soy Sauce",
-                "醤油ソース"
+                "醤油ソース",
+                "酱油酱料"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -867,7 +945,8 @@
             "name": [
                 "파닭 소스",
                 "Green Onion+Soy Sauce",
-                "醤油ネギソース"
+                "醤油ネギソース",
+                "葱油酱料"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -878,7 +957,8 @@
             "name": [
                 "양념 소스",
                 "Sweet&Spicy Sauce",
-                "ヤンニョムソース"
+                "ヤンニョムソース",
+                "甜辣酱料"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -889,7 +969,8 @@
             "name": [
                 "구운 닭",
                 "Grilled Chicken",
-                "焼いた鶏肉"
+                "焼いた鶏肉",
+                "烤全鸡"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -900,7 +981,8 @@
             "name": [
                 "닭+튀김가루",
                 "Chicken+Powder",
-                "鶏肉＋天ぷら粉"
+                "鶏肉＋天ぷら粉",
+                "裹粉全鸡"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -911,7 +993,8 @@
             "name": [
                 "썬 닭+튀김가루",
                 "Sliced Chicken+Powder",
-                "スライス鶏肉＋天ぷら粉"
+                "スライス鶏肉＋天ぷら粉",
+                "裹粉鸡块"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -922,7 +1005,8 @@
             "name": [
                 "조각 닭+튀김가루",
                 "Chopped Chicken+Powder",
-                "刻んだ鶏肉＋天ぷら粉"
+                "刻んだ鶏肉＋天ぷら粉",
+                "裹粉鸡排"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -933,7 +1017,8 @@
             "name": [
                 "튀긴 조각 닭",
                 "Chicken Nugget",
-                "から揚げ"
+                "から揚げ",
+                "炸鸡排"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -944,7 +1029,8 @@
             "name": [
                 "후라이드 치킨",
                 "Fried Chicken",
-                "フライドチキン"
+                "フライドチキン",
+                "炸鸡块"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -955,7 +1041,8 @@
             "name": [
                 "양념치킨",
                 "Sweet&Spicy Chicken",
-                "ヤンニョムチキン"
+                "ヤンニョムチキン",
+                "甜辣炸鸡"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -966,7 +1053,8 @@
             "name": [
                 "고추장 치킨",
                 "Red Pepper Chicken",
-                "コチュジャンチキン"
+                "コチュジャンチキン",
+                "辣椒炸鸡"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -977,7 +1065,8 @@
             "name": [
                 "간장 치킨",
                 "Sweet Soy Sauce Chicken",
-                "醤油チキン"
+                "醤油チキン",
+                "酱油炸鸡"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -988,7 +1077,8 @@
             "name": [
                 "닭강정",
                 "Sweet&Spicy Chicken Nugget",
-                "ヤンニョムから揚げ"
+                "ヤンニョムから揚げ",
+                "甜辣炸鸡排"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1003,7 +1093,8 @@
             "name": [
                 "통닭",
                 "Fried Whole Chicken",
-                "鶏の丸揚げ"
+                "鶏の丸揚げ",
+                "炸全鸡"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1014,7 +1105,8 @@
             "name": [
                 "볶은 파",
                 "Stir-fried Green Onion",
-                "炒めたネギ"
+                "炒めたネギ",
+                "炒葱段"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -1025,7 +1117,8 @@
             "name": [
                 "튀긴 파",
                 "Fried Green Onion",
-                "揚げたネギ"
+                "揚げたネギ",
+                "油炸大葱"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -1036,7 +1129,8 @@
             "name": [
                 "삶은 닭고기",
                 "Boiled Chicken",
-                "ゆで鶏肉"
+                "ゆで鶏肉",
+                "煮鸡肉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1047,7 +1141,8 @@
             "name": [
                 "구운 파",
                 "Grilled Green Onion",
-                "焼いたネギ"
+                "焼いたネギ",
+                "炒大葱"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -1058,7 +1153,8 @@
             "name": [
                 "튀김 부스러기",
                 "Frying Crumbs",
-                "天かす"
+                "天かす",
+                "炸屑"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1069,7 +1165,8 @@
             "name": [
                 "파닭",
                 "Green Onion Sweet Soy Sauce Chicken",
-                "醤油ネギチキン"
+                "醤油ネギチキン",
+                "葱鸡"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1080,7 +1177,8 @@
             "name": [
                 "양념+튀긴 조각 닭",
                 "S&S Sauce+Fried Chopped Chicken",
-                "ヤンニョム＋から揚げ"
+                "ヤンニョム＋から揚げ",
+                "甜辣炸鸡排"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1091,7 +1189,8 @@
             "name": [
                 "뭉갠 토마토",
                 "Mashed Tomato",
-                "潰したトマト"
+                "潰したトマト",
+                "番茄泥"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1102,7 +1201,8 @@
             "name": [
                 "깨진 달걀",
                 "Broken Egg",
-                "割れた卵"
+                "割れた卵",
+                "碎鸡蛋"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1113,7 +1213,8 @@
             "name": [
                 "달걀",
                 "Egg",
-                "卵"
+                "卵",
+                "鸡蛋"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1124,7 +1225,8 @@
             "name": [
                 "삶은 달걀",
                 "Boiled Egg",
-                "ゆで卵"
+                "ゆで卵",
+                "水煮蛋"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1135,7 +1237,8 @@
             "name": [
                 "깐 삶은 달걀",
                 "Peeled Boiled Egg",
-                "殻剥きゆで卵"
+                "殻剥きゆで卵",
+                "剥壳水煮蛋"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1146,7 +1249,8 @@
             "name": [
                 "으깬 삶은 달걀",
                 "Mashed Boiled Egg",
-                "潰したゆで卵"
+                "潰したゆで卵",
+                "水煮蛋碎"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1157,7 +1261,8 @@
             "name": [
                 "깐 달걀",
                 "Peeled Egg",
-                "殻剥き卵"
+                "殻剥き卵",
+                "去壳蛋"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1168,7 +1273,8 @@
             "name": [
                 "김치볶음밥",
                 "Kimchi Fried Rice",
-                "キムチチャーハン"
+                "キムチチャーハン",
+                "泡菜炒饭"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1179,7 +1285,8 @@
             "name": [
                 "계란볶음밥",
                 "Egg Fried Rice",
-                "卵チャーハン"
+                "卵チャーハン",
+                "蛋炒饭"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1190,7 +1297,8 @@
             "name": [
                 "불고기쌈밥",
                 "Bulgogi Wrap Rice",
-                "プルコギサムパプ"
+                "プルコギサムパプ",
+                "煎牛排包饭"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1201,7 +1309,8 @@
             "name": [
                 "섞인 달걀",
                 "Mixed Egg",
-                "混ぜ卵"
+                "混ぜ卵",
+                "混合蛋液"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1212,7 +1321,8 @@
             "name": [
                 "계란 후라이",
                 "Fried Egg",
-                "目玉焼き"
+                "目玉焼き",
+                "煎蛋"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1223,7 +1333,8 @@
             "name": [
                 "스크램블 에그",
                 "Scrambled Egg",
-                "スクランブルエッグ"
+                "スクランブルエッグ",
+                "炒蛋"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1234,7 +1345,8 @@
             "name": [
                 "계란찜",
                 "Steamed Egg",
-                "茶碗蒸し"
+                "茶碗蒸し",
+                "蒸蛋羹"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1245,7 +1357,8 @@
             "name": [
                 "쌀",
                 "Raw Rice",
-                "米"
+                "米",
+                "生大米"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1256,7 +1369,8 @@
             "name": [
                 "피자 치즈",
                 "Shredded Mozzarella",
-                "ピザ用チーズ"
+                "ピザ用チーズ",
+                "马苏里拉芝士"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1267,7 +1381,8 @@
             "name": [
                 "밀가루",
                 "Flour",
-                "小麦粉"
+                "小麦粉",
+                "面粉"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1278,7 +1393,8 @@
             "name": [
                 "밀가루 반죽",
                 "Flour Dough",
-                "小麦粉生地"
+                "小麦粉生地",
+                "面团"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1289,7 +1405,8 @@
             "name": [
                 "작은 밀가루 반죽",
                 "Small Flour Dough",
-                "小さい小麦粉生地"
+                "小さい小麦粉生地",
+                "小面团"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1300,7 +1417,8 @@
             "name": [
                 "핀 밀가루 반죽",
                 "Rolled Flour Dough",
-                "伸ばした小麦粉生地"
+                "伸ばした小麦粉生地",
+                "面皮"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1311,7 +1429,8 @@
             "name": [
                 "만두피",
                 "Dumpling Wrapper",
-                "餃子の皮"
+                "餃子の皮",
+                "饺子皮"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1322,7 +1441,8 @@
             "name": [
                 "피자 도우",
                 "Flour Pizza Dough",
-                "ピザ生地"
+                "ピザ生地",
+                "披萨饼皮"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1333,7 +1453,8 @@
             "name": [
                 "밀 토르티야",
                 "Flour Tortilla",
-                "小麦・トルティーヤ"
+                "小麦・トルティーヤ",
+                "面粉薄饼"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1344,7 +1465,8 @@
             "name": [
                 "페퍼로니",
                 "Pepperoni",
-                "ペパロニ"
+                "ペパロニ",
+                "意大利辣香肠"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1355,7 +1477,8 @@
             "name": [
                 "베이컨",
                 "Bacon",
-                "ベーコン"
+                "ベーコン",
+                "培根"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1366,7 +1489,8 @@
             "name": [
                 "구운 베이컨",
                 "Grilled Bacon",
-                "焼いたベーコン"
+                "焼いたベーコン",
+                "烤培根"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1377,7 +1501,8 @@
             "name": [
                 "썬 베이컨",
                 "Sliced Bacon",
-                "スライスしたベーコン"
+                "スライスしたベーコン",
+                "培根片"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1388,7 +1513,8 @@
             "name": [
                 "도우+소스",
                 "Pizza Dough+Sauce",
-                "生地＋ソース"
+                "生地＋ソース",
+                "酱披萨饼皮"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1399,7 +1525,8 @@
             "name": [
                 "치즈 피자",
                 "Mozzarella Pizza",
-                "チーズピザ"
+                "チーズピザ",
+                "马苏里拉披萨"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1410,7 +1537,8 @@
             "name": [
                 "피자 베이스",
                 "Pizza Base",
-                "ピザベース"
+                "ピザベース",
+                "披萨底胚"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1421,7 +1549,8 @@
             "name": [
                 "피자+페퍼로니",
                 "PB+Pepperoni",
-                "ピザ＋ペパロニ"
+                "ピザ＋ペパロニ",
+                "底胚+意大利辣香肠"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1432,7 +1561,8 @@
             "name": [
                 "피자+베이컨",
                 "PB+Bacon",
-                "ピザ＋ベーコン"
+                "ピザ＋ベーコン",
+                "底胚+培根"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1443,7 +1573,8 @@
             "name": [
                 "피자+감자",
                 "PB+Potato",
-                "ピザ＋ジャガイモ"
+                "ピザ＋ジャガイモ",
+                "底胚+土豆"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1454,7 +1585,8 @@
             "name": [
                 "피자+베이컨+감자",
                 "PB+Bacon+Potato",
-                "ピザ＋ベーコン＋ジャガイモ"
+                "ピザ＋ベーコン＋ジャガイモ",
+                "底胚+培根+土豆"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1465,7 +1597,8 @@
             "name": [
                 "페퍼로니 피자",
                 "Pepperoni Pizza",
-                "ペパロニピザ"
+                "ペパロニピザ",
+                "意大利辣香肠披萨"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1476,7 +1609,8 @@
             "name": [
                 "베이컨 피자",
                 "Bacon Pizza",
-                "ベーコンピザ"
+                "ベーコンピザ",
+                "培根披萨"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1487,7 +1621,8 @@
             "name": [
                 "포테이토 피자",
                 "Potato Pizza",
-                "ポテトピザ"
+                "ポテトピザ",
+                "土豆披萨"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1498,7 +1633,8 @@
             "name": [
                 "베이컨 포테이토 피자",
                 "Bacon Potato Pizza",
-                "ベーコンポテトピザ"
+                "ベーコンポテトピザ",
+                "培根土豆披萨"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1509,7 +1645,8 @@
             "name": [
                 "계란말이",
                 "Rolled Omelette",
-                "卵焼き"
+                "卵焼き",
+                "煎蛋卷"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1520,7 +1657,8 @@
             "name": [
                 "구운 페퍼로니",
                 "Grilled Pepperoni",
-                "焼いたペパロニ"
+                "焼いたペパロニ",
+                "烤意大利辣香肠"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1531,7 +1669,8 @@
             "name": [
                 "구운 썬 베이컨",
                 "Grilled Sliced Bacon",
-                "焼いたスライスベーコン"
+                "焼いたスライスベーコン",
+                "烤培根片"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1542,7 +1681,8 @@
             "name": [
                 "삶은 소고기",
                 "Boiled Beef",
-                "ゆで牛肉"
+                "ゆで牛肉",
+                "水煮牛肉"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1553,7 +1693,8 @@
             "name": [
                 "빵가루",
                 "Bread Crumbs",
-                "パン粉"
+                "パン粉",
+                "面包屑"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1564,7 +1705,8 @@
             "name": [
                 "채썬 계란말이",
                 "Shredded Rolled Omelette",
-                "千切り卵焼き"
+                "千切り卵焼き",
+                "切丝煎蛋卷"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1575,7 +1717,8 @@
             "name": [
                 "김치",
                 "Kimchi",
-                "キムチ"
+                "キムチ",
+                "泡菜"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1586,7 +1729,8 @@
             "name": [
                 "썬 김치",
                 "Sliced Kimchi",
-                "スライスキムチ"
+                "スライスキムチ",
+                "碎泡菜"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1597,7 +1741,8 @@
             "name": [
                 "다진 김치",
                 "Minced Kimchi",
-                "刻んだキムチ"
+                "刻んだキムチ",
+                "泡菜末"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1608,7 +1753,8 @@
             "name": [
                 "볶은 김치",
                 "Stir-fried Kimchi",
-                "炒めたキムチ"
+                "炒めたキムチ",
+                "炒泡菜"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1619,7 +1765,8 @@
             "name": [
                 "계란김치볶음밥",
                 "Egg Kimchi Fried Rice",
-                "卵とキムチの炒飯"
+                "卵とキムチの炒飯",
+                "泡菜蛋炒饭"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1630,6 +1777,7 @@
             "name": [
                 "두부",
                 "Tofu",
+                "豆腐",
                 "豆腐"
             ],
             "canMelt": false,
@@ -1641,7 +1789,8 @@
             "name": [
                 "썬 두부",
                 "Sliced Tofu",
-                "スライス豆腐"
+                "スライス豆腐",
+                "豆腐块"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1652,7 +1801,8 @@
             "name": [
                 "두부 구이",
                 "Grilled Tofu",
-                "焼き豆腐"
+                "焼き豆腐",
+                "煎豆腐"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1663,7 +1813,8 @@
             "name": [
                 "두부 볶음",
                 "Stir-fried Tofu",
-                "豆腐の炒め物"
+                "豆腐の炒め物",
+                "煎豆腐块"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1674,7 +1825,8 @@
             "name": [
                 "으깬 두부",
                 "Mashed Tofu",
-                "潰した豆腐"
+                "潰した豆腐",
+                "豆腐糜"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1685,7 +1837,8 @@
             "name": [
                 "불고기덮밥",
                 "Bulgogi Rice Bowl",
-                "プルコギ丼"
+                "プルコギ丼",
+                "酱煎牛排饭"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1696,7 +1849,8 @@
             "name": [
                 "김치불고기덮밥",
                 "Kimchi Bulgogi Rice Bowl",
-                "キムチプルコギ丼"
+                "キムチプルコギ丼",
+                "泡菜酱煎牛排饭"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1707,7 +1861,8 @@
             "name": [
                 "다진 소고기",
                 "Minced Beef",
-                "刻んだ牛肉"
+                "刻んだ牛肉",
+                "牛肉糜"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1718,7 +1873,8 @@
             "name": [
                 "썬 소고기+간장",
                 "Sliced Beef+Soy Sauce",
-                "スライス牛肉＋醤油"
+                "スライス牛肉＋醤油",
+                "酱牛排"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1729,7 +1885,8 @@
             "name": [
                 "불고기",
                 "Bulgogi",
-                "プルコギ"
+                "プルコギ",
+                "酱煎牛排"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1742,7 +1899,8 @@
             "name": [
                 "당면",
                 "Glass Noodles",
-                "春雨"
+                "春雨",
+                "粉条"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1753,7 +1911,8 @@
             "name": [
                 "썬 당면",
                 "Sliced Glass Noodles",
-                "スライスした春雨"
+                "スライスした春雨",
+                "碎粉条"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1764,7 +1923,8 @@
             "name": [
                 "돼지고기",
                 "Pork",
-                "ポーク"
+                "ポーク",
+                "猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1775,7 +1935,8 @@
             "name": [
                 "썬 돼지고기",
                 "Sliced Pork",
-                "スライスポーク"
+                "スライスポーク",
+                "猪排"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1786,7 +1947,8 @@
             "name": [
                 "다진 돼지고기",
                 "Minced Pork",
-                "刻んだポーク"
+                "刻んだポーク",
+                "猪肉糜"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1797,7 +1959,8 @@
             "name": [
                 "구운 돼지고기",
                 "Grilled Pork",
-                "焼いたポーク"
+                "焼いたポーク",
+                "烤猪肉"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1810,7 +1973,8 @@
             "name": [
                 "튀긴 돼지고기",
                 "Fried Pork",
-                "揚げたポーク"
+                "揚げたポーク",
+                "炸猪肉"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1821,7 +1985,8 @@
             "name": [
                 "수육",
                 "Boiled Pork",
-                "ボイルドポーク"
+                "ボイルドポーク",
+                "煮猪肉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1832,7 +1997,8 @@
             "name": [
                 "볶은 돼지고기",
                 "Stir-fried Pork",
-                "炒めたポーク"
+                "炒めたポーク",
+                "煎猪排"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1845,7 +2011,8 @@
             "name": [
                 "썬 수육",
                 "Sliced Boiled Pork",
-                "スライスボイルドポーク"
+                "スライスボイルドポーク",
+                "碎煮猪肉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1856,7 +2023,8 @@
             "name": [
                 "파+김치",
                 "G+K",
-                "ネギ＋キムチ"
+                "ネギ＋キムチ",
+                "葱花+泡菜"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1867,7 +2035,8 @@
             "name": [
                 "파+두부",
                 "G+T",
-                "ネギ＋豆腐"
+                "ネギ＋豆腐",
+                "葱花+豆腐"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1878,7 +2047,8 @@
             "name": [
                 "파+당면",
                 "G+N",
-                "ネギ＋春雨"
+                "ネギ＋春雨",
+                "葱花+粉条"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1889,7 +2059,8 @@
             "name": [
                 "파+돼지",
                 "G+P",
-                "ネギ＋ポーク"
+                "ネギ＋ポーク",
+                "葱花+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1900,7 +2071,8 @@
             "name": [
                 "김치+당면",
                 "K+N",
-                "キムチ＋春雨"
+                "キムチ＋春雨",
+                "泡菜+粉条"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1911,7 +2083,8 @@
             "name": [
                 "김치+돼지",
                 "K+P",
-                "キムチ＋ポーク"
+                "キムチ＋ポーク",
+                "泡菜+猪肉"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1922,7 +2095,8 @@
             "name": [
                 "두부+당면",
                 "T+N",
-                "豆腐＋春雨"
+                "豆腐＋春雨",
+                "豆腐+粉条"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1933,7 +2107,8 @@
             "name": [
                 "두부+돼지",
                 "T+P",
-                "豆腐＋ポーク"
+                "豆腐＋ポーク",
+                "豆腐+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1944,7 +2119,8 @@
             "name": [
                 "당면+돼지",
                 "N+P",
-                "春雨＋ポーク"
+                "春雨＋ポーク",
+                "粉条+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1955,7 +2131,8 @@
             "name": [
                 "파+김+당",
                 "G+K+N",
-                "ネギ＋キムチ＋春雨"
+                "ネギ＋キムチ＋春雨",
+                "葱花+泡菜+粉条"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1966,7 +2143,8 @@
             "name": [
                 "파+김+돼",
                 "G+K+P",
-                "ネギ＋キムチ＋ポーク"
+                "ネギ＋キムチ＋ポーク",
+                "葱花+泡菜+猪肉"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1977,7 +2155,8 @@
             "name": [
                 "파+두+당",
                 "G+T+N",
-                "ネギ＋豆腐＋春雨"
+                "ネギ＋豆腐＋春雨",
+                "葱花+豆腐+粉条"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1988,7 +2167,8 @@
             "name": [
                 "파+두+돼",
                 "G+T+P",
-                "ネギ＋豆腐＋ポーク"
+                "ネギ＋豆腐＋ポーク",
+                "葱花+豆腐+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1999,7 +2179,8 @@
             "name": [
                 "파+당+돼",
                 "G+N+P",
-                "ネギ＋春雨＋ポーク"
+                "ネギ＋春雨＋ポーク",
+                "葱花+粉条+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2010,7 +2191,8 @@
             "name": [
                 "김+당+돼",
                 "K+N+P",
-                "キムチ＋春雨＋ポーク"
+                "キムチ＋春雨＋ポーク",
+                "泡菜+粉条+猪肉"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2021,7 +2203,8 @@
             "name": [
                 "두+당+돼",
                 "T+N+P",
-                "豆腐＋春雨＋ポーク"
+                "豆腐＋春雨＋ポーク",
+                "豆腐+粉条+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2032,7 +2215,8 @@
             "name": [
                 "파+김+당+돼",
                 "G+K+N+P",
-                "ネギ＋キムチ＋春雨＋ポーク"
+                "ネギ＋キムチ＋春雨＋ポーク",
+                "葱花+泡菜+粉条+猪肉"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2043,7 +2227,8 @@
             "name": [
                 "파+두+당+돼",
                 "G+T+N+P",
-                "ネギ＋豆腐＋春雨＋ポーク"
+                "ネギ＋豆腐＋春雨＋ポーク",
+                "葱花+豆腐+粉条+猪肉"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2054,7 +2239,8 @@
             "name": [
                 "생 야채만두",
                 "Raw Vegetable Dumpling",
-                "生野菜餃子"
+                "生野菜餃子",
+                "生蔬菜饺子"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2065,7 +2251,8 @@
             "name": [
                 "생 김치만두",
                 "Raw Kimchi Dumpling",
-                "生キムチ餃子"
+                "生キムチ餃子",
+                "生泡菜饺子"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2076,7 +2263,8 @@
             "name": [
                 "생 고기만두",
                 "Raw Meat Dumpling",
-                "生肉餃子"
+                "生肉餃子",
+                "生猪肉饺子"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2087,7 +2275,8 @@
             "name": [
                 "구운 야채만두",
                 "Stir-fried Vegetable Dumpling",
-                "焼き野菜餃子"
+                "焼き野菜餃子",
+                "烤蔬菜饺子"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -2098,7 +2287,8 @@
             "name": [
                 "구운 김치만두",
                 "Stir-fried Kimchi Dumpling",
-                "焼きキムチ餃子"
+                "焼きキムチ餃子",
+                "烤泡菜饺子"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2109,7 +2299,8 @@
             "name": [
                 "구운 고기만두",
                 "Stir-fried Meat Dumpling",
-                "焼き肉餃子"
+                "焼き肉餃子",
+                "烤猪肉饺子"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2120,7 +2311,8 @@
             "name": [
                 "찐 야채만두",
                 "Steamed Vegetable Dumpling",
-                "蒸し野菜餃子"
+                "蒸し野菜餃子",
+                "蒸蔬菜饺子"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -2131,7 +2323,8 @@
             "name": [
                 "찐 김치만두",
                 "Steamed Kimchi Dumpling",
-                "蒸しキムチ餃子"
+                "蒸しキムチ餃子",
+                "蒸泡菜饺子"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2142,7 +2335,8 @@
             "name": [
                 "찐 고기만두",
                 "Steamed Meat Dumpling",
-                "蒸し肉餃子"
+                "蒸し肉餃子",
+                "蒸猪肉饺子"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2153,7 +2347,8 @@
             "name": [
                 "공기밥",
                 "Steamed Rice",
-                "ご飯"
+                "ご飯",
+                "米饭"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2164,7 +2359,8 @@
             "name": [
                 "볶음밥",
                 "Fried Rice",
-                "炒飯"
+                "炒飯",
+                "炒饭"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2175,7 +2371,8 @@
             "name": [
                 "돈가스",
                 "Pork Cutlet",
-                "とんかつ"
+                "とんかつ",
+                "炸猪肉饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2186,7 +2383,8 @@
             "name": [
                 "썬 돈가스",
                 "Sliced Pork Cutlet",
-                "スライスとんかつ"
+                "スライスとんかつ",
+                "碎猪肉饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2197,7 +2395,8 @@
             "name": [
                 "생선",
                 "Fish",
-                "魚"
+                "魚",
+                "鱼"
             ],
             "canMelt": false,
             "colorCode": "B",
@@ -2208,7 +2407,8 @@
             "name": [
                 "손질한 생선",
                 "Sliced Fish",
-                "捌いた魚"
+                "捌いた魚",
+                "生鱼片"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2219,7 +2419,8 @@
             "name": [
                 "다진 생선",
                 "Minced Fish",
-                "魚のミンチ"
+                "魚のミンチ",
+                "鱼糜"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2230,7 +2431,8 @@
             "name": [
                 "찐 생선",
                 "Steamed Fish",
-                "蒸し魚"
+                "蒸し魚",
+                "清蒸鱼"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2241,7 +2443,8 @@
             "name": [
                 "찐 어묵",
                 "Steamed Fish Cake",
-                "蒸しかまぼこ"
+                "蒸しかまぼこ",
+                "清蒸鱼饼"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2252,18 +2455,22 @@
             "name": [
                 "생선 구이",
                 "Grilled Fish",
-                "焼き魚"
+                "焼き魚",
+                "烤鱼"
             ],
             "canMelt": false,
             "colorCode": "O",
-            "additionalItems": []
+            "additionalItems": [
+                198
+            ]
         },
         {
             "id": 204,
             "name": [
                 "튀긴 생선",
                 "Fried Fish",
-                "揚げ魚"
+                "揚げ魚",
+                "炸鱼"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2274,7 +2481,8 @@
             "name": [
                 "손질한 생선+간장",
                 "Sliced Fish+Soy Sauce",
-                "捌いた魚＋醤油"
+                "捌いた魚＋醤油",
+                "酱油鱼片"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2284,8 +2492,9 @@
             "id": 206,
             "name": [
                 "생선 간장 찜",
-                "Fish Soy Sauce Steamed Dish",
-                "煮付け"
+                "Soy Sauce Steamed Fish",
+                "煮付け",
+                "酱油煮鱼片"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2298,7 +2507,8 @@
             "name": [
                 "생선 간장 구이",
                 "Soy Sauce Grilled Fish",
-                "照り焼き"
+                "照り焼き",
+                "酱油烤鱼片"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2311,7 +2521,8 @@
             "name": [
                 "작은 공기밥",
                 "Small Steamed Rice",
-                "小盛りご飯"
+                "小盛りご飯",
+                "小碗米饭"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2322,7 +2533,8 @@
             "name": [
                 "초밥",
                 "Sushi",
-                "握り寿司"
+                "握り寿司",
+                "寿司"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2333,7 +2545,8 @@
             "name": [
                 "초밥 2pcs",
                 "Sushi 2pcs",
-                "握り寿司2貫"
+                "握り寿司2貫",
+                "双份寿司"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2344,7 +2557,8 @@
             "name": [
                 "주먹밥",
                 "Rice Ball",
-                "おにぎり"
+                "おにぎり",
+                "饭团"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2355,7 +2569,8 @@
             "name": [
                 "간장 주먹밥",
                 "Soy Sauce Rice Ball",
-                "醤油おにぎり"
+                "醤油おにぎり",
+                "酱油饭团"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2366,7 +2581,8 @@
             "name": [
                 "찐 생선 덮밥",
                 "Steamed Fish Rice Bowl",
-                "蒸し魚丼"
+                "蒸し魚丼",
+                "清蒸鱼饭"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2377,7 +2593,8 @@
             "name": [
                 "돈가스 정식",
                 "Pork Cutlet+Rice Bowl",
-                "とんかつ+ご飯"
+                "とんかつ+ご飯",
+                "猪肉饼饭"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2388,7 +2605,8 @@
             "name": [
                 "돈가스 계란덮밥",
                 "Pork Cutlet+Egg Rice bowl",
-                "カツ丼"
+                "カツ丼",
+                "猪肉饼滑蛋盖饭"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2399,7 +2617,8 @@
             "name": [
                 "썬 삶은 닭고기",
                 "Sliced Boiled Chicken",
-                "スライスしたゆで鶏肉"
+                "スライスしたゆで鶏肉",
+                "碎煮鸡肉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2410,7 +2629,8 @@
             "name": [
                 "삶은 닭고기+밥",
                 "Boiled Chicken+Rice",
-                "ゆで鶏肉＋ご飯"
+                "ゆで鶏肉＋ご飯",
+                "碎煮鸡肉饭"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2421,7 +2641,8 @@
             "name": [
                 "스크램블에그 덮밥",
                 "Scrambled Egg Rice Bowl",
-                "スクランブルエッグ丼"
+                "スクランブルエッグ丼",
+                "滑蛋盖饭"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2432,7 +2653,8 @@
             "name": [
                 "삶은 닭 계란덮밥",
                 "Boiled Chicken+Egg Rice Bowl",
-                "親子丼"
+                "親子丼",
+                "滑蛋鸡肉饭"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2443,7 +2665,8 @@
             "name": [
                 "생선가스",
                 "Fish Cutlet",
-                "白身魚のフライ"
+                "白身魚のフライ",
+                "炸鱼片"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2454,7 +2677,8 @@
             "name": [
                 "썬 돼지+튀김가루",
                 "Sliced Pork+Powder",
-                "スライスだポーク＋天ぷら粉"
+                "スライスだポーク＋天ぷら粉",
+                "裹粉猪肉糜"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2465,7 +2689,8 @@
             "name": [
                 "다진 생선+튀김가루",
                 "Minced Fish+Powder",
-                "魚のミンチ＋天ぷら粉"
+                "魚のミンチ＋天ぷら粉",
+                "裹粉鱼糜"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2476,7 +2701,8 @@
             "name": [
                 "튀긴 어묵",
                 "Fried Fish Cake",
-                "揚げかまぼこ"
+                "揚げかまぼこ",
+                "炸鱼饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2487,7 +2713,8 @@
             "name": [
                 "손질한생선+튀김가루",
                 "Sliced Fish+Powder",
-                "捌いた魚＋天ぷら粉"
+                "捌いた魚＋天ぷら粉",
+                "裹粉鱼片"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2498,7 +2725,8 @@
             "name": [
                 "튀긴 조각 닭+밥",
                 "Chicken Nugget+Rice Bowl",
-                "から揚げ+ご飯"
+                "から揚げ+ご飯",
+                "炸鸡块饭"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2509,7 +2737,8 @@
             "name": [
                 "튀긴 닭 계란덮밥",
                 "Chicken Nugget+Egg Rice Bowl",
-                "唐揚げ丼"
+                "唐揚げ丼",
+                "炸鸡块滑蛋盖饭"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2520,7 +2749,8 @@
             "name": [
                 "작은 수제비 반죽",
                 "Small Hand-Torn Noodles",
-                "小さなすいとん生地"
+                "小さなすいとん生地",
+                "小份手撕面"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2531,7 +2761,8 @@
             "name": [
                 "수제비 반죽",
                 "Hand-Torn Noodles",
-                "すいとん生地"
+                "すいとん生地",
+                "手撕面"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2542,7 +2773,8 @@
             "name": [
                 "밀가루 덩어리",
                 "Flour Chunk",
-                "小麦粉の塊"
+                "小麦粉の塊",
+                "面疙瘩"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2553,7 +2785,8 @@
             "name": [
                 "늘린 밀가루 반죽",
                 "Stretched Flour Dough",
-                "伸ばした小麦粉生地"
+                "伸ばした小麦粉生地",
+                "抻面胚"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2564,7 +2797,8 @@
             "name": [
                 "밀가루 중면(1|4)",
                 "Raw Noodles (1|4)",
-                "うどん麺(1|4)"
+                "うどん麺(1|4)",
+                "生面条 (1|4)"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2575,7 +2809,8 @@
             "name": [
                 "밀가루 중면(2|4)",
                 "Raw Noodles (2|4)",
-                "うどん麺(2|4)"
+                "うどん麺(2|4)",
+                "生面条 (2|4)"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2586,7 +2821,8 @@
             "name": [
                 "밀가루 중면(3|4)",
                 "Raw Noodles (3|4)",
-                "うどん麺(3|4)"
+                "うどん麺(3|4)",
+                "生面条 (3|4)"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2597,7 +2833,8 @@
             "name": [
                 "밀가루 중면",
                 "Raw Noodles",
-                "うどん麺"
+                "うどん麺",
+                "生面条"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2608,7 +2845,8 @@
             "name": [
                 "얇은 밀가루 덩어리",
                 "Thin Flour Chunk",
-                "薄い小麦粉の塊"
+                "薄い小麦粉の塊",
+                "面片"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2619,7 +2857,8 @@
             "name": [
                 "늘린 밀가루 가닥",
                 "Stretched Flour Strands",
-                "伸ばした小麦粉の紐"
+                "伸ばした小麦粉の紐",
+                "抻面线"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2630,7 +2869,8 @@
             "name": [
                 "밀가루 소면(1|4)",
                 "Raw Thin Noodles (1|4)",
-                "ラーメン麺(1|4)"
+                "ラーメン麺(1|4)",
+                "生细面 (1|4)"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2641,7 +2881,8 @@
             "name": [
                 "밀가루 소면(2|4)",
                 "Raw Thin Noodles (2|4)",
-                "ラーメン麺(2|4)"
+                "ラーメン麺(2|4)",
+                "生细面 (2|4)"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2652,7 +2893,8 @@
             "name": [
                 "밀가루 소면(3|4)",
                 "Raw Thin Noodles (3|4)",
-                "ラーメン麺(3|4)"
+                "ラーメン麺(3|4)",
+                "生细面 (3|4)"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2663,7 +2905,8 @@
             "name": [
                 "밀가루 소면",
                 "Raw Thin Noodles",
-                "ラーメン麺"
+                "ラーメン麺",
+                "生细面"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2674,7 +2917,8 @@
             "name": [
                 "육수",
                 "Broth",
-                "出汁"
+                "出汁",
+                "高汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2685,7 +2929,8 @@
             "name": [
                 "김치 육수",
                 "Kimchi Broth",
-                "キムチ出汁"
+                "キムチ出汁",
+                "泡菜高汤"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2696,7 +2941,8 @@
             "name": [
                 "끓인 육수",
                 "Boiled Broth",
-                "煮出汁"
+                "煮出汁",
+                "白汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2707,7 +2953,8 @@
             "name": [
                 "끓인 김치 육수",
                 "Boiled Kimchi Broth",
-                "煮たキムチ出汁"
+                "煮たキムチ出汁",
+                "泡菜白汤"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2718,7 +2965,8 @@
             "name": [
                 "자장 소스",
                 "Black Bean Sauce",
-                "ジャージャーソース"
+                "ジャージャーソース",
+                "豆豉酱"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2729,7 +2977,8 @@
             "name": [
                 "수제비",
                 "Hand-Torn Noodle Soup",
-                "すいとん"
+                "すいとん",
+                "揪面片汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2740,7 +2989,8 @@
             "name": [
                 "김치수제비",
                 "Kimchi Hand-Torn Noodle Soup",
-                "鳴門巻きすいとん"
+                "鳴門巻きすいとん",
+                "泡菜揪面片汤"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2751,7 +3001,8 @@
             "name": [
                 "칼국수",
                 "Noodle Soup",
-                "うどん"
+                "うどん",
+                "汤面"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2762,7 +3013,8 @@
             "name": [
                 "김치칼국수",
                 "Kimchi Noodle Soup",
-                "鳴門巻きうどん"
+                "鳴門巻きうどん",
+                "泡菜汤面"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2773,7 +3025,8 @@
             "name": [
                 "잔치국수",
                 "Thin Noodle Soup",
-                "ラーメン"
+                "ラーメン",
+                "细汤面"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2784,7 +3037,8 @@
             "name": [
                 "김치잔치국수",
                 "Kimchi Thin Noodle Soup",
-                "鳴門巻きラーメン"
+                "鳴門巻きラーメン",
+                "泡菜细汤面"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2795,7 +3049,8 @@
             "name": [
                 "자장면",
                 "Black Bean Noodle Soup",
-                "ジャージャーメン"
+                "ジャージャーメン",
+                "豆豉汤面"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2808,7 +3063,8 @@
             "name": [
                 "썬 두부+김치",
                 "Sliced Tofu+Kimchi",
-                "スライス豆腐＋キムチ"
+                "スライス豆腐＋キムチ",
+                "豆腐块+泡菜"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2819,7 +3075,8 @@
             "name": [
                 "두부 볶음+김치",
                 "Stir-fried Tofu+Kimchi",
-                "豆腐炒め＋キムチ"
+                "豆腐炒め＋キムチ",
+                "煎豆腐块+泡菜"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2830,7 +3087,8 @@
             "name": [
                 "삶은 밀가루 중면",
                 "Boiled Noodles",
-                "ゆでうどん麺"
+                "ゆでうどん麺",
+                "水煮面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2841,7 +3099,8 @@
             "name": [
                 "삶은 밀가루 소면",
                 "Boiled Thin Noodles",
-                "ゆでラーメン麺"
+                "ゆでラーメン麺",
+                "水煮细面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2852,7 +3111,8 @@
             "name": [
                 "삶은 수제비 반죽",
                 "Boiled Hand-Torn Noodles",
-                "ゆですいとん生地"
+                "ゆですいとん生地",
+                "煮手撕面"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2863,7 +3123,8 @@
             "name": [
                 "떡국용 떡",
                 "Rice Cake",
-                "お餅"
+                "お餅",
+                "米糕"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2874,7 +3135,8 @@
             "name": [
                 "떡국",
                 "Rice Cake Soup",
-                "お雑煮"
+                "お雑煮",
+                "米糕汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2885,7 +3147,8 @@
             "name": [
                 "만둣국",
                 "Dumpling Soup",
-                "すいぎょうざ"
+                "すいぎょうざ",
+                "饺子汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2896,7 +3159,8 @@
             "name": [
                 "떡만둣국",
                 "Rice Cake Dumpling Soup",
-                "餃子+お雑煮"
+                "餃子+お雑煮",
+                "米糕饺子汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2907,7 +3171,8 @@
             "name": [
                 "계란 반죽",
                 "Egg Batter",
-                "卵生地"
+                "卵生地",
+                "鸡蛋糊"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2918,7 +3183,8 @@
             "name": [
                 "고기 반죽",
                 "Meat Batter",
-                "肉の生地"
+                "肉の生地",
+                "肉糜糊"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2929,7 +3195,8 @@
             "name": [
                 "동그랑땡",
                 "Meatball",
-                "ミートボール"
+                "ミートボール",
+                "肉丸"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2940,7 +3207,8 @@
             "name": [
                 "고급 부엌칼",
                 "Kitchen Knife",
-                "キッチンナイフ"
+                "キッチンナイフ",
+                "厨刀"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -2951,7 +3219,8 @@
             "name": [
                 "회오리어묵",
                 "Narutomaki",
-                "鳴門巻き"
+                "鳴門巻き",
+                "鸣门卷"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2962,7 +3231,8 @@
             "name": [
                 "썬 회오리어묵",
                 "Sliced Narutomaki",
-                "スライス鳴門巻き"
+                "スライス鳴門巻き",
+                "鸣门卷片"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2973,7 +3243,8 @@
             "name": [
                 "양파",
                 "Onion",
-                "玉ねぎ"
+                "玉ねぎ",
+                "洋葱"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2984,7 +3255,8 @@
             "name": [
                 "썬 양파",
                 "Sliced Onion",
-                "スライス玉ねぎ"
+                "スライス玉ねぎ",
+                "洋葱片"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -2995,7 +3267,8 @@
             "name": [
                 "다진 양파",
                 "Minced Onion",
-                "刻ん切り玉ねぎ"
+                "刻ん切り玉ねぎ",
+                "洋葱碎"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -3006,7 +3279,8 @@
             "name": [
                 "구운 양파",
                 "Grilled Onion",
-                "焼いた玉ねぎ"
+                "焼いた玉ねぎ",
+                "烤洋葱"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3017,7 +3291,8 @@
             "name": [
                 "볶은 양파",
                 "Stir-fried Onion",
-                "炒めた玉ねぎ"
+                "炒めた玉ねぎ",
+                "炒洋葱"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3028,7 +3303,8 @@
             "name": [
                 "새우",
                 "Shrimp",
-                "エビ"
+                "エビ",
+                "虾"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3039,18 +3315,22 @@
             "name": [
                 "구운 새우",
                 "Grilled Shrimp",
-                "焼いたエビ"
+                "焼いたエビ",
+                "烤虾"
             ],
             "canMelt": false,
             "colorCode": "A",
-            "additionalItems": []
+            "additionalItems": [
+                273
+            ]
         },
         {
             "id": 275,
             "name": [
                 "찐 새우",
                 "Steamed Shrimp",
-                "蒸しエビ"
+                "蒸しエビ",
+                "蒸虾"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3061,7 +3341,8 @@
             "name": [
                 "핀 옥수수 반죽",
                 "Rolled Corn Dough",
-                "伸ばしたコーン生地"
+                "伸ばしたコーン生地",
+                "玉米面团卷"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -3072,7 +3353,8 @@
             "name": [
                 "옥수수 토르티야",
                 "Corn Tortilla",
-                "コーン・トルティーヤ"
+                "コーン・トルティーヤ",
+                "玉米饼"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -3083,7 +3365,8 @@
             "name": [
                 "돼지고기 타코(밀)",
                 "Pork Taco(Flour)",
-                "ポークタコス(小麦)"
+                "ポークタコス(小麦)",
+                "面粉猪肉卷饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3094,7 +3377,8 @@
             "name": [
                 "돼지고기 타코(옥수수)",
                 "Pork Taco(Corn)",
-                "ポークタコス(コーン)"
+                "ポークタコス(コーン)",
+                "玉米猪肉卷饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3105,7 +3389,8 @@
             "name": [
                 "소고기 타코(밀)",
                 "Beef Taco(Flour)",
-                "牛肉タコス(小麦)"
+                "牛肉タコス(小麦)",
+                "面粉牛肉卷饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3116,7 +3401,8 @@
             "name": [
                 "소고기 타코(옥수수)",
                 "Beef Taco(Corn)",
-                "牛肉タコス(コーン)"
+                "牛肉タコス(コーン)",
+                "玉米牛肉卷饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3127,7 +3413,8 @@
             "name": [
                 "구운 감바스 타코(밀)",
                 "Grilled Shrimp Taco(Flour)",
-                "焼きエビタコス(小麦)"
+                "焼きエビタコス(小麦)",
+                "面粉烤虾卷饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3138,7 +3425,8 @@
             "name": [
                 "구운 감바스 타코(옥수수)",
                 "Grilled Shrimp Taco(Corn)",
-                "焼きエビタコス(コーン)"
+                "焼きエビタコス(コーン)",
+                "玉米烤虾卷饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3149,7 +3437,8 @@
             "name": [
                 "찐 감바스 타코(밀)",
                 "Steamed Shrimp Taco(Flour)",
-                "蒸しエビタコス(小麦)"
+                "蒸しエビタコス(小麦)",
+                "面粉蒸虾卷饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3160,7 +3449,8 @@
             "name": [
                 "찐 감바스 타코(옥수수)",
                 "Steamed Shrimp Taco(Corn)",
-                "蒸しエビタコス(コーン)"
+                "蒸しエビタコス(コーン)",
+                "玉米蒸虾卷饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3171,7 +3461,8 @@
             "name": [
                 "돼지고기+양파",
                 "Pork+Onion",
-                "ポーク+玉ねぎ"
+                "ポーク+玉ねぎ",
+                "猪肉+洋葱"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3182,7 +3473,8 @@
             "name": [
                 "소고기+양파",
                 "Beef+Onion",
-                "牛肉+玉ねぎ"
+                "牛肉+玉ねぎ",
+                "牛肉+洋葱"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3193,7 +3485,8 @@
             "name": [
                 "구운 새우+양파",
                 "Grilled Shrimp+Onion",
-                "炭火焼きエビ+玉ねぎ"
+                "炭火焼きエビ+玉ねぎ",
+                "烤虾+洋葱"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3204,7 +3497,8 @@
             "name": [
                 "찐 새우+양파",
                 "Steamed Shrimp+Onion",
-                "蒸しエビ+玉ねぎ"
+                "蒸しエビ+玉ねぎ",
+                "蒸虾+洋葱"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -3215,7 +3509,8 @@
             "name": [
                 "옥수수 반죽",
                 "Corn Dough",
-                "コーン生地"
+                "コーン生地",
+                "玉米面团"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -3226,7 +3521,8 @@
             "name": [
                 "튀긴 밀 토르티야",
                 "Fried Flour Tortilla",
-                "揚げた小麦粉トルティーヤ"
+                "揚げた小麦粉トルティーヤ",
+                "炸面粉饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3237,7 +3533,8 @@
             "name": [
                 "튀긴 옥수수 토르티야",
                 "Fried Corn Tortilla",
-                "揚げたコーントルティーヤ"
+                "揚げたコーントルティーヤ",
+                "炸玉米饼"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3248,7 +3545,8 @@
             "name": [
                 "나초(밀)",
                 "Flour Nachos",
-                "ナチョス(小麦)"
+                "ナチョス(小麦)",
+                "面粉玉米片"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3259,7 +3557,8 @@
             "name": [
                 "나초(옥수수)",
                 "Corn Nachos",
-                "ナチョス(コーン)"
+                "ナチョス(コーン)",
+                "玉米片"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3270,7 +3569,8 @@
             "name": [
                 "우유",
                 "Milk",
-                "ミルク"
+                "ミルク",
+                "牛奶"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -3281,7 +3581,8 @@
             "name": [
                 "아이스크림",
                 "Ice Cream",
-                "アイスクリーム"
+                "アイスクリーム",
+                "冰淇淋"
             ],
             "canMelt": true,
             "colorCode": "W",
@@ -3292,7 +3593,8 @@
             "name": [
                 "바나나",
                 "Banana",
-                "バナナ"
+                "バナナ",
+                "香蕉"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3303,7 +3605,8 @@
             "name": [
                 "초콜릿",
                 "Chocolate",
-                "チョコ"
+                "チョコ",
+                "巧克力"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3314,7 +3617,8 @@
             "name": [
                 "딸기",
                 "Strawberry",
-                "イチゴ"
+                "イチゴ",
+                "草莓"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3325,7 +3629,8 @@
             "name": [
                 "오렌지",
                 "Orange",
-                "オレンジ"
+                "オレンジ",
+                "香橙"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3336,7 +3641,8 @@
             "name": [
                 "깐 바나나",
                 "Peeled Banana",
-                "むきバナナ"
+                "むきバナナ",
+                "去皮香蕉"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3347,7 +3653,8 @@
             "name": [
                 "조각낸 초콜릿",
                 "Chopped Chocolate",
-                "刻んだチョコ"
+                "刻んだチョコ",
+                "巧克力碎"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3358,7 +3665,8 @@
             "name": [
                 "녹인 초콜릿",
                 "Melted Chocolate",
-                "溶かしたチョコ"
+                "溶かしたチョコ",
+                "熔岩巧克力"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3369,7 +3677,8 @@
             "name": [
                 "깐 오렌지",
                 "Peeled Orange",
-                "むきオレンジ"
+                "むきオレンジ",
+                "去皮香橙"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3380,7 +3689,8 @@
             "name": [
                 "뭉갠 오렌지",
                 "Mashed Orange",
-                "マッシュオレンジ"
+                "マッシュオレンジ",
+                "橙子泥"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3391,7 +3701,8 @@
             "name": [
                 "뭉갠 딸기",
                 "Mashed Strawberry",
-                "マッシュイチゴ"
+                "マッシュイチゴ",
+                "草莓酱"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3402,7 +3713,8 @@
             "name": [
                 "뭉갠 바나나",
                 "Mashed Banana",
-                "マッシュバナナ"
+                "マッシュバナナ",
+                "香蕉泥"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3413,7 +3725,8 @@
             "name": [
                 "초코우유",
                 "Chocolate Milk",
-                "チョコミルク"
+                "チョコミルク",
+                "巧克力牛奶"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3424,7 +3737,8 @@
             "name": [
                 "딸기+바나나",
                 "Strawberry+Banana",
-                "イチゴ+バナナ"
+                "イチゴ+バナナ",
+                "草莓+香蕉"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3435,7 +3749,8 @@
             "name": [
                 "초코 파르페",
                 "Chocolate Parfait",
-                "チョコパフェ"
+                "チョコパフェ",
+                "巧克力芭菲"
             ],
             "canMelt": true,
             "colorCode": "S",
@@ -3446,7 +3761,8 @@
             "name": [
                 "바나나 파르페",
                 "Banana Parfait",
-                "バナナパフェ"
+                "バナナパフェ",
+                "香蕉芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3457,7 +3773,8 @@
             "name": [
                 "오렌지 파르페",
                 "Orange Parfait",
-                "オレンジパフェ"
+                "オレンジパフェ",
+                "香橙芭菲"
             ],
             "canMelt": true,
             "colorCode": "P",
@@ -3468,7 +3785,8 @@
             "name": [
                 "딸기 파르페",
                 "Strawberry Parfait",
-                "イチゴパフェ"
+                "イチゴパフェ",
+                "草莓芭菲"
             ],
             "canMelt": true,
             "colorCode": "N",
@@ -3479,7 +3797,8 @@
             "name": [
                 "바나나 파르페+초콜릿",
                 "Banana Parfait+Chocolate",
-                "バナナパフェ+チョコ"
+                "バナナパフェ+チョコ",
+                "香蕉巧克力芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3490,7 +3809,8 @@
             "name": [
                 "오렌지 파르페+초콜릿",
                 "Orange Parfait+Chocolate",
-                "オレンジパフェ+チョコ"
+                "オレンジパフェ+チョコ",
+                "香橙巧克力芭菲"
             ],
             "canMelt": true,
             "colorCode": "P",
@@ -3501,7 +3821,8 @@
             "name": [
                 "딸기 파르페+초콜릿",
                 "Strawberry Parfait+Chocolate",
-                "イチゴパフェ+チョコ"
+                "イチゴパフェ+チョコ",
+                "草莓巧克力芭菲"
             ],
             "canMelt": true,
             "colorCode": "N",
@@ -3512,7 +3833,8 @@
             "name": [
                 "바나나 파르페+오렌지",
                 "Banana Parfait+Orange",
-                "バナナパフェ+オレンジ"
+                "バナナパフェ+オレンジ",
+                "香蕉香橙芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3523,7 +3845,8 @@
             "name": [
                 "바나나 파르페+딸기",
                 "Banana Parfait+Strawberry",
-                "バナナパフェ+イチゴ"
+                "バナナパフェ+イチゴ",
+                "香蕉草莓芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3534,7 +3857,8 @@
             "name": [
                 "오렌지 파르페+딸기",
                 "Orange Parfait+Strawberry",
-                "オレンジパフェ+イチゴ"
+                "オレンジパフェ+イチゴ",
+                "香橙草莓芭菲"
             ],
             "canMelt": true,
             "colorCode": "P",
@@ -3545,7 +3869,8 @@
             "name": [
                 "바나나 파르페+초콜릿+오렌지",
                 "Banana Parfait+Chocolate+Orange",
-                "バナナパフェ+チョコ+オレンジ"
+                "バナナパフェ+チョコ+オレンジ",
+                "香蕉巧克力香橙芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3556,7 +3881,8 @@
             "name": [
                 "바나나 파르페+초콜릿+딸기",
                 "Banana Parfait+Chocolate+Strawberry",
-                "バナナパフェ+チョコ+イチゴ"
+                "バナナパフェ+チョコ+イチゴ",
+                "香蕉巧克力草莓芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3567,7 +3893,8 @@
             "name": [
                 "오렌지 파르페+초콜릿+딸기",
                 "Orange Parfait+Chocolate+Strawberry",
-                "オレンジパフェ+チョコ+イチゴ"
+                "オレンジパフェ+チョコ+イチゴ",
+                "香橙巧克力草莓芭菲"
             ],
             "canMelt": true,
             "colorCode": "P",
@@ -3578,7 +3905,8 @@
             "name": [
                 "바나나 파르페+오렌지+딸기",
                 "Banana Parfait+Orange+Strawberry",
-                "バナナパフェ+オレンジ+イチゴ"
+                "バナナパフェ+オレンジ+イチゴ",
+                "香蕉香橙草莓芭菲"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3589,7 +3917,8 @@
             "name": [
                 "밀크 셰이크",
                 "Milkshake",
-                "ミルクシェイク"
+                "ミルクシェイク",
+                "奶昔"
             ],
             "canMelt": true,
             "colorCode": "W",
@@ -3600,7 +3929,8 @@
             "name": [
                 "딸기바나나셰이크",
                 "Strawberry Banana Shake",
-                "イチゴバナナシェイク"
+                "イチゴバナナシェイク",
+                "草莓香蕉奶昔"
             ],
             "canMelt": true,
             "colorCode": "N",
@@ -3611,7 +3941,8 @@
             "name": [
                 "딸기 셰이크",
                 "Strawberry Shake",
-                "イチゴシェイク"
+                "イチゴシェイク",
+                "草莓奶昔"
             ],
             "canMelt": true,
             "colorCode": "N",
@@ -3622,7 +3953,8 @@
             "name": [
                 "오렌지 셰이크",
                 "Orange Shake",
-                "オレンジシェイク"
+                "オレンジシェイク",
+                "香橙奶昔"
             ],
             "canMelt": true,
             "colorCode": "P",
@@ -3633,7 +3965,8 @@
             "name": [
                 "바나나 셰이크",
                 "Banana Shake",
-                "バナナシェイク"
+                "バナナシェイク",
+                "香蕉奶昔"
             ],
             "canMelt": true,
             "colorCode": "X",
@@ -3644,7 +3977,8 @@
             "name": [
                 "초코 셰이크",
                 "Chocolate Shake",
-                "チョコシェイク"
+                "チョコシェイク",
+                "巧克力奶昔"
             ],
             "canMelt": true,
             "colorCode": "S",
@@ -3655,7 +3989,8 @@
             "name": [
                 "초코바나나",
                 "Chocolate Banana",
-                "チョコバナナ"
+                "チョコバナナ",
+                "巧克力香蕉特饮"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3666,7 +4001,8 @@
             "name": [
                 "디럭스 파르페",
                 "Deluxe Parfait",
-                "デラックスパフェ"
+                "デラックスパフェ",
+                "至尊芭菲"
             ],
             "canMelt": true,
             "colorCode": "N",
@@ -3677,7 +4013,8 @@
             "name": [
                 "메이플 시럽",
                 "Maple Syrup",
-                "メープルシロップ"
+                "メープルシロップ",
+                "枫糖浆"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3688,7 +4025,8 @@
             "name": [
                 "초코시럽",
                 "Chocolate Syrup",
-                "チョコシロップ"
+                "チョコシロップ",
+                "巧克力酱"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3699,7 +4037,8 @@
             "name": [
                 "초코 반죽",
                 "Chocolate Batter",
-                "チョコ生地"
+                "チョコ生地",
+                "巧克力面糊"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3710,7 +4049,8 @@
             "name": [
                 "계란빵",
                 "Egg Bread",
-                "卵パン"
+                "卵パン",
+                "鸡蛋面包"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3721,7 +4061,8 @@
             "name": [
                 "초코빵",
                 "Chocolate Bread",
-                "チョコパン"
+                "チョコパン",
+                "巧克力面包"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3732,7 +4073,8 @@
             "name": [
                 "핫케이크",
                 "Pancake",
-                "パンケーキ"
+                "パンケーキ",
+                "松饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3743,7 +4085,8 @@
             "name": [
                 "핫케이크+베이컨",
                 "Pancake+Bacon",
-                "パンケーキ+ベーコン"
+                "パンケーキ+ベーコン",
+                "培根松饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3754,7 +4097,8 @@
             "name": [
                 "핫케이크+스크램블에그",
                 "Pancake+Scrambled Eggs",
-                "パンケーキ+スクランブルエッグ"
+                "パンケーキ+スクランブルエッグ",
+                "炒蛋松饼"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3765,7 +4109,8 @@
             "name": [
                 "초코시럽핫케이크",
                 "Chocolate Syrup Pancake",
-                "チョコシロップパンケーキ"
+                "チョコシロップパンケーキ",
+                "巧克力酱松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3776,7 +4121,8 @@
             "name": [
                 "초코시럽핫케이크+베이컨",
                 "Chocolate Syrup Pancake+Bacon",
-                "チョコシロップパンケーキ+ベーコン"
+                "チョコシロップパンケーキ+ベーコン",
+                "巧克力酱培根松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3787,7 +4133,8 @@
             "name": [
                 "초코시럽핫케이크+스크램블에그",
                 "Chocolate Syrup Pancake+Scrambled Eggs",
-                "チョコシロップパンケーキ+スクランブルエッグ"
+                "チョコシロップパンケーキ+スクランブルエッグ",
+                "巧克力酱炒蛋松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3798,7 +4145,8 @@
             "name": [
                 "초코핫케이크",
                 "Chocolate Pancake",
-                "チョコパンケーキ"
+                "チョコパンケーキ",
+                "巧克力松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3809,7 +4157,8 @@
             "name": [
                 "초코핫케이크+베이컨",
                 "Chocolate Pancake+Bacon",
-                "チョコパンケーキ+ベーコン"
+                "チョコパンケーキ+ベーコン",
+                "巧克力培根松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3820,7 +4169,8 @@
             "name": [
                 "초코핫케이크+스크램블에그",
                 "Chocolate Pancake+Scrambled Eggs",
-                "チョコパンケーキ+スクランブルエッグ"
+                "チョコパンケーキ+スクランブルエッグ",
+                "巧克力炒蛋松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3831,7 +4181,8 @@
             "name": [
                 "초코초코핫케이크",
                 "Choco-Choco Pancake",
-                "チョコチョコパンケーキ"
+                "チョコチョコパンケーキ",
+                "巧克力至尊松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3842,7 +4193,8 @@
             "name": [
                 "초코초코핫케이크+베이컨",
                 "Choco-Choco Pancake+Bacon",
-                "チョコチョコパンケーキ+ベーコン"
+                "チョコチョコパンケーキ+ベーコン",
+                "巧克力至尊培根松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3853,7 +4205,8 @@
             "name": [
                 "초코초코핫케이크+스크램블에그",
                 "Choco-Choco Pancake+Scrambled Eggs",
-                "チョコチョコパンケーキ+スクランブルエッグ"
+                "チョコチョコパンケーキ+スクランブルエッグ",
+                "巧克力至尊炒蛋松饼"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3864,7 +4217,8 @@
             "name": [
                 "딸기핫케이크",
                 "Strawberry Pancake",
-                "イチゴパンケーキ"
+                "イチゴパンケーキ",
+                "草莓松饼"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3875,7 +4229,8 @@
             "name": [
                 "딸기핫케이크+베이컨",
                 "Strawberry Pancake+Bacon",
-                "イチゴパンケーキ+ベーコン"
+                "イチゴパンケーキ+ベーコン",
+                "草莓培根松饼"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3886,7 +4241,8 @@
             "name": [
                 "딸기핫케이크+스크램블에그",
                 "Strawberry Pancake+Scrambled Eggs",
-                "イチゴパンケーキ+スクランブルエッグ"
+                "イチゴパンケーキ+スクランブルエッグ",
+                "草莓炒蛋松饼"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3897,7 +4253,8 @@
             "name": [
                 "에너지 드링크",
                 "Energy Drink",
-                "エナジードリンク"
+                "エナジードリンク",
+                "能量饮料"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3908,7 +4265,8 @@
             "name": [
                 "수상한 드링크",
                 "Suspicious Drinks",
-                "怪しいドリンク"
+                "怪しいドリンク",
+                "可疑饮品"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -3919,7 +4277,8 @@
             "name": [
                 "헤드셰프의 칼",
                 "Headchef's Knife",
-                "ヘッドシェフの包丁"
+                "ヘッドシェフの包丁",
+                "主厨刀"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -3930,7 +4289,8 @@
             "name": [
                 "점프 부츠",
                 "Jump Boots",
-                "ジャンプブーツ"
+                "ジャンプブーツ",
+                "腾跃靴"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -3941,7 +4301,8 @@
             "name": [
                 "조미료 팩",
                 "Seasoning Packets",
-                "調味料パック"
+                "調味料パック",
+                "调味料包"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3952,7 +4313,8 @@
             "name": [
                 "청소기",
                 "Vacuum",
-                "掃除機"
+                "掃除機",
+                "真空吸尘装置"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -3963,7 +4325,8 @@
             "name": [
                 "대시 부츠",
                 "Dash Boots",
-                "ダッシュブーツ"
+                "ダッシュブーツ",
+                "闪电靴"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -3974,7 +4337,8 @@
             "name": [
                 "도마 귀환 스펠",
                 "Teleport Spell",
-                "まな板帰還スペル"
+                "まな板帰還スペル",
+                "传送咒"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -3985,7 +4349,8 @@
             "name": [
                 "요리 복사 스펠",
                 "Food Dupe Spell",
-                "料理複製スペル"
+                "料理複製スペル",
+                "食物复制咒"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -3996,7 +4361,8 @@
             "name": [
                 "토치",
                 "Gas Torch",
-                "ガストーチ"
+                "ガストーチ",
+                "燃气喷枪"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4007,7 +4373,8 @@
             "name": [
                 "도넛",
                 "Donut",
-                "ドーナツ"
+                "ドーナツ",
+                "甜甜圈"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4018,7 +4385,8 @@
             "name": [
                 "초코도넛",
                 "Choco Donut",
-                "チョコドーナツ"
+                "チョコドーナツ",
+                "巧克力甜甜圈"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4029,7 +4397,8 @@
             "name": [
                 "양고기",
                 "Lamb",
-                "ラム肉"
+                "ラム肉",
+                "羊肉"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4040,7 +4409,8 @@
             "name": [
                 "썬 양고기",
                 "Sliced Lamb",
-                "スライスラム肉"
+                "スライスラム肉",
+                "羊排"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4051,7 +4421,8 @@
             "name": [
                 "다진 양고기",
                 "Minced Lamb",
-                "刻んだラム肉"
+                "刻んだラム肉",
+                "羊肉糜"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4062,7 +4433,8 @@
             "name": [
                 "양고기 구이",
                 "Lamb Roast",
-                "焼いたラム肉"
+                "焼いたラム肉",
+                "烤羊肉"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4075,7 +4447,8 @@
             "name": [
                 "구운 썬 양고기",
                 "Grilled Sliced Lamb",
-                "焼いたスライスラム肉"
+                "焼いたスライスラム肉",
+                "烤羊排"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4086,7 +4459,8 @@
             "name": [
                 "스테이크 소스",
                 "Steak Sauce",
-                "ステーキソース"
+                "ステーキソース",
+                "牛排酱"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4097,7 +4471,8 @@
             "name": [
                 "버섯",
                 "Mushroom",
-                "マッシュルーム"
+                "マッシュルーム",
+                "蘑菇"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4108,7 +4483,8 @@
             "name": [
                 "썬 버섯",
                 "Sliced Mushroom",
-                "スライスマッシュルーム"
+                "スライスマッシュルーム",
+                "蘑菇片"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4119,7 +4495,8 @@
             "name": [
                 "구운 버섯",
                 "Grilled Mushroom",
-                "焼きマッシュルーム"
+                "焼きマッシュルーム",
+                "烤蘑菇"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4130,7 +4507,8 @@
             "name": [
                 "배추",
                 "Cabbage",
-                "白菜"
+                "白菜",
+                "卷心菜"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -4141,7 +4519,8 @@
             "name": [
                 "썬 배추",
                 "Sliced Cabbage",
-                "スライス白菜"
+                "スライス白菜",
+                "卷心菜丝"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -4152,7 +4531,8 @@
             "name": [
                 "스테이크+소스",
                 "Steak with Sauce",
-                "ステーキ＋ソース"
+                "ステーキ＋ソース",
+                "淋酱牛排"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4166,7 +4546,8 @@
             "name": [
                 "돼지고기+스테이크 소스",
                 "Pork+Steak Sauce",
-                "豚肉＋ステーキソース"
+                "豚肉＋ステーキソース",
+                "酱猪肉"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4177,7 +4558,8 @@
             "name": [
                 "폭립",
                 "Spare Ribs",
-                "スペアリブ"
+                "スペアリブ",
+                "猪肋排"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4191,7 +4573,8 @@
             "name": [
                 "숙성 삼겹살",
                 "Aged Pork Belly",
-                "熟成ポークバラ"
+                "熟成ポークバラ",
+                "熟成五花肉"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4205,7 +4588,8 @@
             "name": [
                 "양파+버섯",
                 "Onion+Mushroom",
-                "玉ねぎ＋マッシュルーム"
+                "玉ねぎ＋マッシュルーム",
+                "洋葱+蘑菇"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4216,7 +4600,8 @@
             "name": [
                 "양파+배추",
                 "Onion+Cabbage",
-                "玉ねぎ＋白菜"
+                "玉ねぎ＋白菜",
+                "洋葱+卷心菜"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4227,7 +4612,8 @@
             "name": [
                 "버섯+배추",
                 "Mushroom+Cabbage",
-                "マッシュルーム＋白菜"
+                "マッシュルーム＋白菜",
+                "蘑菇+卷心菜"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4238,7 +4624,8 @@
             "name": [
                 "양파+버섯+배추",
                 "Onion+Mushroom+Cabbage",
-                "玉ねぎ＋マッシュルーム＋白菜"
+                "玉ねぎ＋マッシュルーム＋白菜",
+                "洋葱+蘑菇+卷心菜"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4249,7 +4636,8 @@
             "name": [
                 "야채 육수",
                 "Vegetable Broth",
-                "野菜出汁"
+                "野菜出汁",
+                "蔬菜汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4260,7 +4648,8 @@
             "name": [
                 "샤브샤브",
                 "Shabu-Shabu",
-                "しゃぶしゃぶ"
+                "しゃぶしゃぶ",
+                "日式火锅"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4273,7 +4662,8 @@
             "name": [
                 "훠궈",
                 "Chinese Hotpot",
-                "中華火鍋"
+                "中華火鍋",
+                "川味火锅"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4286,7 +4676,8 @@
             "name": [
                 "조개",
                 "Clam",
-                "貝"
+                "貝",
+                "蛤蜊"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -4297,7 +4688,8 @@
             "name": [
                 "볶은 조개",
                 "Stir-fried Clams",
-                "炒めた貝"
+                "炒めた貝",
+                "炒蛤蜊"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4308,7 +4700,8 @@
             "name": [
                 "파인애플",
                 "Pineapple",
-                "パイナップル"
+                "パイナップル",
+                "菠萝"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4319,7 +4712,8 @@
             "name": [
                 "썬 파인애플",
                 "Sliced Pineapple",
-                "スライスパイナップル"
+                "スライスパイナップル",
+                "菠萝片"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4330,7 +4724,8 @@
             "name": [
                 "피자+파인애플",
                 "Pizza+Pineapple",
-                "ピザ＋パイナップル"
+                "ピザ＋パイナップル",
+                "菠萝披萨"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4341,7 +4736,8 @@
             "name": [
                 "파인애플 피자",
                 "Pineapple Pizza",
-                "パイナップルピザ"
+                "パイナップルピザ",
+                "夏威夷披萨"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4354,7 +4750,8 @@
             "name": [
                 "빵+치킨",
                 "B+Chicken",
-                "パン＋チキン"
+                "パン＋チキン",
+                "面包+鸡肉"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4363,9 +4760,10 @@
         {
             "id": 393,
             "name": [
-                "치킨버거",
+                "치킨 버거",
                 "Chicken Burger",
-                "チキンバーガー"
+                "チキンバーガー",
+                "鸡肉汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4379,7 +4777,8 @@
             "name": [
                 "썬 소고기+양념소스",
                 "Sliced Beef+Sweet&Spicy Sauce",
-                "スライス牛肉＋ヤンニョムソース"
+                "スライス牛肉＋ヤンニョムソース",
+                "牛排+甜辣酱"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4390,7 +4789,8 @@
             "name": [
                 "양념 불고기",
                 "Sweet&Spicy Bulgogi",
-                "ヤンニョムプルコギ"
+                "ヤンニョムプルコギ",
+                "甜辣烤牛肉"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4403,7 +4803,8 @@
             "name": [
                 "구운 간장 주먹밥",
                 "Grilled Soy Sauce Rice Ball",
-                "焼きおにぎり"
+                "焼きおにぎり",
+                "酱油烤饭团"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4416,7 +4817,8 @@
             "name": [
                 "쌀국수 면",
                 "Rice Noodles",
-                "ライスヌードル"
+                "ライスヌードル",
+                "米粉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -4427,7 +4829,8 @@
             "name": [
                 "삶은 쌀국수 면",
                 "Boiled Rice Noodles",
-                "ゆでライスヌードル"
+                "ゆでライスヌードル",
+                "煮米粉"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -4438,7 +4841,8 @@
             "name": [
                 "볶은 닭",
                 "Stir-fried Chicken",
-                "炒めた鶏肉"
+                "炒めた鶏肉",
+                "炒鸡"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4449,7 +4853,8 @@
             "name": [
                 "닭+양파",
                 "Chicken+Onion",
-                "チキン＋玉ねぎ"
+                "チキン＋玉ねぎ",
+                "鸡肉+洋葱"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4460,7 +4865,8 @@
             "name": [
                 "양고기+양파",
                 "Lamb+Onion",
-                "ラム肉＋玉ねぎ"
+                "ラム肉＋玉ねぎ",
+                "羊肉+洋葱"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4471,7 +4877,8 @@
             "name": [
                 "민트초코파르페",
                 "Mint Choco Parfait",
-                "ミントチョコパフェ"
+                "ミントチョコパフェ",
+                "薄荷巧克力芭菲"
             ],
             "canMelt": true,
             "colorCode": "J",
@@ -4484,7 +4891,8 @@
             "name": [
                 "민트초코셰이크",
                 "Mint Choco Shake",
-                "ミントチョコシェイク"
+                "ミントチョコシェイク",
+                "薄荷巧克力奶昔"
             ],
             "canMelt": true,
             "colorCode": "J",
@@ -4497,7 +4905,8 @@
             "name": [
                 "민트 시럽",
                 "Mint Syrup",
-                "ミントシロップ"
+                "ミントシロップ",
+                "薄荷糖浆"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -4508,7 +4917,8 @@
             "name": [
                 "찹쌀",
                 "Glutinous Rice",
-                "もち米"
+                "もち米",
+                "糯米"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4518,8 +4928,9 @@
             "id": 406,
             "name": [
                 "호떡 반죽",
-                "Hotteok Dough",
-                "ホットク生地"
+                "Hotteok Batter",
+                "ホットク生地",
+                "糖饼面团"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4530,7 +4941,8 @@
             "name": [
                 "호떡",
                 "Hotteok",
-                "ホットク"
+                "ホットク",
+                "糖饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4543,7 +4955,8 @@
             "name": [
                 "쌀국수",
                 "Rice Noodle Soup",
-                "ライスヌードルスープ"
+                "ライスヌードルスープ",
+                "米粉汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4556,7 +4969,8 @@
             "name": [
                 "치킨 타코(밀)",
                 "Chicken Taco(Flour)",
-                "チキンタコス(小麦)"
+                "チキンタコス(小麦)",
+                "面粉鸡肉卷饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4569,7 +4983,8 @@
             "name": [
                 "양고기 타코(밀)",
                 "Lamb Taco(Flour)",
-                "ラムタコス(小麦)"
+                "ラムタコス(小麦)",
+                "面粉羊肉卷饼"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4582,7 +4997,8 @@
             "name": [
                 "봉골레 파스타",
                 "Vongole Pasta",
-                "ヴォンゴレパスタ"
+                "ヴォンゴレパスタ",
+                "蛤蜊意大利面"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4595,7 +5011,8 @@
             "name": [
                 "크림 치킨",
                 "Creamy Chicken",
-                "クリームチキン"
+                "クリームチキン",
+                "奶油鸡"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -4608,7 +5025,8 @@
             "name": [
                 "딸기탕후루",
                 "Strawberry Candied Skewer",
-                "イチゴ飴がけ串"
+                "イチゴ飴がけ串",
+                "草莓糖葫芦"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4621,7 +5039,8 @@
             "name": [
                 "파+두+당+새",
                 "G+T+N+S",
-                "ネギ＋豆腐＋春雨＋エビ"
+                "ネギ＋豆腐＋春雨＋エビ",
+                "G+T+N+S"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4632,7 +5051,8 @@
             "name": [
                 "생 새우만두",
                 "Raw Shrimp Dumpling",
-                "生エビ餃子"
+                "生エビ餃子",
+                "生虾饺"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4643,7 +5063,8 @@
             "name": [
                 "찐 새우만두",
                 "Steamed Shrimp Dumpling",
-                "蒸しエビ餃子"
+                "蒸しエビ餃子",
+                "蒸虾饺"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -4655,8 +5076,9 @@
             "id": 417,
             "name": [
                 "구운 새우만두",
-                "Grilled Shrimp Dumpling",
-                "焼きエビ餃子"
+                "Stir-Fried Shrimp Dumpling",
+                "焼きエビ餃子",
+                "烤虾饺"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -4669,7 +5091,8 @@
             "name": [
                 "보쌈",
                 "Boiled Pork Wrap",
-                "ボッサム"
+                "ボッサム",
+                "煮猪肉卷"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4682,11 +5105,715 @@
             "name": [
                 "와인",
                 "Wine",
-                "ワイン"
+                "ワイン",
+                "葡萄酒"
+            ],
+            "canMelt": false,
+            "colorCode": "K",
+            "additionalItems": []
+        },
+        {
+            "id": 420,
+            "name": [
+                "녹인 치즈 팩",
+                "Melted Cheese Pack",
+                "とろけたチーズパック",
+                "Melted Cheese Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 421,
+            "name": [
+                "후라이드 치킨 팩",
+                "Fried Chicken Pack",
+                "フライドチキンパック",
+                "Fried Chicken Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 422,
+            "name": [
+                "피자 베이스 팩",
+                "Pizza Base Pack",
+                "ピザベースパック",
+                "Pizza Base Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 423,
+            "name": [
+                "만두 팩",
+                "Dumpling Pack",
+                "餃子パック",
+                "Dumpling Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 424,
+            "name": [
+                "패티 팩",
+                "Patty Pack",
+                "パティパック",
+                "Patty Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 425,
+            "name": [
+                "불고기 팩",
+                "Bulgogi Pack",
+                "プルコギパック",
+                "Bulgogi Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 426,
+            "name": [
+                "모듬회밥 팩",
+                "Rice Bowl Pack",
+                "丼物パック",
+                "Rice Bowl Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 427,
+            "name": [
+                "소면 팩",
+                "Noodle Pack",
+                "麺パック",
+                "Noodle Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 428,
+            "name": [
+                "타코 베이스 팩",
+                "Taco Base Pack",
+                "タコベースパック",
+                "Taco Base Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 429,
+            "name": [
+                "녹인 초코 팩",
+                "Melted Chocolate Pack",
+                "溶かしたチョコパック",
+                "Melted Chocolate Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 430,
+            "name": [
+                "빵 세트",
+                "Bread Set",
+                "パンセット",
+                "Bread Set"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 431,
+            "name": [
+                "고기 팩",
+                "Meat Pack",
+                "ミートパック",
+                "Meat Pack"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 432,
+            "name": [
+                "$100",
+                "$100",
+                "$100",
+                "$100"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 433,
+            "name": [
+                "보존식 박스",
+                "Food Box",
+                "保存食ボックス",
+                "Food Box"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 434,
+            "name": [
+                "서빙볼",
+                "ServingBall",
+                "サービングボール",
+                "ServingBall"
+            ],
+            "canMelt": false,
+            "colorCode": "Z",
+            "additionalItems": []
+        },
+        {
+            "id": 435,
+            "name": [
+                "명란젓",
+                "Spicy Cod Roe",
+                "明太子",
+                "Spicy Cod Roe"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 436,
+            "name": [
+                "명란크림소스",
+                "Spicy Cod Roe Cream Sauce",
+                "明太子クリームソース",
+                "Spicy Cod Roe Cream Sauce"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 437,
+            "name": [
+                "명란크림파스타",
+                "Mentaiko Pasta",
+                "明太子パスタ",
+                "Mentaiko Pasta"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": [
+                435
+            ]
+        },
+        {
+            "id": 438,
+            "name": [
+                "스테이크파스타",
+                "Steak Pasta",
+                "ステーキスパゲッティ",
+                "Steak Pasta"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 439,
+            "name": [
+                "핫소스",
+                "Chili Sauce",
+                "チリソース",
+                "Chili Sauce"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 440,
+            "name": [
+                "불닭 소스",
+                "Fire Chicken Sauce",
+                "プルダックソース",
+                "Fire Chicken Sauce"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 441,
+            "name": [
+                "불닭",
+                "Fire Chicken",
+                "プルダック",
+                "Fire Chicken"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": [
+                439
+            ]
+        },
+        {
+            "id": 442,
+            "name": [
+                "버팔로 윙",
+                "Buffalo Wings",
+                "バッファローウィング",
+                "Buffalo Wings"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": [
+                439
+            ]
+        },
+        {
+            "id": 443,
+            "name": [
+                "불고기 피자",
+                "Bulgogi Pizza",
+                "プルコギピザ",
+                "Bulgogi Pizza"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                1,
+                77
+            ]
+        },
+        {
+            "id": 444,
+            "name": [
+                "피자+불고기",
+                "Pizza + Bulgogi",
+                "ピザ＋プルコギ",
+                "Pizza + Bulgogi"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 445,
+            "name": [
+                "피자+새우",
+                "Pizza + Shrimp",
+                "ピザ＋エビ",
+                "Pizza + Shrimp"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 446,
+            "name": [
+                "새우 피자",
+                "Shrimp Pizza",
+                "エビピザ",
+                "Shrimp Pizza"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": [
+                273
+            ]
+        },
+        {
+            "id": 447,
+            "name": [
+                "생 고기만두+육수",
+                "Raw Meat Dumpling+Soup",
+                "肉餃子+出汁",
+                "Raw Meat Dumpling+Soup"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 448,
+            "name": [
+                "샤오롱바오",
+                "Xiaolongbao",
+                "小籠包",
+                "Xiaolongbao"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": [
+                241
+            ]
+        },
+        {
+            "id": 449,
+            "name": [
+                "빵+베이컨",
+                "B+Ba",
+                "パン＋ベーコン",
+                "B+Ba"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 450,
+            "name": [
+                "빵+패+베",
+                "B+P+Ba",
+                "パン＋パティ＋ベーコン",
+                "B+P+Ba"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 451,
+            "name": [
+                "빵+베+치",
+                "B+Ba+C",
+                "パン＋ベーコン＋チーズ",
+                "B+Ba+C"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 452,
+            "name": [
+                "빵+패+베+치",
+                "B+P+Ba+C",
+                "パン＋パティ＋ベーコン＋チーズ",
+                "B+P+Ba+C"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 453,
+            "name": [
+                "베이컨치즈버거",
+                "Bacon Cheeseburger",
+                "ベーコンチーズバーガー",
+                "Bacon Cheeseburger"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": [
+                122
+            ]
+        },
+        {
+            "id": 454,
+            "name": [
+                "썬 돼지+양념소스",
+                "Sliced Pork + Sweet&Spicy Sauce",
+                "スライスポーク＋ヤンニョムソース",
+                "Sliced Pork + Sweet&Spicy Sauce"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 455,
+            "name": [
+                "제육볶음",
+                "Spicy Pork",
+                "ジェユクポックム",
+                "Spicy Pork"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                73,
+                159
+            ]
+        },
+        {
+            "id": 456,
+            "name": [
+                "제육덮밥",
+                "Spicy Pork Rice Bowl",
+                "ジェユク丼",
+                "Spicy Pork Rice Bowl"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                73,
+                159
+            ]
+        },
+        {
+            "id": 457,
+            "name": [
+                "제육덮밥+계란",
+                "Spicy Pork Rice Bowl with Egg",
+                "ジェユク丼＋卵",
+                "Spicy Pork Rice Bowl with Egg"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                73,
+                159
+            ]
+        },
+        {
+            "id": 458,
+            "name": [
+                "새우+튀김가루",
+                "Shrimp+Powder",
+                "エビ+天ぷら粉",
+                "Shrimp+Powder"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 459,
+            "name": [
+                "김",
+                "Seaweed",
+                "海苔",
+                "Seaweed"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 460,
+            "name": [
+                "김+튀김가루",
+                "Seaweed+Powder",
+                "海苔＋天ぷら粉",
+                "Seaweed+Powder"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 461,
+            "name": [
+                "튀긴 김",
+                "Fried Shrimp",
+                "揚げた海苔",
+                "Fried Shrimp"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 462,
+            "name": [
+                "튀긴 새우",
+                "Fried Shrimp",
+                "揚げたエビ",
+                "Fried Shrimp"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 463,
+            "name": [
+                "튀긴 새우+김",
+                "Fried Shrimp+Seaweed",
+                "揚げたエビ＋海苔",
+                "Fried Shrimp+Seaweed"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 464,
+            "name": [
+                "튀긴 새우 덮밥",
+                "Tempura Rice Bowl",
+                "天丼",
+                "Tempura Rice Bowl"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": [
+                273,
+                459
+            ]
+        },
+        {
+            "id": 465,
+            "name": [
+                "군함말이초밥",
+                "Gunkan Maki Sushi",
+                "軍艦巻き",
+                "Gunkan Maki Sushi"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": [
+                459
+            ]
+        },
+        {
+            "id": 466,
+            "name": [
+                "피시앤칩스",
+                "Fish and Chips",
+                "フィッシュ・アンド・チップス",
+                "Fish and Chips"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": [
+                5
+            ]
+        },
+        {
+            "id": 467,
+            "name": [
+                "불닭소스+면",
+                "Fire Chicken Sauce+Noodles",
+                "プルダックソース＋麺",
+                "Fire Chicken Sauce+Noodles"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 468,
+            "name": [
+                "불닭볶음면",
+                "Fire Noodle",
+                "プルダックポックンミョン",
+                "Fire Noodle"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                440
+            ]
+        },
+        {
+            "id": 469,
+            "name": [
+                "치킨 부리토(밀)",
+                "Chicken Burrito(Flour)",
+                "チキンブリトー（小麦）",
+                "Chicken Burrito(Flour)"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": [
+                66,
+                112
+            ]
+        },
+        {
+            "id": 470,
+            "name": [
+                "치킨 부리토(옥수수)",
+                "Chicken Burrito(Corn)",
+                "チキンブリトー（コーン）",
+                "Chicken Burrito(Corn)"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": [
+                66,
+                112
+            ]
+        },
+        {
+            "id": 471,
+            "name": [
+                "썬 파+반죽",
+                "Green Onion Pancake Batter",
+                "葱チヂミ生地",
+                "Green Onion Pancake Batter"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 472,
+            "name": [
+                "썬 김치+반죽",
+                "Kimchi Pancake Batter",
+                "キムチチヂミ生地",
+                "Kimchi Pancake Batter"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 473,
+            "name": [
+                "파전",
+                "Green Onion Pancake",
+                "ネギチヂミ",
+                "Green Onion Pancake"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": [
+                69
+            ]
+        },
+        {
+            "id": 474,
+            "name": [
+                "김치전",
+                "Kimchi Pancake",
+                "キムチチヂミ",
+                "Kimchi Pancake"
             ],
             "canMelt": false,
             "colorCode": "D",
-            "additionalItems": []
+            "additionalItems": [
+                142
+            ]
         }
     ],
     "actions": [
@@ -6856,7 +7983,7 @@
             "output": [
                 391
             ],
-            "effort": 5
+            "effort": 7
         },
         {
             "type": 4,
@@ -6905,6 +8032,228 @@
             ],
             "output": [
                 417
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                420
+            ],
+            "output": [
+                21,
+                21
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                421
+            ],
+            "output": [
+                85,
+                85
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                422
+            ],
+            "output": [
+                127,
+                127
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                423
+            ],
+            "output": [
+                186,
+                187
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                424
+            ],
+            "output": [
+                32,
+                32
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                425
+            ],
+            "output": [
+                156,
+                156
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                426
+            ],
+            "output": [
+                215,
+                226
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                427
+            ],
+            "output": [
+                255,
+                256
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                428
+            ],
+            "output": [
+                286,
+                287
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                429
+            ],
+            "output": [
+                303,
+                303
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                430
+            ],
+            "output": [
+                335,
+                336
+            ],
+            "effort": 1
+        },
+        {
+            "type": 0,
+            "input": [
+                431
+            ],
+            "output": [
+                1,
+                159
+            ],
+            "effort": 1
+        },
+        {
+            "type": 1,
+            "input": [
+                444
+            ],
+            "output": [
+                443
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                445
+            ],
+            "output": [
+                446
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                447
+            ],
+            "output": [
+                448
+            ],
+            "effort": 6
+        },
+        {
+            "type": 4,
+            "input": [
+                454
+            ],
+            "output": [
+                455
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                458
+            ],
+            "output": [
+                462
+            ],
+            "effort": 4
+        },
+        {
+            "type": 2,
+            "input": [
+                460
+            ],
+            "output": [
+                461
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                467
+            ],
+            "output": [
+                468
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                471
+            ],
+            "output": [
+                473
+            ],
+            "effort": 6
+        },
+        {
+            "type": 4,
+            "input": [
+                472
+            ],
+            "output": [
+                474
             ],
             "effort": 5
         },
@@ -9910,6 +11259,369 @@
                 369
             ],
             "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                64,
+                63
+            ],
+            "output": [
+                354
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                435,
+                18
+            ],
+            "output": [
+                436
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                436,
+                13
+            ],
+            "output": [
+                437
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                25,
+                3
+            ],
+            "output": [
+                438
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                439,
+                79
+            ],
+            "output": [
+                440
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                440,
+                399
+            ],
+            "output": [
+                441
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                439,
+                399
+            ],
+            "output": [
+                442
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                127,
+                156
+            ],
+            "output": [
+                444
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                127,
+                273
+            ],
+            "output": [
+                445
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                241,
+                187
+            ],
+            "output": [
+                447
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                138,
+                38
+            ],
+            "output": [
+                449
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                138,
+                40
+            ],
+            "output": [
+                450
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                449,
+                32
+            ],
+            "output": [
+                450
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                138,
+                41
+            ],
+            "output": [
+                451
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                449,
+                20
+            ],
+            "output": [
+                451
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                450,
+                20
+            ],
+            "output": [
+                452
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                451,
+                32
+            ],
+            "output": [
+                452
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                138,
+                44
+            ],
+            "output": [
+                452
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                452,
+                39
+            ],
+            "output": [
+                453
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                160,
+                79
+            ],
+            "output": [
+                454
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                455,
+                194
+            ],
+            "output": [
+                456
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                456,
+                109
+            ],
+            "output": [
+                457
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                273,
+                72
+            ],
+            "output": [
+                458
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                459,
+                72
+            ],
+            "output": [
+                460
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                462,
+                461
+            ],
+            "output": [
+                463
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                463,
+                194
+            ],
+            "output": [
+                464
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                459,
+                209
+            ],
+            "output": [
+                465
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                7
+            ],
+            "output": [
+                466
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                440,
+                256
+            ],
+            "output": [
+                467
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                120,
+                217
+            ],
+            "output": [
+                469
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                277,
+                217
+            ],
+            "output": [
+                470
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                117,
+                70
+            ],
+            "output": [
+                471
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                117,
+                143
+            ],
+            "output": [
+                472
+            ],
+            "effort": null
         }
     ],
     "stages": [
@@ -9918,7 +11630,8 @@
             "name": [
                 "스테이크&파스타",
                 "Steak&Pasta",
-                "ステーキ&パスタ"
+                "ステーキ&パスタ",
+                "牛排&意面"
             ],
             "fridge": [
                 1,
@@ -9938,7 +11651,8 @@
                 25,
                 26,
                 28,
-                27
+                27,
+                438
             ],
             "hazardMenus": [
                 0,
@@ -9953,7 +11667,8 @@
                 139
             ],
             "weaverMenus": [
-                411
+                411,
+                437
             ]
         },
         {
@@ -9961,7 +11676,8 @@
             "name": [
                 "수제 버거",
                 "Burgeria",
-                "バーガー"
+                "バーガー",
+                "汉堡"
             ],
             "fridge": [
                 37,
@@ -9997,7 +11713,8 @@
                 140
             ],
             "weaverMenus": [
-                393
+                393,
+                453
             ]
         },
         {
@@ -10005,7 +11722,8 @@
             "name": [
                 "치킨",
                 "Fried Chicken",
-                "フライドチキン"
+                "フライドチキン",
+                "炸鸡"
             ],
             "fridge": [
                 66,
@@ -10035,7 +11753,9 @@
                 216
             ],
             "weaverMenus": [
-                412
+                412,
+                441,
+                442
             ]
         },
         {
@@ -10043,7 +11763,8 @@
             "name": [
                 "피자",
                 "Pizzeria",
-                "ピザ"
+                "ピザ",
+                "披萨"
             ],
             "fridge": [
                 114,
@@ -10075,7 +11796,9 @@
                 138
             ],
             "weaverMenus": [
-                391
+                391,
+                443,
+                446
             ]
         },
         {
@@ -10083,7 +11806,8 @@
             "name": [
                 "만두",
                 "Dumpling",
-                "餃子"
+                "餃子",
+                "饺子"
             ],
             "fridge": [
                 159,
@@ -10130,15 +11854,17 @@
             ],
             "weaverMenus": [
                 416,
-                417
+                417,
+                448
             ]
         },
         {
             "id": 5,
             "name": [
                 "달걀&밥",
-                "Korean RiceFood",
-                "韓国風ご飯料理"
+                "Korean Rice Dish",
+                "韓国風ご飯料理",
+                "韩式风味"
             ],
             "fridge": [
                 1,
@@ -10189,15 +11915,19 @@
                 195
             ],
             "weaverMenus": [
-                395
+                395,
+                455,
+                456,
+                457
             ]
         },
         {
             "id": 6,
             "name": [
                 "생선&밥",
-                "Japanese RiceFood",
-                "寿司&丼物"
+                "Japanese Rice Dish",
+                "寿司&丼物",
+                "日式风味"
             ],
             "fridge": [
                 198,
@@ -10247,7 +11977,10 @@
             "weaverMenus": [
                 396,
                 206,
-                207
+                207,
+                464,
+                465,
+                466
             ]
         },
         {
@@ -10255,7 +11988,8 @@
             "name": [
                 "국수",
                 "Korean Noodles",
-                "麺"
+                "麺",
+                "面条"
             ],
             "fridge": [
                 114,
@@ -10294,7 +12028,8 @@
             ],
             "weaverMenus": [
                 408,
-                252
+                252,
+                468
             ]
         },
         {
@@ -10302,7 +12037,8 @@
             "name": [
                 "타코",
                 "Taqueria",
-                "タコス"
+                "タコス",
+                "卷饼"
             ],
             "fridge": [
                 114,
@@ -10342,7 +12078,9 @@
             ],
             "weaverMenus": [
                 409,
-                410
+                410,
+                469,
+                470
             ]
         },
         {
@@ -10350,7 +12088,8 @@
             "name": [
                 "아이스크림",
                 "Ice Cream",
-                "アイスクリーム"
+                "アイスクリーム",
+                "冰淇淋"
             ],
             "fridge": [
                 295,
@@ -10413,7 +12152,8 @@
             "name": [
                 "핫케이크",
                 "Pancake",
-                "パンケーキ"
+                "パンケーキ",
+                "松饼"
             ],
             "fridge": [
                 114,
@@ -10469,7 +12209,9 @@
                 306
             ],
             "weaverMenus": [
-                407
+                407,
+                473,
+                474
             ]
         },
         {
@@ -10477,7 +12219,8 @@
             "name": [
                 "정육식당",
                 "Butcher Restaurant",
-                "肉屋食堂"
+                "肉屋食堂",
+                "鲜肉餐厅"
             ],
             "fridge": [
                 268,
@@ -10509,7 +12252,8 @@
                 383
             ],
             "weaverMenus": [
-                89
+                203,
+                274
             ]
         }
     ]

@@ -5,6 +5,7 @@ export interface ItemConfig {
   koreanName: string
   englishName: string
   japaneseName: string
+  chineseName: string
   canMelt: boolean
   colorCode: string
 }
@@ -14,6 +15,7 @@ export class Item {
   private readonly koreanName: string
   private readonly englishName: string
   private readonly japaneseName: string
+  private readonly chineseName: string
   private readonly canMelt: boolean
   public readonly colorCode: string
   private readonly additionalItems: Item[] = []
@@ -23,6 +25,7 @@ export class Item {
     this.koreanName = config.koreanName
     this.englishName = config.englishName
     this.japaneseName = config.japaneseName
+    this.chineseName = config.chineseName
     this.canMelt = config.canMelt
     this.colorCode = config.colorCode
   }
@@ -35,6 +38,8 @@ export class Item {
         return this.englishName
       case 'ja':
         return this.japaneseName
+      case 'zh-CN':
+        return this.chineseName
       default:
         return this.koreanName
     }
@@ -51,7 +56,7 @@ export class Item {
   public toJSON(): ItemJson {
     return {
       id: this.id,
-      name: [this.koreanName, this.englishName, this.japaneseName],
+      name: [this.koreanName, this.englishName, this.japaneseName, this.chineseName],
       canMelt: this.canMelt,
       colorCode: this.colorCode,
       additionalItems: this.additionalItems.map((item) => item.id),
