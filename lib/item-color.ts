@@ -51,7 +51,7 @@ export function getItemColorHex(item: Item): number {
     case 'J':
       return 0x29a86d
     case 'K':
-      return 0x991616
+      return 0x78096d
     default:
       return 0x2858dd
   }
