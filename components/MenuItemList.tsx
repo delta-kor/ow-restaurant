@@ -13,7 +13,7 @@ import { Effect } from 'effect'
 import { AnimatePresence, motion } from 'motion/react'
 import { useTranslations } from 'next-intl'
 import { notFound } from 'next/navigation'
-import { Fragment, useState } from 'react'
+import { useState } from 'react'
 
 export interface StagePageExecuteResult {
   menuFlowLineInfos: MenuFlowLineInfo[]
@@ -205,14 +205,14 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
         )}
 
         {menuFilter[1] && filteredWeaverMenuFlowLineInfos.length > 0 && (
-          <Fragment>
+          <div className="mb-16 flex flex-col gap-8">
             <div className="tablet:gap-16 flex items-center gap-12">
               <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
                 {t('specialMenu')}
               </div>
               <div className="bg-light-gray h-2 grow" />
             </div>
-            <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
+            <div className="tablet:gap-48 bg-primary-background/70 rounded-16 tablet:p-24 flex flex-col gap-32 p-16">
               {filteredWeaverMenuFlowLineInfos.map((info) => (
                 <MenuItem
                   key={info.item.id}
@@ -222,18 +222,18 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
                 />
               ))}
             </div>
-          </Fragment>
+          </div>
         )}
 
         {menuFilter[2] && filteredHazardMenuFlowLineInfos.length > 0 && (
-          <Fragment>
+          <div className="mb-16 flex flex-col gap-8">
             <div className="tablet:gap-16 flex items-center gap-12">
               <div className="text-light-gray-hover text-20 tablet:text-24 shrink-0 font-semibold">
                 {t('sideMenu')}
               </div>
               <div className="bg-light-gray h-2 grow" />
             </div>
-            <div className="tablet:gap-72 flex flex-col gap-64 pb-32">
+            <div className="tablet:gap-48 bg-light-gray/40 rounded-16 tablet:p-24 flex flex-col gap-32 p-16">
               {filteredHazardMenuFlowLineInfos.map((info) => (
                 <MenuItem
                   key={info.item.id}
@@ -243,7 +243,7 @@ export default function MenuItemList({ stageId }: { stageId: number }) {
                 />
               ))}
             </div>
-          </Fragment>
+          </div>
         )}
       </div>
     </div>

@@ -112,7 +112,7 @@ export default function MenuItem({
                     background: getItemColor(additionalItem),
                     color: getItemTextColor(additionalItem),
                   }}
-                  className="rounded-4 text-12 px-4 py-2 font-semibold opacity-70"
+                  className="rounded-4 text-12 px-4 py-2 font-semibold"
                 >
                   {additionalItem.getName(locale)}
                 </div>
