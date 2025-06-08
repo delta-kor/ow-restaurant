@@ -274,7 +274,7 @@
                 "로제 소스",
                 "Rose Sauce",
                 "ロゼソース",
-                "玫瑰酱"
+                "奶油番茄酱"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -322,7 +322,7 @@
                 "로제 파스타",
                 "Rose Pasta",
                 "ロゼパスタ",
-                "玫瑰意大利面"
+                "奶油番茄意大利面"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -334,7 +334,7 @@
                 "로제치즈 파스타",
                 "Rose Cheese Pasta",
                 "ロゼチーズパスタ",
-                "玫瑰芝士意大利面"
+                "番茄奶油芝士意大利面"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -418,7 +418,7 @@
                 "썬 양상추",
                 "Sliced Lettuce",
                 "スライスしたレタス",
-                "碎生菜"
+                "生菜片"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -886,7 +886,7 @@
                 "고추장",
                 "Red Pepper Paste",
                 "コチュジャン",
-                "辣椒"
+                "红椒"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -922,7 +922,7 @@
                 "고추장 소스",
                 "Red Pepper Sauce",
                 "コチュジャンソース",
-                "辣椒酱料"
+                "红椒酱料"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1078,7 +1078,7 @@
                 "닭강정",
                 "Sweet&Spicy Chicken Nugget",
                 "ヤンニョムから揚げ",
-                "甜辣炸鸡排"
+                "酱炒甜辣炸鸡排"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1142,7 +1142,7 @@
                 "구운 파",
                 "Grilled Green Onion",
                 "焼いたネギ",
-                "炒大葱"
+                "烤大葱"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -1262,7 +1262,7 @@
                 "깐 달걀",
                 "Peeled Egg",
                 "殻剥き卵",
-                "去壳蛋"
+                "生鸡蛋液"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1874,7 +1874,7 @@
                 "썬 소고기+간장",
                 "Sliced Beef+Soy Sauce",
                 "スライス牛肉＋醤油",
-                "酱牛排"
+                "酱油牛排"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2678,7 +2678,7 @@
                 "썬 돼지+튀김가루",
                 "Sliced Pork+Powder",
                 "スライスだポーク＋天ぷら粉",
-                "裹粉猪肉糜"
+                "裹粉猪排"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2918,7 +2918,7 @@
                 "육수",
                 "Broth",
                 "出汁",
-                "高汤"
+                "清汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2942,7 +2942,7 @@
                 "끓인 육수",
                 "Boiled Broth",
                 "煮出汁",
-                "白汤"
+                "高汤"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4725,7 +4725,7 @@
                 "피자+파인애플",
                 "Pizza+Pineapple",
                 "ピザ＋パイナップル",
-                "菠萝披萨"
+                "披萨+菠萝"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4790,7 +4790,7 @@
                 "양념 불고기",
                 "Sweet&Spicy Bulgogi",
                 "ヤンニョムプルコギ",
-                "甜辣烤牛肉"
+                "甜辣煎牛排"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4842,7 +4842,7 @@
                 "볶은 닭",
                 "Stir-fried Chicken",
                 "炒めた鶏肉",
-                "炒鸡"
+                "烤鸡"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5012,7 +5012,7 @@
                 "크림 치킨",
                 "Creamy Chicken",
                 "クリームチキン",
-                "奶油鸡"
+                "奶油炸鸡块"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -5040,7 +5040,7 @@
                 "파+두+당+새",
                 "G+T+N+S",
                 "ネギ＋豆腐＋春雨＋エビ",
-                "G+T+N+S"
+                "葱花+豆腐+粉条+虾"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -5298,7 +5298,7 @@
                 "명란젓",
                 "Spicy Cod Roe",
                 "明太子",
-                "Spicy Cod Roe"
+                "鳕鱼子"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -5310,7 +5310,7 @@
                 "명란크림소스",
                 "Spicy Cod Roe Cream Sauce",
                 "明太子クリームソース",
-                "Spicy Cod Roe Cream Sauce"
+                "鳕鱼奶油酱"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -5322,7 +5322,7 @@
                 "명란크림파스타",
                 "Mentaiko Pasta",
                 "明太子パスタ",
-                "Mentaiko Pasta"
+                "明太子意面"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -5336,7 +5336,7 @@
                 "스테이크파스타",
                 "Steak Pasta",
                 "ステーキスパゲッティ",
-                "Steak Pasta"
+                "奶油牛肉意大利面"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5348,7 +5348,7 @@
                 "핫소스",
                 "Chili Sauce",
                 "チリソース",
-                "Chili Sauce"
+                "辣椒酱"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5360,7 +5360,7 @@
                 "불닭 소스",
                 "Fire Chicken Sauce",
                 "プルダックソース",
-                "Fire Chicken Sauce"
+                "火鸡酱"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5372,7 +5372,7 @@
                 "불닭",
                 "Fire Chicken",
                 "プルダック",
-                "Fire Chicken"
+                "火鸡"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5386,7 +5386,7 @@
                 "버팔로 윙",
                 "Buffalo Wings",
                 "バッファローウィング",
-                "Buffalo Wings"
+                "布法罗辣鸡翅"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5400,7 +5400,7 @@
                 "불고기 피자",
                 "Bulgogi Pizza",
                 "プルコギピザ",
-                "Bulgogi Pizza"
+                "酱煎牛排披萨"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -5415,7 +5415,7 @@
                 "피자+불고기",
                 "Pizza + Bulgogi",
                 "ピザ＋プルコギ",
-                "Pizza + Bulgogi"
+                "披萨 + 酱煎牛排"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5427,7 +5427,7 @@
                 "피자+새우",
                 "Pizza + Shrimp",
                 "ピザ＋エビ",
-                "Pizza + Shrimp"
+                "披萨 + 虾"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5439,7 +5439,7 @@
                 "새우 피자",
                 "Shrimp Pizza",
                 "エビピザ",
-                "Shrimp Pizza"
+                "鲜虾披萨"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5453,7 +5453,7 @@
                 "생 고기만두+육수",
                 "Raw Meat Dumpling+Soup",
                 "肉餃子+出汁",
-                "Raw Meat Dumpling+Soup"
+                "生猪肉饺子+高汤"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5465,7 +5465,7 @@
                 "샤오롱바오",
                 "Xiaolongbao",
                 "小籠包",
-                "Xiaolongbao"
+                "小笼包"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5491,7 +5491,7 @@
                 "빵+패+베",
                 "B+P+Ba",
                 "パン＋パティ＋ベーコン",
-                "B+P+Ba"
+                "面包+肉饼+培根"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5503,7 +5503,7 @@
                 "빵+베+치",
                 "B+Ba+C",
                 "パン＋ベーコン＋チーズ",
-                "B+Ba+C"
+                "面包+培根+芝士"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5515,7 +5515,7 @@
                 "빵+패+베+치",
                 "B+P+Ba+C",
                 "パン＋パティ＋ベーコン＋チーズ",
-                "B+P+Ba+C"
+                "面包+肉饼+培根+芝士"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5527,7 +5527,7 @@
                 "베이컨치즈버거",
                 "Bacon Cheeseburger",
                 "ベーコンチーズバーガー",
-                "Bacon Cheeseburger"
+                "培根芝士汉堡"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5541,7 +5541,7 @@
                 "썬 돼지+양념소스",
                 "Sliced Pork + Sweet&Spicy Sauce",
                 "スライスポーク＋ヤンニョムソース",
-                "Sliced Pork + Sweet&Spicy Sauce"
+                "猪排+甜辣酱"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5553,7 +5553,7 @@
                 "제육볶음",
                 "Spicy Pork",
                 "ジェユクポックム",
-                "Spicy Pork"
+                "甜辣煎猪排"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5568,7 +5568,7 @@
                 "제육덮밥",
                 "Spicy Pork Rice Bowl",
                 "ジェユク丼",
-                "Spicy Pork Rice Bowl"
+                "甜辣煎猪排饭"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5583,7 +5583,7 @@
                 "제육덮밥+계란",
                 "Spicy Pork Rice Bowl with Egg",
                 "ジェユク丼＋卵",
-                "Spicy Pork Rice Bowl with Egg"
+                "甜辣煎猪排滑蛋盖饭"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5598,7 +5598,7 @@
                 "새우+튀김가루",
                 "Shrimp+Powder",
                 "エビ+天ぷら粉",
-                "Shrimp+Powder"
+                "虾+炸粉"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5610,7 +5610,7 @@
                 "김",
                 "Seaweed",
                 "海苔",
-                "Seaweed"
+                "海苔"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -5622,7 +5622,7 @@
                 "김+튀김가루",
                 "Seaweed+Powder",
                 "海苔＋天ぷら粉",
-                "Seaweed+Powder"
+                "海苔+炸粉"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5634,7 +5634,7 @@
                 "튀긴 김",
                 "Fried Shrimp",
                 "揚げた海苔",
-                "Fried Shrimp"
+                "炸海苔"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5646,7 +5646,7 @@
                 "튀긴 새우",
                 "Fried Shrimp",
                 "揚げたエビ",
-                "Fried Shrimp"
+                "炸虾"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5658,7 +5658,7 @@
                 "튀긴 새우+김",
                 "Fried Shrimp+Seaweed",
                 "揚げたエビ＋海苔",
-                "Fried Shrimp+Seaweed"
+                "炸虾+炸海苔"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5670,7 +5670,7 @@
                 "튀긴 새우 덮밥",
                 "Tempura Rice Bowl",
                 "天丼",
-                "Tempura Rice Bowl"
+                "天妇罗盖饭"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5685,7 +5685,7 @@
                 "군함말이초밥",
                 "Gunkan Maki Sushi",
                 "軍艦巻き",
-                "Gunkan Maki Sushi"
+                "海苔寿司"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -5699,7 +5699,7 @@
                 "피시앤칩스",
                 "Fish and Chips",
                 "フィッシュ・アンド・チップス",
-                "Fish and Chips"
+                "炸鱼薯条"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -5713,7 +5713,7 @@
                 "불닭소스+면",
                 "Fire Chicken Sauce+Noodles",
                 "プルダックソース＋麺",
-                "Fire Chicken Sauce+Noodles"
+                "火鸡酱+细面"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5725,7 +5725,7 @@
                 "불닭볶음면",
                 "Fire Noodle",
                 "プルダックポックンミョン",
-                "Fire Noodle"
+                "火鸡面"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5739,7 +5739,7 @@
                 "치킨 부리토(밀)",
                 "Chicken Burrito(Flour)",
                 "チキンブリトー（小麦）",
-                "Chicken Burrito(Flour)"
+                "鸡肉卷饼(面粉)"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5754,7 +5754,7 @@
                 "치킨 부리토(옥수수)",
                 "Chicken Burrito(Corn)",
                 "チキンブリトー（コーン）",
-                "Chicken Burrito(Corn)"
+                "鸡肉卷饼(玉米面粉)"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5769,7 +5769,7 @@
                 "썬 파+반죽",
                 "Green Onion Pancake Batter",
                 "葱チヂミ生地",
-                "Green Onion Pancake Batter"
+                "葱油饼面糊"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5781,7 +5781,7 @@
                 "썬 김치+반죽",
                 "Kimchi Pancake Batter",
                 "キムチチヂミ生地",
-                "Kimchi Pancake Batter"
+                "泡菜饼面糊"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5793,7 +5793,7 @@
                 "파전",
                 "Green Onion Pancake",
                 "ネギチヂミ",
-                "Green Onion Pancake"
+                "葱油松饼"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -5807,7 +5807,7 @@
                 "김치전",
                 "Kimchi Pancake",
                 "キムチチヂミ",
-                "Kimchi Pancake"
+                "泡菜松饼"
             ],
             "canMelt": false,
             "colorCode": "D",
