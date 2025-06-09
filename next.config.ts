@@ -29,6 +29,15 @@ const nextConfig: NextConfig = {
       },
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: '/infinite',
+        destination: 'https://gist.github.com/delta-kor/03ed6185fd684720c7a1287afe889166',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default withNextIntl(nextConfig)
