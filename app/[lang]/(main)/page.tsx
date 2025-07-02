@@ -4,6 +4,8 @@ import { Link } from '@/i18n/routing'
 import { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 
+export const runtime = 'edge'
+
 export default async function MainPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   setRequestLocale(lang)

@@ -2,6 +2,8 @@ import SettingsContent from '@/components/SettingsContent'
 import { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 
+export const runtime = 'edge'
+
 export default async function SettingsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   setRequestLocale(lang)
@@ -11,7 +13,7 @@ export default async function SettingsPage({ params }: { params: Promise<{ lang:
   const region = process.env.VERCEL_REGION || '-'
 
   return (
-    <div className="flex w-full flex-col gap-4">
+    <div className="flex w-full flex-col gap-4 pb-16">
       <SettingsContent />
       <div className="text-12 text-light-gray-hover">
         R: {region} | D: {deployId} | H: {hash}
