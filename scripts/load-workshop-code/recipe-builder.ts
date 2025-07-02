@@ -2,6 +2,7 @@ import { Effect, Schema } from 'effect'
 import { Action, ActionType } from '../../lib/restaurant/action'
 import { Item } from '../../lib/restaurant/item'
 import { StageJson } from '../../lib/restaurant/recipe'
+import RecipeJson from '../../store/recipe.json'
 import { WorkshopConfig } from './code-keys'
 
 export interface RecipeBuilderConfig {
@@ -78,7 +79,22 @@ export class RecipeBuilder {
         const koreanName = koreanNames[index]
         const englishName = englishNames[index]
         const japaneseName = japaneseNames[index]
-        const chineseName = chineseNames[index] || englishName
+
+        let chineseName: string
+        const existingChineseName = RecipeJson.items[index].name[3]
+        if (existingChineseName) {
+          chineseName = existingChineseName
+        } else {
+          const chineseNameFromConfig = chineseNames[index]
+          if (chineseNameFromConfig) {
+            chineseName = chineseNameFromConfig
+          } else {
+            chineseName = englishName
+            yield* Effect.logWarning(
+              `Chinese name for item ${index} is missing, using English name: ${englishName}`
+            )
+          }
+        }
 
         const item = new Item({
           id: index,

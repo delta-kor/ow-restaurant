@@ -3048,7 +3048,7 @@
             "id": 252,
             "name": [
                 "자장면",
-                "Black Bean Noodle Soup",
+                "Black Bean Noodle",
                 "ジャージャーメン",
                 "豆豉汤面"
             ],
@@ -4877,7 +4877,7 @@
             "name": [
                 "민트초코파르페",
                 "Mint Choco Parfait",
-                "ミントチョコパフェ",
+                "チョコミントパフェ",
                 "薄荷巧克力芭菲"
             ],
             "canMelt": true,
@@ -4891,7 +4891,7 @@
             "name": [
                 "민트초코셰이크",
                 "Mint Choco Shake",
-                "ミントチョコシェイク",
+                "チョコミントシェイク",
                 "薄荷巧克力奶昔"
             ],
             "canMelt": true,
@@ -5632,7 +5632,7 @@
             "id": 461,
             "name": [
                 "튀긴 김",
-                "Fried Shrimp",
+                "Fried Seaweed",
                 "揚げた海苔",
                 "炸海苔"
             ],
@@ -8175,7 +8175,7 @@
             "output": [
                 443
             ],
-            "effort": 5
+            "effort": 7
         },
         {
             "type": 1,
@@ -8185,7 +8185,7 @@
             "output": [
                 446
             ],
-            "effort": 5
+            "effort": 7
         },
         {
             "type": 3,
