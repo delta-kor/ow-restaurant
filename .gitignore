@@ -45,3 +45,4 @@ next-env.d.ts
 
 # workshop codes
 scripts/load-workshop-code/code
+scripts/load-workshop-code/code-cafe

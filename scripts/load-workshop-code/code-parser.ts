@@ -1,4 +1,4 @@
-import { Effect, Schema } from 'effect'
+import { Effect, Either, Schema } from 'effect'
 import { WorkshopConfig, WorkshopConfigKeys, WorkshopConfigType } from './code-keys'
 
 export class WorkshopConfigBlockExtractionError extends Schema.TaggedError<WorkshopConfigBlockExtractionError>()(
@@ -24,7 +24,15 @@ export class CodeParser {
       const workshopConfig: Partial<WorkshopConfig> = {}
 
       for (const [configKey, configInfo] of WorkshopConfigKeys) {
-        const block = yield* this.extractBlock(configKey)
+        const blockExtractEither = yield* Effect.either(this.extractBlock(configKey))
+        if (Either.isLeft(blockExtractEither)) {
+          const error = blockExtractEither.left
+          if (!configInfo.optional) yield* Effect.fail(error)
+          yield* Effect.logWarning(`Passed extracting block for ${configKey}`)
+          continue
+        }
+
+        const block = blockExtractEither.right
 
         const configName = configInfo.name
 

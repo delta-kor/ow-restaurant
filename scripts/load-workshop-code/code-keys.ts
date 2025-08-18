@@ -7,6 +7,7 @@ export enum WorkshopConfigType {
 export interface WorkshopConfigInfo {
   name: keyof WorkshopConfig
   type: WorkshopConfigType
+  optional?: boolean
 }
 
 export const WorkshopConfigKeys: Map<string, WorkshopConfigInfo> = new Map()
@@ -89,6 +90,7 @@ WorkshopConfigKeys.set('FRIDGE_LIST', {
 WorkshopConfigKeys.set('MELT_LIST', {
   name: 'meltList',
   type: WorkshopConfigType.Array,
+  optional: true,
 })
 WorkshopConfigKeys.set('ADDITIONAL_MATERIAL_LIST', {
   name: 'additionalMaterialList',
@@ -97,6 +99,16 @@ WorkshopConfigKeys.set('ADDITIONAL_MATERIAL_LIST', {
 WorkshopConfigKeys.set('STAGE_NAME', {
   name: 'stageName',
   type: WorkshopConfigType.STRING,
+})
+WorkshopConfigKeys.set('ICE_NEEDED', {
+  name: 'iceNeeded',
+  type: WorkshopConfigType.Array,
+  optional: true,
+})
+WorkshopConfigKeys.set('ICE_RESULT', {
+  name: 'iceResult',
+  type: WorkshopConfigType.Array,
+  optional: true,
 })
 
 export interface WorkshopConfig {
@@ -119,7 +131,9 @@ export interface WorkshopConfig {
   hazardMenuList: number[][]
   weaverMenuList: number[][]
   fridgeList: number[][]
-  meltList: number[]
+  meltList?: number[]
   additionalMaterialList: (number | number[] | false)[]
   stageName: string[]
+  iceNeeded?: number[]
+  iceResult?: (number | false)[]
 }

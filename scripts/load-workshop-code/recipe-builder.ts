@@ -74,7 +74,7 @@ export class RecipeBuilder {
       const japaneseNames = this.japaneseWorkshopConfig.itemName
       const chineseNames = this.chineseWorkshopConfig.itemName
 
-      const meltList = this.workshopConfig.meltList
+      const meltList = this.workshopConfig.meltList || []
       for (let index = 0; index < koreanNames.length; index++) {
         const koreanName = koreanNames[index]
         const englishName = englishNames[index]

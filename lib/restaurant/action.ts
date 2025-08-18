@@ -9,6 +9,7 @@ export enum ActionType {
   Pan,
   Impact,
   Mix,
+  Ice,
 }
 
 interface ActionConfigBase {
@@ -77,6 +78,9 @@ export class Action {
         break
       case ActionType.Mix:
         type = 'Mix'
+        break
+      case ActionType.Ice:
+        type = 'Ice'
         break
     }
 

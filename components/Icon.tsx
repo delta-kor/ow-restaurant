@@ -14,6 +14,7 @@ import GameSvg from '@/public/icons/game.svg'
 import GithubSvg from '@/public/icons/github.svg'
 import GrillSvg from '@/public/icons/grill.svg'
 import HomeSvg from '@/public/icons/home.svg'
+import IceSvg from '@/public/icons/ice.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
 import ImpactSvg from '@/public/icons/impact.svg'
 import KnifeSvg from '@/public/icons/knife.svg'
@@ -68,6 +69,7 @@ const Icon = {
   Warning: WarningSvg,
   Search: SearchSvg,
   Close: CloseSvg,
+  Ice: IceSvg,
 }
 
 export type IconType = (typeof Icon)[keyof typeof Icon]

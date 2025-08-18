@@ -18,6 +18,8 @@ export function getActionName(action: Action, t: any) {
       return t('impact')
     case ActionType.Mix:
       return t('mix')
+    case ActionType.Ice:
+      return t('ice')
   }
 }
 
@@ -38,5 +40,7 @@ export function getActionIcon(action: Action) {
       return Icon.Impact
     case ActionType.Mix:
       return Icon.Mix
+    case ActionType.Ice:
+      return Icon.Ice
   }
 }
