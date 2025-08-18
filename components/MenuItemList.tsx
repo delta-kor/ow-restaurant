@@ -1,11 +1,11 @@
 'use client'
 
-import { MenuFlowLineInfo } from '@/app/[lang]/(main)/book/[stageId]/page'
+import { MenuFlowLineInfo } from '@/app/[lang]/(main)/book/[...bookPath]/page'
 import Icon from '@/components/Icon'
 import MenuItem, { MenuItemType } from '@/components/MenuItem'
 import MenuItemFilterButton from '@/components/MenuItemFilterButton'
 import { Recipe } from '@/lib/restaurant/recipe'
-import { recipe } from '@/lib/restaurant/restaurant'
+import { getRecipe } from '@/lib/restaurant/restaurant'
 import { Solution } from '@/lib/restaurant/solution'
 import { filterFlowLineInfosWithSearchQuery } from '@/lib/search'
 import { useSettings } from '@/providers/Settings'
@@ -22,7 +22,15 @@ export interface StagePageExecuteResult {
   isAdditionalMenuStage: boolean
 }
 
-export default function MenuItemList({ stageId }: { stageId: number }) {
+export default function MenuItemList({
+  stageId,
+  recipeId,
+}: {
+  stageId: number
+  recipeId: string | null
+}) {
+  const recipe = getRecipe(recipeId)
+
   const t = useTranslations()
   const settings = useSettings()
 

@@ -3,7 +3,7 @@ import { GameManager } from '@/lib/game/game-manager'
 import { getItemColor, getItemTextColor } from '@/lib/item-color'
 import { Action, ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
-import { recipe } from '@/lib/restaurant/restaurant'
+import { getRecipe } from '@/lib/restaurant/restaurant'
 import { Effect } from 'effect'
 import {
   Container,
@@ -213,7 +213,7 @@ export class Entity extends Container {
   }
 
   public impact() {
-    const action = recipe
+    const action = getRecipe(null)
       .getActionsByItemAndActionType(this.item, ActionType.Impact)
       .pipe(Effect.runSync)[0]
     if (!action) return

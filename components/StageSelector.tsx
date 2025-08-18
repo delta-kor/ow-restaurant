@@ -2,7 +2,7 @@
 
 import Icon from '@/components/Icon'
 import { Link } from '@/i18n/routing'
-import { recipe } from '@/lib/restaurant/restaurant'
+import { getRecipe } from '@/lib/restaurant/restaurant'
 import { useLocale, useTranslations } from 'next-intl'
 import { useParams } from 'next/navigation'
 
@@ -25,11 +25,25 @@ export default function StageSelector() {
   const t = useTranslations()
   const locale = useLocale()
 
-  const params = useParams()
-  const { stageId: stageIdText } = params
-  const stageId = parseInt(stageIdText as string) || 0
+  const params = useParams<{ bookPath: string[] }>()
+  const { bookPath } = params
 
-  const stages = recipe.stages
+  if (bookPath.length !== 1 && bookPath.length !== 2) return null
+
+  let stageIdText: string
+  switch (bookPath.length) {
+    case 1:
+      stageIdText = bookPath[0]
+      break
+    case 2:
+      stageIdText = bookPath[1]
+      break
+  }
+
+  const recipeId = bookPath.length === 1 ? null : bookPath[0]
+  const stageId = parseInt(stageIdText) || 0
+
+  const stages = getRecipe(recipeId).stages
 
   return (
     <div className="flex flex-col gap-8">
@@ -40,7 +54,7 @@ export default function StageSelector() {
           return (
             <Link
               key={stage.id}
-              href={`/book/${stage.id}`}
+              href={recipeId === null ? `/book/${stage.id}` : `/book/${recipeId}/${stage.id}`}
               data-active={stageId === stage.id}
               className="rounded-8 group data-[active=true]:bg-primary bg-primary-background flex items-center gap-4 px-12 py-6 transition-colors"
             >

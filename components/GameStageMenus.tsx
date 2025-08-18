@@ -1,5 +1,5 @@
 import { Item } from '@/lib/restaurant/item'
-import { recipe } from '@/lib/restaurant/restaurant'
+import { getRecipe } from '@/lib/restaurant/restaurant'
 import { Effect } from 'effect'
 import { useLocale } from 'next-intl'
 
@@ -12,7 +12,7 @@ export default function GameStageMenus({
 }) {
   const locale = useLocale()
 
-  const stage = recipe.getStage(stageId).pipe(Effect.runSync)
+  const stage = getRecipe(null).getStage(stageId).pipe(Effect.runSync)
   const fridge = stage.fridge
 
   const menus = [...new Set(stage.menus)]

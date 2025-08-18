@@ -1,4 +1,4 @@
-import { MenuFlowLineInfo } from '@/app/[lang]/(main)/book/[stageId]/page'
+import { MenuFlowLineInfo } from '@/app/[lang]/(main)/book/[...bookPath]/page'
 
 export function normalizeSearchText(searchText: string): string {
   return searchText.trim().toLowerCase()

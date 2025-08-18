@@ -4,7 +4,7 @@ import { createBackgroundGraphics } from '@/lib/game/background'
 import { Entity } from '@/lib/game/entity'
 import { ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
-import { recipe } from '@/lib/restaurant/restaurant'
+import { getRecipe } from '@/lib/restaurant/restaurant'
 import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
 import { useLocale, useTranslations } from 'next-intl'
@@ -29,6 +29,8 @@ export default function useGameManager(
   fridge: Item[],
   onItemCreate: (item: Item) => void
 ) {
+  const recipe = getRecipe(null)
+
   const locale = useLocale()
   const t = useTranslations()
   const settings = useSettings()
