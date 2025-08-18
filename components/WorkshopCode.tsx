@@ -1,7 +1,7 @@
 'use client'
 
 import Icon from '@/components/Icon'
-import { CustomRestaurantInfos } from '@/lib/restaurant/custom'
+import { CustomRestaurantInfos, FormUrl } from '@/lib/restaurant/custom'
 import { useTranslations } from 'next-intl'
 
 export default function WorkshopCode() {
@@ -65,7 +65,12 @@ export default function WorkshopCode() {
       </div>
 
       <div className="flex flex-col gap-8 self-start">
-        <div className="text-gray text-16 font-bold">{t('customRestaurant')}</div>
+        <div className="flex items-center justify-between">
+          <div className="text-gray text-16 font-bold">{t('customRestaurant')}</div>
+          <a href={FormUrl} target="_blank" className="text-14 text-primary cursor-pointer">
+            {t('add')}
+          </a>
+        </div>
         <div className="flex flex-col gap-4">
           {CustomRestaurantInfos.map((info) => (
             <div

@@ -2,7 +2,7 @@
 
 import Icon from '@/components/Icon'
 import { Link } from '@/i18n/routing'
-import { CustomRestaurantInfos, getCustomRestaurantInfo } from '@/lib/restaurant/custom'
+import { CustomRestaurantInfos, FormUrl, getCustomRestaurantInfo } from '@/lib/restaurant/custom'
 import { getRecipe } from '@/lib/restaurant/restaurant'
 import { AnimatePresence, motion } from 'motion/react'
 import { useLocale, useTranslations } from 'next-intl'
@@ -110,10 +110,19 @@ export default function StageSelector() {
             key="modal"
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/30"
           >
-            <div className="rounded-8 relative flex min-w-[480px] flex-col gap-12 bg-white p-16">
-              <div className="text-16 text-gray font-bold">레스토랑을 선택해주세요.</div>
+            <div className="rounded-8 relative flex min-w-[480px] flex-col gap-16 bg-white p-16">
+              <div className="flex flex-col gap-2">
+                <div className="text-16 text-gray font-bold">{t('selectRestaurant')}</div>
+                <a
+                  href={FormUrl}
+                  target="_blank"
+                  className="text-12 text-primary cursor-pointer underline underline-offset-2"
+                >
+                  {t('addCustomRestaurant')}
+                </a>
+              </div>
               <div className="flex flex-col">
-                {[{ name: '기본', code: null, recipeId: null }, ...CustomRestaurantInfos].map(
+                {[{ name: t('default'), code: null, recipeId: null }, ...CustomRestaurantInfos].map(
                   (info) => (
                     <Link
                       key={info.recipeId}

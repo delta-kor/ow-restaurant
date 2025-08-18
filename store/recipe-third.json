@@ -1,0 +1,8390 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "name": [
+                "탄 음식",
+                "탄 음식",
+                "탄 음식",
+                "烧焦的食物"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 1,
+            "name": [
+                "양산형 칼",
+                "양산형 칼",
+                "양산형 칼",
+                "牛肉"
+            ],
+            "canMelt": false,
+            "colorCode": "L",
+            "additionalItems": []
+        },
+        {
+            "id": 2,
+            "name": [
+                "탄소강 칼",
+                "탄소강 칼",
+                "탄소강 칼",
+                "牛排"
+            ],
+            "canMelt": false,
+            "colorCode": "T",
+            "additionalItems": []
+        },
+        {
+            "id": 3,
+            "name": [
+                "휴대용 칼",
+                "휴대용 칼",
+                "휴대용 칼",
+                "煎牛肉"
+            ],
+            "canMelt": false,
+            "colorCode": "T",
+            "additionalItems": []
+        },
+        {
+            "id": 4,
+            "name": [
+                "날카로운 칼",
+                "날카로운 칼",
+                "날카로운 칼",
+                "煎牛排"
+            ],
+            "canMelt": false,
+            "colorCode": "T",
+            "additionalItems": []
+        },
+        {
+            "id": 5,
+            "name": [
+                "겐지의 단검",
+                "겐지의 단검",
+                "겐지의 단검",
+                "土豆"
+            ],
+            "canMelt": false,
+            "colorCode": "T",
+            "additionalItems": []
+        },
+        {
+            "id": 6,
+            "name": [
+                "고급 부엌칼",
+                "고급 부엌칼",
+                "고급 부엌칼",
+                "土豆条"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 7,
+            "name": [
+                "헤드셰프의 칼",
+                "헤드셰프의 칼",
+                "헤드셰프의 칼",
+                "炸薯条"
+            ],
+            "canMelt": false,
+            "colorCode": "Z",
+            "additionalItems": []
+        },
+        {
+            "id": 8,
+            "name": [
+                "에너지 드링크",
+                "에너지 드링크",
+                "에너지 드링크",
+                "烤土豆"
+            ],
+            "canMelt": false,
+            "colorCode": "L",
+            "additionalItems": []
+        },
+        {
+            "id": 9,
+            "name": [
+                "수상한 드링크",
+                "수상한 드링크",
+                "수상한 드링크",
+                "蒸土豆"
+            ],
+            "canMelt": false,
+            "colorCode": "Z",
+            "additionalItems": []
+        },
+        {
+            "id": 10,
+            "name": [
+                "점프 부츠",
+                "점프 부츠",
+                "점프 부츠",
+                "土豆泥"
+            ],
+            "canMelt": false,
+            "colorCode": "U",
+            "additionalItems": []
+        },
+        {
+            "id": 11,
+            "name": [
+                "조미료 팩",
+                "조미료 팩",
+                "조미료 팩",
+                "炒土豆条"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 12,
+            "name": [
+                "청소기",
+                "청소기",
+                "청소기",
+                "意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "T",
+            "additionalItems": []
+        },
+        {
+            "id": 13,
+            "name": [
+                "대시 부츠",
+                "대시 부츠",
+                "대시 부츠",
+                "煮意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "U",
+            "additionalItems": []
+        },
+        {
+            "id": 14,
+            "name": [
+                "도마 귀환 스펠",
+                "도마 귀환 스펠",
+                "도마 귀환 스펠",
+                "番茄"
+            ],
+            "canMelt": false,
+            "colorCode": "U",
+            "additionalItems": []
+        },
+        {
+            "id": 15,
+            "name": [
+                "요리 복사 스펠",
+                "요리 복사 스펠",
+                "요리 복사 스펠",
+                "番茄块"
+            ],
+            "canMelt": false,
+            "colorCode": "Z",
+            "additionalItems": []
+        },
+        {
+            "id": 16,
+            "name": [
+                "토치",
+                "토치",
+                "토치",
+                "烤番茄"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 17,
+            "name": [
+                "서빙볼",
+                "서빙볼",
+                "서빙볼",
+                "番茄酱"
+            ],
+            "canMelt": false,
+            "colorCode": "Z",
+            "additionalItems": []
+        },
+        {
+            "id": 18,
+            "name": [
+                "$100",
+                "$100",
+                "$100",
+                "奶油酱"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 19,
+            "name": [
+                "소고기",
+                "소고기",
+                "소고기",
+                "芝士"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 20,
+            "name": [
+                "스테이크",
+                "스테이크",
+                "스테이크",
+                "芝士片"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 21,
+            "name": [
+                "삶은 소고기",
+                "삶은 소고기",
+                "삶은 소고기",
+                "融化芝士"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 22,
+            "name": [
+                "썬 삶은 소고기",
+                "썬 삶은 소고기",
+                "썬 삶은 소고기",
+                "奶油番茄酱"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 23,
+            "name": [
+                "썬 소고기",
+                "썬 소고기",
+                "썬 소고기",
+                "芝士薯条"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 24,
+            "name": [
+                "소고기 구이",
+                "소고기 구이",
+                "소고기 구이",
+                "番茄意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 25,
+            "name": [
+                "다진 소고기",
+                "다진 소고기",
+                "다진 소고기",
+                "奶油意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 26,
+            "name": [
+                "볶은 소고기",
+                "볶은 소고기",
+                "볶은 소고기",
+                "奶油番茄意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 27,
+            "name": [
+                "돼지고기",
+                "돼지고기",
+                "돼지고기",
+                "番茄奶油芝士意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 28,
+            "name": [
+                "통삼겹 구이",
+                "통삼겹 구이",
+                "통삼겹 구이",
+                "奶油芝士意大利面"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 29,
+            "name": [
+                "수육",
+                "수육",
+                "수육",
+                "奶油芝士酱"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 30,
+            "name": [
+                "썬 수육",
+                "썬 수육",
+                "썬 수육",
+                "玫瑰芝士酱"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 31,
+            "name": [
+                "썬 돼지고기",
+                "썬 돼지고기",
+                "썬 돼지고기",
+                "生肉饼"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 32,
+            "name": [
+                "삼겹살 구이",
+                "삼겹살 구이",
+                "삼겹살 구이",
+                "熟肉饼"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 33,
+            "name": [
+                "다진 돼지고기",
+                "다진 돼지고기",
+                "다진 돼지고기",
+                "生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 34,
+            "name": [
+                "볶은 돼지고기",
+                "볶은 돼지고기",
+                "볶은 돼지고기",
+                "生菜片"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 35,
+            "name": [
+                "섞인 다짐육",
+                "섞인 다짐육",
+                "섞인 다짐육",
+                "烤生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 36,
+            "name": [
+                "뭉친 다짐육",
+                "뭉친 다짐육",
+                "뭉친 다짐육",
+                "炒生菜碎"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 37,
+            "name": [
+                "튀긴 돼지고기",
+                "튀긴 돼지고기",
+                "튀긴 돼지고기",
+                "汉堡面包"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 38,
+            "name": [
+                "쌀",
+                "쌀",
+                "쌀",
+                "底层面包"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 39,
+            "name": [
+                "쌀가루",
+                "쌀가루",
+                "쌀가루",
+                "上层面包"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 40,
+            "name": [
+                "밥",
+                "밥",
+                "밥",
+                "面包+肉饼"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 41,
+            "name": [
+                "볶음밥",
+                "볶음밥",
+                "볶음밥",
+                "面包+芝士"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 42,
+            "name": [
+                "공기밥",
+                "공기밥",
+                "공기밥",
+                "面包+番茄"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 43,
+            "name": [
+                "주먹밥",
+                "주먹밥",
+                "주먹밥",
+                "面包+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 44,
+            "name": [
+                "떡 반죽",
+                "떡 반죽",
+                "떡 반죽",
+                "面包+肉饼+芝士"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 45,
+            "name": [
+                "가래떡",
+                "가래떡",
+                "가래떡",
+                "面包+肉饼+番茄"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 46,
+            "name": [
+                "떡국용 떡",
+                "떡국용 떡",
+                "떡국용 떡",
+                "面包+肉饼+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 47,
+            "name": [
+                "가래떡 구이",
+                "가래떡 구이",
+                "가래떡 구이",
+                "面包+芝士+番茄"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 48,
+            "name": [
+                "떡튀김",
+                "떡튀김",
+                "떡튀김",
+                "面包+芝士+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 49,
+            "name": [
+                "콩나물",
+                "콩나물",
+                "콩나물",
+                "面包+番茄+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 50,
+            "name": [
+                "삶은 콩나물",
+                "삶은 콩나물",
+                "삶은 콩나물",
+                "面包+肉饼+芝士+番茄"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 51,
+            "name": [
+                "육수",
+                "육수",
+                "육수",
+                "面包+肉饼+芝士+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 52,
+            "name": [
+                "끓인 육수",
+                "끓인 육수",
+                "끓인 육수",
+                "面包+肉饼+番茄+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 53,
+            "name": [
+                "떡국",
+                "떡국",
+                "떡국",
+                "面包+芝士+番茄+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 54,
+            "name": [
+                "가공육",
+                "가공육",
+                "가공육",
+                "面包+肉饼+芝士+番茄+生菜"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 55,
+            "name": [
+                "부대찌개",
+                "부대찌개",
+                "부대찌개",
+                "汉堡包"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 56,
+            "name": [
+                "순대",
+                "순대",
+                "순대",
+                "芝士汉堡"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 57,
+            "name": [
+                "썬 순대",
+                "썬 순대",
+                "썬 순대",
+                "蔬菜汉堡"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 58,
+            "name": [
+                "모듬 순대",
+                "모듬 순대",
+                "모듬 순대",
+                "芝士蔬菜汉堡"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 59,
+            "name": [
+                "국밥",
+                "국밥",
+                "국밥",
+                "豪华汉堡"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 60,
+            "name": [
+                "소고기국밥",
+                "소고기국밥",
+                "소고기국밥",
+                "芝士豪华汉堡"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 61,
+            "name": [
+                "돼지국밥",
+                "돼지국밥",
+                "돼지국밥",
+                "普通菜刀"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 62,
+            "name": [
+                "콩나물국밥",
+                "콩나물국밥",
+                "콩나물국밥",
+                "辅助刀具"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 63,
+            "name": [
+                "순대국밥",
+                "순대국밥",
+                "순대국밥",
+                "便携刀具"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 64,
+            "name": [
+                "말린 생선",
+                "말린 생선",
+                "말린 생선",
+                "锋利刀具"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 65,
+            "name": [
+                "해장국",
+                "해장국",
+                "해장국",
+                "源の龙刃"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": [
+                64
+            ]
+        },
+        {
+            "id": 66,
+            "name": [
+                "조개",
+                "조개",
+                "조개",
+                "鸡肉"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": []
+        },
+        {
+            "id": 67,
+            "name": [
+                "볶은 조개",
+                "볶은 조개",
+                "볶은 조개",
+                "鸡块"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": []
+        },
+        {
+            "id": 68,
+            "name": [
+                "삶은 조개",
+                "삶은 조개",
+                "삶은 조개",
+                "鸡排"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": []
+        },
+        {
+            "id": 69,
+            "name": [
+                "굴국밥",
+                "굴국밥",
+                "굴국밥",
+                "大葱"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": [
+                66
+            ]
+        },
+        {
+            "id": 70,
+            "name": [
+                "해초",
+                "해초",
+                "해초",
+                "葱段"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 71,
+            "name": [
+                "구운 김",
+                "구운 김",
+                "구운 김",
+                "葱花"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 72,
+            "name": [
+                "불린 미역",
+                "불린 미역",
+                "불린 미역",
+                "炸粉"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 73,
+            "name": [
+                "미역국",
+                "미역국",
+                "미역국",
+                "红椒"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": [
+                70
+            ]
+        },
+        {
+            "id": 74,
+            "name": [
+                "닭고기",
+                "닭고기",
+                "닭고기",
+                "酱油"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 75,
+            "name": [
+                "직화구이 통닭",
+                "직화구이 통닭",
+                "직화구이 통닭",
+                "玉米糖浆"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 76,
+            "name": [
+                "썬 닭고기",
+                "썬 닭고기",
+                "썬 닭고기",
+                "红椒酱料"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 77,
+            "name": [
+                "볶은 닭",
+                "볶은 닭",
+                "볶은 닭",
+                "酱油酱料"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 78,
+            "name": [
+                "조각낸 닭고기",
+                "조각낸 닭고기",
+                "조각낸 닭고기",
+                "葱油酱料"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 79,
+            "name": [
+                "튀김가루",
+                "튀김가루",
+                "튀김가루",
+                "甜辣酱料"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 80,
+            "name": [
+                "튀김 부스러기",
+                "튀김 부스러기",
+                "튀김 부스러기",
+                "烤全鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 81,
+            "name": [
+                "닭+튀김가루",
+                "닭+튀김가루",
+                "닭+튀김가루",
+                "裹粉全鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 82,
+            "name": [
+                "통닭",
+                "통닭",
+                "통닭",
+                "裹粉鸡块"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 83,
+            "name": [
+                "썬 닭+튀김가루",
+                "썬 닭+튀김가루",
+                "썬 닭+튀김가루",
+                "裹粉鸡排"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 84,
+            "name": [
+                "후라이드 치킨",
+                "후라이드 치킨",
+                "후라이드 치킨",
+                "炸鸡排"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 85,
+            "name": [
+                "조각 닭+튀김가루",
+                "조각 닭+튀김가루",
+                "조각 닭+튀김가루",
+                "炸鸡块"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 86,
+            "name": [
+                "순살치킨",
+                "순살치킨",
+                "순살치킨",
+                "甜辣炸鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 87,
+            "name": [
+                "핫소스",
+                "핫소스",
+                "핫소스",
+                "辣椒炸鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 88,
+            "name": [
+                "맛술",
+                "맛술",
+                "맛술",
+                "酱油炸鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 89,
+            "name": [
+                "고추장",
+                "고추장",
+                "고추장",
+                "酱炒甜辣炸鸡排"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 90,
+            "name": [
+                "간장 소스",
+                "간장 소스",
+                "간장 소스",
+                "炸全鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 91,
+            "name": [
+                "갈비 소스",
+                "갈비 소스",
+                "갈비 소스",
+                "炒葱段"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 92,
+            "name": [
+                "양념 소스",
+                "양념 소스",
+                "양념 소스",
+                "油炸大葱"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 93,
+            "name": [
+                "불닭 소스",
+                "불닭 소스",
+                "불닭 소스",
+                "煮鸡肉"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 94,
+            "name": [
+                "썬 닭+갈비 소스",
+                "썬 닭+갈비 소스",
+                "썬 닭+갈비 소스",
+                "烤大葱"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 95,
+            "name": [
+                "데리야끼 치킨",
+                "데리야끼 치킨",
+                "데리야끼 치킨",
+                "炸屑"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 96,
+            "name": [
+                "바베큐 치킨",
+                "바베큐 치킨",
+                "바베큐 치킨",
+                "葱鸡"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 97,
+            "name": [
+                "썬 닭+양념 소스",
+                "썬 닭+양념 소스",
+                "썬 닭+양념 소스",
+                "甜辣炸鸡排"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 98,
+            "name": [
+                "닭갈비",
+                "닭갈비",
+                "닭갈비",
+                "番茄泥"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 99,
+            "name": [
+                "버팔로 윙",
+                "버팔로 윙",
+                "버팔로 윙",
+                "碎鸡蛋"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 100,
+            "name": [
+                "불닭",
+                "불닭",
+                "불닭",
+                "鸡蛋"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 101,
+            "name": [
+                "간장 치킨",
+                "간장 치킨",
+                "간장 치킨",
+                "水煮蛋"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 102,
+            "name": [
+                "양념치킨",
+                "양념치킨",
+                "양념치킨",
+                "剥壳水煮蛋"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 103,
+            "name": [
+                "핫 양념치킨",
+                "핫 양념치킨",
+                "핫 양념치킨",
+                "水煮蛋碎"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 104,
+            "name": [
+                "순살 양념치킨",
+                "순살 양념치킨",
+                "순살 양념치킨",
+                "生鸡蛋液"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 105,
+            "name": [
+                "닭강정",
+                "닭강정",
+                "닭강정",
+                "泡菜炒饭"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 106,
+            "name": [
+                "삶은 닭고기",
+                "삶은 닭고기",
+                "삶은 닭고기",
+                "蛋炒饭"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 107,
+            "name": [
+                "썬 삶은 닭고기",
+                "썬 삶은 닭고기",
+                "썬 삶은 닭고기",
+                "煎牛排包饭"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 108,
+            "name": [
+                "닭곰탕",
+                "닭곰탕",
+                "닭곰탕",
+                "混合蛋液"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": [
+                74
+            ]
+        },
+        {
+            "id": 109,
+            "name": [
+                "닭칼국수",
+                "닭칼국수",
+                "닭칼국수",
+                "煎蛋"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": [
+                51,
+                118
+            ]
+        },
+        {
+            "id": 110,
+            "name": [
+                "치즈 닭갈비",
+                "치즈 닭갈비",
+                "치즈 닭갈비",
+                "炒蛋"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 111,
+            "name": [
+                "파닭",
+                "파닭",
+                "파닭",
+                "蒸蛋羹"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                114
+            ]
+        },
+        {
+            "id": 112,
+            "name": [
+                "치즈",
+                "치즈",
+                "치즈",
+                "生大米"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 113,
+            "name": [
+                "녹인 치즈",
+                "녹인 치즈",
+                "녹인 치즈",
+                "马苏里拉芝士"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 114,
+            "name": [
+                "파",
+                "파",
+                "파",
+                "面粉"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 115,
+            "name": [
+                "썬 파",
+                "썬 파",
+                "썬 파",
+                "面团"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 116,
+            "name": [
+                "다진 파",
+                "다진 파",
+                "다진 파",
+                "小面团"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 117,
+            "name": [
+                "파닭 소스",
+                "파닭 소스",
+                "파닭 소스",
+                "面皮"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 118,
+            "name": [
+                "밀가루",
+                "밀가루",
+                "밀가루",
+                "饺子皮"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 119,
+            "name": [
+                "밀가루 반죽",
+                "밀가루 반죽",
+                "밀가루 반죽",
+                "披萨饼皮"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 120,
+            "name": [
+                "작은 밀가루 반죽",
+                "작은 밀가루 반죽",
+                "작은 밀가루 반죽",
+                "面粉薄饼"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 121,
+            "name": [
+                "만두피",
+                "만두피",
+                "만두피",
+                "意大利辣香肠"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 122,
+            "name": [
+                "작은 수제비 반죽",
+                "작은 수제비 반죽",
+                "작은 수제비 반죽",
+                "培根"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 123,
+            "name": [
+                "수제비 반죽",
+                "수제비 반죽",
+                "수제비 반죽",
+                "烤培根"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 124,
+            "name": [
+                "삶은 수제비 반죽",
+                "삶은 수제비 반죽",
+                "삶은 수제비 반죽",
+                "培根片"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 125,
+            "name": [
+                "핀 밀가루 반죽",
+                "핀 밀가루 반죽",
+                "핀 밀가루 반죽",
+                "酱披萨饼皮"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 126,
+            "name": [
+                "밀가루 덩어리",
+                "밀가루 덩어리",
+                "밀가루 덩어리",
+                "马苏里拉披萨"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 127,
+            "name": [
+                "늘린 밀가루 반죽",
+                "늘린 밀가루 반죽",
+                "늘린 밀가루 반죽",
+                "披萨底胚"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 128,
+            "name": [
+                "튀긴 빵",
+                "튀긴 빵",
+                "튀긴 빵",
+                "底胚+意大利辣香肠"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 129,
+            "name": [
+                "밀떡",
+                "밀떡",
+                "밀떡",
+                "底胚+培根"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 130,
+            "name": [
+                "밀가루 면(1|2)",
+                "밀가루 면(1|2)",
+                "밀가루 면(1|2)",
+                "底胚+土豆"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 131,
+            "name": [
+                "밀가루 면",
+                "밀가루 면",
+                "밀가루 면",
+                "底胚+培根+土豆"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 132,
+            "name": [
+                "삶은 밀가루 면",
+                "삶은 밀가루 면",
+                "삶은 밀가루 면",
+                "意大利辣香肠披萨"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 133,
+            "name": [
+                "칼국수",
+                "칼국수",
+                "칼국수",
+                "培根披萨"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 134,
+            "name": [
+                "수제비",
+                "수제비",
+                "수제비",
+                "土豆披萨"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 135,
+            "name": [
+                "짜장 소스",
+                "짜장 소스",
+                "짜장 소스",
+                "培根土豆披萨"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 136,
+            "name": [
+                "볶은 짜장",
+                "볶은 짜장",
+                "볶은 짜장",
+                "煎蛋卷"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 137,
+            "name": [
+                "짜장면",
+                "짜장면",
+                "짜장면",
+                "烤意大利辣香肠"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 138,
+            "name": [
+                "간짜장",
+                "간짜장",
+                "간짜장",
+                "烤培根片"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 139,
+            "name": [
+                "짬뽕 베이스",
+                "짬뽕 베이스",
+                "짬뽕 베이스",
+                "水煮牛肉"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 140,
+            "name": [
+                "짬뽕 국물",
+                "짬뽕 국물",
+                "짬뽕 국물",
+                "面包屑"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 141,
+            "name": [
+                "짬뽕",
+                "짬뽕",
+                "짬뽕",
+                "切丝煎蛋卷"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 142,
+            "name": [
+                "해물 짬뽕",
+                "해물 짬뽕",
+                "해물 짬뽕",
+                "泡菜"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 143,
+            "name": [
+                "바지락 칼국수",
+                "바지락 칼국수",
+                "바지락 칼국수",
+                "碎泡菜"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 144,
+            "name": [
+                "만두소",
+                "만두소",
+                "만두소",
+                "泡菜末"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 145,
+            "name": [
+                "생 만두",
+                "생 만두",
+                "생 만두",
+                "炒泡菜"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 146,
+            "name": [
+                "군만두",
+                "군만두",
+                "군만두",
+                "泡菜蛋炒饭"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 147,
+            "name": [
+                "찐만두",
+                "찐만두",
+                "찐만두",
+                "豆腐"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 148,
+            "name": [
+                "조개 구이",
+                "조개 구이",
+                "조개 구이",
+                "豆腐块"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": []
+        },
+        {
+            "id": 149,
+            "name": [
+                "생 떡갈비",
+                "생 떡갈비",
+                "생 떡갈비",
+                "煎豆腐"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 150,
+            "name": [
+                "떡갈비",
+                "떡갈비",
+                "떡갈비",
+                "煎豆腐块"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 151,
+            "name": [
+                "생 돈가스",
+                "생 돈가스",
+                "생 돈가스",
+                "豆腐糜"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 152,
+            "name": [
+                "돈가스",
+                "돈가스",
+                "돈가스",
+                "酱煎牛排饭"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 153,
+            "name": [
+                "썬 소고기+튀김가루",
+                "썬 소고기+튀김가루",
+                "썬 소고기+튀김가루",
+                "泡菜酱煎牛排饭"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 154,
+            "name": [
+                "튀긴 소고기",
+                "튀긴 소고기",
+                "튀긴 소고기",
+                "牛肉糜"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 155,
+            "name": [
+                "규카츠",
+                "규카츠",
+                "규카츠",
+                "酱油牛排"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 156,
+            "name": [
+                "썬 돼지고기+간장 소스",
+                "썬 돼지고기+간장 소스",
+                "썬 돼지고기+간장 소스",
+                "酱煎牛排"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 157,
+            "name": [
+                "썬 소고기+간장 소스",
+                "썬 소고기+간장 소스",
+                "썬 소고기+간장 소스",
+                "粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 158,
+            "name": [
+                "돼지 불고기",
+                "돼지 불고기",
+                "돼지 불고기",
+                "碎粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 159,
+            "name": [
+                "불고기",
+                "불고기",
+                "불고기",
+                "猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 160,
+            "name": [
+                "썬 돼지고기+갈비 소스",
+                "썬 돼지고기+갈비 소스",
+                "썬 돼지고기+갈비 소스",
+                "猪排"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 161,
+            "name": [
+                "썬 소고기+갈비 소스",
+                "썬 소고기+갈비 소스",
+                "썬 소고기+갈비 소스",
+                "猪肉糜"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 162,
+            "name": [
+                "돼지갈비",
+                "돼지갈비",
+                "돼지갈비",
+                "烤猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 163,
+            "name": [
+                "소갈비",
+                "소갈비",
+                "소갈비",
+                "炸猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 164,
+            "name": [
+                "썬 돼지고기+양념 소스",
+                "썬 돼지고기+양념 소스",
+                "썬 돼지고기+양념 소스",
+                "煮猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 165,
+            "name": [
+                "돼지 주물럭",
+                "돼지 주물럭",
+                "돼지 주물럭",
+                "煎猪排"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 166,
+            "name": [
+                "제육볶음",
+                "제육볶음",
+                "제육볶음",
+                "碎煮猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 167,
+            "name": [
+                "제육덮밥",
+                "제육덮밥",
+                "제육덮밥",
+                "葱花+泡菜"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                38
+            ]
+        },
+        {
+            "id": 168,
+            "name": [
+                "불고기 덮밥",
+                "불고기 덮밥",
+                "불고기 덮밥",
+                "葱花+豆腐"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                38
+            ]
+        },
+        {
+            "id": 169,
+            "name": [
+                "돈가스 정식",
+                "돈가스 정식",
+                "돈가스 정식",
+                "葱花+粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": [
+                38
+            ]
+        },
+        {
+            "id": 170,
+            "name": [
+                "쌀국수 면",
+                "쌀국수 면",
+                "쌀국수 면",
+                "葱花+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 171,
+            "name": [
+                "삶은 쌀국수 면",
+                "삶은 쌀국수 면",
+                "삶은 쌀국수 면",
+                "泡菜+粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 172,
+            "name": [
+                "쌀국수",
+                "쌀국수",
+                "쌀국수",
+                "泡菜+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": [
+                170
+            ]
+        },
+        {
+            "id": 173,
+            "name": [
+                "떡만둣국",
+                "떡만둣국",
+                "떡만둣국",
+                "豆腐+粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": [
+                38
+            ]
+        },
+        {
+            "id": 174,
+            "name": [
+                "만둣국",
+                "만둣국",
+                "만둣국",
+                "豆腐+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 175,
+            "name": [
+                "짜장밥",
+                "짜장밥",
+                "짜장밥",
+                "粉条+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                38
+            ]
+        },
+        {
+            "id": 176,
+            "name": [
+                "토마토",
+                "토마토",
+                "토마토",
+                "葱花+泡菜+粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 177,
+            "name": [
+                "구운 토마토",
+                "구운 토마토",
+                "구운 토마토",
+                "葱花+泡菜+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 178,
+            "name": [
+                "썬 토마토",
+                "썬 토마토",
+                "썬 토마토",
+                "葱花+豆腐+粉条"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 179,
+            "name": [
+                "으깬 토마토",
+                "으깬 토마토",
+                "으깬 토마토",
+                "葱花+豆腐+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 180,
+            "name": [
+                "토마토 소스",
+                "토마토 소스",
+                "토마토 소스",
+                "葱花+粉条+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 181,
+            "name": [
+                "크림 소스",
+                "크림 소스",
+                "크림 소스",
+                "泡菜+粉条+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 182,
+            "name": [
+                "로제 소스",
+                "로제 소스",
+                "로제 소스",
+                "豆腐+粉条+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 183,
+            "name": [
+                "쌀떡+크림 소스",
+                "쌀떡+크림 소스",
+                "쌀떡+크림 소스",
+                "葱花+泡菜+粉条+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 184,
+            "name": [
+                "크림 떡볶이(쌀)",
+                "크림 떡볶이(쌀)",
+                "크림 떡볶이(쌀)",
+                "葱花+豆腐+粉条+猪肉"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 185,
+            "name": [
+                "밀떡+크림 소스",
+                "밀떡+크림 소스",
+                "밀떡+크림 소스",
+                "生蔬菜饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 186,
+            "name": [
+                "크림 떡볶이(밀)",
+                "크림 떡볶이(밀)",
+                "크림 떡볶이(밀)",
+                "生泡菜饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 187,
+            "name": [
+                "쌀떡+로제 소스",
+                "쌀떡+로제 소스",
+                "쌀떡+로제 소스",
+                "生猪肉饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 188,
+            "name": [
+                "로제 떡볶이(쌀)",
+                "로제 떡볶이(쌀)",
+                "로제 떡볶이(쌀)",
+                "烤蔬菜饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 189,
+            "name": [
+                "밀떡+로제 소스",
+                "밀떡+로제 소스",
+                "밀떡+로제 소스",
+                "烤泡菜饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 190,
+            "name": [
+                "로제 떡볶이(밀)",
+                "로제 떡볶이(밀)",
+                "로제 떡볶이(밀)",
+                "烤猪肉饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 191,
+            "name": [
+                "쌀떡+간장 소스",
+                "쌀떡+간장 소스",
+                "쌀떡+간장 소스",
+                "蒸蔬菜饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 192,
+            "name": [
+                "궁중 떡볶이(쌀)",
+                "궁중 떡볶이(쌀)",
+                "궁중 떡볶이(쌀)",
+                "蒸泡菜饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 193,
+            "name": [
+                "밀떡+간장 소스",
+                "밀떡+간장 소스",
+                "밀떡+간장 소스",
+                "蒸猪肉饺子"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 194,
+            "name": [
+                "궁중 떡볶이(밀)",
+                "궁중 떡볶이(밀)",
+                "궁중 떡볶이(밀)",
+                "米饭"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 195,
+            "name": [
+                "쌀떡+양념 소스",
+                "쌀떡+양념 소스",
+                "쌀떡+양념 소스",
+                "炒饭"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 196,
+            "name": [
+                "떡볶이(쌀)",
+                "떡볶이(쌀)",
+                "떡볶이(쌀)",
+                "炸猪肉饼"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 197,
+            "name": [
+                "밀떡+양념 소스",
+                "밀떡+양념 소스",
+                "밀떡+양념 소스",
+                "碎猪肉饼"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 198,
+            "name": [
+                "떡볶이(밀)",
+                "떡볶이(밀)",
+                "떡볶이(밀)",
+                "鱼"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 199,
+            "name": [
+                "쌀떡+짜장 소스",
+                "쌀떡+짜장 소스",
+                "쌀떡+짜장 소스",
+                "生鱼片"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 200,
+            "name": [
+                "짜장 떡볶이(쌀)",
+                "짜장 떡볶이(쌀)",
+                "짜장 떡볶이(쌀)",
+                "鱼糜"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                135
+            ]
+        },
+        {
+            "id": 201,
+            "name": [
+                "밀떡+짜장 소스",
+                "밀떡+짜장 소스",
+                "밀떡+짜장 소스",
+                "清蒸鱼"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 202,
+            "name": [
+                "짜장 떡볶이(밀)",
+                "짜장 떡볶이(밀)",
+                "짜장 떡볶이(밀)",
+                "清蒸鱼饼"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                135
+            ]
+        },
+        {
+            "id": 203,
+            "name": [
+                "떡볶이+순대",
+                "떡볶이+순대",
+                "떡볶이+순대",
+                "烤鱼"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                54
+            ]
+        },
+        {
+            "id": 204,
+            "name": [
+                "구운 햄",
+                "구운 햄",
+                "구운 햄",
+                "炸鱼"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 205,
+            "name": [
+                "달걀",
+                "달걀",
+                "달걀",
+                "酱油鱼片"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 206,
+            "name": [
+                "삶은 달걀",
+                "삶은 달걀",
+                "삶은 달걀",
+                "酱油煮鱼片"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 207,
+            "name": [
+                "깐 삶은 달걀",
+                "깐 삶은 달걀",
+                "깐 삶은 달걀",
+                "酱油烤鱼片"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 208,
+            "name": [
+                "으깬 삶은 달걀",
+                "으깬 삶은 달걀",
+                "으깬 삶은 달걀",
+                "小碗米饭"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 209,
+            "name": [
+                "깐 달걀",
+                "깐 달걀",
+                "깐 달걀",
+                "寿司"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 210,
+            "name": [
+                "계란 후라이",
+                "계란 후라이",
+                "계란 후라이",
+                "双份寿司"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 211,
+            "name": [
+                "계란볶음밥",
+                "계란볶음밥",
+                "계란볶음밥",
+                "饭团"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 212,
+            "name": [
+                "섞인 달걀",
+                "섞인 달걀",
+                "섞인 달걀",
+                "酱油饭团"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 213,
+            "name": [
+                "계란부침",
+                "계란부침",
+                "계란부침",
+                "清蒸鱼饭"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 214,
+            "name": [
+                "달걀지단",
+                "달걀지단",
+                "달걀지단",
+                "猪肉饼饭"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 215,
+            "name": [
+                "계란말이",
+                "계란말이",
+                "계란말이",
+                "猪肉饼滑蛋盖饭"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 216,
+            "name": [
+                "계란찜",
+                "계란찜",
+                "계란찜",
+                "碎煮鸡肉"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 217,
+            "name": [
+                "단무지",
+                "단무지",
+                "단무지",
+                "碎煮鸡肉饭"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 218,
+            "name": [
+                "썬 단무지",
+                "썬 단무지",
+                "썬 단무지",
+                "滑蛋盖饭"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 219,
+            "name": [
+                "야채",
+                "야채",
+                "야채",
+                "滑蛋鸡肉饭"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 220,
+            "name": [
+                "썬 야채",
+                "썬 야채",
+                "썬 야채",
+                "炸鱼片"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 221,
+            "name": [
+                "다진 야채",
+                "다진 야채",
+                "다진 야채",
+                "裹粉猪排"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 222,
+            "name": [
+                "볶은 야채",
+                "볶은 야채",
+                "볶은 야채",
+                "裹粉鱼糜"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 223,
+            "name": [
+                "야채볶음밥",
+                "야채볶음밥",
+                "야채볶음밥",
+                "炸鱼饼"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 224,
+            "name": [
+                "삼각김밥",
+                "삼각김밥",
+                "삼각김밥",
+                "裹粉鱼片"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 225,
+            "name": [
+                "김+밥",
+                "김+밥",
+                "김+밥",
+                "炸鸡块饭"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 226,
+            "name": [
+                "김+밥+야채",
+                "김+밥+야채",
+                "김+밥+야채",
+                "炸鸡块滑蛋盖饭"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 227,
+            "name": [
+                "김+밥+계란",
+                "김+밥+계란",
+                "김+밥+계란",
+                "小份手撕面"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 228,
+            "name": [
+                "김+밥+단무지",
+                "김+밥+단무지",
+                "김+밥+단무지",
+                "手撕面"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 229,
+            "name": [
+                "김+밥+햄",
+                "김+밥+햄",
+                "김+밥+햄",
+                "面疙瘩"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 230,
+            "name": [
+                "김+밥+야채+단무지",
+                "김+밥+야채+단무지",
+                "김+밥+야채+단무지",
+                "抻面胚"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 231,
+            "name": [
+                "김+밥+야채+계란",
+                "김+밥+야채+계란",
+                "김+밥+야채+계란",
+                "生面条 (1|4)"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 232,
+            "name": [
+                "김+밥+야채+햄",
+                "김+밥+야채+햄",
+                "김+밥+야채+햄",
+                "生面条 (2|4)"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 233,
+            "name": [
+                "김+밥+계란+단무지",
+                "김+밥+계란+단무지",
+                "김+밥+계란+단무지",
+                "生面条 (3|4)"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 234,
+            "name": [
+                "김+밥+계란+햄",
+                "김+밥+계란+햄",
+                "김+밥+계란+햄",
+                "生面条"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 235,
+            "name": [
+                "김+밥+단무지+햄",
+                "김+밥+단무지+햄",
+                "김+밥+단무지+햄",
+                "面片"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 236,
+            "name": [
+                "김+밥+야+단+계",
+                "김+밥+야+단+계",
+                "김+밥+야+단+계",
+                "抻面线"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 237,
+            "name": [
+                "김+밥+야+단+햄",
+                "김+밥+야+단+햄",
+                "김+밥+야+단+햄",
+                "生细面 (1|4)"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 238,
+            "name": [
+                "김+밥+야+계+햄",
+                "김+밥+야+계+햄",
+                "김+밥+야+계+햄",
+                "生细面 (2|4)"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 239,
+            "name": [
+                "김+밥+계+단+햄",
+                "김+밥+계+단+햄",
+                "김+밥+계+단+햄",
+                "生细面 (3|4)"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 240,
+            "name": [
+                "김+밥+야+단+계+햄",
+                "김+밥+야+단+계+햄",
+                "김+밥+야+단+계+햄",
+                "生细面"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 241,
+            "name": [
+                "소금김밥",
+                "소금김밥",
+                "소금김밥",
+                "清汤"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 242,
+            "name": [
+                "야채김밥",
+                "야채김밥",
+                "야채김밥",
+                "泡菜高汤"
+            ],
+            "canMelt": false,
+            "colorCode": "G",
+            "additionalItems": []
+        },
+        {
+            "id": 243,
+            "name": [
+                "계란김밥",
+                "계란김밥",
+                "계란김밥",
+                "高汤"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 244,
+            "name": [
+                "햄김밥",
+                "햄김밥",
+                "햄김밥",
+                "泡菜白汤"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 245,
+            "name": [
+                "김밥",
+                "김밥",
+                "김밥",
+                "豆豉酱"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 246,
+            "name": [
+                "계란말이 김밥",
+                "계란말이 김밥",
+                "계란말이 김밥",
+                "揪面片汤"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 247,
+            "name": [
+                "김+밥+야+단+계+불",
+                "김+밥+야+단+계+불",
+                "김+밥+야+단+계+불",
+                "泡菜揪面片汤"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 248,
+            "name": [
+                "김+밥+야+단+계+돈",
+                "김+밥+야+단+계+돈",
+                "김+밥+야+단+계+돈",
+                "汤面"
+            ],
+            "canMelt": false,
+            "colorCode": "V",
+            "additionalItems": []
+        },
+        {
+            "id": 249,
+            "name": [
+                "불고기 김밥",
+                "불고기 김밥",
+                "불고기 김밥",
+                "泡菜汤面"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                19,
+                90
+            ]
+        },
+        {
+            "id": 250,
+            "name": [
+                "돈가스 김밥",
+                "돈가스 김밥",
+                "돈가스 김밥",
+                "细汤面"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": [
+                27,
+                79
+            ]
+        },
+        {
+            "id": 251,
+            "name": [
+                "불고기 주먹밥",
+                "불고기 주먹밥",
+                "불고기 주먹밥",
+                "泡菜细汤面"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                19,
+                90
+            ]
+        },
+        {
+            "id": 252,
+            "name": [
+                "불고기 삼각김밥",
+                "불고기 삼각김밥",
+                "불고기 삼각김밥",
+                "豆豉汤面"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                19,
+                90
+            ]
+        },
+        {
+            "id": 253,
+            "name": [
+                "제육 주먹밥",
+                "제육 주먹밥",
+                "제육 주먹밥",
+                "豆腐块+泡菜"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                27,
+                92
+            ]
+        },
+        {
+            "id": 254,
+            "name": [
+                "제육 삼각김밥",
+                "제육 삼각김밥",
+                "제육 삼각김밥",
+                "煎豆腐块+泡菜"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                27,
+                92
+            ]
+        },
+        {
+            "id": 255,
+            "name": [
+                "찹쌀가루",
+                "찹쌀가루",
+                "찹쌀가루",
+                "水煮面"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": []
+        },
+        {
+            "id": 256,
+            "name": [
+                "찹쌀가루 반죽",
+                "찹쌀가루 반죽",
+                "찹쌀가루 반죽",
+                "水煮细面"
+            ],
+            "canMelt": false,
+            "colorCode": "E",
+            "additionalItems": []
+        },
+        {
+            "id": 257,
+            "name": [
+                "찹쌀떡 반죽",
+                "찹쌀떡 반죽",
+                "찹쌀떡 반죽",
+                "煮手撕面"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 258,
+            "name": [
+                "찹쌀빵 반죽",
+                "찹쌀빵 반죽",
+                "찹쌀빵 반죽",
+                "米糕"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 259,
+            "name": [
+                "찹쌀 도너츠",
+                "찹쌀 도너츠",
+                "찹쌀 도너츠",
+                "米糕汤"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 260,
+            "name": [
+                "꽈배기",
+                "꽈배기",
+                "꽈배기",
+                "饺子汤"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 261,
+            "name": [
+                "도넛",
+                "도넛",
+                "도넛",
+                "米糕饺子汤"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 262,
+            "name": [
+                "글레이즈 도넛",
+                "글레이즈 도넛",
+                "글레이즈 도넛",
+                "鸡蛋糊"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 263,
+            "name": [
+                "계란빵",
+                "계란빵",
+                "계란빵",
+                "肉糜糊"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 264,
+            "name": [
+                "계란 반죽",
+                "계란 반죽",
+                "계란 반죽",
+                "肉丸"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 265,
+            "name": [
+                "팥",
+                "팥",
+                "팥",
+                "厨刀"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 266,
+            "name": [
+                "삶은 팥",
+                "삶은 팥",
+                "삶은 팥",
+                "鸣门卷"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 267,
+            "name": [
+                "으깬 팥",
+                "으깬 팥",
+                "으깬 팥",
+                "鸣门卷片"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 268,
+            "name": [
+                "설탕",
+                "설탕",
+                "설탕",
+                "洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 269,
+            "name": [
+                "녹인 설탕",
+                "녹인 설탕",
+                "녹인 설탕",
+                "洋葱片"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 270,
+            "name": [
+                "팥소",
+                "팥소",
+                "팥소",
+                "洋葱碎"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 271,
+            "name": [
+                "쌀 반죽",
+                "쌀 반죽",
+                "쌀 반죽",
+                "烤洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 272,
+            "name": [
+                "꿀떡 반죽",
+                "꿀떡 반죽",
+                "꿀떡 반죽",
+                "炒洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 273,
+            "name": [
+                "꿀떡",
+                "꿀떡",
+                "꿀떡",
+                "虾"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 274,
+            "name": [
+                "호떡 반죽",
+                "호떡 반죽",
+                "호떡 반죽",
+                "烤虾"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 275,
+            "name": [
+                "호떡",
+                "호떡",
+                "호떡",
+                "蒸虾"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 276,
+            "name": [
+                "팥+찹쌀빵 반죽",
+                "팥+찹쌀빵 반죽",
+                "팥+찹쌀빵 반죽",
+                "玉米面团卷"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 277,
+            "name": [
+                "팥 도너츠",
+                "팥 도너츠",
+                "팥 도너츠",
+                "玉米饼"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 278,
+            "name": [
+                "팥+계란 반죽",
+                "팥+계란 반죽",
+                "팥+계란 반죽",
+                "面粉猪肉卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 279,
+            "name": [
+                "붕어빵",
+                "붕어빵",
+                "붕어빵",
+                "玉米猪肉卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 280,
+            "name": [
+                "찐빵 반죽",
+                "찐빵 반죽",
+                "찐빵 반죽",
+                "面粉牛肉卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 281,
+            "name": [
+                "찐빵",
+                "찐빵",
+                "찐빵",
+                "玉米牛肉卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 282,
+            "name": [
+                "찹쌀떡",
+                "찹쌀떡",
+                "찹쌀떡",
+                "面粉烤虾卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 283,
+            "name": [
+                "만찐두빵",
+                "만찐두빵",
+                "만찐두빵",
+                "玉米烤虾卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": [
+                144
+            ]
+        },
+        {
+            "id": 284,
+            "name": [
+                "콩가루",
+                "콩가루",
+                "콩가루",
+                "面粉蒸虾卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 285,
+            "name": [
+                "인절미",
+                "인절미",
+                "인절미",
+                "玉米蒸虾卷饼"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": [
+                284
+            ]
+        },
+        {
+            "id": 286,
+            "name": [
+                "호두",
+                "호두",
+                "호두",
+                "猪肉+洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 287,
+            "name": [
+                "호두과자 반죽",
+                "호두과자 반죽",
+                "호두과자 반죽",
+                "牛肉+洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 288,
+            "name": [
+                "호두과자",
+                "호두과자",
+                "호두과자",
+                "烤虾+洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": [
+                286
+            ]
+        },
+        {
+            "id": 289,
+            "name": [
+                "초콜릿",
+                "초콜릿",
+                "초콜릿",
+                "蒸虾+洋葱"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 290,
+            "name": [
+                "조각낸 초콜릿",
+                "조각낸 초콜릿",
+                "조각낸 초콜릿",
+                "玉米面团"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 291,
+            "name": [
+                "녹인 초콜릿",
+                "녹인 초콜릿",
+                "녹인 초콜릿",
+                "炸面粉饼"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": []
+        },
+        {
+            "id": 292,
+            "name": [
+                "초코도넛",
+                "초코도넛",
+                "초코도넛",
+                "炸玉米饼"
+            ],
+            "canMelt": false,
+            "colorCode": "S",
+            "additionalItems": [
+                289
+            ]
+        },
+        {
+            "id": 293,
+            "name": [
+                "치즈+돼지고기",
+                "치즈+돼지고기",
+                "치즈+돼지고기",
+                "面粉玉米片"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 294,
+            "name": [
+                "생 치즈돈가스",
+                "생 치즈돈가스",
+                "생 치즈돈가스",
+                "玉米片"
+            ],
+            "canMelt": false,
+            "colorCode": "N",
+            "additionalItems": []
+        },
+        {
+            "id": 295,
+            "name": [
+                "치즈돈가스",
+                "치즈돈가스",
+                "치즈돈가스",
+                "牛奶"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 296,
+            "name": [
+                "치즈 불닭",
+                "치즈 불닭",
+                "치즈 불닭",
+                "冰淇淋"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 297,
+            "name": [
+                "썬 베이컨",
+                "썬 베이컨",
+                "썬 베이컨",
+                "香蕉"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": []
+        },
+        {
+            "id": 298,
+            "name": [
+                "구운 썬 베이컨",
+                "구운 썬 베이컨",
+                "구운 썬 베이컨",
+                "巧克力"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 299,
+            "name": [
+                "크림치즈 소스",
+                "크림치즈 소스",
+                "크림치즈 소스",
+                "草莓"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 300,
+            "name": [
+                "로제치즈 소스",
+                "로제치즈 소스",
+                "로제치즈 소스",
+                "香橙"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 301,
+            "name": [
+                "쌀떡+크림치즈 소스",
+                "쌀떡+크림치즈 소스",
+                "쌀떡+크림치즈 소스",
+                "去皮香蕉"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 302,
+            "name": [
+                "크림치즈 떡볶이(쌀)",
+                "크림치즈 떡볶이(쌀)",
+                "크림치즈 떡볶이(쌀)",
+                "巧克力碎"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 303,
+            "name": [
+                "밀떡+크림치즈 소스",
+                "밀떡+크림치즈 소스",
+                "밀떡+크림치즈 소스",
+                "熔岩巧克力"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 304,
+            "name": [
+                "크림치즈 떡볶이(밀)",
+                "크림치즈 떡볶이(밀)",
+                "크림치즈 떡볶이(밀)",
+                "去皮香橙"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 305,
+            "name": [
+                "쌀떡+로제치즈 소스",
+                "쌀떡+로제치즈 소스",
+                "쌀떡+로제치즈 소스",
+                "橙子泥"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 306,
+            "name": [
+                "로제치즈 떡볶이(쌀)",
+                "로제치즈 떡볶이(쌀)",
+                "로제치즈 떡볶이(쌀)",
+                "草莓酱"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 307,
+            "name": [
+                "밀떡+로제치즈 소스",
+                "밀떡+로제치즈 소스",
+                "밀떡+로제치즈 소스",
+                "香蕉泥"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 308,
+            "name": [
+                "로제치즈 떡볶이(밀)",
+                "로제치즈 떡볶이(밀)",
+                "로제치즈 떡볶이(밀)",
+                "巧克力牛奶"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": [
+                112
+            ]
+        },
+        {
+            "id": 309,
+            "name": [
+                "감자",
+                "감자",
+                "감자",
+                "草莓+香蕉"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 310,
+            "name": [
+                "구운 감자",
+                "구운 감자",
+                "구운 감자",
+                "巧克力芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 311,
+            "name": [
+                "찐 감자",
+                "찐 감자",
+                "찐 감자",
+                "香蕉芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 312,
+            "name": [
+                "으깬 감자",
+                "으깬 감자",
+                "으깬 감자",
+                "香橙芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 313,
+            "name": [
+                "썬 감자",
+                "썬 감자",
+                "썬 감자",
+                "草莓芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 314,
+            "name": [
+                "볶은 감자",
+                "볶은 감자",
+                "볶은 감자",
+                "香蕉巧克力芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 315,
+            "name": [
+                "베이컨 감자볶음",
+                "베이컨 감자볶음",
+                "베이컨 감자볶음",
+                "香橙巧克力芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 316,
+            "name": [
+                "감자튀김",
+                "감자튀김",
+                "감자튀김",
+                "草莓巧克力芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 317,
+            "name": [
+                "치즈 감자튀김",
+                "치즈 감자튀김",
+                "치즈 감자튀김",
+                "香蕉香橙芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 318,
+            "name": [
+                "간 감자",
+                "간 감자",
+                "간 감자",
+                "香蕉草莓芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 319,
+            "name": [
+                "감자 반죽",
+                "감자 반죽",
+                "감자 반죽",
+                "香橙草莓芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 320,
+            "name": [
+                "감자전",
+                "감자전",
+                "감자전",
+                "香蕉巧克力香橙芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 321,
+            "name": [
+                "치즈 감자전",
+                "치즈 감자전",
+                "치즈 감자전",
+                "香蕉巧克力草莓芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 322,
+            "name": [
+                "베이컨+감자 반죽",
+                "베이컨+감자 반죽",
+                "베이컨+감자 반죽",
+                "香橙巧克力草莓芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": []
+        },
+        {
+            "id": 323,
+            "name": [
+                "베이컨 감자전",
+                "베이컨 감자전",
+                "베이컨 감자전",
+                "香蕉香橙草莓芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 324,
+            "name": [
+                "감자 샐러드",
+                "감자 샐러드",
+                "감자 샐러드",
+                "奶昔"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 325,
+            "name": [
+                "베이컨 감자샐러드",
+                "베이컨 감자샐러드",
+                "베이컨 감자샐러드",
+                "草莓香蕉奶昔"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 326,
+            "name": [
+                "감자소",
+                "감자소",
+                "감자소",
+                "草莓奶昔"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 327,
+            "name": [
+                "감자빵 반죽",
+                "감자빵 반죽",
+                "감자빵 반죽",
+                "香橙奶昔"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 328,
+            "name": [
+                "감자빵",
+                "감자빵",
+                "감자빵",
+                "香蕉奶昔"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 329,
+            "name": [
+                "치즈 감자소",
+                "치즈 감자소",
+                "치즈 감자소",
+                "巧克力奶昔"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 330,
+            "name": [
+                "치즈 감자빵 반죽",
+                "치즈 감자빵 반죽",
+                "치즈 감자빵 반죽",
+                "巧克力香蕉特饮"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 331,
+            "name": [
+                "치즈 감자빵",
+                "치즈 감자빵",
+                "치즈 감자빵",
+                "至尊芭菲"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": []
+        },
+        {
+            "id": 332,
+            "name": [
+                "반죽+소스",
+                "반죽+소스",
+                "반죽+소스",
+                "枫糖浆"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 333,
+            "name": [
+                "피자 베이스",
+                "피자 베이스",
+                "피자 베이스",
+                "巧克力酱"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 334,
+            "name": [
+                "치즈 피자",
+                "치즈 피자",
+                "치즈 피자",
+                "巧克力面糊"
+            ],
+            "canMelt": false,
+            "colorCode": "H",
+            "additionalItems": [
+                176
+            ]
+        },
+        {
+            "id": 335,
+            "name": [
+                "피자+베이컨",
+                "피자+베이컨",
+                "피자+베이컨",
+                "鸡蛋面包"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 336,
+            "name": [
+                "베이컨 피자",
+                "베이컨 피자",
+                "베이컨 피자",
+                "巧克力面包"
+            ],
+            "canMelt": false,
+            "colorCode": "A",
+            "additionalItems": [
+                176
+            ]
+        },
+        {
+            "id": 337,
+            "name": [
+                "피자+감자",
+                "피자+감자",
+                "피자+감자",
+                "松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 338,
+            "name": [
+                "포테이토 피자",
+                "포테이토 피자",
+                "포테이토 피자",
+                "培根松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": [
+                176
+            ]
+        },
+        {
+            "id": 339,
+            "name": [
+                "피자+베이컨+감자",
+                "피자+베이컨+감자",
+                "피자+베이컨+감자",
+                "炒蛋松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 340,
+            "name": [
+                "베이컨 포테이토 피자",
+                "베이컨 포테이토 피자",
+                "베이컨 포테이토 피자",
+                "巧克力酱松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "P",
+            "additionalItems": [
+                176
+            ]
+        },
+        {
+            "id": 341,
+            "name": [
+                "소다",
+                "소다",
+                "소다",
+                "巧克力酱培根松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "W",
+            "additionalItems": []
+        },
+        {
+            "id": 342,
+            "name": [
+                "달고나",
+                "달고나",
+                "달고나",
+                "巧克力酱炒蛋松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": [
+                341
+            ]
+        },
+        {
+            "id": 343,
+            "name": [
+                "",
+                "",
+                "",
+                "巧克力松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 344,
+            "name": [
+                "",
+                "",
+                "",
+                "巧克力培根松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 345,
+            "name": [
+                "",
+                "",
+                "",
+                "巧克力炒蛋松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 346,
+            "name": [
+                "",
+                "",
+                "",
+                "巧克力至尊松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 347,
+            "name": [
+                "",
+                "",
+                "",
+                "巧克力至尊培根松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 348,
+            "name": [
+                "",
+                "",
+                "",
+                "巧克力至尊炒蛋松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 349,
+            "name": [
+                "",
+                "",
+                "",
+                "草莓松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        },
+        {
+            "id": 350,
+            "name": [
+                "",
+                "",
+                "",
+                "草莓培根松饼"
+            ],
+            "canMelt": false,
+            "colorCode": "D",
+            "additionalItems": []
+        }
+    ],
+    "actions": [
+        {
+            "type": 0,
+            "input": [
+                19
+            ],
+            "output": [
+                23
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                19
+            ],
+            "output": [
+                20
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                19
+            ],
+            "output": [
+                21
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                19
+            ],
+            "output": [
+                20
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                21
+            ],
+            "output": [
+                22
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                23
+            ],
+            "output": [
+                25
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                23
+            ],
+            "output": [
+                24
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                23
+            ],
+            "output": [
+                24
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                25
+            ],
+            "output": [
+                26
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                27
+            ],
+            "output": [
+                31
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                27
+            ],
+            "output": [
+                28
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                27
+            ],
+            "output": [
+                37
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                27
+            ],
+            "output": [
+                29
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                27
+            ],
+            "output": [
+                28
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                28
+            ],
+            "output": [
+                32
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                29
+            ],
+            "output": [
+                30
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                31
+            ],
+            "output": [
+                33
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                31
+            ],
+            "output": [
+                32
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                31
+            ],
+            "output": [
+                32
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                35
+            ],
+            "output": [
+                36
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                38
+            ],
+            "output": [
+                39
+            ],
+            "effort": 3
+        },
+        {
+            "type": 3,
+            "input": [
+                38
+            ],
+            "output": [
+                40
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                39
+            ],
+            "output": [
+                271
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                40
+            ],
+            "output": [
+                42,
+                42
+            ],
+            "effort": 1
+        },
+        {
+            "type": 4,
+            "input": [
+                40
+            ],
+            "output": [
+                41
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                40
+            ],
+            "output": [
+                44
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                42
+            ],
+            "output": [
+                43
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                44
+            ],
+            "output": [
+                45,
+                45
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                45
+            ],
+            "output": [
+                46
+            ],
+            "effort": 3
+        },
+        {
+            "type": 1,
+            "input": [
+                45
+            ],
+            "output": [
+                47
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                45
+            ],
+            "output": [
+                48
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                45
+            ],
+            "output": [
+                47
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                49
+            ],
+            "output": [
+                50
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                51
+            ],
+            "output": [
+                52
+            ],
+            "effort": 7
+        },
+        {
+            "type": 0,
+            "input": [
+                54
+            ],
+            "output": [
+                297
+            ],
+            "effort": 3
+        },
+        {
+            "type": 1,
+            "input": [
+                54
+            ],
+            "output": [
+                204
+            ],
+            "effort": 3
+        },
+        {
+            "type": 3,
+            "input": [
+                54
+            ],
+            "output": [
+                56
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                54
+            ],
+            "output": [
+                204
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                56
+            ],
+            "output": [
+                57
+            ],
+            "effort": 3
+        },
+        {
+            "type": 1,
+            "input": [
+                66
+            ],
+            "output": [
+                148
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                66
+            ],
+            "output": [
+                68
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                66
+            ],
+            "output": [
+                67
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                70
+            ],
+            "output": [
+                71
+            ],
+            "effort": 3
+        },
+        {
+            "type": 3,
+            "input": [
+                70
+            ],
+            "output": [
+                72
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                70
+            ],
+            "output": [
+                71
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                74
+            ],
+            "output": [
+                76
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                74
+            ],
+            "output": [
+                75
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                74
+            ],
+            "output": [
+                106
+            ],
+            "effort": 7
+        },
+        {
+            "type": 0,
+            "input": [
+                76
+            ],
+            "output": [
+                78
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                76
+            ],
+            "output": [
+                77
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                76
+            ],
+            "output": [
+                107
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                76
+            ],
+            "output": [
+                77
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                81
+            ],
+            "output": [
+                82
+            ],
+            "effort": 7
+        },
+        {
+            "type": 2,
+            "input": [
+                83
+            ],
+            "output": [
+                84
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                85
+            ],
+            "output": [
+                86
+            ],
+            "effort": 4
+        },
+        {
+            "type": 1,
+            "input": [
+                94
+            ],
+            "output": [
+                95
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                94
+            ],
+            "output": [
+                95
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                97
+            ],
+            "output": [
+                98
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                97
+            ],
+            "output": [
+                98
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                104
+            ],
+            "output": [
+                105
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                106
+            ],
+            "output": [
+                107
+            ],
+            "effort": 3
+        },
+        {
+            "type": 1,
+            "input": [
+                112
+            ],
+            "output": [
+                113
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                112
+            ],
+            "output": [
+                113
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                114
+            ],
+            "output": [
+                115
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                115
+            ],
+            "output": [
+                116
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                118
+            ],
+            "output": [
+                119
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                119
+            ],
+            "output": [
+                120,
+                120
+            ],
+            "effort": 1
+        },
+        {
+            "type": 5,
+            "input": [
+                119
+            ],
+            "output": [
+                125
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                120
+            ],
+            "output": [
+                122
+            ],
+            "effort": 3
+        },
+        {
+            "type": 5,
+            "input": [
+                120
+            ],
+            "output": [
+                121
+            ],
+            "effort": null
+        },
+        {
+            "type": 3,
+            "input": [
+                123
+            ],
+            "output": [
+                124
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                125
+            ],
+            "output": [
+                126,
+                126
+            ],
+            "effort": 3
+        },
+        {
+            "type": 5,
+            "input": [
+                126
+            ],
+            "output": [
+                127
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                127
+            ],
+            "output": [
+                130
+            ],
+            "effort": 3
+        },
+        {
+            "type": 2,
+            "input": [
+                127
+            ],
+            "output": [
+                128
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                127
+            ],
+            "output": [
+                129
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                131
+            ],
+            "output": [
+                132
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                135
+            ],
+            "output": [
+                136
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                145
+            ],
+            "output": [
+                146
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                145
+            ],
+            "output": [
+                147
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                145
+            ],
+            "output": [
+                146
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                149
+            ],
+            "output": [
+                150
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                149
+            ],
+            "output": [
+                150
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                151
+            ],
+            "output": [
+                152
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                153
+            ],
+            "output": [
+                154
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                154
+            ],
+            "output": [
+                155
+            ],
+            "effort": 3
+        },
+        {
+            "type": 1,
+            "input": [
+                156
+            ],
+            "output": [
+                158
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                156
+            ],
+            "output": [
+                158
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                157
+            ],
+            "output": [
+                159
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                157
+            ],
+            "output": [
+                159
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                160
+            ],
+            "output": [
+                162
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                160
+            ],
+            "output": [
+                162
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                161
+            ],
+            "output": [
+                163
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                161
+            ],
+            "output": [
+                163
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                164
+            ],
+            "output": [
+                165
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                164
+            ],
+            "output": [
+                166
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                170
+            ],
+            "output": [
+                171
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                176
+            ],
+            "output": [
+                178
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                176
+            ],
+            "output": [
+                177
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                176
+            ],
+            "output": [
+                177
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                176
+            ],
+            "output": [
+                179
+            ],
+            "effort": null
+        },
+        {
+            "type": 3,
+            "input": [
+                178
+            ],
+            "output": [
+                180
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                178
+            ],
+            "output": [
+                179
+            ],
+            "effort": null
+        },
+        {
+            "type": 3,
+            "input": [
+                179
+            ],
+            "output": [
+                180
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                183
+            ],
+            "output": [
+                184
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                185
+            ],
+            "output": [
+                186
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                187
+            ],
+            "output": [
+                188
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                189
+            ],
+            "output": [
+                190
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                191
+            ],
+            "output": [
+                192
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                193
+            ],
+            "output": [
+                194
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                195
+            ],
+            "output": [
+                196
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                197
+            ],
+            "output": [
+                198
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                199
+            ],
+            "output": [
+                200
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                201
+            ],
+            "output": [
+                202
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                205
+            ],
+            "output": [
+                209
+            ],
+            "effort": 1
+        },
+        {
+            "type": 3,
+            "input": [
+                205
+            ],
+            "output": [
+                206
+            ],
+            "effort": 4
+        },
+        {
+            "type": 5,
+            "input": [
+                205
+            ],
+            "output": [
+                209
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                206
+            ],
+            "output": [
+                207
+            ],
+            "effort": 1
+        },
+        {
+            "type": 5,
+            "input": [
+                206
+            ],
+            "output": [
+                208
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                207
+            ],
+            "output": [
+                208
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                209
+            ],
+            "output": [
+                212
+            ],
+            "effort": 7
+        },
+        {
+            "type": 3,
+            "input": [
+                209
+            ],
+            "output": [
+                216
+            ],
+            "effort": 4
+        },
+        {
+            "type": 4,
+            "input": [
+                209
+            ],
+            "output": [
+                210
+            ],
+            "effort": 3
+        },
+        {
+            "type": 5,
+            "input": [
+                209
+            ],
+            "output": [
+                212
+            ],
+            "effort": null
+        },
+        {
+            "type": 3,
+            "input": [
+                212
+            ],
+            "output": [
+                216
+            ],
+            "effort": 4
+        },
+        {
+            "type": 4,
+            "input": [
+                212
+            ],
+            "output": [
+                213
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                213
+            ],
+            "output": [
+                214,
+                214
+            ],
+            "effort": 1
+        },
+        {
+            "type": 4,
+            "input": [
+                213
+            ],
+            "output": [
+                215
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                217
+            ],
+            "output": [
+                218
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                219
+            ],
+            "output": [
+                220
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                220
+            ],
+            "output": [
+                221
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                220
+            ],
+            "output": [
+                222
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                221
+            ],
+            "output": [
+                222
+            ],
+            "effort": 3
+        },
+        {
+            "type": 5,
+            "input": [
+                225
+            ],
+            "output": [
+                241
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                230
+            ],
+            "output": [
+                242
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                233
+            ],
+            "output": [
+                243
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                235
+            ],
+            "output": [
+                244
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                240
+            ],
+            "output": [
+                245
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                247
+            ],
+            "output": [
+                249
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                248
+            ],
+            "output": [
+                250
+            ],
+            "effort": null
+        },
+        {
+            "type": 5,
+            "input": [
+                255
+            ],
+            "output": [
+                256
+            ],
+            "effort": null
+        },
+        {
+            "type": 3,
+            "input": [
+                256
+            ],
+            "output": [
+                257
+            ],
+            "effort": 3
+        },
+        {
+            "type": 2,
+            "input": [
+                258
+            ],
+            "output": [
+                259
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                264
+            ],
+            "output": [
+                261
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                264
+            ],
+            "output": [
+                263
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                265
+            ],
+            "output": [
+                266
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                266
+            ],
+            "output": [
+                267
+            ],
+            "effort": 3
+        },
+        {
+            "type": 5,
+            "input": [
+                266
+            ],
+            "output": [
+                267
+            ],
+            "effort": null
+        },
+        {
+            "type": 4,
+            "input": [
+                268
+            ],
+            "output": [
+                269
+            ],
+            "effort": 3
+        },
+        {
+            "type": 3,
+            "input": [
+                272
+            ],
+            "output": [
+                273
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                274
+            ],
+            "output": [
+                275
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                274
+            ],
+            "output": [
+                275
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                276
+            ],
+            "output": [
+                277
+            ],
+            "effort": 5
+        },
+        {
+            "type": 2,
+            "input": [
+                278
+            ],
+            "output": [
+                277
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                278
+            ],
+            "output": [
+                279
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                280
+            ],
+            "output": [
+                281
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                287
+            ],
+            "output": [
+                288
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                289
+            ],
+            "output": [
+                290
+            ],
+            "effort": 3
+        },
+        {
+            "type": 1,
+            "input": [
+                289
+            ],
+            "output": [
+                291
+            ],
+            "effort": 4
+        },
+        {
+            "type": 4,
+            "input": [
+                289
+            ],
+            "output": [
+                291
+            ],
+            "effort": 4
+        },
+        {
+            "type": 1,
+            "input": [
+                290
+            ],
+            "output": [
+                291
+            ],
+            "effort": 1
+        },
+        {
+            "type": 4,
+            "input": [
+                290
+            ],
+            "output": [
+                291
+            ],
+            "effort": 1
+        },
+        {
+            "type": 2,
+            "input": [
+                294
+            ],
+            "output": [
+                295
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                297
+            ],
+            "output": [
+                298
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                297
+            ],
+            "output": [
+                298
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                301
+            ],
+            "output": [
+                302
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                303
+            ],
+            "output": [
+                304
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                305
+            ],
+            "output": [
+                306
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                307
+            ],
+            "output": [
+                308
+            ],
+            "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                309
+            ],
+            "output": [
+                313
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                309
+            ],
+            "output": [
+                310
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                309
+            ],
+            "output": [
+                311
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                309
+            ],
+            "output": [
+                310
+            ],
+            "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                311
+            ],
+            "output": [
+                312
+            ],
+            "effort": null
+        },
+        {
+            "type": 0,
+            "input": [
+                313
+            ],
+            "output": [
+                318
+            ],
+            "effort": 3
+        },
+        {
+            "type": 2,
+            "input": [
+                313
+            ],
+            "output": [
+                316
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
+            "input": [
+                313
+            ],
+            "output": [
+                311
+            ],
+            "effort": 3
+        },
+        {
+            "type": 4,
+            "input": [
+                313
+            ],
+            "output": [
+                314
+            ],
+            "effort": 3
+        },
+        {
+            "type": 5,
+            "input": [
+                318
+            ],
+            "output": [
+                319
+            ],
+            "effort": null
+        },
+        {
+            "type": 4,
+            "input": [
+                319
+            ],
+            "output": [
+                320
+            ],
+            "effort": 5
+        },
+        {
+            "type": 4,
+            "input": [
+                322
+            ],
+            "output": [
+                323
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                327
+            ],
+            "output": [
+                328
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                330
+            ],
+            "output": [
+                331
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                333
+            ],
+            "output": [
+                334
+            ],
+            "effort": 7
+        },
+        {
+            "type": 1,
+            "input": [
+                335
+            ],
+            "output": [
+                336
+            ],
+            "effort": 7
+        },
+        {
+            "type": 1,
+            "input": [
+                337
+            ],
+            "output": [
+                338
+            ],
+            "effort": 7
+        },
+        {
+            "type": 1,
+            "input": [
+                339
+            ],
+            "output": [
+                340
+            ],
+            "effort": 7
+        },
+        {
+            "type": 6,
+            "input": [
+                4,
+                3
+            ],
+            "output": [
+                7
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                46
+            ],
+            "output": [
+                53
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                54
+            ],
+            "output": [
+                55
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                42
+            ],
+            "output": [
+                59
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                57,
+                30
+            ],
+            "output": [
+                58
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                59,
+                22
+            ],
+            "output": [
+                60
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                59,
+                30
+            ],
+            "output": [
+                61
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                59,
+                50
+            ],
+            "output": [
+                62
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                59,
+                57
+            ],
+            "output": [
+                63
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                64,
+                52
+            ],
+            "output": [
+                65
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                59,
+                68
+            ],
+            "output": [
+                69
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                72
+            ],
+            "output": [
+                73
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                79,
+                74
+            ],
+            "output": [
+                81
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                79,
+                76
+            ],
+            "output": [
+                83
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                79,
+                78
+            ],
+            "output": [
+                85
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                88
+            ],
+            "output": [
+                91
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                89
+            ],
+            "output": [
+                92
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                87
+            ],
+            "output": [
+                93
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                91,
+                76
+            ],
+            "output": [
+                94
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                76
+            ],
+            "output": [
+                97
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                87,
+                77
+            ],
+            "output": [
+                99
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                93,
+                77
+            ],
+            "output": [
+                100
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                84
+            ],
+            "output": [
+                101
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                84
+            ],
+            "output": [
+                102
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                93,
+                84
+            ],
+            "output": [
+                103
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                86
+            ],
+            "output": [
+                104
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                107
+            ],
+            "output": [
+                108
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                133,
+                107
+            ],
+            "output": [
+                109
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                132,
+                108
+            ],
+            "output": [
+                109
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                130,
+                130
+            ],
+            "output": [
+                131
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                113,
+                98
+            ],
+            "output": [
+                110
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                115,
+                90
+            ],
+            "output": [
+                117
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                115,
+                101
+            ],
+            "output": [
+                111
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                132
+            ],
+            "output": [
+                133
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                122,
+                122
+            ],
+            "output": [
+                123
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                124
+            ],
+            "output": [
+                134
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                135,
+                132
+            ],
+            "output": [
+                137
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                136,
+                132
+            ],
+            "output": [
+                138
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                139
+            ],
+            "output": [
+                140
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                140,
+                132
+            ],
+            "output": [
+                141
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                67,
+                141
+            ],
+            "output": [
+                142
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                68,
+                141
+            ],
+            "output": [
+                142
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                68,
+                133
+            ],
+            "output": [
+                143
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                121,
+                144
+            ],
+            "output": [
+                145
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                91,
+                77
+            ],
+            "output": [
+                96
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                33,
+                25
+            ],
+            "output": [
+                35
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                91,
+                36
+            ],
+            "output": [
+                149
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                79,
+                33
+            ],
+            "output": [
+                151
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                79,
+                23
+            ],
+            "output": [
+                153
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                31
+            ],
+            "output": [
+                156
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                23
+            ],
+            "output": [
+                157
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                91,
+                31
+            ],
+            "output": [
+                160
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                91,
+                23
+            ],
+            "output": [
+                161
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                31
+            ],
+            "output": [
+                164
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                171
+            ],
+            "output": [
+                172
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                52,
+                147
+            ],
+            "output": [
+                174
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                174,
+                46
+            ],
+            "output": [
+                173
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                147,
+                53
+            ],
+            "output": [
+                173
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                42,
+                135
+            ],
+            "output": [
+                175
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                42,
+                166
+            ],
+            "output": [
+                167
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                42,
+                159
+            ],
+            "output": [
+                168
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                42,
+                152
+            ],
+            "output": [
+                169
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                181,
+                45
+            ],
+            "output": [
+                183
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                181,
+                129
+            ],
+            "output": [
+                185
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                182,
+                45
+            ],
+            "output": [
+                187
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                182,
+                129
+            ],
+            "output": [
+                189
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                45
+            ],
+            "output": [
+                191
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                90,
+                129
+            ],
+            "output": [
+                193
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                45
+            ],
+            "output": [
+                195
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                92,
+                129
+            ],
+            "output": [
+                197
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                135,
+                45
+            ],
+            "output": [
+                199
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                135,
+                129
+            ],
+            "output": [
+                201
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                57,
+                196
+            ],
+            "output": [
+                203
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                57,
+                198
+            ],
+            "output": [
+                203
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                210,
+                41
+            ],
+            "output": [
+                211
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                41
+            ],
+            "output": [
+                223
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                43,
+                71
+            ],
+            "output": [
+                224
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                40,
+                71
+            ],
+            "output": [
+                225
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                225
+            ],
+            "output": [
+                226
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                225
+            ],
+            "output": [
+                227
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                225
+            ],
+            "output": [
+                228
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                225
+            ],
+            "output": [
+                229
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                226
+            ],
+            "output": [
+                230
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                228
+            ],
+            "output": [
+                230
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                226
+            ],
+            "output": [
+                231
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                227
+            ],
+            "output": [
+                231
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                226
+            ],
+            "output": [
+                232
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                229
+            ],
+            "output": [
+                232
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                227
+            ],
+            "output": [
+                233
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                228
+            ],
+            "output": [
+                233
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                227
+            ],
+            "output": [
+                234
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                229
+            ],
+            "output": [
+                234
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                228
+            ],
+            "output": [
+                235
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                229
+            ],
+            "output": [
+                235
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                230
+            ],
+            "output": [
+                236
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                231
+            ],
+            "output": [
+                236
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                233
+            ],
+            "output": [
+                236
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                230
+            ],
+            "output": [
+                237
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                235
+            ],
+            "output": [
+                237
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                232
+            ],
+            "output": [
+                237
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                231
+            ],
+            "output": [
+                238
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                232
+            ],
+            "output": [
+                238
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                234
+            ],
+            "output": [
+                238
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                233
+            ],
+            "output": [
+                239
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                234
+            ],
+            "output": [
+                239
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                235
+            ],
+            "output": [
+                239
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                204,
+                236
+            ],
+            "output": [
+                240
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                214,
+                237
+            ],
+            "output": [
+                240
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                218,
+                238
+            ],
+            "output": [
+                240
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                222,
+                239
+            ],
+            "output": [
+                240
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                159,
+                236
+            ],
+            "output": [
+                247
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                152,
+                236
+            ],
+            "output": [
+                248
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                159,
+                43
+            ],
+            "output": [
+                251
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                71,
+                251
+            ],
+            "output": [
+                252
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                166,
+                43
+            ],
+            "output": [
+                253
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                71,
+                253
+            ],
+            "output": [
+                254
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                212,
+                118
+            ],
+            "output": [
+                264
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                118,
+                256
+            ],
+            "output": [
+                258
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                255,
+                119
+            ],
+            "output": [
+                258
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                268,
+                128
+            ],
+            "output": [
+                260
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                269,
+                261
+            ],
+            "output": [
+                262
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                268,
+                267
+            ],
+            "output": [
+                270
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                268,
+                271
+            ],
+            "output": [
+                272
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                268,
+                258
+            ],
+            "output": [
+                274
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                268,
+                264
+            ],
+            "output": [
+                274
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                270,
+                258
+            ],
+            "output": [
+                276
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                270,
+                264
+            ],
+            "output": [
+                278
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                270,
+                126
+            ],
+            "output": [
+                280
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                270,
+                257
+            ],
+            "output": [
+                282
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                281,
+                147
+            ],
+            "output": [
+                283
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                284,
+                257
+            ],
+            "output": [
+                285
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                286,
+                278
+            ],
+            "output": [
+                287
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                291,
+                261
+            ],
+            "output": [
+                292
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                33,
+                112
+            ],
+            "output": [
+                293
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                100,
+                113
+            ],
+            "output": [
+                296
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                79,
+                293
+            ],
+            "output": [
+                294
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                181,
+                180
+            ],
+            "output": [
+                182
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                181,
+                113
+            ],
+            "output": [
+                299
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                182,
+                113
+            ],
+            "output": [
+                300
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                299,
+                45
+            ],
+            "output": [
+                301
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                299,
+                129
+            ],
+            "output": [
+                303
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                300,
+                45
+            ],
+            "output": [
+                305
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                300,
+                129
+            ],
+            "output": [
+                307
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                184,
+                113
+            ],
+            "output": [
+                302
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                186,
+                113
+            ],
+            "output": [
+                304
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                188,
+                113
+            ],
+            "output": [
+                306
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                190,
+                113
+            ],
+            "output": [
+                308
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                314,
+                298
+            ],
+            "output": [
+                315
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                316,
+                113
+            ],
+            "output": [
+                317
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                320,
+                113
+            ],
+            "output": [
+                321
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                319,
+                297
+            ],
+            "output": [
+                322
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                313,
+                125
+            ],
+            "output": [
+                319
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                208,
+                312
+            ],
+            "output": [
+                324
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                298,
+                324
+            ],
+            "output": [
+                325
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                268,
+                312
+            ],
+            "output": [
+                326
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                326,
+                264
+            ],
+            "output": [
+                327
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                112,
+                326
+            ],
+            "output": [
+                329
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                329,
+                264
+            ],
+            "output": [
+                330
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                180,
+                125
+            ],
+            "output": [
+                332
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                112,
+                332
+            ],
+            "output": [
+                333
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                297,
+                333
+            ],
+            "output": [
+                335
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                313,
+                333
+            ],
+            "output": [
+                337
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                313,
+                335
+            ],
+            "output": [
+                339
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                297,
+                337
+            ],
+            "output": [
+                339
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                213,
+                245
+            ],
+            "output": [
+                246
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                42,
+                158
+            ],
+            "output": [
+                168
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                341,
+                269
+            ],
+            "output": [
+                342
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                117,
+                84
+            ],
+            "output": [
+                111
+            ],
+            "effort": null
+        }
+    ],
+    "stages": [
+        {
+            "id": 0,
+            "name": [
+                "국밥",
+                "국밥",
+                "국밥",
+                "국밥"
+            ],
+            "fridge": [
+                19,
+                27,
+                38,
+                49,
+                51,
+                54
+            ],
+            "menus": [
+                55,
+                59,
+                60,
+                61,
+                62,
+                63,
+                30,
+                57,
+                53,
+                58
+            ],
+            "hazardMenus": [
+                21,
+                29,
+                37,
+                41,
+                43,
+                56,
+                204,
+                298
+            ],
+            "weaverMenus": [
+                65,
+                69,
+                73,
+                108
+            ]
+        },
+        {
+            "id": 1,
+            "name": [
+                "헬스치킨",
+                "헬스치킨",
+                "헬스치킨",
+                "헬스치킨"
+            ],
+            "fridge": [
+                74,
+                87,
+                79,
+                88,
+                89,
+                90
+            ],
+            "menus": [
+                75,
+                82,
+                84,
+                86,
+                95,
+                96,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+            ],
+            "hazardMenus": [
+                77,
+                80,
+                88,
+                106,
+                107
+            ],
+            "weaverMenus": [
+                109,
+                110,
+                111,
+                296
+            ]
+        },
+        {
+            "id": 2,
+            "name": [
+                "중식&국수",
+                "중식&국수",
+                "중식&국수",
+                "중식&국수"
+            ],
+            "fridge": [
+                118,
+                135,
+                144,
+                139,
+                51,
+                66
+            ],
+            "menus": [
+                133,
+                134,
+                137,
+                138,
+                141,
+                142,
+                143,
+                146,
+                147,
+                174
+            ],
+            "hazardMenus": [
+                67,
+                68,
+                148,
+                140,
+                145,
+                136,
+                128
+            ],
+            "weaverMenus": [
+                172,
+                173,
+                175
+            ]
+        },
+        {
+            "id": 3,
+            "name": [
+                "고깃집",
+                "고깃집",
+                "고깃집",
+                "고깃집"
+            ],
+            "fridge": [
+                19,
+                27,
+                79,
+                88,
+                89,
+                90
+            ],
+            "menus": [
+                20,
+                24,
+                28,
+                32,
+                150,
+                152,
+                155,
+                158,
+                159,
+                162,
+                163,
+                165,
+                166
+            ],
+            "hazardMenus": [
+                21,
+                29,
+                154,
+                37,
+                88,
+                25
+            ],
+            "weaverMenus": [
+                167,
+                168,
+                169,
+                295
+            ]
+        },
+        {
+            "id": 4,
+            "name": [
+                "떡볶이",
+                "떡볶이",
+                "떡볶이",
+                "떡볶이"
+            ],
+            "fridge": [
+                118,
+                176,
+                38,
+                181,
+                89,
+                90
+            ],
+            "menus": [
+                184,
+                186,
+                188,
+                190,
+                192,
+                194,
+                196,
+                198,
+                47
+            ],
+            "hazardMenus": [
+                41,
+                42,
+                43,
+                128,
+                46,
+                48
+            ],
+            "weaverMenus": [
+                200,
+                202,
+                203,
+                302,
+                304,
+                306,
+                308
+            ]
+        },
+        {
+            "id": 5,
+            "name": [
+                "김밥",
+                "김밥",
+                "김밥",
+                "김밥"
+            ],
+            "fridge": [
+                70,
+                219,
+                38,
+                205,
+                217,
+                54
+            ],
+            "menus": [
+                224,
+                241,
+                242,
+                243,
+                244,
+                245,
+                246,
+                43
+            ],
+            "hazardMenus": [
+                210,
+                207,
+                208,
+                216,
+                215,
+                72,
+                298,
+                204
+            ],
+            "weaverMenus": [
+                249,
+                250,
+                251,
+                252,
+                253,
+                254
+            ]
+        },
+        {
+            "id": 6,
+            "name": [
+                "빵&떡",
+                "빵&떡",
+                "빵&떡",
+                "빵&떡"
+            ],
+            "fridge": [
+                118,
+                255,
+                38,
+                205,
+                268,
+                265
+            ],
+            "menus": [
+                47,
+                259,
+                260,
+                261,
+                262,
+                263,
+                273,
+                275,
+                277,
+                279,
+                281
+            ],
+            "hazardMenus": [
+                270,
+                43,
+                48,
+                41,
+                210,
+                207,
+                216,
+                128
+            ],
+            "weaverMenus": [
+                283,
+                285,
+                288,
+                292,
+                342
+            ]
+        },
+        {
+            "id": 7,
+            "name": [
+                "감자",
+                "감자",
+                "감자",
+                "감자"
+            ],
+            "fridge": [
+                118,
+                309,
+                112,
+                205,
+                268,
+                54
+            ],
+            "menus": [
+                310,
+                312,
+                315,
+                316,
+                317,
+                320,
+                321,
+                323,
+                324,
+                325,
+                328,
+                331
+            ],
+            "hazardMenus": [
+                311,
+                207,
+                208,
+                263,
+                275,
+                314,
+                326,
+                298,
+                56,
+                204
+            ],
+            "weaverMenus": [
+                334,
+                336,
+                338,
+                340
+            ]
+        }
+    ]
+}

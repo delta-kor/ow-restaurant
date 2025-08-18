@@ -10,9 +10,16 @@ export const CustomRestaurantInfos: CustomRestaurantInfo[] = [
     code: 'WM3MW',
     recipeId: 'cafe',
   },
+  {
+    name: '3호점',
+    code: 'ST6Z6',
+    recipeId: 'third',
+  },
 ]
 
 export function getCustomRestaurantInfo(recipeId: string | null): CustomRestaurantInfo | null {
   if (recipeId === null) return null
   return CustomRestaurantInfos.find((info) => info.recipeId === recipeId) || null
 }
+
+export const FormUrl = 'https://forms.gle/7q6RrbwRUAfo6UWbA'

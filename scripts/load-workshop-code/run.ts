@@ -90,7 +90,7 @@ export async function runCustom(customId: string) {
     yield* recipeBuilder.build()
     yield* Effect.logInfo('Built recipes from custom workshop code')
 
-    yield* saveRecipeToJson(recipeBuilder, 'recipe-cafe')
+    yield* saveRecipeToJson(recipeBuilder, `recipe-${customId}`)
     yield* Effect.logInfo('Saved custom recipes to JSON')
   }).pipe(Effect.scoped, Effect.andThen(Effect.void))
 
