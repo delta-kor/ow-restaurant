@@ -2,9 +2,12 @@
 
 import Icon from '@/components/Icon'
 import { Link } from '@/i18n/routing'
+import { CustomRestaurantInfos, getCustomRestaurantInfo } from '@/lib/restaurant/custom'
 import { getRecipe } from '@/lib/restaurant/restaurant'
+import { AnimatePresence, motion } from 'motion/react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useParams } from 'next/navigation'
+import { useState } from 'react'
 
 export const StageIconMap = [
   Icon.Steak,
@@ -25,6 +28,8 @@ export default function StageSelector() {
   const t = useTranslations()
   const locale = useLocale()
 
+  const [modalActive, setModalActive] = useState(false)
+
   const params = useParams<{ bookPath: string[] }>()
   const { bookPath } = params
 
@@ -44,10 +49,37 @@ export default function StageSelector() {
   const stageId = parseInt(stageIdText) || 0
 
   const stages = getRecipe(recipeId).stages
+  const customRestaurantInfo = getCustomRestaurantInfo(recipeId)
+
+  const handleCustomRestaurantClick = () => {
+    setModalActive(true)
+  }
+
+  const handleModalClose = () => {
+    setModalActive(false)
+  }
+
+  const handleCustomRestaurantSelect = () => {
+    setModalActive(false)
+  }
 
   return (
     <div className="flex flex-col gap-8">
-      <div className="text-gray text-16 font-bold">{t('stage')}</div>
+      <div className="flex items-center gap-8">
+        <div className="text-gray text-16 font-bold">{t('stage')}</div>
+        <div
+          className="text-primary text-12 bg-primary-background rounded-8 flex cursor-pointer items-center px-12 py-6 font-bold"
+          onClick={handleCustomRestaurantClick}
+        >
+          <div>{t('customRestaurant')}</div>
+          {customRestaurantInfo && (
+            <div className="text-12 rounded-4 -my-2 mr-4 ml-6 bg-black/80 px-6 py-2 font-normal text-white">
+              {customRestaurantInfo.name}
+            </div>
+          )}
+          <Icon.RightChevron className="size-16" />
+        </div>
+      </div>
       <div className="flex flex-wrap gap-8">
         {stages.map((stage) => {
           const IconComponent = StageIconMap[stage.id]
@@ -68,6 +100,44 @@ export default function StageSelector() {
           )
         })}
       </div>
+      <AnimatePresence>
+        {modalActive && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            key="modal"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/30"
+          >
+            <div className="rounded-8 relative flex min-w-[480px] flex-col gap-12 bg-white p-16">
+              <div className="text-16 text-gray font-bold">레스토랑을 선택해주세요.</div>
+              <div className="flex flex-col">
+                {[{ name: '기본', code: null, recipeId: null }, ...CustomRestaurantInfos].map(
+                  (info) => (
+                    <Link
+                      key={info.recipeId}
+                      href={info.recipeId === null ? '/book/0' : `/book/${info.recipeId}/0`}
+                      className="data-[active=true]:bg-primary-background rounded-8 text-14 flex cursor-pointer items-center justify-between px-16 py-8"
+                      data-active={recipeId === info.recipeId}
+                      onClick={handleCustomRestaurantSelect}
+                    >
+                      <div>{info.name}</div>
+                      <div className="text-primary-light">{info.code}</div>
+                    </Link>
+                  )
+                )}
+              </div>
+              <div
+                className="absolute top-16 right-16 -m-8 cursor-pointer p-8"
+                onClick={handleModalClose}
+              >
+                <Icon.Close className="text-primary-light size-16" />
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   )
 }
