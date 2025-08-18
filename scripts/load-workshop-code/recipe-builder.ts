@@ -63,14 +63,14 @@ export class RecipeBuilder {
     this.chineseWorkshopConfig = recipeBuilderConfig.chineseWorkshopConfig
   }
 
-  public build() {
+  public build(isMainRecipe: boolean) {
     return Effect.gen(this, function* (this: RecipeBuilder) {
-      yield* this.buildItems()
+      yield* this.buildItems(isMainRecipe)
       yield* this.buildActions()
     })
   }
 
-  private buildItems() {
+  private buildItems(isMainRecipe: boolean) {
     return Effect.gen(this, function* (this: RecipeBuilder) {
       this.items.clear()
 
@@ -86,19 +86,23 @@ export class RecipeBuilder {
         const japaneseName = japaneseNames[index]
 
         let chineseName: string
-        const existingChineseName = RecipeJson.items[index].name[3]
-        if (existingChineseName) {
-          chineseName = existingChineseName
-        } else {
-          const chineseNameFromConfig = chineseNames[index]
-          if (chineseNameFromConfig) {
-            chineseName = chineseNameFromConfig
+        if (isMainRecipe) {
+          const existingChineseName = RecipeJson.items[index].name[3]
+          if (existingChineseName) {
+            chineseName = existingChineseName
           } else {
-            chineseName = englishName
-            yield* Effect.logWarning(
-              `Chinese name for item ${index} is missing, using English name: ${englishName}`
-            )
+            const chineseNameFromConfig = chineseNames[index]
+            if (chineseNameFromConfig) {
+              chineseName = chineseNameFromConfig
+            } else {
+              chineseName = englishName
+              yield* Effect.logWarning(
+                `Chinese name for item ${index} is missing, using English name: ${englishName}`
+              )
+            }
           }
+        } else {
+          chineseName = chineseNames[index]
         }
 
         const item = new Item({

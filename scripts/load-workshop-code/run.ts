@@ -32,7 +32,7 @@ export async function run() {
       japaneseWorkshopConfig: japaneseConfig,
       chineseWorkshopConfig: chineseConfig,
     })
-    yield* recipeBuilder.build()
+    yield* recipeBuilder.build(true)
     yield* Effect.logInfo('Built recipes from workshop codes')
 
     yield* saveRecipeToJson(recipeBuilder, 'recipe')
@@ -87,7 +87,7 @@ export async function runCustom(customId: string) {
       japaneseWorkshopConfig: config,
       chineseWorkshopConfig: config,
     })
-    yield* recipeBuilder.build()
+    yield* recipeBuilder.build(false)
     yield* Effect.logInfo('Built recipes from custom workshop code')
 
     yield* saveRecipeToJson(recipeBuilder, `recipe-${customId}`)
