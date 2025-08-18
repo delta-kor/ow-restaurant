@@ -37,6 +37,11 @@ export class PanActionConfigError extends Schema.TaggedError<PanActionConfigErro
   { itemId: Schema.Number }
 ) {}
 
+export class IceActionConfigError extends Schema.TaggedError<IceActionConfigError>()(
+  'IceActionConfigError',
+  { itemId: Schema.Number }
+) {}
+
 export class RecipeBuilderItemNotFoundError extends Schema.TaggedError<RecipeBuilderItemNotFoundError>()(
   'RecipeBuilderItemNotFoundError',
   { itemId: Schema.Number }
@@ -134,6 +139,7 @@ export class RecipeBuilder {
   private buildActions() {
     return Effect.gen(this, function* (this: RecipeBuilder) {
       this.actions.clear()
+      const hasIceAction = this.workshopConfig.iceNeeded && this.workshopConfig.iceResult
 
       for (const item of this.items) {
         yield* this.updateCuttingAction(item)
@@ -142,6 +148,7 @@ export class RecipeBuilder {
         yield* this.updatePotAction(item)
         yield* this.updatePanAction(item)
         yield* this.updateImpactAction(item)
+        if (hasIceAction) yield* this.updateIceAction(item)
       }
 
       yield* this.updateMixActions()
@@ -320,6 +327,33 @@ export class RecipeBuilder {
       const output = yield* this.getItem(impactResult)
       const action = new Action({
         type: ActionType.Impact,
+        input: [item],
+        output: [output],
+      })
+
+      this.actions.add(action)
+    })
+  }
+
+  private updateIceAction(item: Item) {
+    return Effect.gen(this, function* (this: RecipeBuilder) {
+      const id = item.id
+      const iceNeeded = this.workshopConfig.iceNeeded![id]
+      const iceResult = this.workshopConfig.iceResult![id]
+
+      if (typeof iceNeeded === 'undefined') {
+        yield* Effect.logWarning(`Ice action not found for item ${item.id}`)
+        return null
+      }
+
+      if (typeof iceResult === 'undefined')
+        return yield* Effect.fail(new IceActionConfigError({ itemId: id }))
+      if (iceResult === false) return null
+
+      const output = yield* this.getItem(iceResult)
+      const action = new Action({
+        type: ActionType.Ice,
+        effort: iceNeeded,
         input: [item],
         output: [output],
       })

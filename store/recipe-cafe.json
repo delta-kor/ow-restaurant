@@ -4853,6 +4853,16 @@
             "effort": 5
         },
         {
+            "type": 7,
+            "input": [
+                19
+            ],
+            "output": [
+                20
+            ],
+            "effort": 5
+        },
+        {
             "type": 4,
             "input": [
                 20
@@ -4883,12 +4893,32 @@
             "effort": 5
         },
         {
+            "type": 7,
+            "input": [
+                23
+            ],
+            "output": [
+                271
+            ],
+            "effort": 5
+        },
+        {
             "type": 3,
             "input": [
                 26
             ],
             "output": [
                 27
+            ],
+            "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                26
+            ],
+            "output": [
+                40
             ],
             "effort": 5
         },
@@ -4933,6 +4963,16 @@
             "effort": null
         },
         {
+            "type": 7,
+            "input": [
+                47
+            ],
+            "output": [
+                166
+            ],
+            "effort": 3
+        },
+        {
             "type": 5,
             "input": [
                 48
@@ -4941,6 +4981,16 @@
                 92
             ],
             "effort": null
+        },
+        {
+            "type": 7,
+            "input": [
+                48
+            ],
+            "output": [
+                166
+            ],
+            "effort": 3
         },
         {
             "type": 0,
@@ -5183,6 +5233,46 @@
             "effort": 5
         },
         {
+            "type": 7,
+            "input": [
+                97
+            ],
+            "output": [
+                335
+            ],
+            "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                99
+            ],
+            "output": [
+                336
+            ],
+            "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                101
+            ],
+            "output": [
+                337
+            ],
+            "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                103
+            ],
+            "output": [
+                338
+            ],
+            "effort": 5
+        },
+        {
             "type": 0,
             "input": [
                 105
@@ -5283,6 +5373,16 @@
             "effort": 5
         },
         {
+            "type": 7,
+            "input": [
+                121
+            ],
+            "output": [
+                20
+            ],
+            "effort": 3
+        },
+        {
             "type": 3,
             "input": [
                 127
@@ -5301,6 +5401,16 @@
                 134
             ],
             "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                134
+            ],
+            "output": [
+                353
+            ],
+            "effort": 1
         },
         {
             "type": 0,
@@ -5454,6 +5564,16 @@
             "effort": 3
         },
         {
+            "type": 7,
+            "input": [
+                168
+            ],
+            "output": [
+                169
+            ],
+            "effort": 3
+        },
+        {
             "type": 0,
             "input": [
                 171
@@ -5474,6 +5594,16 @@
             "effort": 3
         },
         {
+            "type": 7,
+            "input": [
+                172
+            ],
+            "output": [
+                173
+            ],
+            "effort": 3
+        },
+        {
             "type": 0,
             "input": [
                 175
@@ -5482,6 +5612,26 @@
                 176
             ],
             "effort": 3
+        },
+        {
+            "type": 7,
+            "input": [
+                176
+            ],
+            "output": [
+                177
+            ],
+            "effort": 3
+        },
+        {
+            "type": 7,
+            "input": [
+                179
+            ],
+            "output": [
+                205
+            ],
+            "effort": 5
         },
         {
             "type": 0,
@@ -5844,6 +5994,16 @@
             "effort": 5
         },
         {
+            "type": 7,
+            "input": [
+                245
+            ],
+            "output": [
+                339
+            ],
+            "effort": 5
+        },
+        {
             "type": 1,
             "input": [
                 249
@@ -5882,6 +6042,16 @@
                 269
             ],
             "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                269
+            ],
+            "output": [
+                286
+            ],
+            "effort": 3
         },
         {
             "type": 1,
@@ -6074,6 +6244,16 @@
             "effort": 5
         },
         {
+            "type": 7,
+            "input": [
+                353
+            ],
+            "output": [
+                354
+            ],
+            "effort": 1
+        },
+        {
             "type": 4,
             "input": [
                 356
@@ -6082,6 +6262,26 @@
                 357
             ],
             "effort": 5
+        },
+        {
+            "type": 7,
+            "input": [
+                357
+            ],
+            "output": [
+                359
+            ],
+            "effort": 1
+        },
+        {
+            "type": 7,
+            "input": [
+                358
+            ],
+            "output": [
+                360
+            ],
+            "effort": 1
         },
         {
             "type": 4,
@@ -6104,6 +6304,16 @@
             "effort": null
         },
         {
+            "type": 7,
+            "input": [
+                364
+            ],
+            "output": [
+                366
+            ],
+            "effort": 1
+        },
+        {
             "type": 5,
             "input": [
                 365
@@ -6112,6 +6322,36 @@
                 370
             ],
             "effort": null
+        },
+        {
+            "type": 7,
+            "input": [
+                365
+            ],
+            "output": [
+                367
+            ],
+            "effort": 1
+        },
+        {
+            "type": 7,
+            "input": [
+                369
+            ],
+            "output": [
+                274
+            ],
+            "effort": 1
+        },
+        {
+            "type": 7,
+            "input": [
+                370
+            ],
+            "output": [
+                371
+            ],
+            "effort": 1
         },
         {
             "type": 1,
@@ -6144,6 +6384,46 @@
             "effort": 3
         },
         {
+            "type": 7,
+            "input": [
+                373
+            ],
+            "output": [
+                291
+            ],
+            "effort": 3
+        },
+        {
+            "type": 7,
+            "input": [
+                375
+            ],
+            "output": [
+                376
+            ],
+            "effort": 1
+        },
+        {
+            "type": 7,
+            "input": [
+                377
+            ],
+            "output": [
+                378
+            ],
+            "effort": 1
+        },
+        {
+            "type": 7,
+            "input": [
+                379
+            ],
+            "output": [
+                380
+            ],
+            "effort": 1
+        },
+        {
             "type": 3,
             "input": [
                 381
@@ -6162,6 +6442,26 @@
                 382
             ],
             "effort": 3
+        },
+        {
+            "type": 7,
+            "input": [
+                385
+            ],
+            "output": [
+                386
+            ],
+            "effort": 1
+        },
+        {
+            "type": 7,
+            "input": [
+                389
+            ],
+            "output": [
+                390
+            ],
+            "effort": 1
         },
         {
             "type": 0,
