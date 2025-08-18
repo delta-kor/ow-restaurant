@@ -3,3 +3,7 @@ import RecipeJson from '@/store/recipe.json'
 import { Effect } from 'effect'
 
 export const recipe = Recipe.create(RecipeJson).pipe(Effect.runSync)
+
+export function getRecipe(id: string) {
+  return recipe
+}

@@ -1,3 +1,4 @@
-import { run } from './run'
+import { run, runCustom } from './run'
 
 run()
+runCustom('cafe')

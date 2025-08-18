@@ -14,7 +14,7 @@ export class WorkshopCodeFileReadError extends Schema.TaggedError<WorkshopCodeFi
   { workshopCodeType: Schema.Enums(WorkshopCodeType) }
 ) {}
 
-export function loadWorkshopCode(type: WorkshopCodeType) {
+export function loadWorkshopCode(type: WorkshopCodeType, dir: string) {
   return Effect.gen(function* () {
     let fileName: string
     switch (type) {
@@ -31,7 +31,7 @@ export function loadWorkshopCode(type: WorkshopCodeType) {
         fileName = 'workshop-code-zh-CN.txt'
     }
 
-    const filePath = path.join(__dirname, 'code', fileName)
+    const filePath = path.join(__dirname, dir, fileName)
     const file = yield* Effect.tryPromise({
       try: () => fs.readFile(filePath, 'utf-8'),
       catch: () => new WorkshopCodeFileReadError({ workshopCodeType: type }),

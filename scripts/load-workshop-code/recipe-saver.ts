@@ -8,9 +8,9 @@ export class RecipeFileSaveError extends Schema.TaggedError<RecipeFileSaveError>
   { path: Schema.String }
 ) {}
 
-export function saveRecipeToJson(recipeBuilder: RecipeBuilder) {
+export function saveRecipeToJson(recipeBuilder: RecipeBuilder, fileName: string) {
   return Effect.gen(function* () {
-    const filePath = path.join(__dirname, '../../store/recipe.json')
+    const filePath = path.join(__dirname, '../../store/', `${fileName}.json`)
     yield* Effect.tryPromise({
       try: () => fs.writeFile(filePath, JSON.stringify(recipeBuilder, null, 4), 'utf-8'),
       catch: () => new RecipeFileSaveError({ path: filePath }),
