@@ -110,7 +110,7 @@ export default function StageSelector() {
             key="modal"
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/30"
           >
-            <div className="rounded-8 relative flex min-w-[480px] flex-col gap-16 bg-white p-16">
+            <div className="rounded-8 relative mx-16 flex w-full max-w-[480px] flex-col gap-16 bg-white p-16">
               <div className="flex flex-col gap-2">
                 <div className="text-16 text-gray font-bold">{t('selectRestaurant')}</div>
                 <a
