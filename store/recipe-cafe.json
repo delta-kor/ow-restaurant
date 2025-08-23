@@ -993,7 +993,7 @@
                 "늘린 빵 반죽"
             ],
             "canMelt": false,
-            "colorCode": "W",
+            "colorCode": "F",
             "additionalItems": []
         },
         {
@@ -2007,10 +2007,10 @@
         {
             "id": 167,
             "name": [
-                "딸기 과즙",
-                "딸기 과즙",
-                "딸기 과즙",
-                "딸기 과즙"
+                "딸기 주스",
+                "딸기 주스",
+                "딸기 주스",
+                "딸기 주스"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2043,14 +2043,16 @@
         {
             "id": 170,
             "name": [
-                "블루베리 과즙",
-                "블루베리 과즙",
-                "블루베리 과즙",
-                "블루베리 과즙"
+                "블루베리 주스",
+                "블루베리 주스",
+                "블루베리 주스",
+                "블루베리 주스"
             ],
             "canMelt": false,
             "colorCode": "K",
-            "additionalItems": []
+            "additionalItems": [
+                168
+            ]
         },
         {
             "id": 171,
@@ -2073,7 +2075,7 @@
                 "썬 망고"
             ],
             "canMelt": false,
-            "colorCode": "O",
+            "colorCode": "Y",
             "additionalItems": []
         },
         {
@@ -2085,20 +2087,22 @@
                 "얼린 망고"
             ],
             "canMelt": false,
-            "colorCode": "O",
+            "colorCode": "Y",
             "additionalItems": []
         },
         {
             "id": 174,
             "name": [
-                "망고 과즙",
-                "망고 과즙",
-                "망고 과즙",
-                "망고 과즙"
+                "망고 주스",
+                "망고 주스",
+                "망고 주스",
+                "망고 주스"
             ],
             "canMelt": false,
-            "colorCode": "O",
-            "additionalItems": []
+            "colorCode": "Y",
+            "additionalItems": [
+                171
+            ]
         },
         {
             "id": 175,
@@ -4327,226 +4331,226 @@
         {
             "id": 353,
             "name": [
-                "딸기+설탕 시럽",
-                "딸기+설탕 시럽",
-                "딸기+설탕 시럽",
-                "딸기+설탕 시럽"
+                "파이생지",
+                "파이생지",
+                "파이생지",
+                "파이생지"
             ],
             "canMelt": false,
-            "colorCode": "R",
+            "colorCode": "F",
             "additionalItems": []
         },
         {
             "id": 354,
             "name": [
-                "딸기 탕후루",
-                "딸기 탕후루",
-                "딸기 탕후루",
-                "딸기 탕후루"
+                "타르트생지",
+                "타르트생지",
+                "타르트생지",
+                "타르트생지"
+            ],
+            "canMelt": false,
+            "colorCode": "F",
+            "additionalItems": []
+        },
+        {
+            "id": 355,
+            "name": [
+                "사과",
+                "사과",
+                "사과",
+                "사과"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 356,
+            "name": [
+                "썬 사과",
+                "썬 사과",
+                "썬 사과",
+                "썬 사과"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 357,
+            "name": [
+                "호두+파이",
+                "호두+파이",
+                "호두+파이",
+                "호두+파이"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 358,
+            "name": [
+                "호두 파이",
+                "호두 파이",
+                "호두 파이",
+                "호두 파이"
+            ],
+            "canMelt": false,
+            "colorCode": "M",
+            "additionalItems": []
+        },
+        {
+            "id": 359,
+            "name": [
+                "딸기+파이",
+                "딸기+파이",
+                "딸기+파이",
+                "딸기+파이"
             ],
             "canMelt": false,
             "colorCode": "R",
             "additionalItems": []
         },
         {
-            "id": 355,
-            "name": [
-                "물엿",
-                "물엿",
-                "물엿",
-                "물엿"
-            ],
-            "canMelt": false,
-            "colorCode": "Y",
-            "additionalItems": []
-        },
-        {
-            "id": 356,
-            "name": [
-                "설탕물+물엿",
-                "설탕물+물엿",
-                "설탕물+물엿",
-                "설탕물+물엿"
-            ],
-            "canMelt": false,
-            "colorCode": "F",
-            "additionalItems": []
-        },
-        {
-            "id": 357,
-            "name": [
-                "사탕 베이스",
-                "사탕 베이스",
-                "사탕 베이스",
-                "사탕 베이스"
-            ],
-            "canMelt": false,
-            "colorCode": "X",
-            "additionalItems": []
-        },
-        {
-            "id": 358,
-            "name": [
-                "딸기+사탕 베이스",
-                "딸기+사탕 베이스",
-                "딸기+사탕 베이스",
-                "딸기+사탕 베이스"
-            ],
-            "canMelt": false,
-            "colorCode": "C",
-            "additionalItems": []
-        },
-        {
-            "id": 359,
-            "name": [
-                "사탕",
-                "사탕",
-                "사탕",
-                "사탕"
-            ],
-            "canMelt": false,
-            "colorCode": "X",
-            "additionalItems": []
-        },
-        {
             "id": 360,
             "name": [
-                "딸기 사탕",
-                "딸기 사탕",
-                "딸기 사탕",
-                "딸기 사탕"
+                "딸기 파이",
+                "딸기 파이",
+                "딸기 파이",
+                "딸기 파이"
             ],
             "canMelt": false,
-            "colorCode": "N",
+            "colorCode": "R",
             "additionalItems": []
         },
         {
             "id": 361,
             "name": [
-                "젤라틴",
-                "젤라틴",
-                "젤라틴",
-                "젤라틴"
+                "사과+파이",
+                "사과+파이",
+                "사과+파이",
+                "사과+파이"
             ],
             "canMelt": false,
-            "colorCode": "F",
+            "colorCode": "C",
             "additionalItems": []
         },
         {
             "id": 362,
             "name": [
-                "불린 젤라틴",
-                "불린 젤라틴",
-                "불린 젤라틴",
-                "불린 젤라틴"
+                "사과 파이",
+                "사과 파이",
+                "사과 파이",
+                "사과 파이"
             ],
             "canMelt": false,
-            "colorCode": "F",
+            "colorCode": "C",
             "additionalItems": []
         },
         {
             "id": 363,
             "name": [
-                "녹인 젤라틴",
-                "녹인 젤라틴",
-                "녹인 젤라틴",
-                "녹인 젤라틴"
+                "블루베리+파이",
+                "블루베리+파이",
+                "블루베리+파이",
+                "블루베리+파이"
             ],
             "canMelt": false,
-            "colorCode": "F",
+            "colorCode": "K",
             "additionalItems": []
         },
         {
             "id": 364,
             "name": [
-                "젤리 베이스",
-                "젤리 베이스",
-                "젤리 베이스",
-                "젤리 베이스"
+                "블루베리 파이",
+                "블루베리 파이",
+                "블루베리 파이",
+                "블루베리 파이"
             ],
             "canMelt": false,
-            "colorCode": "X",
+            "colorCode": "K",
             "additionalItems": []
         },
         {
             "id": 365,
             "name": [
-                "딸기+젤리 베이스",
-                "딸기+젤리 베이스",
-                "딸기+젤리 베이스",
-                "딸기+젤리 베이스"
+                "호두+타르트",
+                "호두+타르트",
+                "호두+타르트",
+                "호두+타르트"
             ],
             "canMelt": false,
-            "colorCode": "C",
+            "colorCode": "O",
             "additionalItems": []
         },
         {
             "id": 366,
             "name": [
-                "젤리",
-                "젤리",
-                "젤리",
-                "젤리"
+                "호두 타르트",
+                "호두 타르트",
+                "호두 타르트",
+                "호두 타르트"
             ],
             "canMelt": false,
-            "colorCode": "X",
+            "colorCode": "M",
             "additionalItems": []
         },
         {
             "id": 367,
             "name": [
-                "딸기 젤리",
-                "딸기 젤리",
-                "딸기 젤리",
-                "딸기 젤리"
+                "커스타드 크림+타르트",
+                "커스타드 크림+타르트",
+                "커스타드 크림+타르트",
+                "커스타드 크림+타르트"
             ],
             "canMelt": false,
-            "colorCode": "C",
+            "colorCode": "H",
             "additionalItems": []
         },
         {
             "id": 368,
             "name": [
-                "설탕 젤리",
-                "설탕 젤리",
-                "설탕 젤리",
-                "설탕 젤리"
+                "에그 타르트",
+                "에그 타르트",
+                "에그 타르트",
+                "에그 타르트"
             ],
             "canMelt": false,
-            "colorCode": "F",
+            "colorCode": "O",
             "additionalItems": []
         },
         {
             "id": 369,
             "name": [
-                "마시멜로 거품",
-                "마시멜로 거품",
-                "마시멜로 거품",
-                "마시멜로 거품"
+                "타르트지",
+                "타르트지",
+                "타르트지",
+                "타르트지"
             ],
             "canMelt": false,
-            "colorCode": "N",
+            "colorCode": "H",
             "additionalItems": []
         },
         {
             "id": 370,
             "name": [
-                "딸기+마시멜로 거품",
-                "딸기+마시멜로 거품",
-                "딸기+마시멜로 거품",
-                "딸기+마시멜로 거품"
+                "딸기 타르트",
+                "딸기 타르트",
+                "딸기 타르트",
+                "딸기 타르트"
             ],
             "canMelt": false,
-            "colorCode": "C",
+            "colorCode": "R",
             "additionalItems": []
         },
         {
             "id": 371,
             "name": [
-                "딸기 마시멜로",
-                "딸기 마시멜로",
-                "딸기 마시멜로",
-                "딸기 마시멜로"
+                "사과 타르트",
+                "사과 타르트",
+                "사과 타르트",
+                "사과 타르트"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4555,180 +4559,304 @@
         {
             "id": 372,
             "name": [
-                "구운 마시멜로",
-                "구운 마시멜로",
-                "구운 마시멜로",
-                "구운 마시멜로"
+                "블루베리 타르트",
+                "블루베리 타르트",
+                "블루베리 타르트",
+                "블루베리 타르트"
             ],
             "canMelt": false,
-            "colorCode": "M",
+            "colorCode": "K",
             "additionalItems": []
         },
         {
             "id": 373,
             "name": [
-                "포도",
-                "포도",
-                "포도",
-                "포도"
+                "베리베리 타르트",
+                "베리베리 타르트",
+                "베리베리 타르트",
+                "베리베리 타르트"
             ],
             "canMelt": false,
-            "colorCode": "K",
+            "colorCode": "A",
             "additionalItems": []
         },
         {
             "id": 374,
             "name": [
-                "포도 과즙",
-                "포도 과즙",
-                "포도 과즙",
-                "포도 과즙"
+                "망고 타르트",
+                "망고 타르트",
+                "망고 타르트",
+                "망고 타르트"
             ],
             "canMelt": false,
-            "colorCode": "A",
-            "additionalItems": []
+            "colorCode": "Y",
+            "additionalItems": [
+                171
+            ]
         },
         {
             "id": 375,
             "name": [
-                "포도+설탕 시럽",
-                "포도+설탕 시럽",
-                "포도+설탕 시럽",
-                "포도+설탕 시럽"
+                "초코 타르트",
+                "초코 타르트",
+                "초코 타르트",
+                "초코 타르트"
             ],
             "canMelt": false,
-            "colorCode": "K",
-            "additionalItems": []
+            "colorCode": "S",
+            "additionalItems": [
+                56
+            ]
         },
         {
             "id": 376,
             "name": [
-                "포도 탕후루",
-                "포도 탕후루",
-                "포도 탕후루",
-                "포도 탕후루"
+                "생 크림치즈 타르트",
+                "생 크림치즈 타르트",
+                "생 크림치즈 타르트",
+                "생 크림치즈 타르트"
             ],
             "canMelt": false,
-            "colorCode": "K",
+            "colorCode": "F",
             "additionalItems": []
         },
         {
             "id": 377,
             "name": [
-                "포도+사탕 베이스",
-                "포도+사탕 베이스",
-                "포도+사탕 베이스",
-                "포도+사탕 베이스"
+                "크림치즈 타르트",
+                "크림치즈 타르트",
+                "크림치즈 타르트",
+                "크림치즈 타르트"
             ],
             "canMelt": false,
-            "colorCode": "Q",
-            "additionalItems": []
+            "colorCode": "H",
+            "additionalItems": [
+                264
+            ]
         },
         {
             "id": 378,
             "name": [
-                "포도 사탕",
-                "포도 사탕",
-                "포도 사탕",
-                "포도 사탕"
+                "탄산수",
+                "탄산수",
+                "탄산수",
+                "탄산수"
             ],
             "canMelt": false,
-            "colorCode": "Q",
+            "colorCode": "F",
             "additionalItems": []
         },
         {
             "id": 379,
             "name": [
-                "포도+젤리 베이스",
-                "포도+젤리 베이스",
-                "포도+젤리 베이스",
-                "포도+젤리 베이스"
+                "레몬",
+                "레몬",
+                "레몬",
+                "레몬"
             ],
             "canMelt": false,
-            "colorCode": "A",
+            "colorCode": "Y",
             "additionalItems": []
         },
         {
             "id": 380,
             "name": [
-                "포도 젤리",
-                "포도 젤리",
-                "포도 젤리",
-                "포도 젤리"
+                "썬 레몬",
+                "썬 레몬",
+                "썬 레몬",
+                "썬 레몬"
             ],
             "canMelt": false,
-            "colorCode": "A",
+            "colorCode": "Y",
             "additionalItems": []
         },
         {
             "id": 381,
             "name": [
-                "포도+설탕물",
-                "포도+설탕물",
-                "포도+설탕물",
-                "포도+설탕물"
+                "레몬즙",
+                "레몬즙",
+                "레몬즙",
+                "레몬즙"
             ],
             "canMelt": false,
-            "colorCode": "K",
+            "colorCode": "Y",
             "additionalItems": []
         },
         {
             "id": 382,
             "name": [
-                "포도 주스",
-                "포도 주스",
-                "포도 주스",
-                "포도 주스"
-            ],
-            "canMelt": false,
-            "colorCode": "K",
-            "additionalItems": []
-        },
-        {
-            "id": 383,
-            "name": [
-                "곰 모양 틀",
-                "곰 모양 틀",
-                "곰 모양 틀",
-                "곰 모양 틀"
+                "자몽",
+                "자몽",
+                "자몽",
+                "자몽"
             ],
             "canMelt": false,
             "colorCode": "O",
             "additionalItems": []
         },
         {
-            "id": 384,
+            "id": 383,
             "name": [
-                "구미베어",
-                "구미베어",
-                "구미베어",
-                "구미베어"
+                "썬 자몽",
+                "썬 자몽",
+                "썬 자몽",
+                "썬 자몽"
             ],
             "canMelt": false,
-            "colorCode": "X",
-            "additionalItems": [
-                383
-            ]
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 384,
+            "name": [
+                "자몽 주스",
+                "자몽 주스",
+                "자몽 주스",
+                "자몽 주스"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
         },
         {
             "id": 385,
             "name": [
-                "블루베리+설탕 시럽",
-                "블루베리+설탕 시럽",
-                "블루베리+설탕 시럽",
-                "블루베리+설탕 시럽"
+                "레몬+물",
+                "레몬+물",
+                "레몬+물",
+                "레몬+물"
             ],
             "canMelt": false,
-            "colorCode": "K",
+            "colorCode": "X",
             "additionalItems": []
         },
         {
             "id": 386,
             "name": [
-                "블루베리 탕후루",
-                "블루베리 탕후루",
-                "블루베리 탕후루",
-                "블루베리 탕후루"
+                "레몬차",
+                "레몬차",
+                "레몬차",
+                "레몬차"
+            ],
+            "canMelt": false,
+            "colorCode": "X",
+            "additionalItems": []
+        },
+        {
+            "id": 387,
+            "name": [
+                "자몽+물",
+                "자몽+물",
+                "자몽+물",
+                "자몽+물"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 388,
+            "name": [
+                "자몽차",
+                "자몽차",
+                "자몽차",
+                "자몽차"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 389,
+            "name": [
+                "사과+물",
+                "사과+물",
+                "사과+물",
+                "사과+물"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 390,
+            "name": [
+                "사과차",
+                "사과차",
+                "사과차",
+                "사과차"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 391,
+            "name": [
+                "사과 주스",
+                "사과 주스",
+                "사과 주스",
+                "사과 주스"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 392,
+            "name": [
+                "사과 에이드",
+                "사과 에이드",
+                "사과 에이드",
+                "사과 에이드"
+            ],
+            "canMelt": false,
+            "colorCode": "O",
+            "additionalItems": []
+        },
+        {
+            "id": 393,
+            "name": [
+                "레몬 에이드",
+                "레몬 에이드",
+                "레몬 에이드",
+                "레몬 에이드"
+            ],
+            "canMelt": false,
+            "colorCode": "Y",
+            "additionalItems": []
+        },
+        {
+            "id": 394,
+            "name": [
+                "자몽 에이드",
+                "자몽 에이드",
+                "자몽 에이드",
+                "자몽 에이드"
+            ],
+            "canMelt": false,
+            "colorCode": "C",
+            "additionalItems": []
+        },
+        {
+            "id": 395,
+            "name": [
+                "딸기 에이드",
+                "딸기 에이드",
+                "딸기 에이드",
+                "딸기 에이드"
+            ],
+            "canMelt": false,
+            "colorCode": "R",
+            "additionalItems": []
+        },
+        {
+            "id": 396,
+            "name": [
+                "블루베리 에이드",
+                "블루베리 에이드",
+                "블루베리 에이드",
+                "블루베리 에이드"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4737,107 +4865,17 @@
             ]
         },
         {
-            "id": 387,
+            "id": 397,
             "name": [
-                "소다",
-                "소다",
-                "소다",
-                "소다"
-            ],
-            "canMelt": false,
-            "colorCode": "F",
-            "additionalItems": []
-        },
-        {
-            "id": 388,
-            "name": [
-                "달고나",
-                "달고나",
-                "달고나",
-                "달고나"
-            ],
-            "canMelt": false,
-            "colorCode": "O",
-            "additionalItems": [
-                387
-            ]
-        },
-        {
-            "id": 389,
-            "name": [
-                "민트+사탕 베이스",
-                "민트+사탕 베이스",
-                "민트+사탕 베이스",
-                "민트+사탕 베이스"
-            ],
-            "canMelt": false,
-            "colorCode": "J",
-            "additionalItems": []
-        },
-        {
-            "id": 390,
-            "name": [
-                "박하 사탕",
-                "박하 사탕",
-                "박하 사탕",
-                "박하 사탕"
-            ],
-            "canMelt": false,
-            "colorCode": "F",
-            "additionalItems": [
-                60
-            ]
-        },
-        {
-            "id": 391,
-            "name": [
-                "포도+우유",
-                "포도+우유",
-                "포도+우유",
-                "포도+우유"
-            ],
-            "canMelt": false,
-            "colorCode": "Q",
-            "additionalItems": []
-        },
-        {
-            "id": 392,
-            "name": [
-                "포도 스무디",
-                "포도 스무디",
-                "포도 스무디",
-                "포도 스무디"
-            ],
-            "canMelt": false,
-            "colorCode": "Q",
-            "additionalItems": [
-                373
-            ]
-        },
-        {
-            "id": 393,
-            "name": [
-                "포도+요거트",
-                "포도+요거트",
-                "포도+요거트",
-                "포도+요거트"
-            ],
-            "canMelt": false,
-            "colorCode": "A",
-            "additionalItems": []
-        },
-        {
-            "id": 394,
-            "name": [
-                "포도 요거트 스무디",
-                "포도 요거트 스무디",
-                "포도 요거트 스무디",
-                "포도 요거트 스무디"
+                "망고 에이드",
+                "망고 에이드",
+                "망고 에이드",
+                "망고 에이드"
             ],
             "canMelt": false,
             "colorCode": "D",
             "additionalItems": [
-                373
+                171
             ]
         }
     ],
@@ -4969,6 +5007,16 @@
             ],
             "output": [
                 166
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                48
+            ],
+            "output": [
+                167
             ],
             "effort": 3
         },
@@ -5151,6 +5199,16 @@
                 294
             ],
             "effort": 5
+        },
+        {
+            "type": 5,
+            "input": [
+                82
+            ],
+            "output": [
+                353
+            ],
+            "effort": null
         },
         {
             "type": 1,
@@ -5581,7 +5639,7 @@
             "output": [
                 172
             ],
-            "effort": 3
+            "effort": 4
         },
         {
             "type": 0,
@@ -6041,7 +6099,7 @@
             "output": [
                 269
             ],
-            "effort": 5
+            "effort": 6
         },
         {
             "type": 7,
@@ -6244,244 +6302,185 @@
             "effort": 5
         },
         {
-            "type": 7,
+            "type": 0,
             "input": [
                 353
             ],
             "output": [
+                354,
                 354
-            ],
-            "effort": 1
-        },
-        {
-            "type": 4,
-            "input": [
-                356
-            ],
-            "output": [
-                357
-            ],
-            "effort": 5
-        },
-        {
-            "type": 7,
-            "input": [
-                357
-            ],
-            "output": [
-                359
-            ],
-            "effort": 1
-        },
-        {
-            "type": 7,
-            "input": [
-                358
-            ],
-            "output": [
-                360
-            ],
-            "effort": 1
-        },
-        {
-            "type": 4,
-            "input": [
-                362
-            ],
-            "output": [
-                363
-            ],
-            "effort": 3
-        },
-        {
-            "type": 5,
-            "input": [
-                364
-            ],
-            "output": [
-                369
-            ],
-            "effort": null
-        },
-        {
-            "type": 7,
-            "input": [
-                364
-            ],
-            "output": [
-                366
-            ],
-            "effort": 1
-        },
-        {
-            "type": 5,
-            "input": [
-                365
-            ],
-            "output": [
-                370
-            ],
-            "effort": null
-        },
-        {
-            "type": 7,
-            "input": [
-                365
-            ],
-            "output": [
-                367
-            ],
-            "effort": 1
-        },
-        {
-            "type": 7,
-            "input": [
-                369
-            ],
-            "output": [
-                274
-            ],
-            "effort": 1
-        },
-        {
-            "type": 7,
-            "input": [
-                370
-            ],
-            "output": [
-                371
             ],
             "effort": 1
         },
         {
             "type": 1,
             "input": [
-                371
+                354
             ],
             "output": [
-                372
+                369
             ],
-            "effort": 2
-        },
-        {
-            "type": 4,
-            "input": [
-                371
-            ],
-            "output": [
-                372
-            ],
-            "effort": 2
+            "effort": 5
         },
         {
             "type": 0,
             "input": [
-                373
+                355
             ],
             "output": [
-                374
+                356
+            ],
+            "effort": 4
+        },
+        {
+            "type": 0,
+            "input": [
+                356
+            ],
+            "output": [
+                391
             ],
             "effort": 3
         },
         {
-            "type": 7,
+            "type": 1,
             "input": [
-                373
+                357
             ],
             "output": [
-                291
+                358
             ],
-            "effort": 3
+            "effort": 5
         },
         {
-            "type": 7,
+            "type": 1,
             "input": [
-                375
+                359
             ],
             "output": [
+                360
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                361
+            ],
+            "output": [
+                362
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                363
+            ],
+            "output": [
+                364
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                365
+            ],
+            "output": [
+                366
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
+                367
+            ],
+            "output": [
+                368
+            ],
+            "effort": 5
+        },
+        {
+            "type": 1,
+            "input": [
                 376
             ],
-            "effort": 1
-        },
-        {
-            "type": 7,
-            "input": [
+            "output": [
                 377
             ],
-            "output": [
-                378
-            ],
-            "effort": 1
+            "effort": 5
         },
         {
-            "type": 7,
+            "type": 0,
             "input": [
                 379
             ],
             "output": [
                 380
             ],
-            "effort": 1
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                380
+            ],
+            "output": [
+                381
+            ],
+            "effort": 3
+        },
+        {
+            "type": 0,
+            "input": [
+                382
+            ],
+            "output": [
+                383
+            ],
+            "effort": 4
+        },
+        {
+            "type": 0,
+            "input": [
+                383
+            ],
+            "output": [
+                384
+            ],
+            "effort": 3
         },
         {
             "type": 3,
-            "input": [
-                381
-            ],
-            "output": [
-                382
-            ],
-            "effort": 3
-        },
-        {
-            "type": 4,
-            "input": [
-                381
-            ],
-            "output": [
-                382
-            ],
-            "effort": 3
-        },
-        {
-            "type": 7,
             "input": [
                 385
             ],
             "output": [
                 386
             ],
-            "effort": 1
+            "effort": 5
         },
         {
-            "type": 7,
+            "type": 3,
+            "input": [
+                387
+            ],
+            "output": [
+                388
+            ],
+            "effort": 5
+        },
+        {
+            "type": 3,
             "input": [
                 389
             ],
             "output": [
                 390
             ],
-            "effort": 1
-        },
-        {
-            "type": 0,
-            "input": [
-                391
-            ],
-            "output": [
-                392
-            ],
-            "effort": 3
-        },
-        {
-            "type": 0,
-            "input": [
-                393
-            ],
-            "output": [
-                394
-            ],
-            "effort": 3
+            "effort": 5
         },
         {
             "type": 6,
@@ -6497,7 +6496,7 @@
         {
             "type": 6,
             "input": [
-                19,
+                121,
                 23
             ],
             "output": [
@@ -8961,41 +8960,85 @@
         {
             "type": 6,
             "input": [
-                355,
-                133
+                57,
+                41
             ],
             "output": [
-                356
+                50
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                357,
-                167
+                57,
+                49
             ],
             "output": [
-                358
+                51
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                19,
+                57,
+                54
+            ],
+            "output": [
+                55
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                36,
+                97
+            ],
+            "output": [
+                101
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                298,
+                353
+            ],
+            "output": [
+                357
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                48,
+                353
+            ],
+            "output": [
+                359
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                356,
+                353
+            ],
+            "output": [
                 361
             ],
-            "output": [
-                362
-            ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                121,
-                361
+                168,
+                353
             ],
             "output": [
                 363
@@ -9005,19 +9048,8 @@
         {
             "type": 6,
             "input": [
-                363,
-                357
-            ],
-            "output": [
-                364
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                363,
-                358
+                298,
+                354
             ],
             "output": [
                 365
@@ -9027,41 +9059,19 @@
         {
             "type": 6,
             "input": [
-                364,
-                167
+                145,
+                354
             ],
             "output": [
-                365
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                85,
-                366
-            ],
-            "output": [
-                368
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                85,
                 367
             ],
-            "output": [
-                368
-            ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                365,
-                167
+                48,
+                369
             ],
             "output": [
                 370
@@ -9071,19 +9081,63 @@
         {
             "type": 6,
             "input": [
-                47,
-                134
+                356,
+                369
             ],
             "output": [
-                353
+                371
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                373,
-                134
+                168,
+                369
+            ],
+            "output": [
+                372
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                168,
+                370
+            ],
+            "output": [
+                373
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                48,
+                372
+            ],
+            "output": [
+                373
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                172,
+                369
+            ],
+            "output": [
+                374
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                58,
+                369
             ],
             "output": [
                 375
@@ -9093,74 +9147,19 @@
         {
             "type": 6,
             "input": [
-                374,
-                357
+                264,
+                354
             ],
             "output": [
-                377
+                376
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                363,
-                377
-            ],
-            "output": [
-                379
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                364,
-                374
-            ],
-            "output": [
-                379
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                383,
-                366
-            ],
-            "output": [
-                384
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                383,
-                367
-            ],
-            "output": [
-                384
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                383,
-                380
-            ],
-            "output": [
-                384
-            ],
-            "effort": null
-        },
-        {
-            "type": 6,
-            "input": [
-                168,
-                134
+                380,
+                19
             ],
             "output": [
                 385
@@ -9170,19 +9169,19 @@
         {
             "type": 6,
             "input": [
-                86,
-                387
+                383,
+                19
             ],
             "output": [
-                388
+                387
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                60,
-                357
+                356,
+                19
             ],
             "output": [
                 389
@@ -9192,19 +9191,19 @@
         {
             "type": 6,
             "input": [
-                26,
-                291
+                391,
+                378
             ],
             "output": [
-                391
+                392
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                178,
-                391
+                381,
+                378
             ],
             "output": [
                 393
@@ -9214,33 +9213,44 @@
         {
             "type": 6,
             "input": [
-                179,
-                291
+                384,
+                378
             ],
             "output": [
-                393
+                394
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                133,
-                373
+                167,
+                378
             ],
             "output": [
-                381
+                395
             ],
             "effort": null
         },
         {
             "type": 6,
             "input": [
-                383,
-                368
+                170,
+                378
             ],
             "output": [
-                384
+                396
+            ],
+            "effort": null
+        },
+        {
+            "type": 6,
+            "input": [
+                174,
+                378
+            ],
+            "output": [
+                397
             ],
             "effort": null
         }
@@ -9485,10 +9495,10 @@
             "fridge": [
                 137,
                 105,
-                143,
+                145,
                 138,
                 85,
-                145
+                143
             ],
             "menus": [
                 146,
@@ -9514,17 +9524,17 @@
         {
             "id": 6,
             "name": [
-                "요거트&과일",
-                "요거트&과일",
-                "요거트&과일",
-                "요거트&과일"
+                "스무디",
+                "스무디",
+                "스무디",
+                "스무디"
             ],
             "fridge": [
                 26,
                 178,
-                168,
                 175,
                 171,
+                168,
                 47
             ],
             "menus": [
@@ -9547,9 +9557,6 @@
                 210
             ],
             "hazardMenus": [
-                167,
-                170,
-                174,
                 176,
                 172,
                 47,
@@ -9558,9 +9565,7 @@
             "weaverMenus": [
                 285,
                 288,
-                290,
-                392,
-                394
+                290
             ]
         },
         {
@@ -9574,10 +9579,10 @@
             "fridge": [
                 211,
                 56,
+                145,
                 216,
-                212,
                 42,
-                145
+                212
             ],
             "menus": [
                 84,
@@ -9592,8 +9597,7 @@
                 232,
                 234,
                 235,
-                237,
-                218
+                237
             ],
             "hazardMenus": [
                 57,
@@ -9622,9 +9626,9 @@
             ],
             "fridge": [
                 211,
+                138,
                 309,
                 216,
-                138,
                 85,
                 47
             ],
@@ -9707,44 +9711,87 @@
         {
             "id": 10,
             "name": [
-                "사탕",
-                "사탕",
-                "사탕",
-                "사탕"
+                "파이&타르트",
+                "파이&타르트",
+                "파이&타르트",
+                "파이&타르트"
             ],
             "fridge": [
+                211,
+                298,
+                145,
                 355,
-                361,
-                19,
-                373,
-                85,
+                168,
                 47
             ],
             "menus": [
-                354,
-                359,
+                146,
+                358,
                 360,
+                362,
+                364,
                 366,
-                367,
                 368,
+                370,
                 371,
                 372,
-                274,
-                376,
-                378,
-                380,
-                382
+                373
             ],
             "hazardMenus": [
-                167,
-                374,
-                134
+                298,
+                356,
+                168,
+                47,
+                294
             ],
             "weaverMenus": [
+                267,
+                374,
+                375,
+                377
+            ]
+        },
+        {
+            "id": 11,
+            "name": [
+                "주스&에이드",
+                "주스&에이드",
+                "주스&에이드",
+                "주스&에이드"
+            ],
+            "fridge": [
+                378,
+                379,
+                19,
+                355,
+                382,
+                47
+            ],
+            "menus": [
+                167,
                 384,
+                391,
                 386,
                 388,
-                390
+                390,
+                392,
+                393,
+                394,
+                395
+            ],
+            "hazardMenus": [
+                378,
+                381,
+                356,
+                380,
+                47,
+                383
+            ],
+            "weaverMenus": [
+                170,
+                174,
+                396,
+                397
             ]
         }
     ]
