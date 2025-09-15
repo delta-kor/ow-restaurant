@@ -15,6 +15,11 @@ export const CustomRestaurantInfos: CustomRestaurantInfo[] = [
     code: 'ST6Z6',
     recipeId: 'third',
   },
+  {
+    name: 'Cafe (中文)',
+    code: 'WM3MW',
+    recipeId: 'cafe-zh-CN',
+  },
 ]
 
 export function getCustomRestaurantInfo(recipeId: string | null): CustomRestaurantInfo | null {
