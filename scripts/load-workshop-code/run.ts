@@ -68,12 +68,15 @@ export async function run() {
   return Effect.runPromise(loggedProgram)
 }
 
-export async function runCustom(customId: string) {
+export async function runCustom(
+  customId: string,
+  workshopCodeType: WorkshopCodeType = WorkshopCodeType.Ko
+) {
   const customCodeProgram = Effect.gen(function* () {
     yield* Effect.annotateLogsScoped({ customId })
     yield* Effect.logInfo(`Loading custom workshop code with id: ${customId}`)
 
-    const workshopCode = yield* loadWorkshopCode(WorkshopCodeType.Ko, `code-${customId}`)
+    const workshopCode = yield* loadWorkshopCode(workshopCodeType, `code-${customId}`)
     yield* Effect.logInfo('Loaded custom workshop code')
 
     const workshopCodeParser = new CodeParser(workshopCode)

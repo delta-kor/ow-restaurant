@@ -3,10 +3,10 @@
         {
             "id": 0,
             "name": [
-                "탄 음식",
-                "탄 음식",
-                "탄 음식",
-                "탄 음식"
+                "Burnt Food",
+                "Burnt Food",
+                "Burnt Food",
+                "Burnt Food"
             ],
             "canMelt": false,
             "colorCode": "D",
@@ -15,10 +15,10 @@
         {
             "id": 1,
             "name": [
-                "양산형 칼",
-                "양산형 칼",
-                "양산형 칼",
-                "양산형 칼"
+                "Butter Knife",
+                "Butter Knife",
+                "Butter Knife",
+                "Butter Knife"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -27,10 +27,10 @@
         {
             "id": 2,
             "name": [
-                "탄소강 칼",
-                "탄소강 칼",
-                "탄소강 칼",
-                "탄소강 칼"
+                "Carbon-Steel Knife",
+                "Carbon-Steel Knife",
+                "Carbon-Steel Knife",
+                "Carbon-Steel Knife"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -39,10 +39,10 @@
         {
             "id": 3,
             "name": [
-                "휴대용 칼",
-                "휴대용 칼",
-                "휴대용 칼",
-                "휴대용 칼"
+                "Portable Knife",
+                "Portable Knife",
+                "Portable Knife",
+                "Portable Knife"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -51,10 +51,10 @@
         {
             "id": 4,
             "name": [
-                "날카로운 칼",
-                "날카로운 칼",
-                "날카로운 칼",
-                "날카로운 칼"
+                "Sharp Knife",
+                "Sharp Knife",
+                "Sharp Knife",
+                "Sharp Knife"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -63,10 +63,10 @@
         {
             "id": 5,
             "name": [
-                "겐지의 단검",
-                "겐지의 단검",
-                "겐지의 단검",
-                "겐지의 단검"
+                "Genji's Dagger",
+                "Genji's Dagger",
+                "Genji's Dagger",
+                "Genji's Dagger"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -75,10 +75,10 @@
         {
             "id": 6,
             "name": [
-                "고급 부엌칼",
-                "고급 부엌칼",
-                "고급 부엌칼",
-                "고급 부엌칼"
+                "Kitchen Knife",
+                "Kitchen Knife",
+                "Kitchen Knife",
+                "Kitchen Knife"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -87,10 +87,10 @@
         {
             "id": 7,
             "name": [
-                "헤드셰프의 칼",
-                "헤드셰프의 칼",
-                "헤드셰프의 칼",
-                "헤드셰프의 칼"
+                "Head Chef's Knife",
+                "Head Chef's Knife",
+                "Head Chef's Knife",
+                "Head Chef's Knife"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -99,10 +99,10 @@
         {
             "id": 8,
             "name": [
-                "에너지 드링크",
-                "에너지 드링크",
-                "에너지 드링크",
-                "에너지 드링크"
+                "Energy Drink",
+                "Energy Drink",
+                "Energy Drink",
+                "Energy Drink"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -111,10 +111,10 @@
         {
             "id": 9,
             "name": [
-                "수상한 드링크",
-                "수상한 드링크",
-                "수상한 드링크",
-                "수상한 드링크"
+                "Suspicious Drinks",
+                "Suspicious Drinks",
+                "Suspicious Drinks",
+                "Suspicious Drinks"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -123,10 +123,10 @@
         {
             "id": 10,
             "name": [
-                "점프 부츠",
-                "점프 부츠",
-                "점프 부츠",
-                "점프 부츠"
+                "Jump Boots",
+                "Jump Boots",
+                "Jump Boots",
+                "Jump Boots"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -135,10 +135,10 @@
         {
             "id": 11,
             "name": [
-                "조미료 팩",
-                "조미료 팩",
-                "조미료 팩",
-                "조미료 팩"
+                "Seasoning Packets",
+                "Seasoning Packets",
+                "Seasoning Packets",
+                "Seasoning Packets"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -147,10 +147,10 @@
         {
             "id": 12,
             "name": [
-                "청소기",
-                "청소기",
-                "청소기",
-                "청소기"
+                "Vacuum",
+                "Vacuum",
+                "Vacuum",
+                "Vacuum"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -159,10 +159,10 @@
         {
             "id": 13,
             "name": [
-                "대시 부츠",
-                "대시 부츠",
-                "대시 부츠",
-                "대시 부츠"
+                "Dash Boots",
+                "Dash Boots",
+                "Dash Boots",
+                "Dash Boots"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -171,10 +171,10 @@
         {
             "id": 14,
             "name": [
-                "텔레포트 스펠",
-                "텔레포트 스펠",
-                "텔레포트 스펠",
-                "텔레포트 스펠"
+                "Teleport Spell",
+                "Teleport Spell",
+                "Teleport Spell",
+                "Teleport Spell"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -183,10 +183,10 @@
         {
             "id": 15,
             "name": [
-                "요리 복사 스펠",
-                "요리 복사 스펠",
-                "요리 복사 스펠",
-                "요리 복사 스펠"
+                "Food Dupe Spell",
+                "Food Dupe Spell",
+                "Food Dupe Spell",
+                "Food Dupe Spell"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -195,10 +195,10 @@
         {
             "id": 16,
             "name": [
-                "토치",
-                "토치",
-                "토치",
-                "토치"
+                "Gas Torch",
+                "Gas Torch",
+                "Gas Torch",
+                "Gas Torch"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -207,10 +207,10 @@
         {
             "id": 17,
             "name": [
-                "서빙볼",
-                "서빙볼",
-                "서빙볼",
-                "서빙볼"
+                "ServingBall",
+                "ServingBall",
+                "ServingBall",
+                "ServingBall"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -231,10 +231,10 @@
         {
             "id": 19,
             "name": [
-                "쌀",
-                "쌀",
-                "쌀",
-                "쌀"
+                "Raw Rice",
+                "Raw Rice",
+                "Raw Rice",
+                "Raw Rice"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -243,10 +243,10 @@
         {
             "id": 20,
             "name": [
-                "공기밥",
-                "공기밥",
-                "공기밥",
-                "공기밥"
+                "Steamed Rice",
+                "Steamed Rice",
+                "Steamed Rice",
+                "Steamed Rice"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -255,10 +255,10 @@
         {
             "id": 21,
             "name": [
-                "고추장",
-                "고추장",
-                "고추장",
-                "고추장"
+                "Red Pepper Paste",
+                "Red Pepper Paste",
+                "Red Pepper Paste",
+                "Red Pepper Paste"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -267,10 +267,10 @@
         {
             "id": 22,
             "name": [
-                "간장 소스",
-                "간장 소스",
-                "간장 소스",
-                "간장 소스"
+                "Sweet Soy Sauce",
+                "Sweet Soy Sauce",
+                "Sweet Soy Sauce",
+                "Sweet Soy Sauce"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -279,10 +279,10 @@
         {
             "id": 23,
             "name": [
-                "양념 소스",
-                "양념 소스",
-                "양념 소스",
-                "양념 소스"
+                "Sweet&Spicy Sauce",
+                "Sweet&Spicy Sauce",
+                "Sweet&Spicy Sauce",
+                "Sweet&Spicy Sauce"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -291,10 +291,10 @@
         {
             "id": 24,
             "name": [
-                "육수",
-                "육수",
-                "육수",
-                "육수"
+                "Broth",
+                "Broth",
+                "Broth",
+                "Broth"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -303,10 +303,10 @@
         {
             "id": 25,
             "name": [
-                "끓인 육수",
-                "끓인 육수",
-                "끓인 육수",
-                "끓인 육수"
+                "Boiled Broth",
+                "Boiled Broth",
+                "Boiled Broth",
+                "Boiled Broth"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -315,10 +315,10 @@
         {
             "id": 26,
             "name": [
-                "소고기",
-                "소고기",
-                "소고기",
-                "소고기"
+                "Beef",
+                "Beef",
+                "Beef",
+                "Beef"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -327,10 +327,10 @@
         {
             "id": 27,
             "name": [
-                "스테이크",
-                "스테이크",
-                "스테이크",
-                "스테이크"
+                "Steak",
+                "Steak",
+                "Steak",
+                "Steak"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -339,10 +339,10 @@
         {
             "id": 28,
             "name": [
-                "썬 소고기",
-                "썬 소고기",
-                "썬 소고기",
-                "썬 소고기"
+                "Sliced Beef",
+                "Sliced Beef",
+                "Sliced Beef",
+                "Sliced Beef"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -351,10 +351,10 @@
         {
             "id": 29,
             "name": [
-                "구운 소고기",
-                "구운 소고기",
-                "구운 소고기",
-                "구운 소고기"
+                "Grilled Beef",
+                "Grilled Beef",
+                "Grilled Beef",
+                "Grilled Beef"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -363,10 +363,10 @@
         {
             "id": 30,
             "name": [
-                "다진 소고기",
-                "다진 소고기",
-                "다진 소고기",
-                "다진 소고기"
+                "Minced Beef",
+                "Minced Beef",
+                "Minced Beef",
+                "Minced Beef"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -375,10 +375,10 @@
         {
             "id": 31,
             "name": [
-                "볶은 소고기",
-                "볶은 소고기",
-                "볶은 소고기",
-                "볶은 소고기"
+                "Stir-fried Beef",
+                "Stir-fried Beef",
+                "Stir-fried Beef",
+                "Stir-fried Beef"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -387,10 +387,10 @@
         {
             "id": 32,
             "name": [
-                "소고기 수육",
-                "소고기 수육",
-                "소고기 수육",
-                "소고기 수육"
+                "Boiled Beef",
+                "Boiled Beef",
+                "Boiled Beef",
+                "Boiled Beef"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -399,10 +399,10 @@
         {
             "id": 33,
             "name": [
-                "썬 소고기 수육",
-                "썬 소고기 수육",
-                "썬 소고기 수육",
-                "썬 소고기 수육"
+                "Sliced Boiled Beef",
+                "Sliced Boiled Beef",
+                "Sliced Boiled Beef",
+                "Sliced Boiled Beef"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -411,10 +411,10 @@
         {
             "id": 34,
             "name": [
-                "소고기+육수",
-                "소고기+육수",
-                "소고기+육수",
-                "소고기+육수"
+                "Beef+Broth",
+                "Beef+Broth",
+                "Beef+Broth",
+                "Beef+Broth"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -423,10 +423,10 @@
         {
             "id": 35,
             "name": [
-                "갈비탕",
-                "갈비탕",
-                "갈비탕",
-                "갈비탕"
+                "Beef Short Rib Soup",
+                "Beef Short Rib Soup",
+                "Beef Short Rib Soup",
+                "Beef Short Rib Soup"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -435,10 +435,10 @@
         {
             "id": 36,
             "name": [
-                "돼지고기",
-                "돼지고기",
-                "돼지고기",
-                "돼지고기"
+                "Pork",
+                "Pork",
+                "Pork",
+                "Pork"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -447,10 +447,10 @@
         {
             "id": 37,
             "name": [
-                "직화구이 족발",
-                "직화구이 족발",
-                "직화구이 족발",
-                "직화구이 족발"
+                "Char-grilled Pork Trotters",
+                "Char-grilled Pork Trotters",
+                "Char-grilled Pork Trotters",
+                "Char-grilled Pork Trotters"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -459,10 +459,10 @@
         {
             "id": 38,
             "name": [
-                "썬 돼지고기",
-                "썬 돼지고기",
-                "썬 돼지고기",
-                "썬 돼지고기"
+                "Sliced Pork",
+                "Sliced Pork",
+                "Sliced Pork",
+                "Sliced Pork"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -471,10 +471,10 @@
         {
             "id": 39,
             "name": [
-                "구운 돼지고기",
-                "구운 돼지고기",
-                "구운 돼지고기",
-                "구운 돼지고기"
+                "Grilled Pork",
+                "Grilled Pork",
+                "Grilled Pork",
+                "Grilled Pork"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -483,10 +483,10 @@
         {
             "id": 40,
             "name": [
-                "다진 돼지고기",
-                "다진 돼지고기",
-                "다진 돼지고기",
-                "다진 돼지고기"
+                "Minced Pork",
+                "Minced Pork",
+                "Minced Pork",
+                "Minced Pork"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -495,10 +495,10 @@
         {
             "id": 41,
             "name": [
-                "볶은 돼지고기",
-                "볶은 돼지고기",
-                "볶은 돼지고기",
-                "볶은 돼지고기"
+                "Stir-fried Pork",
+                "Stir-fried Pork",
+                "Stir-fried Pork",
+                "Stir-fried Pork"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -507,10 +507,10 @@
         {
             "id": 42,
             "name": [
-                "돼지 수육",
-                "돼지 수육",
-                "돼지 수육",
-                "돼지 수육"
+                "Boiled Pork",
+                "Boiled Pork",
+                "Boiled Pork",
+                "Boiled Pork"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -519,10 +519,10 @@
         {
             "id": 43,
             "name": [
-                "썬 돼지 수육",
-                "썬 돼지 수육",
-                "썬 돼지 수육",
-                "썬 돼지 수육"
+                "Sliced Boiled Pork",
+                "Sliced Boiled Pork",
+                "Sliced Boiled Pork",
+                "Sliced Boiled Pork"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -531,10 +531,10 @@
         {
             "id": 44,
             "name": [
-                "국밥",
-                "국밥",
-                "국밥",
-                "국밥"
+                "Rice Soup",
+                "Rice Soup",
+                "Rice Soup",
+                "Rice Soup"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -543,10 +543,10 @@
         {
             "id": 45,
             "name": [
-                "소고기국밥",
-                "소고기국밥",
-                "소고기국밥",
-                "소고기국밥"
+                "Beef Rice Soup",
+                "Beef Rice Soup",
+                "Beef Rice Soup",
+                "Beef Rice Soup"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -555,10 +555,10 @@
         {
             "id": 46,
             "name": [
-                "돼지국밥",
-                "돼지국밥",
-                "돼지국밥",
-                "돼지국밥"
+                "Pork Rice Soup",
+                "Pork Rice Soup",
+                "Pork Rice Soup",
+                "Pork Rice Soup"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -567,10 +567,10 @@
         {
             "id": 47,
             "name": [
-                "삼겹덮밥",
-                "삼겹덮밥",
-                "삼겹덮밥",
-                "삼겹덮밥"
+                "Pork Belly Rice Bowl",
+                "Pork Belly Rice Bowl",
+                "Pork Belly Rice Bowl",
+                "Pork Belly Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -579,10 +579,10 @@
         {
             "id": 48,
             "name": [
-                "소고기+간장",
-                "소고기+간장",
-                "소고기+간장",
-                "소고기+간장"
+                "Beef+Soy Sauce",
+                "Beef+Soy Sauce",
+                "Beef+Soy Sauce",
+                "Beef+Soy Sauce"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -591,10 +591,10 @@
         {
             "id": 49,
             "name": [
-                "소불고기",
-                "소불고기",
-                "소불고기",
-                "소불고기"
+                "Beef Bulgogi",
+                "Beef Bulgogi",
+                "Beef Bulgogi",
+                "Beef Bulgogi"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -603,10 +603,10 @@
         {
             "id": 50,
             "name": [
-                "돼지고기+간장",
-                "돼지고기+간장",
-                "돼지고기+간장",
-                "돼지고기+간장"
+                "Pork+Soy Sauce",
+                "Pork+Soy Sauce",
+                "Pork+Soy Sauce",
+                "Pork+Soy Sauce"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -615,10 +615,10 @@
         {
             "id": 51,
             "name": [
-                "돼지불고기",
-                "돼지불고기",
-                "돼지불고기",
-                "돼지불고기"
+                "Pork Bulgogi",
+                "Pork Bulgogi",
+                "Pork Bulgogi",
+                "Pork Bulgogi"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -627,10 +627,10 @@
         {
             "id": 52,
             "name": [
-                "불고기덮밥",
-                "불고기덮밥",
-                "불고기덮밥",
-                "불고기덮밥"
+                "Bulgogi Rice Bowl",
+                "Bulgogi Rice Bowl",
+                "Bulgogi Rice Bowl",
+                "Bulgogi Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -639,10 +639,10 @@
         {
             "id": 53,
             "name": [
-                "돼지고기+양념",
-                "돼지고기+양념",
-                "돼지고기+양념",
-                "돼지고기+양념"
+                "Pork+Sweet&Spicy Sauce",
+                "Pork+Sweet&Spicy Sauce",
+                "Pork+Sweet&Spicy Sauce",
+                "Pork+Sweet&Spicy Sauce"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -651,10 +651,10 @@
         {
             "id": 54,
             "name": [
-                "돼지 주물럭",
-                "돼지 주물럭",
-                "돼지 주물럭",
-                "돼지 주물럭"
+                "Marinated Pork",
+                "Marinated Pork",
+                "Marinated Pork",
+                "Marinated Pork"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -663,10 +663,10 @@
         {
             "id": 55,
             "name": [
-                "제육볶음",
-                "제육볶음",
-                "제육볶음",
-                "제육볶음"
+                "Spicy Pork",
+                "Spicy Pork",
+                "Spicy Pork",
+                "Spicy Pork"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -675,10 +675,10 @@
         {
             "id": 56,
             "name": [
-                "제육덮밥",
-                "제육덮밥",
-                "제육덮밥",
-                "제육덮밥"
+                "Spicy Pork Rice Bowl",
+                "Spicy Pork Rice Bowl",
+                "Spicy Pork Rice Bowl",
+                "Spicy Pork Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -687,10 +687,10 @@
         {
             "id": 57,
             "name": [
-                "작은 공기밥",
-                "작은 공기밥",
-                "작은 공기밥",
-                "작은 공기밥"
+                "Small Steamed Rice",
+                "Small Steamed Rice",
+                "Small Steamed Rice",
+                "Small Steamed Rice"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -699,10 +699,10 @@
         {
             "id": 58,
             "name": [
-                "주먹밥",
-                "주먹밥",
-                "주먹밥",
-                "주먹밥"
+                "Rice Ball",
+                "Rice Ball",
+                "Rice Ball",
+                "Rice Ball"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -711,10 +711,10 @@
         {
             "id": 59,
             "name": [
-                "간장+공기밥",
-                "간장+공기밥",
-                "간장+공기밥",
-                "간장+공기밥"
+                "Soy Sauce Rice",
+                "Soy Sauce Rice",
+                "Soy Sauce Rice",
+                "Soy Sauce Rice"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -723,10 +723,10 @@
         {
             "id": 60,
             "name": [
-                "참치",
-                "참치",
-                "참치",
-                "참치"
+                "Tuna",
+                "Tuna",
+                "Tuna",
+                "Tuna"
             ],
             "canMelt": false,
             "colorCode": "B",
@@ -735,10 +735,10 @@
         {
             "id": 61,
             "name": [
-                "손질한 참치",
-                "손질한 참치",
-                "손질한 참치",
-                "손질한 참치"
+                "Sliced Tuna",
+                "Sliced Tuna",
+                "Sliced Tuna",
+                "Sliced Tuna"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -747,10 +747,10 @@
         {
             "id": 62,
             "name": [
-                "참치회",
-                "참치회",
-                "참치회",
-                "참치회"
+                "Tuna Sashimi",
+                "Tuna Sashimi",
+                "Tuna Sashimi",
+                "Tuna Sashimi"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -759,10 +759,10 @@
         {
             "id": 63,
             "name": [
-                "참치초밥",
-                "참치초밥",
-                "참치초밥",
-                "참치초밥"
+                "Tuna Sushi",
+                "Tuna Sushi",
+                "Tuna Sushi",
+                "Tuna Sushi"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -771,10 +771,10 @@
         {
             "id": 64,
             "name": [
-                "참치장",
-                "참치장",
-                "참치장",
-                "참치장"
+                "Soy Sauce Marinated Tuna",
+                "Soy Sauce Marinated Tuna",
+                "Soy Sauce Marinated Tuna",
+                "Soy Sauce Marinated Tuna"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -783,10 +783,10 @@
         {
             "id": 65,
             "name": [
-                "참치덮밥",
-                "참치덮밥",
-                "참치덮밥",
-                "참치덮밥"
+                "Tuna Rice Bowl",
+                "Tuna Rice Bowl",
+                "Tuna Rice Bowl",
+                "Tuna Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -795,10 +795,10 @@
         {
             "id": 66,
             "name": [
-                "장어",
-                "장어",
-                "장어",
-                "장어"
+                "Eel",
+                "Eel",
+                "Eel",
+                "Eel"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -807,10 +807,10 @@
         {
             "id": 67,
             "name": [
-                "손질한 장어",
-                "손질한 장어",
-                "손질한 장어",
-                "손질한 장어"
+                "Sliced Eel",
+                "Sliced Eel",
+                "Sliced Eel",
+                "Sliced Eel"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -819,10 +819,10 @@
         {
             "id": 68,
             "name": [
-                "장어구이",
-                "장어구이",
-                "장어구이",
-                "장어구이"
+                "Grilled Eel",
+                "Grilled Eel",
+                "Grilled Eel",
+                "Grilled Eel"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -831,10 +831,10 @@
         {
             "id": 69,
             "name": [
-                "장어+간장",
-                "장어+간장",
-                "장어+간장",
-                "장어+간장"
+                "Eel+Soy Sauce",
+                "Eel+Soy Sauce",
+                "Eel+Soy Sauce",
+                "Eel+Soy Sauce"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -843,10 +843,10 @@
         {
             "id": 70,
             "name": [
-                "양념 장어구이",
-                "양념 장어구이",
-                "양념 장어구이",
-                "양념 장어구이"
+                "Sweet&Spicy Grilled Eel",
+                "Sweet&Spicy Grilled Eel",
+                "Sweet&Spicy Grilled Eel",
+                "Sweet&Spicy Grilled Eel"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -855,10 +855,10 @@
         {
             "id": 71,
             "name": [
-                "장어초밥",
-                "장어초밥",
-                "장어초밥",
-                "장어초밥"
+                "Eel Sushi",
+                "Eel Sushi",
+                "Eel Sushi",
+                "Eel Sushi"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -867,10 +867,10 @@
         {
             "id": 72,
             "name": [
-                "장어덮밥",
-                "장어덮밥",
-                "장어덮밥",
-                "장어덮밥"
+                "Eel Rice Bowl",
+                "Eel Rice Bowl",
+                "Eel Rice Bowl",
+                "Eel Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -879,10 +879,10 @@
         {
             "id": 73,
             "name": [
-                "달걀",
-                "달걀",
-                "달걀",
-                "달걀"
+                "Egg",
+                "Egg",
+                "Egg",
+                "Egg"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -891,10 +891,10 @@
         {
             "id": 74,
             "name": [
-                "삶은 달걀",
-                "삶은 달걀",
-                "삶은 달걀",
-                "삶은 달걀"
+                "Boiled Egg",
+                "Boiled Egg",
+                "Boiled Egg",
+                "Boiled Egg"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -903,10 +903,10 @@
         {
             "id": 75,
             "name": [
-                "깐 달걀",
-                "깐 달걀",
-                "깐 달걀",
-                "깐 달걀"
+                "Peeled Egg",
+                "Peeled Egg",
+                "Peeled Egg",
+                "Peeled Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -915,10 +915,10 @@
         {
             "id": 76,
             "name": [
-                "계란 후라이",
-                "계란 후라이",
-                "계란 후라이",
-                "계란 후라이"
+                "Fried Egg",
+                "Fried Egg",
+                "Fried Egg",
+                "Fried Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -927,10 +927,10 @@
         {
             "id": 77,
             "name": [
-                "섞인 달걀",
-                "섞인 달걀",
-                "섞인 달걀",
-                "섞인 달걀"
+                "Mixed Egg",
+                "Mixed Egg",
+                "Mixed Egg",
+                "Mixed Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -939,10 +939,10 @@
         {
             "id": 78,
             "name": [
-                "스크램블 에그",
-                "스크램블 에그",
-                "스크램블 에그",
-                "스크램블 에그"
+                "Scrambled Egg",
+                "Scrambled Egg",
+                "Scrambled Egg",
+                "Scrambled Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -951,10 +951,10 @@
         {
             "id": 79,
             "name": [
-                "계란찜",
-                "계란찜",
-                "계란찜",
-                "계란찜"
+                "Steamed Egg",
+                "Steamed Egg",
+                "Steamed Egg",
+                "Steamed Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -963,10 +963,10 @@
         {
             "id": 80,
             "name": [
-                "계란말이",
-                "계란말이",
-                "계란말이",
-                "계란말이"
+                "Rolled Omelette",
+                "Rolled Omelette",
+                "Rolled Omelette",
+                "Rolled Omelette"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -975,10 +975,10 @@
         {
             "id": 81,
             "name": [
-                "계란초밥",
-                "계란초밥",
-                "계란초밥",
-                "계란초밥"
+                "Egg Sushi",
+                "Egg Sushi",
+                "Egg Sushi",
+                "Egg Sushi"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -987,10 +987,10 @@
         {
             "id": 82,
             "name": [
-                "계란장어덮밥",
-                "계란장어덮밥",
-                "계란장어덮밥",
-                "계란장어덮밥"
+                "Egg & Eel Rice Bowl",
+                "Egg & Eel Rice Bowl",
+                "Egg & Eel Rice Bowl",
+                "Egg & Eel Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -999,10 +999,10 @@
         {
             "id": 83,
             "name": [
-                "연어",
-                "연어",
-                "연어",
-                "연어"
+                "Salmon",
+                "Salmon",
+                "Salmon",
+                "Salmon"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1011,10 +1011,10 @@
         {
             "id": 84,
             "name": [
-                "손질한 연어",
-                "손질한 연어",
-                "손질한 연어",
-                "손질한 연어"
+                "Sliced Salmon",
+                "Sliced Salmon",
+                "Sliced Salmon",
+                "Sliced Salmon"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1023,10 +1023,10 @@
         {
             "id": 85,
             "name": [
-                "연어회",
-                "연어회",
-                "연어회",
-                "연어회"
+                "Salmon Sashimi",
+                "Salmon Sashimi",
+                "Salmon Sashimi",
+                "Salmon Sashimi"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1035,10 +1035,10 @@
         {
             "id": 86,
             "name": [
-                "연어초밥",
-                "연어초밥",
-                "연어초밥",
-                "연어초밥"
+                "Salmon Sushi",
+                "Salmon Sushi",
+                "Salmon Sushi",
+                "Salmon Sushi"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1047,10 +1047,10 @@
         {
             "id": 87,
             "name": [
-                "연어장",
-                "연어장",
-                "연어장",
-                "연어장"
+                "Soy Sauce Marinated Salmon",
+                "Soy Sauce Marinated Salmon",
+                "Soy Sauce Marinated Salmon",
+                "Soy Sauce Marinated Salmon"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1059,10 +1059,10 @@
         {
             "id": 88,
             "name": [
-                "연어덮밥",
-                "연어덮밥",
-                "연어덮밥",
-                "연어덮밥"
+                "Salmon Rice Bowl",
+                "Salmon Rice Bowl",
+                "Salmon Rice Bowl",
+                "Salmon Rice Bowl"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1071,10 +1071,10 @@
         {
             "id": 89,
             "name": [
-                "간장계란밥",
-                "간장계란밥",
-                "간장계란밥",
-                "간장계란밥"
+                "Soy Sauce Egg Rice",
+                "Soy Sauce Egg Rice",
+                "Soy Sauce Egg Rice",
+                "Soy Sauce Egg Rice"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1083,10 +1083,10 @@
         {
             "id": 90,
             "name": [
-                "쌀 반죽",
-                "쌀 반죽",
-                "쌀 반죽",
-                "쌀 반죽"
+                "Rice Dough",
+                "Rice Dough",
+                "Rice Dough",
+                "Rice Dough"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1095,10 +1095,10 @@
         {
             "id": 91,
             "name": [
-                "핀 쌀 반죽",
-                "핀 쌀 반죽",
-                "핀 쌀 반죽",
-                "핀 쌀 반죽"
+                "Rolled Rice Dough",
+                "Rolled Rice Dough",
+                "Rolled Rice Dough",
+                "Rolled Rice Dough"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1107,10 +1107,10 @@
         {
             "id": 92,
             "name": [
-                "라이스 페이퍼",
-                "라이스 페이퍼",
-                "라이스 페이퍼",
-                "라이스 페이퍼"
+                "Rice Paper",
+                "Rice Paper",
+                "Rice Paper",
+                "Rice Paper"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1119,10 +1119,10 @@
         {
             "id": 93,
             "name": [
-                "불린 라이스 페이퍼",
-                "불린 라이스 페이퍼",
-                "불린 라이스 페이퍼",
-                "불린 라이스 페이퍼"
+                "Soaked Rice Paper",
+                "Soaked Rice Paper",
+                "Soaked Rice Paper",
+                "Soaked Rice Paper"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1131,10 +1131,10 @@
         {
             "id": 94,
             "name": [
-                "쌀국수 면",
-                "쌀국수 면",
-                "쌀국수 면",
-                "쌀국수 면"
+                "Rice Noodles",
+                "Rice Noodles",
+                "Rice Noodles",
+                "Rice Noodles"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1143,10 +1143,10 @@
         {
             "id": 95,
             "name": [
-                "삶은 쌀국수 면",
-                "삶은 쌀국수 면",
-                "삶은 쌀국수 면",
-                "삶은 쌀국수 면"
+                "Boiled Rice Noodles",
+                "Boiled Rice Noodles",
+                "Boiled Rice Noodles",
+                "Boiled Rice Noodles"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1155,10 +1155,10 @@
         {
             "id": 96,
             "name": [
-                "쌀국수",
-                "쌀국수",
-                "쌀국수",
-                "쌀국수"
+                "Rice Noodle Soup",
+                "Rice Noodle Soup",
+                "Rice Noodle Soup",
+                "Rice Noodle Soup"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1167,10 +1167,10 @@
         {
             "id": 97,
             "name": [
-                "야채",
-                "야채",
-                "야채",
-                "야채"
+                "Vegetables",
+                "Vegetables",
+                "Vegetables",
+                "Vegetables"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1179,10 +1179,10 @@
         {
             "id": 98,
             "name": [
-                "썬 야채",
-                "썬 야채",
-                "썬 야채",
-                "썬 야채"
+                "Sliced Vegetables",
+                "Sliced Vegetables",
+                "Sliced Vegetables",
+                "Sliced Vegetables"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1191,10 +1191,10 @@
         {
             "id": 99,
             "name": [
-                "다진 야채",
-                "다진 야채",
-                "다진 야채",
-                "다진 야채"
+                "Minced Vegetables",
+                "Minced Vegetables",
+                "Minced Vegetables",
+                "Minced Vegetables"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1203,10 +1203,10 @@
         {
             "id": 100,
             "name": [
-                "돼지+야채",
-                "돼지+야채",
-                "돼지+야채",
-                "돼지+야채"
+                "Pork+Vegetables",
+                "Pork+Vegetables",
+                "Pork+Vegetables",
+                "Pork+Vegetables"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1215,10 +1215,10 @@
         {
             "id": 101,
             "name": [
-                "생 고기짜조",
-                "생 고기짜조",
-                "생 고기짜조",
-                "생 고기짜조"
+                "Raw Meat Spring Roll",
+                "Raw Meat Spring Roll",
+                "Raw Meat Spring Roll",
+                "Raw Meat Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1227,10 +1227,10 @@
         {
             "id": 102,
             "name": [
-                "고기짜조",
-                "고기짜조",
-                "고기짜조",
-                "고기짜조"
+                "Fried Meat Spring Roll",
+                "Fried Meat Spring Roll",
+                "Fried Meat Spring Roll",
+                "Fried Meat Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1239,10 +1239,10 @@
         {
             "id": 103,
             "name": [
-                "새우",
-                "새우",
-                "새우",
-                "새우"
+                "Shrimp",
+                "Shrimp",
+                "Shrimp",
+                "Shrimp"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1251,10 +1251,10 @@
         {
             "id": 104,
             "name": [
-                "구운 새우",
-                "구운 새우",
-                "구운 새우",
-                "구운 새우"
+                "Grilled Shrimp",
+                "Grilled Shrimp",
+                "Grilled Shrimp",
+                "Grilled Shrimp"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1263,10 +1263,10 @@
         {
             "id": 105,
             "name": [
-                "삶은 새우",
-                "삶은 새우",
-                "삶은 새우",
-                "삶은 새우"
+                "Boiled Shrimp",
+                "Boiled Shrimp",
+                "Boiled Shrimp",
+                "Boiled Shrimp"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -1275,10 +1275,10 @@
         {
             "id": 106,
             "name": [
-                "새우+야채",
-                "새우+야채",
-                "새우+야채",
-                "새우+야채"
+                "Shrimp+Vegetables",
+                "Shrimp+Vegetables",
+                "Shrimp+Vegetables",
+                "Shrimp+Vegetables"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1287,10 +1287,10 @@
         {
             "id": 107,
             "name": [
-                "생 새우짜조",
-                "생 새우짜조",
-                "생 새우짜조",
-                "생 새우짜조"
+                "Raw Shrimp Spring Roll",
+                "Raw Shrimp Spring Roll",
+                "Raw Shrimp Spring Roll",
+                "Raw Shrimp Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1299,10 +1299,10 @@
         {
             "id": 108,
             "name": [
-                "새우짜조",
-                "새우짜조",
-                "새우짜조",
-                "새우짜조"
+                "Fried Shrimp Spring Roll",
+                "Fried Shrimp Spring Roll",
+                "Fried Shrimp Spring Roll",
+                "Fried Shrimp Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1311,10 +1311,10 @@
         {
             "id": 109,
             "name": [
-                "월남쌈 베이스",
-                "월남쌈 베이스",
-                "월남쌈 베이스",
-                "월남쌈 베이스"
+                "Fresh Spring Roll Base",
+                "Fresh Spring Roll Base",
+                "Fresh Spring Roll Base",
+                "Fresh Spring Roll Base"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1323,10 +1323,10 @@
         {
             "id": 110,
             "name": [
-                "야채 월남쌈",
-                "야채 월남쌈",
-                "야채 월남쌈",
-                "야채 월남쌈"
+                "Vegetable Fresh Spring Roll",
+                "Vegetable Fresh Spring Roll",
+                "Vegetable Fresh Spring Roll",
+                "Vegetable Fresh Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1335,10 +1335,10 @@
         {
             "id": 111,
             "name": [
-                "돼지+월남쌈",
-                "돼지+월남쌈",
-                "돼지+월남쌈",
-                "돼지+월남쌈"
+                "Pork+Fresh Spring Roll",
+                "Pork+Fresh Spring Roll",
+                "Pork+Fresh Spring Roll",
+                "Pork+Fresh Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1347,10 +1347,10 @@
         {
             "id": 112,
             "name": [
-                "고기 월남쌈",
-                "고기 월남쌈",
-                "고기 월남쌈",
-                "고기 월남쌈"
+                "Meat Fresh Spring Roll",
+                "Meat Fresh Spring Roll",
+                "Meat Fresh Spring Roll",
+                "Meat Fresh Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1359,10 +1359,10 @@
         {
             "id": 113,
             "name": [
-                "새우+월남쌈",
-                "새우+월남쌈",
-                "새우+월남쌈",
-                "새우+월남쌈"
+                "Shrimp+Fresh Spring Roll",
+                "Shrimp+Fresh Spring Roll",
+                "Shrimp+Fresh Spring Roll",
+                "Shrimp+Fresh Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1371,10 +1371,10 @@
         {
             "id": 114,
             "name": [
-                "새우 월남쌈",
-                "새우 월남쌈",
-                "새우 월남쌈",
-                "새우 월남쌈"
+                "Shrimp Fresh Spring Roll",
+                "Shrimp Fresh Spring Roll",
+                "Shrimp Fresh Spring Roll",
+                "Shrimp Fresh Spring Roll"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1383,10 +1383,10 @@
         {
             "id": 115,
             "name": [
-                "새우 쌀국수",
-                "새우 쌀국수",
-                "새우 쌀국수",
-                "새우 쌀국수"
+                "Shrimp Rice Noodle Soup",
+                "Shrimp Rice Noodle Soup",
+                "Shrimp Rice Noodle Soup",
+                "Shrimp Rice Noodle Soup"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1395,10 +1395,10 @@
         {
             "id": 116,
             "name": [
-                "쌀국수 면+간장",
-                "쌀국수 면+간장",
-                "쌀국수 면+간장",
-                "쌀국수 면+간장"
+                "Rice Noodles+Soy Sauce",
+                "Rice Noodles+Soy Sauce",
+                "Rice Noodles+Soy Sauce",
+                "Rice Noodles+Soy Sauce"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1407,10 +1407,10 @@
         {
             "id": 117,
             "name": [
-                "면+간장+야채",
-                "면+간장+야채",
-                "면+간장+야채",
-                "면+간장+야채"
+                "Noodles+Soy Sauce+Vegetables",
+                "Noodles+Soy Sauce+Vegetables",
+                "Noodles+Soy Sauce+Vegetables",
+                "Noodles+Soy Sauce+Vegetables"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1419,10 +1419,10 @@
         {
             "id": 118,
             "name": [
-                "면+간장+새우",
-                "면+간장+새우",
-                "면+간장+새우",
-                "면+간장+새우"
+                "Noodles+Soy Sauce+Shrimp",
+                "Noodles+Soy Sauce+Shrimp",
+                "Noodles+Soy Sauce+Shrimp",
+                "Noodles+Soy Sauce+Shrimp"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1431,10 +1431,10 @@
         {
             "id": 119,
             "name": [
-                "면+간장+돼지",
-                "면+간장+돼지",
-                "면+간장+돼지",
-                "면+간장+돼지"
+                "Noodles+Soy Sauce+Pork",
+                "Noodles+Soy Sauce+Pork",
+                "Noodles+Soy Sauce+Pork",
+                "Noodles+Soy Sauce+Pork"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1443,10 +1443,10 @@
         {
             "id": 120,
             "name": [
-                "야채 팟타이",
-                "야채 팟타이",
-                "야채 팟타이",
-                "야채 팟타이"
+                "Vegetable Pad Thai",
+                "Vegetable Pad Thai",
+                "Vegetable Pad Thai",
+                "Vegetable Pad Thai"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1455,10 +1455,10 @@
         {
             "id": 121,
             "name": [
-                "새우 팟타이",
-                "새우 팟타이",
-                "새우 팟타이",
-                "새우 팟타이"
+                "Shrimp Pad Thai",
+                "Shrimp Pad Thai",
+                "Shrimp Pad Thai",
+                "Shrimp Pad Thai"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -1467,10 +1467,10 @@
         {
             "id": 122,
             "name": [
-                "분짜",
-                "분짜",
-                "분짜",
-                "분짜"
+                "Bun cha",
+                "Bun cha",
+                "Bun cha",
+                "Bun cha"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1479,10 +1479,10 @@
         {
             "id": 123,
             "name": [
-                "볶은 쌀",
-                "볶은 쌀",
-                "볶은 쌀",
-                "볶은 쌀"
+                "Stir-fried Rice",
+                "Stir-fried Rice",
+                "Stir-fried Rice",
+                "Stir-fried Rice"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1491,10 +1491,10 @@
         {
             "id": 124,
             "name": [
-                "볶음밥",
-                "볶음밥",
-                "볶음밥",
-                "볶음밥"
+                "Fried Rice",
+                "Fried Rice",
+                "Fried Rice",
+                "Fried Rice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1503,10 +1503,10 @@
         {
             "id": 125,
             "name": [
-                "필라프",
-                "필라프",
-                "필라프",
-                "필라프"
+                "Pilaf",
+                "Pilaf",
+                "Pilaf",
+                "Pilaf"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1515,10 +1515,10 @@
         {
             "id": 126,
             "name": [
-                "커리 가루",
-                "커리 가루",
-                "커리 가루",
-                "커리 가루"
+                "Curry Powder",
+                "Curry Powder",
+                "Curry Powder",
+                "Curry Powder"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1527,10 +1527,10 @@
         {
             "id": 127,
             "name": [
-                "커리",
-                "커리",
-                "커리",
-                "커리"
+                "Curry",
+                "Curry",
+                "Curry",
+                "Curry"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1539,10 +1539,10 @@
         {
             "id": 128,
             "name": [
-                "카레라이스",
-                "카레라이스",
-                "카레라이스",
-                "카레라이스"
+                "Curry Rice",
+                "Curry Rice",
+                "Curry Rice",
+                "Curry Rice"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1551,10 +1551,10 @@
         {
             "id": 129,
             "name": [
-                "닭고기",
-                "닭고기",
-                "닭고기",
-                "닭고기"
+                "Chicken",
+                "Chicken",
+                "Chicken",
+                "Chicken"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1563,10 +1563,10 @@
         {
             "id": 130,
             "name": [
-                "직화구이 통닭",
-                "직화구이 통닭",
-                "직화구이 통닭",
-                "직화구이 통닭"
+                "Char-grilled Whole Chicken",
+                "Char-grilled Whole Chicken",
+                "Char-grilled Whole Chicken",
+                "Char-grilled Whole Chicken"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1575,10 +1575,10 @@
         {
             "id": 131,
             "name": [
-                "삶은 닭고기",
-                "삶은 닭고기",
-                "삶은 닭고기",
-                "삶은 닭고기"
+                "Boiled Chicken",
+                "Boiled Chicken",
+                "Boiled Chicken",
+                "Boiled Chicken"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1587,10 +1587,10 @@
         {
             "id": 132,
             "name": [
-                "썬 닭고기",
-                "썬 닭고기",
-                "썬 닭고기",
-                "썬 닭고기"
+                "Sliced Chicken",
+                "Sliced Chicken",
+                "Sliced Chicken",
+                "Sliced Chicken"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1599,10 +1599,10 @@
         {
             "id": 133,
             "name": [
-                "구운 닭",
-                "구운 닭",
-                "구운 닭",
-                "구운 닭"
+                "Grilled Chicken",
+                "Grilled Chicken",
+                "Grilled Chicken",
+                "Grilled Chicken"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1611,10 +1611,10 @@
         {
             "id": 134,
             "name": [
-                "썬 삶은 닭고기",
-                "썬 삶은 닭고기",
-                "썬 삶은 닭고기",
-                "썬 삶은 닭고기"
+                "Sliced Boiled Chicken",
+                "Sliced Boiled Chicken",
+                "Sliced Boiled Chicken",
+                "Sliced Boiled Chicken"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1623,10 +1623,10 @@
         {
             "id": 135,
             "name": [
-                "조각낸 닭고기",
-                "조각낸 닭고기",
-                "조각낸 닭고기",
-                "조각낸 닭고기"
+                "Chopped Chicken",
+                "Chopped Chicken",
+                "Chopped Chicken",
+                "Chopped Chicken"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1635,10 +1635,10 @@
         {
             "id": 136,
             "name": [
-                "볶은 닭",
-                "볶은 닭",
-                "볶은 닭",
-                "볶은 닭"
+                "Stir-fried Chicken",
+                "Stir-fried Chicken",
+                "Stir-fried Chicken",
+                "Stir-fried Chicken"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1647,10 +1647,10 @@
         {
             "id": 137,
             "name": [
-                "커리+닭고기",
-                "커리+닭고기",
-                "커리+닭고기",
-                "커리+닭고기"
+                "Curry+Chicken",
+                "Curry+Chicken",
+                "Curry+Chicken",
+                "Curry+Chicken"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1659,10 +1659,10 @@
         {
             "id": 138,
             "name": [
-                "탄두리 치킨",
-                "탄두리 치킨",
-                "탄두리 치킨",
-                "탄두리 치킨"
+                "Tandoori Chicken",
+                "Tandoori Chicken",
+                "Tandoori Chicken",
+                "Tandoori Chicken"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1671,10 +1671,10 @@
         {
             "id": 139,
             "name": [
-                "병아리콩",
-                "병아리콩",
-                "병아리콩",
-                "병아리콩"
+                "Chickpeas",
+                "Chickpeas",
+                "Chickpeas",
+                "Chickpeas"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1683,10 +1683,10 @@
         {
             "id": 140,
             "name": [
-                "삶은 콩",
-                "삶은 콩",
-                "삶은 콩",
-                "삶은 콩"
+                "Boiled Chickpeas",
+                "Boiled Chickpeas",
+                "Boiled Chickpeas",
+                "Boiled Chickpeas"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1695,10 +1695,10 @@
         {
             "id": 141,
             "name": [
-                "치킨 필라프",
-                "치킨 필라프",
-                "치킨 필라프",
-                "치킨 필라프"
+                "Chicken Pilaf",
+                "Chicken Pilaf",
+                "Chicken Pilaf",
+                "Chicken Pilaf"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1707,10 +1707,10 @@
         {
             "id": 142,
             "name": [
-                "병아리콩 커리",
-                "병아리콩 커리",
-                "병아리콩 커리",
-                "병아리콩 커리"
+                "Chickpea Curry",
+                "Chickpea Curry",
+                "Chickpea Curry",
+                "Chickpea Curry"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1719,10 +1719,10 @@
         {
             "id": 143,
             "name": [
-                "콩밥",
-                "콩밥",
-                "콩밥",
-                "콩밥"
+                "Bean Rice",
+                "Bean Rice",
+                "Bean Rice",
+                "Bean Rice"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1731,10 +1731,10 @@
         {
             "id": 144,
             "name": [
-                "병아리콩 필라프",
-                "병아리콩 필라프",
-                "병아리콩 필라프",
-                "병아리콩 필라프"
+                "Chickpea Pilaf",
+                "Chickpea Pilaf",
+                "Chickpea Pilaf",
+                "Chickpea Pilaf"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1743,10 +1743,10 @@
         {
             "id": 145,
             "name": [
-                "양고기",
-                "양고기",
-                "양고기",
-                "양고기"
+                "Lamb",
+                "Lamb",
+                "Lamb",
+                "Lamb"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1755,10 +1755,10 @@
         {
             "id": 146,
             "name": [
-                "양고기 구이",
-                "양고기 구이",
-                "양고기 구이",
-                "양고기 구이"
+                "Lamb Roast",
+                "Lamb Roast",
+                "Lamb Roast",
+                "Lamb Roast"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1767,10 +1767,10 @@
         {
             "id": 147,
             "name": [
-                "썬 양고기",
-                "썬 양고기",
-                "썬 양고기",
-                "썬 양고기"
+                "Sliced Lamb",
+                "Sliced Lamb",
+                "Sliced Lamb",
+                "Sliced Lamb"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1779,10 +1779,10 @@
         {
             "id": 148,
             "name": [
-                "볶은 양고기",
-                "볶은 양고기",
-                "볶은 양고기",
-                "볶은 양고기"
+                "Stir-fried Lamb",
+                "Stir-fried Lamb",
+                "Stir-fried Lamb",
+                "Stir-fried Lamb"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1791,10 +1791,10 @@
         {
             "id": 149,
             "name": [
-                "양고기 필라프",
-                "양고기 필라프",
-                "양고기 필라프",
-                "양고기 필라프"
+                "Lamb Pilaf",
+                "Lamb Pilaf",
+                "Lamb Pilaf",
+                "Lamb Pilaf"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1803,10 +1803,10 @@
         {
             "id": 150,
             "name": [
-                "양고기 커리",
-                "양고기 커리",
-                "양고기 커리",
-                "양고기 커리"
+                "Lamb Curry",
+                "Lamb Curry",
+                "Lamb Curry",
+                "Lamb Curry"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1815,10 +1815,10 @@
         {
             "id": 151,
             "name": [
-                "닭고기 커리",
-                "닭고기 커리",
-                "닭고기 커리",
-                "닭고기 커리"
+                "Chicken Curry",
+                "Chicken Curry",
+                "Chicken Curry",
+                "Chicken Curry"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1827,10 +1827,10 @@
         {
             "id": 152,
             "name": [
-                "커리+익은 쌀",
-                "커리+익은 쌀",
-                "커리+익은 쌀",
-                "커리+익은 쌀"
+                "Curry+Cooked Rice",
+                "Curry+Cooked Rice",
+                "Curry+Cooked Rice",
+                "Curry+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1839,10 +1839,10 @@
         {
             "id": 153,
             "name": [
-                "커리 필라프",
-                "커리 필라프",
-                "커리 필라프",
-                "커리 필라프"
+                "Curry Pilaf",
+                "Curry Pilaf",
+                "Curry Pilaf",
+                "Curry Pilaf"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1851,10 +1851,10 @@
         {
             "id": 154,
             "name": [
-                "익은 쌀",
-                "익은 쌀",
-                "익은 쌀",
-                "익은 쌀"
+                "Cooked Rice",
+                "Cooked Rice",
+                "Cooked Rice",
+                "Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1863,10 +1863,10 @@
         {
             "id": 155,
             "name": [
-                "육수+익은 쌀",
-                "육수+익은 쌀",
-                "육수+익은 쌀",
-                "육수+익은 쌀"
+                "Broth+Cooked Rice",
+                "Broth+Cooked Rice",
+                "Broth+Cooked Rice",
+                "Broth+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1875,10 +1875,10 @@
         {
             "id": 156,
             "name": [
-                "리소토",
-                "리소토",
-                "리소토",
-                "리소토"
+                "Risotto",
+                "Risotto",
+                "Risotto",
+                "Risotto"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -1887,10 +1887,10 @@
         {
             "id": 157,
             "name": [
-                "파스타",
-                "파스타",
-                "파스타",
-                "파스타"
+                "Pasta",
+                "Pasta",
+                "Pasta",
+                "Pasta"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1899,10 +1899,10 @@
         {
             "id": 158,
             "name": [
-                "삶은 파스타",
-                "삶은 파스타",
-                "삶은 파스타",
-                "삶은 파스타"
+                "Boiled Pasta",
+                "Boiled Pasta",
+                "Boiled Pasta",
+                "Boiled Pasta"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1911,10 +1911,10 @@
         {
             "id": 159,
             "name": [
-                "미트 소스+파스타",
-                "미트 소스+파스타",
-                "미트 소스+파스타",
-                "미트 소스+파스타"
+                "Meat Sauce+Pasta",
+                "Meat Sauce+Pasta",
+                "Meat Sauce+Pasta",
+                "Meat Sauce+Pasta"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1923,10 +1923,10 @@
         {
             "id": 160,
             "name": [
-                "토마토",
-                "토마토",
-                "토마토",
-                "토마토"
+                "Tomato",
+                "Tomato",
+                "Tomato",
+                "Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1935,10 +1935,10 @@
         {
             "id": 161,
             "name": [
-                "구운 토마토",
-                "구운 토마토",
-                "구운 토마토",
-                "구운 토마토"
+                "Grilled Tomato",
+                "Grilled Tomato",
+                "Grilled Tomato",
+                "Grilled Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1947,10 +1947,10 @@
         {
             "id": 162,
             "name": [
-                "썬 토마토",
-                "썬 토마토",
-                "썬 토마토",
-                "썬 토마토"
+                "Sliced Tomato",
+                "Sliced Tomato",
+                "Sliced Tomato",
+                "Sliced Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1959,10 +1959,10 @@
         {
             "id": 163,
             "name": [
-                "뭉갠 토마토",
-                "뭉갠 토마토",
-                "뭉갠 토마토",
-                "뭉갠 토마토"
+                "Mashed Tomato",
+                "Mashed Tomato",
+                "Mashed Tomato",
+                "Mashed Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1971,10 +1971,10 @@
         {
             "id": 164,
             "name": [
-                "토마토 소스",
-                "토마토 소스",
-                "토마토 소스",
-                "토마토 소스"
+                "Tomato Sauce",
+                "Tomato Sauce",
+                "Tomato Sauce",
+                "Tomato Sauce"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1983,10 +1983,10 @@
         {
             "id": 165,
             "name": [
-                "크림 소스",
-                "크림 소스",
-                "크림 소스",
-                "크림 소스"
+                "Cream Sauce",
+                "Cream Sauce",
+                "Cream Sauce",
+                "Cream Sauce"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1995,10 +1995,10 @@
         {
             "id": 166,
             "name": [
-                "로제 소스",
-                "로제 소스",
-                "로제 소스",
-                "로제 소스"
+                "Creamy Tomato Sauce",
+                "Creamy Tomato Sauce",
+                "Creamy Tomato Sauce",
+                "Creamy Tomato Sauce"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2007,10 +2007,10 @@
         {
             "id": 167,
             "name": [
-                "새우+육수+익은 쌀",
-                "새우+육수+익은 쌀",
-                "새우+육수+익은 쌀",
-                "새우+육수+익은 쌀"
+                "Shrimp+Broth+Cooked Rice",
+                "Shrimp+Broth+Cooked Rice",
+                "Shrimp+Broth+Cooked Rice",
+                "Shrimp+Broth+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2019,10 +2019,10 @@
         {
             "id": 168,
             "name": [
-                "새우 리소토",
-                "새우 리소토",
-                "새우 리소토",
-                "새우 리소토"
+                "Shrimp Risotto",
+                "Shrimp Risotto",
+                "Shrimp Risotto",
+                "Shrimp Risotto"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2031,10 +2031,10 @@
         {
             "id": 169,
             "name": [
-                "토마토+익은 쌀",
-                "토마토+익은 쌀",
-                "토마토+익은 쌀",
-                "토마토+익은 쌀"
+                "Tomato+Cooked Rice",
+                "Tomato+Cooked Rice",
+                "Tomato+Cooked Rice",
+                "Tomato+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2043,10 +2043,10 @@
         {
             "id": 170,
             "name": [
-                "토마토 리소토",
-                "토마토 리소토",
-                "토마토 리소토",
-                "토마토 리소토"
+                "Tomato Risotto",
+                "Tomato Risotto",
+                "Tomato Risotto",
+                "Tomato Risotto"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2055,10 +2055,10 @@
         {
             "id": 171,
             "name": [
-                "크림+익은 쌀",
-                "크림+익은 쌀",
-                "크림+익은 쌀",
-                "크림+익은 쌀"
+                "Cream+Cooked Rice",
+                "Cream+Cooked Rice",
+                "Cream+Cooked Rice",
+                "Cream+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2067,10 +2067,10 @@
         {
             "id": 172,
             "name": [
-                "크림 리소토",
-                "크림 리소토",
-                "크림 리소토",
-                "크림 리소토"
+                "Cream Risotto",
+                "Cream Risotto",
+                "Cream Risotto",
+                "Cream Risotto"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2079,10 +2079,10 @@
         {
             "id": 173,
             "name": [
-                "로제+익은 쌀",
-                "로제+익은 쌀",
-                "로제+익은 쌀",
-                "로제+익은 쌀"
+                "Creamy Tomato+Cooked Rice",
+                "Creamy Tomato+Cooked Rice",
+                "Creamy Tomato+Cooked Rice",
+                "Creamy Tomato+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2091,10 +2091,10 @@
         {
             "id": 174,
             "name": [
-                "로제 리소토",
-                "로제 리소토",
-                "로제 리소토",
-                "로제 리소토"
+                "Creamy Tomato Risotto",
+                "Creamy Tomato Risotto",
+                "Creamy Tomato Risotto",
+                "Creamy Tomato Risotto"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2103,10 +2103,10 @@
         {
             "id": 175,
             "name": [
-                "새우+토마토+익은 쌀",
-                "새우+토마토+익은 쌀",
-                "새우+토마토+익은 쌀",
-                "새우+토마토+익은 쌀"
+                "Shrimp+Tomato+Cooked Rice",
+                "Shrimp+Tomato+Cooked Rice",
+                "Shrimp+Tomato+Cooked Rice",
+                "Shrimp+Tomato+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2115,10 +2115,10 @@
         {
             "id": 176,
             "name": [
-                "새우 토마토 리소토",
-                "새우 토마토 리소토",
-                "새우 토마토 리소토",
-                "새우 토마토 리소토"
+                "Shrimp Tomato Risotto",
+                "Shrimp Tomato Risotto",
+                "Shrimp Tomato Risotto",
+                "Shrimp Tomato Risotto"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2127,10 +2127,10 @@
         {
             "id": 177,
             "name": [
-                "새우+크림+익은 쌀",
-                "새우+크림+익은 쌀",
-                "새우+크림+익은 쌀",
-                "새우+크림+익은 쌀"
+                "Shrimp+Cream+Cooked Rice",
+                "Shrimp+Cream+Cooked Rice",
+                "Shrimp+Cream+Cooked Rice",
+                "Shrimp+Cream+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2139,10 +2139,10 @@
         {
             "id": 178,
             "name": [
-                "새우 크림 리소토",
-                "새우 크림 리소토",
-                "새우 크림 리소토",
-                "새우 크림 리소토"
+                "Shrimp Cream Risotto",
+                "Shrimp Cream Risotto",
+                "Shrimp Cream Risotto",
+                "Shrimp Cream Risotto"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2151,10 +2151,10 @@
         {
             "id": 179,
             "name": [
-                "새우+로제+익은 쌀",
-                "새우+로제+익은 쌀",
-                "새우+로제+익은 쌀",
-                "새우+로제+익은 쌀"
+                "Shrimp+Creamy Tomato+Cooked Rice",
+                "Shrimp+Creamy Tomato+Cooked Rice",
+                "Shrimp+Creamy Tomato+Cooked Rice",
+                "Shrimp+Creamy Tomato+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2163,10 +2163,10 @@
         {
             "id": 180,
             "name": [
-                "새우 로제 리소토",
-                "새우 로제 리소토",
-                "새우 로제 리소토",
-                "새우 로제 리소토"
+                "Shrimp Creamy Tomato Risotto",
+                "Shrimp Creamy Tomato Risotto",
+                "Shrimp Creamy Tomato Risotto",
+                "Shrimp Creamy Tomato Risotto"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2175,10 +2175,10 @@
         {
             "id": 181,
             "name": [
-                "새우+파스타",
-                "새우+파스타",
-                "새우+파스타",
-                "새우+파스타"
+                "Shrimp+Pasta",
+                "Shrimp+Pasta",
+                "Shrimp+Pasta",
+                "Shrimp+Pasta"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2187,10 +2187,10 @@
         {
             "id": 182,
             "name": [
-                "새우 파스타",
-                "새우 파스타",
-                "새우 파스타",
-                "새우 파스타"
+                "Shrimp Pasta",
+                "Shrimp Pasta",
+                "Shrimp Pasta",
+                "Shrimp Pasta"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2199,10 +2199,10 @@
         {
             "id": 183,
             "name": [
-                "토마토+파스타",
-                "토마토+파스타",
-                "토마토+파스타",
-                "토마토+파스타"
+                "Tomato+Pasta",
+                "Tomato+Pasta",
+                "Tomato+Pasta",
+                "Tomato+Pasta"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2211,10 +2211,10 @@
         {
             "id": 184,
             "name": [
-                "토마토 파스타",
-                "토마토 파스타",
-                "토마토 파스타",
-                "토마토 파스타"
+                "Tomato Pasta",
+                "Tomato Pasta",
+                "Tomato Pasta",
+                "Tomato Pasta"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2223,10 +2223,10 @@
         {
             "id": 185,
             "name": [
-                "크림+파스타",
-                "크림+파스타",
-                "크림+파스타",
-                "크림+파스타"
+                "Cream+Pasta",
+                "Cream+Pasta",
+                "Cream+Pasta",
+                "Cream+Pasta"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2235,10 +2235,10 @@
         {
             "id": 186,
             "name": [
-                "크림 파스타",
-                "크림 파스타",
-                "크림 파스타",
-                "크림 파스타"
+                "Cream Pasta",
+                "Cream Pasta",
+                "Cream Pasta",
+                "Cream Pasta"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2247,10 +2247,10 @@
         {
             "id": 187,
             "name": [
-                "로제+파스타",
-                "로제+파스타",
-                "로제+파스타",
-                "로제+파스타"
+                "Creamy Tomato+Pasta",
+                "Creamy Tomato+Pasta",
+                "Creamy Tomato+Pasta",
+                "Creamy Tomato+Pasta"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2259,10 +2259,10 @@
         {
             "id": 188,
             "name": [
-                "로제 파스타",
-                "로제 파스타",
-                "로제 파스타",
-                "로제 파스타"
+                "Creamy Tomato Pasta",
+                "Creamy Tomato Pasta",
+                "Creamy Tomato Pasta",
+                "Creamy Tomato Pasta"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2271,10 +2271,10 @@
         {
             "id": 189,
             "name": [
-                "새우+토마토+파스타",
-                "새우+토마토+파스타",
-                "새우+토마토+파스타",
-                "새우+토마토+파스타"
+                "Shrimp+Tomato+Pasta",
+                "Shrimp+Tomato+Pasta",
+                "Shrimp+Tomato+Pasta",
+                "Shrimp+Tomato+Pasta"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2283,10 +2283,10 @@
         {
             "id": 190,
             "name": [
-                "새우 토마토 파스타",
-                "새우 토마토 파스타",
-                "새우 토마토 파스타",
-                "새우 토마토 파스타"
+                "Shrimp Tomato Pasta",
+                "Shrimp Tomato Pasta",
+                "Shrimp Tomato Pasta",
+                "Shrimp Tomato Pasta"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2295,10 +2295,10 @@
         {
             "id": 191,
             "name": [
-                "새우+크림+파스타",
-                "새우+크림+파스타",
-                "새우+크림+파스타",
-                "새우+크림+파스타"
+                "Shrimp+Cream+Pasta",
+                "Shrimp+Cream+Pasta",
+                "Shrimp+Cream+Pasta",
+                "Shrimp+Cream+Pasta"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2307,10 +2307,10 @@
         {
             "id": 192,
             "name": [
-                "새우 크림 파스타",
-                "새우 크림 파스타",
-                "새우 크림 파스타",
-                "새우 크림 파스타"
+                "Shrimp Cream Pasta",
+                "Shrimp Cream Pasta",
+                "Shrimp Cream Pasta",
+                "Shrimp Cream Pasta"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2319,10 +2319,10 @@
         {
             "id": 193,
             "name": [
-                "새우+로제+파스타",
-                "새우+로제+파스타",
-                "새우+로제+파스타",
-                "새우+로제+파스타"
+                "Shrimp+Creamy Tomato+Pasta",
+                "Shrimp+Creamy Tomato+Pasta",
+                "Shrimp+Creamy Tomato+Pasta",
+                "Shrimp+Creamy Tomato+Pasta"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2331,10 +2331,10 @@
         {
             "id": 194,
             "name": [
-                "새우 로제 파스타",
-                "새우 로제 파스타",
-                "새우 로제 파스타",
-                "새우 로제 파스타"
+                "Shrimp Creamy Tomato Pasta",
+                "Shrimp Creamy Tomato Pasta",
+                "Shrimp Creamy Tomato Pasta",
+                "Shrimp Creamy Tomato Pasta"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2343,10 +2343,10 @@
         {
             "id": 195,
             "name": [
-                "치즈",
-                "치즈",
-                "치즈",
-                "치즈"
+                "Cheese",
+                "Cheese",
+                "Cheese",
+                "Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2355,10 +2355,10 @@
         {
             "id": 196,
             "name": [
-                "슬라이스 치즈",
-                "슬라이스 치즈",
-                "슬라이스 치즈",
-                "슬라이스 치즈"
+                "Sliced Cheese",
+                "Sliced Cheese",
+                "Sliced Cheese",
+                "Sliced Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2367,10 +2367,10 @@
         {
             "id": 197,
             "name": [
-                "녹인 치즈",
-                "녹인 치즈",
-                "녹인 치즈",
-                "녹인 치즈"
+                "Melted Cheese",
+                "Melted Cheese",
+                "Melted Cheese",
+                "Melted Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2379,10 +2379,10 @@
         {
             "id": 198,
             "name": [
-                "돈장",
-                "돈장",
-                "돈장",
-                "돈장"
+                "Donjang Sauce",
+                "Donjang Sauce",
+                "Donjang Sauce",
+                "Donjang Sauce"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2391,10 +2391,10 @@
         {
             "id": 199,
             "name": [
-                "곱창 구이",
-                "곱창 구이",
-                "곱창 구이",
-                "곱창 구이"
+                "Grilled Pork Intestines",
+                "Grilled Pork Intestines",
+                "Grilled Pork Intestines",
+                "Grilled Pork Intestines"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2403,10 +2403,10 @@
         {
             "id": 200,
             "name": [
-                "생 소시지",
-                "생 소시지",
-                "생 소시지",
-                "생 소시지"
+                "Raw Sausage",
+                "Raw Sausage",
+                "Raw Sausage",
+                "Raw Sausage"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2415,10 +2415,10 @@
         {
             "id": 201,
             "name": [
-                "훈제 소시지",
-                "훈제 소시지",
-                "훈제 소시지",
-                "훈제 소시지"
+                "Smoked Sausage",
+                "Smoked Sausage",
+                "Smoked Sausage",
+                "Smoked Sausage"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2427,10 +2427,10 @@
         {
             "id": 202,
             "name": [
-                "구운 소시지",
-                "구운 소시지",
-                "구운 소시지",
-                "구운 소시지"
+                "Grilled Sausage",
+                "Grilled Sausage",
+                "Grilled Sausage",
+                "Grilled Sausage"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2439,10 +2439,10 @@
         {
             "id": 203,
             "name": [
-                "삶은 소시지",
-                "삶은 소시지",
-                "삶은 소시지",
-                "삶은 소시지"
+                "Boiled Sausage",
+                "Boiled Sausage",
+                "Boiled Sausage",
+                "Boiled Sausage"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2451,10 +2451,10 @@
         {
             "id": 204,
             "name": [
-                "빵",
-                "빵",
-                "빵",
-                "빵"
+                "Bread",
+                "Bread",
+                "Bread",
+                "Bread"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2463,10 +2463,10 @@
         {
             "id": 205,
             "name": [
-                "빵조각",
-                "빵조각",
-                "빵조각",
-                "빵조각"
+                "Bread Pieces",
+                "Bread Pieces",
+                "Bread Pieces",
+                "Bread Pieces"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2475,10 +2475,10 @@
         {
             "id": 206,
             "name": [
-                "빵가루",
-                "빵가루",
-                "빵가루",
-                "빵가루"
+                "Breadcrumbs",
+                "Breadcrumbs",
+                "Breadcrumbs",
+                "Breadcrumbs"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2487,10 +2487,10 @@
         {
             "id": 207,
             "name": [
-                "감자",
-                "감자",
-                "감자",
-                "감자"
+                "Potato",
+                "Potato",
+                "Potato",
+                "Potato"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2499,10 +2499,10 @@
         {
             "id": 208,
             "name": [
-                "구운 감자",
-                "구운 감자",
-                "구운 감자",
-                "구운 감자"
+                "Grilled Potato",
+                "Grilled Potato",
+                "Grilled Potato",
+                "Grilled Potato"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2511,10 +2511,10 @@
         {
             "id": 209,
             "name": [
-                "찐 감자",
-                "찐 감자",
-                "찐 감자",
-                "찐 감자"
+                "Steamed Potato",
+                "Steamed Potato",
+                "Steamed Potato",
+                "Steamed Potato"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2523,10 +2523,10 @@
         {
             "id": 210,
             "name": [
-                "썬 감자",
-                "썬 감자",
-                "썬 감자",
-                "썬 감자"
+                "Sliced Potato",
+                "Sliced Potato",
+                "Sliced Potato",
+                "Sliced Potato"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2535,10 +2535,10 @@
         {
             "id": 211,
             "name": [
-                "볶은 감자",
-                "볶은 감자",
-                "볶은 감자",
-                "볶은 감자"
+                "Stir-fried Potato",
+                "Stir-fried Potato",
+                "Stir-fried Potato",
+                "Stir-fried Potato"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2547,10 +2547,10 @@
         {
             "id": 212,
             "name": [
-                "감자튀김",
-                "감자튀김",
-                "감자튀김",
-                "감자튀김"
+                "French Fries",
+                "French Fries",
+                "French Fries",
+                "French Fries"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2559,10 +2559,10 @@
         {
             "id": 213,
             "name": [
-                "삶은 감자",
-                "삶은 감자",
-                "삶은 감자",
-                "삶은 감자"
+                "Boiled Potato",
+                "Boiled Potato",
+                "Boiled Potato",
+                "Boiled Potato"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2571,10 +2571,10 @@
         {
             "id": 214,
             "name": [
-                "으깬 감자",
-                "으깬 감자",
-                "으깬 감자",
-                "으깬 감자"
+                "Mashed Potato",
+                "Mashed Potato",
+                "Mashed Potato",
+                "Mashed Potato"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2583,10 +2583,10 @@
         {
             "id": 215,
             "name": [
-                "해시 브라운",
-                "해시 브라운",
-                "해시 브라운",
-                "해시 브라운"
+                "Hash Browns",
+                "Hash Browns",
+                "Hash Browns",
+                "Hash Browns"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2595,10 +2595,10 @@
         {
             "id": 216,
             "name": [
-                "감자 반죽",
-                "감자 반죽",
-                "감자 반죽",
-                "감자 반죽"
+                "Potato Dough",
+                "Potato Dough",
+                "Potato Dough",
+                "Potato Dough"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2607,10 +2607,10 @@
         {
             "id": 217,
             "name": [
-                "감자전",
-                "감자전",
-                "감자전",
-                "감자전"
+                "Potato Pancake",
+                "Potato Pancake",
+                "Potato Pancake",
+                "Potato Pancake"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2619,10 +2619,10 @@
         {
             "id": 218,
             "name": [
-                "양배추 절임",
-                "양배추 절임",
-                "양배추 절임",
-                "양배추 절임"
+                "Pickled Cabbage",
+                "Pickled Cabbage",
+                "Pickled Cabbage",
+                "Pickled Cabbage"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2631,10 +2631,10 @@
         {
             "id": 219,
             "name": [
-                "핫도그",
-                "핫도그",
-                "핫도그",
-                "핫도그"
+                "Hot Dog",
+                "Hot Dog",
+                "Hot Dog",
+                "Hot Dog"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2643,10 +2643,10 @@
         {
             "id": 220,
             "name": [
-                "치즈 핫도그",
-                "치즈 핫도그",
-                "치즈 핫도그",
-                "치즈 핫도그"
+                "Cheese Hot Dog",
+                "Cheese Hot Dog",
+                "Cheese Hot Dog",
+                "Cheese Hot Dog"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2655,10 +2655,10 @@
         {
             "id": 221,
             "name": [
-                "퐁뒤",
-                "퐁뒤",
-                "퐁뒤",
-                "퐁뒤"
+                "Fondue",
+                "Fondue",
+                "Fondue",
+                "Fondue"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2667,10 +2667,10 @@
         {
             "id": 222,
             "name": [
-                "치즈 감자튀김",
-                "치즈 감자튀김",
-                "치즈 감자튀김",
-                "치즈 감자튀김"
+                "Cheese Fries",
+                "Cheese Fries",
+                "Cheese Fries",
+                "Cheese Fries"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2679,10 +2679,10 @@
         {
             "id": 223,
             "name": [
-                "치즈 감자전",
-                "치즈 감자전",
-                "치즈 감자전",
-                "치즈 감자전"
+                "Cheese Potato Pancake",
+                "Cheese Potato Pancake",
+                "Cheese Potato Pancake",
+                "Cheese Potato Pancake"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2691,10 +2691,10 @@
         {
             "id": 224,
             "name": [
-                "족발+감자",
-                "족발+감자",
-                "족발+감자",
-                "족발+감자"
+                "Pork Trotters+Potato",
+                "Pork Trotters+Potato",
+                "Pork Trotters+Potato",
+                "Pork Trotters+Potato"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2703,10 +2703,10 @@
         {
             "id": 225,
             "name": [
-                "족발+양배추 절임",
-                "족발+양배추 절임",
-                "족발+양배추 절임",
-                "족발+양배추 절임"
+                "Pork Trotters+Pickled Cabbage",
+                "Pork Trotters+Pickled Cabbage",
+                "Pork Trotters+Pickled Cabbage",
+                "Pork Trotters+Pickled Cabbage"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2715,10 +2715,10 @@
         {
             "id": 226,
             "name": [
-                "족발 정식",
-                "족발 정식",
-                "족발 정식",
-                "족발 정식"
+                "Pork Trotters Set",
+                "Pork Trotters Set",
+                "Pork Trotters Set",
+                "Pork Trotters Set"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2727,10 +2727,10 @@
         {
             "id": 227,
             "name": [
-                "소시지+감자",
-                "소시지+감자",
-                "소시지+감자",
-                "소시지+감자"
+                "Sausage+Potato",
+                "Sausage+Potato",
+                "Sausage+Potato",
+                "Sausage+Potato"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2739,10 +2739,10 @@
         {
             "id": 228,
             "name": [
-                "소시지+양배추 절임",
-                "소시지+양배추 절임",
-                "소시지+양배추 절임",
-                "소시지+양배추 절임"
+                "Sausage+Pickled Cabbage",
+                "Sausage+Pickled Cabbage",
+                "Sausage+Pickled Cabbage",
+                "Sausage+Pickled Cabbage"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2751,10 +2751,10 @@
         {
             "id": 229,
             "name": [
-                "소시지 정식",
-                "소시지 정식",
-                "소시지 정식",
-                "소시지 정식"
+                "Sausage Platter",
+                "Sausage Platter",
+                "Sausage Platter",
+                "Sausage Platter"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2763,10 +2763,10 @@
         {
             "id": 230,
             "name": [
-                "감자 샐러드",
-                "감자 샐러드",
-                "감자 샐러드",
-                "감자 샐러드"
+                "Potato Salad",
+                "Potato Salad",
+                "Potato Salad",
+                "Potato Salad"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2775,10 +2775,10 @@
         {
             "id": 231,
             "name": [
-                "생 커틀릿",
-                "생 커틀릿",
-                "생 커틀릿",
-                "생 커틀릿"
+                "Raw Cutlet",
+                "Raw Cutlet",
+                "Raw Cutlet",
+                "Raw Cutlet"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2787,10 +2787,10 @@
         {
             "id": 232,
             "name": [
-                "커틀릿",
-                "커틀릿",
-                "커틀릿",
-                "커틀릿"
+                "Cutlet",
+                "Cutlet",
+                "Cutlet",
+                "Cutlet"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2799,10 +2799,10 @@
         {
             "id": 233,
             "name": [
-                "생 미트볼",
-                "생 미트볼",
-                "생 미트볼",
-                "생 미트볼"
+                "Raw Meatball",
+                "Raw Meatball",
+                "Raw Meatball",
+                "Raw Meatball"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2811,10 +2811,10 @@
         {
             "id": 234,
             "name": [
-                "미트볼",
-                "미트볼",
-                "미트볼",
-                "미트볼"
+                "Meatball",
+                "Meatball",
+                "Meatball",
+                "Meatball"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2823,10 +2823,10 @@
         {
             "id": 235,
             "name": [
-                "와인",
-                "와인",
-                "와인",
-                "와인"
+                "Wine",
+                "Wine",
+                "Wine",
+                "Wine"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2835,10 +2835,10 @@
         {
             "id": 236,
             "name": [
-                "토마토 스튜 베이스",
-                "토마토 스튜 베이스",
-                "토마토 스튜 베이스",
-                "토마토 스튜 베이스"
+                "Tomato Stew Base",
+                "Tomato Stew Base",
+                "Tomato Stew Base",
+                "Tomato Stew Base"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2847,10 +2847,10 @@
         {
             "id": 237,
             "name": [
-                "크림 스튜 베이스",
-                "크림 스튜 베이스",
-                "크림 스튜 베이스",
-                "크림 스튜 베이스"
+                "Cream Stew Base",
+                "Cream Stew Base",
+                "Cream Stew Base",
+                "Cream Stew Base"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2859,10 +2859,10 @@
         {
             "id": 238,
             "name": [
-                "와인 스튜 베이스",
-                "와인 스튜 베이스",
-                "와인 스튜 베이스",
-                "와인 스튜 베이스"
+                "Wine Stew Base",
+                "Wine Stew Base",
+                "Wine Stew Base",
+                "Wine Stew Base"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -2871,10 +2871,10 @@
         {
             "id": 239,
             "name": [
-                "토마토+소고기",
-                "토마토+소고기",
-                "토마토+소고기",
-                "토마토+소고기"
+                "Tomato+Beef",
+                "Tomato+Beef",
+                "Tomato+Beef",
+                "Tomato+Beef"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2883,10 +2883,10 @@
         {
             "id": 240,
             "name": [
-                "토마토 비프 스튜",
-                "토마토 비프 스튜",
-                "토마토 비프 스튜",
-                "토마토 비프 스튜"
+                "Tomato Beef Stew",
+                "Tomato Beef Stew",
+                "Tomato Beef Stew",
+                "Tomato Beef Stew"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2895,10 +2895,10 @@
         {
             "id": 241,
             "name": [
-                "크림+소고기",
-                "크림+소고기",
-                "크림+소고기",
-                "크림+소고기"
+                "Cream+Beef",
+                "Cream+Beef",
+                "Cream+Beef",
+                "Cream+Beef"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2907,10 +2907,10 @@
         {
             "id": 242,
             "name": [
-                "크림 비프 스튜",
-                "크림 비프 스튜",
-                "크림 비프 스튜",
-                "크림 비프 스튜"
+                "Cream Beef Stew",
+                "Cream Beef Stew",
+                "Cream Beef Stew",
+                "Cream Beef Stew"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2919,10 +2919,10 @@
         {
             "id": 243,
             "name": [
-                "와인+소고기",
-                "와인+소고기",
-                "와인+소고기",
-                "와인+소고기"
+                "Wine+Beef",
+                "Wine+Beef",
+                "Wine+Beef",
+                "Wine+Beef"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -2931,10 +2931,10 @@
         {
             "id": 244,
             "name": [
-                "비프 스튜",
-                "비프 스튜",
-                "비프 스튜",
-                "비프 스튜"
+                "Beef Stew",
+                "Beef Stew",
+                "Beef Stew",
+                "Beef Stew"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2943,10 +2943,10 @@
         {
             "id": 245,
             "name": [
-                "토마토+닭고기",
-                "토마토+닭고기",
-                "토마토+닭고기",
-                "토마토+닭고기"
+                "Tomato+Chicken",
+                "Tomato+Chicken",
+                "Tomato+Chicken",
+                "Tomato+Chicken"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2955,10 +2955,10 @@
         {
             "id": 246,
             "name": [
-                "토마토 치킨 스튜",
-                "토마토 치킨 스튜",
-                "토마토 치킨 스튜",
-                "토마토 치킨 스튜"
+                "Tomato Chicken Stew",
+                "Tomato Chicken Stew",
+                "Tomato Chicken Stew",
+                "Tomato Chicken Stew"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2967,10 +2967,10 @@
         {
             "id": 247,
             "name": [
-                "크림+닭고기",
-                "크림+닭고기",
-                "크림+닭고기",
-                "크림+닭고기"
+                "Cream+Chicken",
+                "Cream+Chicken",
+                "Cream+Chicken",
+                "Cream+Chicken"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2979,10 +2979,10 @@
         {
             "id": 248,
             "name": [
-                "크림 치킨 스튜",
-                "크림 치킨 스튜",
-                "크림 치킨 스튜",
-                "크림 치킨 스튜"
+                "Cream Chicken Stew",
+                "Cream Chicken Stew",
+                "Cream Chicken Stew",
+                "Cream Chicken Stew"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2991,10 +2991,10 @@
         {
             "id": 249,
             "name": [
-                "와인+닭고기",
-                "와인+닭고기",
-                "와인+닭고기",
-                "와인+닭고기"
+                "Wine+Chicken",
+                "Wine+Chicken",
+                "Wine+Chicken",
+                "Wine+Chicken"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3003,10 +3003,10 @@
         {
             "id": 250,
             "name": [
-                "치킨 스튜",
-                "치킨 스튜",
-                "치킨 스튜",
-                "치킨 스튜"
+                "Chicken Stew",
+                "Chicken Stew",
+                "Chicken Stew",
+                "Chicken Stew"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3015,10 +3015,10 @@
         {
             "id": 251,
             "name": [
-                "미트 소스",
-                "미트 소스",
-                "미트 소스",
-                "미트 소스"
+                "Meat Sauce",
+                "Meat Sauce",
+                "Meat Sauce",
+                "Meat Sauce"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3027,10 +3027,10 @@
         {
             "id": 252,
             "name": [
-                "스테이크 소스",
-                "스테이크 소스",
-                "스테이크 소스",
-                "스테이크 소스"
+                "Steak Sauce",
+                "Steak Sauce",
+                "Steak Sauce",
+                "Steak Sauce"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3039,10 +3039,10 @@
         {
             "id": 253,
             "name": [
-                "뱅쇼",
-                "뱅쇼",
-                "뱅쇼",
-                "뱅쇼"
+                "Mulled Wine",
+                "Mulled Wine",
+                "Mulled Wine",
+                "Mulled Wine"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -3051,10 +3051,10 @@
         {
             "id": 254,
             "name": [
-                "파이 생지",
-                "파이 생지",
-                "파이 생지",
-                "파이 생지"
+                "Pie Dough",
+                "Pie Dough",
+                "Pie Dough",
+                "Pie Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3063,10 +3063,10 @@
         {
             "id": 255,
             "name": [
-                "타르트 생지",
-                "타르트 생지",
-                "타르트 생지",
-                "타르트 생지"
+                "Tart Dough",
+                "Tart Dough",
+                "Tart Dough",
+                "Tart Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3075,10 +3075,10 @@
         {
             "id": 256,
             "name": [
-                "소고기+파이",
-                "소고기+파이",
-                "소고기+파이",
-                "소고기+파이"
+                "Beef+Pie Dough",
+                "Beef+Pie Dough",
+                "Beef+Pie Dough",
+                "Beef+Pie Dough"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3087,10 +3087,10 @@
         {
             "id": 257,
             "name": [
-                "파이+소고기+파이",
-                "파이+소고기+파이",
-                "파이+소고기+파이",
-                "파이+소고기+파이"
+                "PD+Beef+PD",
+                "PD+Beef+PD",
+                "PD+Beef+PD",
+                "PD+Beef+PD"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3099,10 +3099,10 @@
         {
             "id": 258,
             "name": [
-                "생 미트 파이",
-                "생 미트 파이",
-                "생 미트 파이",
-                "생 미트 파이"
+                "Raw Meat Pie",
+                "Raw Meat Pie",
+                "Raw Meat Pie",
+                "Raw Meat Pie"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3111,10 +3111,10 @@
         {
             "id": 259,
             "name": [
-                "미트 파이",
-                "미트 파이",
-                "미트 파이",
-                "미트 파이"
+                "Meat Pie",
+                "Meat Pie",
+                "Meat Pie",
+                "Meat Pie"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3123,10 +3123,10 @@
         {
             "id": 260,
             "name": [
-                "설탕",
-                "설탕",
-                "설탕",
-                "설탕"
+                "Sugar",
+                "Sugar",
+                "Sugar",
+                "Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3135,10 +3135,10 @@
         {
             "id": 261,
             "name": [
-                "사과",
-                "사과",
-                "사과",
-                "사과"
+                "Apple",
+                "Apple",
+                "Apple",
+                "Apple"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3147,10 +3147,10 @@
         {
             "id": 262,
             "name": [
-                "썬 사과",
-                "썬 사과",
-                "썬 사과",
-                "썬 사과"
+                "Sliced Apple",
+                "Sliced Apple",
+                "Sliced Apple",
+                "Sliced Apple"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3159,10 +3159,10 @@
         {
             "id": 263,
             "name": [
-                "사과+설탕",
-                "사과+설탕",
-                "사과+설탕",
-                "사과+설탕"
+                "Apple+Sugar",
+                "Apple+Sugar",
+                "Apple+Sugar",
+                "Apple+Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3171,10 +3171,10 @@
         {
             "id": 264,
             "name": [
-                "사과조림",
-                "사과조림",
-                "사과조림",
-                "사과조림"
+                "Stewed Apples",
+                "Stewed Apples",
+                "Stewed Apples",
+                "Stewed Apples"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3183,10 +3183,10 @@
         {
             "id": 265,
             "name": [
-                "사과잼",
-                "사과잼",
-                "사과잼",
-                "사과잼"
+                "Apple Jam",
+                "Apple Jam",
+                "Apple Jam",
+                "Apple Jam"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3195,10 +3195,10 @@
         {
             "id": 266,
             "name": [
-                "스테이크+생지",
-                "스테이크+생지",
-                "스테이크+생지",
-                "스테이크+생지"
+                "Steak+Pastry Dough",
+                "Steak+Pastry Dough",
+                "Steak+Pastry Dough",
+                "Steak+Pastry Dough"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3207,10 +3207,10 @@
         {
             "id": 267,
             "name": [
-                "생 비프 웰링턴",
-                "생 비프 웰링턴",
-                "생 비프 웰링턴",
-                "생 비프 웰링턴"
+                "Raw Beef Wellington",
+                "Raw Beef Wellington",
+                "Raw Beef Wellington",
+                "Raw Beef Wellington"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3219,10 +3219,10 @@
         {
             "id": 268,
             "name": [
-                "비프 웰링턴",
-                "비프 웰링턴",
-                "비프 웰링턴",
-                "비프 웰링턴"
+                "Beef Wellington",
+                "Beef Wellington",
+                "Beef Wellington",
+                "Beef Wellington"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3231,10 +3231,10 @@
         {
             "id": 269,
             "name": [
-                "소고기+달걀",
-                "소고기+달걀",
-                "소고기+달걀",
-                "소고기+달걀"
+                "Beef+Egg",
+                "Beef+Egg",
+                "Beef+Egg",
+                "Beef+Egg"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3243,10 +3243,10 @@
         {
             "id": 270,
             "name": [
-                "튀김옷",
-                "튀김옷",
-                "튀김옷",
-                "튀김옷"
+                "Batter",
+                "Batter",
+                "Batter",
+                "Batter"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3255,10 +3255,10 @@
         {
             "id": 271,
             "name": [
-                "생 스카치 에그",
-                "생 스카치 에그",
-                "생 스카치 에그",
-                "생 스카치 에그"
+                "Raw Scotch Egg",
+                "Raw Scotch Egg",
+                "Raw Scotch Egg",
+                "Raw Scotch Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3267,10 +3267,10 @@
         {
             "id": 272,
             "name": [
-                "스카치 에그",
-                "스카치 에그",
-                "스카치 에그",
-                "스카치 에그"
+                "Scotch Egg",
+                "Scotch Egg",
+                "Scotch Egg",
+                "Scotch Egg"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3279,10 +3279,10 @@
         {
             "id": 273,
             "name": [
-                "사과+파이",
-                "사과+파이",
-                "사과+파이",
-                "사과+파이"
+                "Apple+Pie Dough",
+                "Apple+Pie Dough",
+                "Apple+Pie Dough",
+                "Apple+Pie Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3291,10 +3291,10 @@
         {
             "id": 274,
             "name": [
-                "파이+사과+파이",
-                "파이+사과+파이",
-                "파이+사과+파이",
-                "파이+사과+파이"
+                "PD+Apple+PD",
+                "PD+Apple+PD",
+                "PD+Apple+PD",
+                "PD+Apple+PD"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3303,10 +3303,10 @@
         {
             "id": 275,
             "name": [
-                "생 사과 파이",
-                "생 사과 파이",
-                "생 사과 파이",
-                "생 사과 파이"
+                "Raw Apple Pie",
+                "Raw Apple Pie",
+                "Raw Apple Pie",
+                "Raw Apple Pie"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3315,10 +3315,10 @@
         {
             "id": 276,
             "name": [
-                "사과 파이",
-                "사과 파이",
-                "사과 파이",
-                "사과 파이"
+                "Apple Pie",
+                "Apple Pie",
+                "Apple Pie",
+                "Apple Pie"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3327,10 +3327,10 @@
         {
             "id": 277,
             "name": [
-                "생 사과 타르트",
-                "생 사과 타르트",
-                "생 사과 타르트",
-                "생 사과 타르트"
+                "Raw Apple Tart",
+                "Raw Apple Tart",
+                "Raw Apple Tart",
+                "Raw Apple Tart"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3339,10 +3339,10 @@
         {
             "id": 278,
             "name": [
-                "사과 타르트",
-                "사과 타르트",
-                "사과 타르트",
-                "사과 타르트"
+                "Apple Tart",
+                "Apple Tart",
+                "Apple Tart",
+                "Apple Tart"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3351,10 +3351,10 @@
         {
             "id": 279,
             "name": [
-                "생 사과잼 타르트",
-                "생 사과잼 타르트",
-                "생 사과잼 타르트",
-                "생 사과잼 타르트"
+                "Raw Apple Jam Tart",
+                "Raw Apple Jam Tart",
+                "Raw Apple Jam Tart",
+                "Raw Apple Jam Tart"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3363,10 +3363,10 @@
         {
             "id": 280,
             "name": [
-                "사과잼 타르트",
-                "사과잼 타르트",
-                "사과잼 타르트",
-                "사과잼 타르트"
+                "Apple Jam Tart",
+                "Apple Jam Tart",
+                "Apple Jam Tart",
+                "Apple Jam Tart"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3375,10 +3375,10 @@
         {
             "id": 281,
             "name": [
-                "김",
-                "김",
-                "김",
-                "김"
+                "Seaweed",
+                "Seaweed",
+                "Seaweed",
+                "Seaweed"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -3387,10 +3387,10 @@
         {
             "id": 282,
             "name": [
-                "김+밥",
-                "김+밥",
-                "김+밥",
-                "김+밥"
+                "Seaweed+Rice",
+                "Seaweed+Rice",
+                "Seaweed+Rice",
+                "Seaweed+Rice"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -3399,10 +3399,10 @@
         {
             "id": 283,
             "name": [
-                "김+밥+불고기",
-                "김+밥+불고기",
-                "김+밥+불고기",
-                "김+밥+불고기"
+                "Seaweed+Rice+Bulgogi",
+                "Seaweed+Rice+Bulgogi",
+                "Seaweed+Rice+Bulgogi",
+                "Seaweed+Rice+Bulgogi"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -3411,10 +3411,10 @@
         {
             "id": 284,
             "name": [
-                "불고기 김밥",
-                "불고기 김밥",
-                "불고기 김밥",
-                "불고기 김밥"
+                "Bulgogi Kimbap",
+                "Bulgogi Kimbap",
+                "Bulgogi Kimbap",
+                "Bulgogi Kimbap"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3425,10 +3425,10 @@
         {
             "id": 285,
             "name": [
-                "김+밥+제육",
-                "김+밥+제육",
-                "김+밥+제육",
-                "김+밥+제육"
+                "Seaweed+Rice+Spicy Pork",
+                "Seaweed+Rice+Spicy Pork",
+                "Seaweed+Rice+Spicy Pork",
+                "Seaweed+Rice+Spicy Pork"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -3437,10 +3437,10 @@
         {
             "id": 286,
             "name": [
-                "제육 김밥",
-                "제육 김밥",
-                "제육 김밥",
-                "제육 김밥"
+                "Spicy Pork Kimbap",
+                "Spicy Pork Kimbap",
+                "Spicy Pork Kimbap",
+                "Spicy Pork Kimbap"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3451,10 +3451,10 @@
         {
             "id": 287,
             "name": [
-                "육회",
-                "육회",
-                "육회",
-                "육회"
+                "Seasoned Raw Beef",
+                "Seasoned Raw Beef",
+                "Seasoned Raw Beef",
+                "Seasoned Raw Beef"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3465,10 +3465,10 @@
         {
             "id": 288,
             "name": [
-                "맛술",
-                "맛술",
-                "맛술",
-                "맛술"
+                "Cooking Wine",
+                "Cooking Wine",
+                "Cooking Wine",
+                "Cooking Wine"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3477,10 +3477,10 @@
         {
             "id": 289,
             "name": [
-                "갈비 양념장",
-                "갈비 양념장",
-                "갈비 양념장",
-                "갈비 양념장"
+                "Galbi Marinade",
+                "Galbi Marinade",
+                "Galbi Marinade",
+                "Galbi Marinade"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3489,10 +3489,10 @@
         {
             "id": 290,
             "name": [
-                "소고기+갈비",
-                "소고기+갈비",
-                "소고기+갈비",
-                "소고기+갈비"
+                "Beef+Galbi Marinade",
+                "Beef+Galbi Marinade",
+                "Beef+Galbi Marinade",
+                "Beef+Galbi Marinade"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3501,10 +3501,10 @@
         {
             "id": 291,
             "name": [
-                "소갈비",
-                "소갈비",
-                "소갈비",
-                "소갈비"
+                "Beef Short Ribs",
+                "Beef Short Ribs",
+                "Beef Short Ribs",
+                "Beef Short Ribs"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3515,10 +3515,10 @@
         {
             "id": 292,
             "name": [
-                "돼지고기+갈비",
-                "돼지고기+갈비",
-                "돼지고기+갈비",
-                "돼지고기+갈비"
+                "Pork+Galbi Marinade",
+                "Pork+Galbi Marinade",
+                "Pork+Galbi Marinade",
+                "Pork+Galbi Marinade"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3527,10 +3527,10 @@
         {
             "id": 293,
             "name": [
-                "돼지갈비",
-                "돼지갈비",
-                "돼지갈비",
-                "돼지갈비"
+                "Pork Ribs",
+                "Pork Ribs",
+                "Pork Ribs",
+                "Pork Ribs"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3541,10 +3541,10 @@
         {
             "id": 294,
             "name": [
-                "참치 군함말이초밥",
-                "참치 군함말이초밥",
-                "참치 군함말이초밥",
-                "참치 군함말이초밥"
+                "Tuna Gunkan Sushi",
+                "Tuna Gunkan Sushi",
+                "Tuna Gunkan Sushi",
+                "Tuna Gunkan Sushi"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -3555,10 +3555,10 @@
         {
             "id": 295,
             "name": [
-                "생새우초밥",
-                "생새우초밥",
-                "생새우초밥",
-                "생새우초밥"
+                "Raw Shrimp Sushi",
+                "Raw Shrimp Sushi",
+                "Raw Shrimp Sushi",
+                "Raw Shrimp Sushi"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3569,10 +3569,10 @@
         {
             "id": 296,
             "name": [
-                "새우초밥",
-                "새우초밥",
-                "새우초밥",
-                "새우초밥"
+                "Shrimp Sushi",
+                "Shrimp Sushi",
+                "Shrimp Sushi",
+                "Shrimp Sushi"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -3583,10 +3583,10 @@
         {
             "id": 297,
             "name": [
-                "삼각김밥",
-                "삼각김밥",
-                "삼각김밥",
-                "삼각김밥"
+                "Onigiri",
+                "Onigiri",
+                "Onigiri",
+                "Onigiri"
             ],
             "canMelt": false,
             "colorCode": "V",
@@ -3597,10 +3597,10 @@
         {
             "id": 298,
             "name": [
-                "야채 육수",
-                "야채 육수",
-                "야채 육수",
-                "야채 육수"
+                "Vegetable Broth",
+                "Vegetable Broth",
+                "Vegetable Broth",
+                "Vegetable Broth"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3609,10 +3609,10 @@
         {
             "id": 299,
             "name": [
-                "똠얌꿍",
-                "똠얌꿍",
-                "똠얌꿍",
-                "똠얌꿍"
+                "Tom Yum Goong",
+                "Tom Yum Goong",
+                "Tom Yum Goong",
+                "Tom Yum Goong"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3621,10 +3621,10 @@
         {
             "id": 300,
             "name": [
-                "똠얌꿍 쌀국수",
-                "똠얌꿍 쌀국수",
-                "똠얌꿍 쌀국수",
-                "똠얌꿍 쌀국수"
+                "Tom Yum Goong Noodle Soup",
+                "Tom Yum Goong Noodle Soup",
+                "Tom Yum Goong Noodle Soup",
+                "Tom Yum Goong Noodle Soup"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3633,10 +3633,10 @@
         {
             "id": 301,
             "name": [
-                "소고기 쌀국수",
-                "소고기 쌀국수",
-                "소고기 쌀국수",
-                "소고기 쌀국수"
+                "Beef Rice Noodle Soup",
+                "Beef Rice Noodle Soup",
+                "Beef Rice Noodle Soup",
+                "Beef Rice Noodle Soup"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3647,10 +3647,10 @@
         {
             "id": 302,
             "name": [
-                "닭고기 쌀국수",
-                "닭고기 쌀국수",
-                "닭고기 쌀국수",
-                "닭고기 쌀국수"
+                "Chicken Rice Noodle Soup",
+                "Chicken Rice Noodle Soup",
+                "Chicken Rice Noodle Soup",
+                "Chicken Rice Noodle Soup"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3661,10 +3661,10 @@
         {
             "id": 303,
             "name": [
-                "토마토 스튜",
-                "토마토 스튜",
-                "토마토 스튜",
-                "토마토 스튜"
+                "Tomato Stew",
+                "Tomato Stew",
+                "Tomato Stew",
+                "Tomato Stew"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3673,10 +3673,10 @@
         {
             "id": 304,
             "name": [
-                "크림 스튜",
-                "크림 스튜",
-                "크림 스튜",
-                "크림 스튜"
+                "Cream Stew",
+                "Cream Stew",
+                "Cream Stew",
+                "Cream Stew"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3685,10 +3685,10 @@
         {
             "id": 305,
             "name": [
-                "볶은 야채",
-                "볶은 야채",
-                "볶은 야채",
-                "볶은 야채"
+                "Stir-fried Vegetables",
+                "Stir-fried Vegetables",
+                "Stir-fried Vegetables",
+                "Stir-fried Vegetables"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3697,10 +3697,10 @@
         {
             "id": 306,
             "name": [
-                "흰자",
-                "흰자",
-                "흰자",
-                "흰자"
+                "Egg White",
+                "Egg White",
+                "Egg White",
+                "Egg White"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3709,10 +3709,10 @@
         {
             "id": 307,
             "name": [
-                "노른자",
-                "노른자",
-                "노른자",
-                "노른자"
+                "Egg Yolk",
+                "Egg Yolk",
+                "Egg Yolk",
+                "Egg Yolk"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3721,10 +3721,10 @@
         {
             "id": 308,
             "name": [
-                "흰자+설탕",
-                "흰자+설탕",
-                "흰자+설탕",
-                "흰자+설탕"
+                "Egg White+Sugar",
+                "Egg White+Sugar",
+                "Egg White+Sugar",
+                "Egg White+Sugar"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3733,10 +3733,10 @@
         {
             "id": 309,
             "name": [
-                "머랭",
-                "머랭",
-                "머랭",
-                "머랭"
+                "Meringue",
+                "Meringue",
+                "Meringue",
+                "Meringue"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3745,10 +3745,10 @@
         {
             "id": 310,
             "name": [
-                "머랭 쿠키",
-                "머랭 쿠키",
-                "머랭 쿠키",
-                "머랭 쿠키"
+                "Meringue Cookie",
+                "Meringue Cookie",
+                "Meringue Cookie",
+                "Meringue Cookie"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3757,10 +3757,10 @@
         {
             "id": 311,
             "name": [
-                "수플레 반죽",
-                "수플레 반죽",
-                "수플레 반죽",
-                "수플레 반죽"
+                "Soufflé Batter",
+                "Soufflé Batter",
+                "Soufflé Batter",
+                "Soufflé Batter"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -3769,10 +3769,10 @@
         {
             "id": 312,
             "name": [
-                "수플레 팬케이크",
-                "수플레 팬케이크",
-                "수플레 팬케이크",
-                "수플레 팬케이크"
+                "Soufflé Pancake",
+                "Soufflé Pancake",
+                "Soufflé Pancake",
+                "Soufflé Pancake"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3781,10 +3781,10 @@
         {
             "id": 313,
             "name": [
-                "튀김가루",
-                "튀김가루",
-                "튀김가루",
-                "튀김가루"
+                "Frying Mix",
+                "Frying Mix",
+                "Frying Mix",
+                "Frying Mix"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3793,10 +3793,10 @@
         {
             "id": 314,
             "name": [
-                "썬 닭고기+튀김가루",
-                "썬 닭고기+튀김가루",
-                "썬 닭고기+튀김가루",
-                "썬 닭고기+튀김가루"
+                "Sliced Chicken+Frying Mix",
+                "Sliced Chicken+Frying Mix",
+                "Sliced Chicken+Frying Mix",
+                "Sliced Chicken+Frying Mix"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3805,10 +3805,10 @@
         {
             "id": 315,
             "name": [
-                "후라이드 치킨",
-                "후라이드 치킨",
-                "후라이드 치킨",
-                "후라이드 치킨"
+                "Fried Chicken",
+                "Fried Chicken",
+                "Fried Chicken",
+                "Fried Chicken"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3817,10 +3817,10 @@
         {
             "id": 316,
             "name": [
-                "조각낸 닭고기+튀김가루",
-                "조각낸 닭고기+튀김가루",
-                "조각낸 닭고기+튀김가루",
-                "조각낸 닭고기+튀김가루"
+                "Chopped Chicken+Frying Mix",
+                "Chopped Chicken+Frying Mix",
+                "Chopped Chicken+Frying Mix",
+                "Chopped Chicken+Frying Mix"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3829,10 +3829,10 @@
         {
             "id": 317,
             "name": [
-                "치킨 너겟",
-                "치킨 너겟",
-                "치킨 너겟",
-                "치킨 너겟"
+                "Chicken Nugget",
+                "Chicken Nugget",
+                "Chicken Nugget",
+                "Chicken Nugget"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3841,10 +3841,10 @@
         {
             "id": 318,
             "name": [
-                "생 패티",
-                "생 패티",
-                "생 패티",
-                "생 패티"
+                "Raw Patty",
+                "Raw Patty",
+                "Raw Patty",
+                "Raw Patty"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -3853,10 +3853,10 @@
         {
             "id": 319,
             "name": [
-                "익힌 패티",
-                "익힌 패티",
-                "익힌 패티",
-                "익힌 패티"
+                "Cooked Patty",
+                "Cooked Patty",
+                "Cooked Patty",
+                "Cooked Patty"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3865,10 +3865,10 @@
         {
             "id": 320,
             "name": [
-                "빵+패티",
-                "빵+패티",
-                "빵+패티",
-                "빵+패티"
+                "B+P",
+                "B+P",
+                "B+P",
+                "B+P"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3877,10 +3877,10 @@
         {
             "id": 321,
             "name": [
-                "빵+치즈",
-                "빵+치즈",
-                "빵+치즈",
-                "빵+치즈"
+                "B+C",
+                "B+C",
+                "B+C",
+                "B+C"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3889,10 +3889,10 @@
         {
             "id": 322,
             "name": [
-                "빵+패티+치즈",
-                "빵+패티+치즈",
-                "빵+패티+치즈",
-                "빵+패티+치즈"
+                "B+P+C",
+                "B+P+C",
+                "B+P+C",
+                "B+P+C"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3901,10 +3901,10 @@
         {
             "id": 323,
             "name": [
-                "빵+치킨",
-                "빵+치킨",
-                "빵+치킨",
-                "빵+치킨"
+                "B+Chicken",
+                "B+Chicken",
+                "B+Chicken",
+                "B+Chicken"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3913,10 +3913,10 @@
         {
             "id": 324,
             "name": [
-                "빵+치킨+치즈",
-                "빵+치킨+치즈",
-                "빵+치킨+치즈",
-                "빵+치킨+치즈"
+                "B+Chicken+C",
+                "B+Chicken+C",
+                "B+Chicken+C",
+                "B+Chicken+C"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3925,10 +3925,10 @@
         {
             "id": 325,
             "name": [
-                "고기 버거",
-                "고기 버거",
-                "고기 버거",
-                "고기 버거"
+                "Hamburger",
+                "Hamburger",
+                "Hamburger",
+                "Hamburger"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3937,10 +3937,10 @@
         {
             "id": 326,
             "name": [
-                "치즈고기 버거",
-                "치즈고기 버거",
-                "치즈고기 버거",
-                "치즈고기 버거"
+                "Cheeseburger",
+                "Cheeseburger",
+                "Cheeseburger",
+                "Cheeseburger"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3949,10 +3949,10 @@
         {
             "id": 327,
             "name": [
-                "치킨 버거",
-                "치킨 버거",
-                "치킨 버거",
-                "치킨 버거"
+                "Chicken Burger",
+                "Chicken Burger",
+                "Chicken Burger",
+                "Chicken Burger"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3961,10 +3961,10 @@
         {
             "id": 328,
             "name": [
-                "치즈치킨 버거",
-                "치즈치킨 버거",
-                "치즈치킨 버거",
-                "치즈치킨 버거"
+                "Chicken Cheeseburger",
+                "Chicken Cheeseburger",
+                "Chicken Cheeseburger",
+                "Chicken Cheeseburger"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3973,10 +3973,10 @@
         {
             "id": 329,
             "name": [
-                "생 치즈스틱",
-                "생 치즈스틱",
-                "생 치즈스틱",
-                "생 치즈스틱"
+                "Raw Cheese Stick",
+                "Raw Cheese Stick",
+                "Raw Cheese Stick",
+                "Raw Cheese Stick"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3985,10 +3985,10 @@
         {
             "id": 330,
             "name": [
-                "치즈스틱",
-                "치즈스틱",
-                "치즈스틱",
-                "치즈스틱"
+                "Cheese Stick",
+                "Cheese Stick",
+                "Cheese Stick",
+                "Cheese Stick"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3999,10 +3999,10 @@
         {
             "id": 331,
             "name": [
-                "미트 소스 파스타",
-                "미트 소스 파스타",
-                "미트 소스 파스타",
-                "미트 소스 파스타"
+                "Meat Sauce Pasta",
+                "Meat Sauce Pasta",
+                "Meat Sauce Pasta",
+                "Meat Sauce Pasta"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4013,10 +4013,10 @@
         {
             "id": 332,
             "name": [
-                "야채 샌드위치",
-                "야채 샌드위치",
-                "야채 샌드위치",
-                "야채 샌드위치"
+                "Vegetable Sandwich",
+                "Vegetable Sandwich",
+                "Vegetable Sandwich",
+                "Vegetable Sandwich"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4027,10 +4027,10 @@
         {
             "id": 333,
             "name": [
-                "새우 샌드위치",
-                "새우 샌드위치",
-                "새우 샌드위치",
-                "새우 샌드위치"
+                "Shrimp Sandwich",
+                "Shrimp Sandwich",
+                "Shrimp Sandwich",
+                "Shrimp Sandwich"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4041,10 +4041,10 @@
         {
             "id": 334,
             "name": [
-                "고기 샌드위치",
-                "고기 샌드위치",
-                "고기 샌드위치",
-                "고기 샌드위치"
+                "Meat Sandwich",
+                "Meat Sandwich",
+                "Meat Sandwich",
+                "Meat Sandwich"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4055,10 +4055,10 @@
         {
             "id": 335,
             "name": [
-                "새우 필라프",
-                "새우 필라프",
-                "새우 필라프",
-                "새우 필라프"
+                "Shrimp Pilaf",
+                "Shrimp Pilaf",
+                "Shrimp Pilaf",
+                "Shrimp Pilaf"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4069,10 +4069,10 @@
         {
             "id": 336,
             "name": [
-                "소고기 필라프",
-                "소고기 필라프",
-                "소고기 필라프",
-                "소고기 필라프"
+                "Beef Pilaf",
+                "Beef Pilaf",
+                "Beef Pilaf",
+                "Beef Pilaf"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4083,10 +4083,10 @@
         {
             "id": 337,
             "name": [
-                "핫소스",
-                "핫소스",
-                "핫소스",
-                "핫소스"
+                "Chili Sauce",
+                "Chili Sauce",
+                "Chili Sauce",
+                "Chili Sauce"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4095,10 +4095,10 @@
         {
             "id": 338,
             "name": [
-                "빈달루 커리",
-                "빈달루 커리",
-                "빈달루 커리",
-                "빈달루 커리"
+                "Vindaloo Curry",
+                "Vindaloo Curry",
+                "Vindaloo Curry",
+                "Vindaloo Curry"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4109,10 +4109,10 @@
         {
             "id": 339,
             "name": [
-                "새우 커리",
-                "새우 커리",
-                "새우 커리",
-                "새우 커리"
+                "Shrimp Curry",
+                "Shrimp Curry",
+                "Shrimp Curry",
+                "Shrimp Curry"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4123,10 +4123,10 @@
         {
             "id": 340,
             "name": [
-                "조개",
-                "조개",
-                "조개",
-                "조개"
+                "Clam",
+                "Clam",
+                "Clam",
+                "Clam"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -4135,10 +4135,10 @@
         {
             "id": 341,
             "name": [
-                "조개+파스타",
-                "조개+파스타",
-                "조개+파스타",
-                "조개+파스타"
+                "Clams+Pasta",
+                "Clams+Pasta",
+                "Clams+Pasta",
+                "Clams+Pasta"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -4147,10 +4147,10 @@
         {
             "id": 342,
             "name": [
-                "봉골레 파스타",
-                "봉골레 파스타",
-                "봉골레 파스타",
-                "봉골레 파스타"
+                "Vongole Pasta",
+                "Vongole Pasta",
+                "Vongole Pasta",
+                "Vongole Pasta"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4161,10 +4161,10 @@
         {
             "id": 343,
             "name": [
-                "조개+육수+익은 쌀",
-                "조개+육수+익은 쌀",
-                "조개+육수+익은 쌀",
-                "조개+육수+익은 쌀"
+                "Clams+Broth+Cooked Rice",
+                "Clams+Broth+Cooked Rice",
+                "Clams+Broth+Cooked Rice",
+                "Clams+Broth+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4173,10 +4173,10 @@
         {
             "id": 344,
             "name": [
-                "봉골레 리소토",
-                "봉골레 리소토",
-                "봉골레 리소토",
-                "봉골레 리소토"
+                "Vongole Risotto",
+                "Vongole Risotto",
+                "Vongole Risotto",
+                "Vongole Risotto"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4187,10 +4187,10 @@
         {
             "id": 345,
             "name": [
-                "와인+익은 쌀",
-                "와인+익은 쌀",
-                "와인+익은 쌀",
-                "와인+익은 쌀"
+                "Wine+Cooked Rice",
+                "Wine+Cooked Rice",
+                "Wine+Cooked Rice",
+                "Wine+Cooked Rice"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -4199,10 +4199,10 @@
         {
             "id": 346,
             "name": [
-                "와인 리소토",
-                "와인 리소토",
-                "와인 리소토",
-                "와인 리소토"
+                "Wine Risotto",
+                "Wine Risotto",
+                "Wine Risotto",
+                "Wine Risotto"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -4213,10 +4213,10 @@
         {
             "id": 347,
             "name": [
-                "초콜릿",
-                "초콜릿",
-                "초콜릿",
-                "초콜릿"
+                "Chocolate",
+                "Chocolate",
+                "Chocolate",
+                "Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4225,10 +4225,10 @@
         {
             "id": 348,
             "name": [
-                "녹인 초콜릿",
-                "녹인 초콜릿",
-                "녹인 초콜릿",
-                "녹인 초콜릿"
+                "Melted Chocolate",
+                "Melted Chocolate",
+                "Melted Chocolate",
+                "Melted Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4237,10 +4237,10 @@
         {
             "id": 349,
             "name": [
-                "초코 퐁뒤",
-                "초코 퐁뒤",
-                "초코 퐁뒤",
-                "초코 퐁뒤"
+                "Chocolate Fondue",
+                "Chocolate Fondue",
+                "Chocolate Fondue",
+                "Chocolate Fondue"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4251,10 +4251,10 @@
         {
             "id": 350,
             "name": [
-                "커리+토마토",
-                "커리+토마토",
-                "커리+토마토",
-                "커리+토마토"
+                "Curry+Tomato",
+                "Curry+Tomato",
+                "Curry+Tomato",
+                "Curry+Tomato"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4263,10 +4263,10 @@
         {
             "id": 351,
             "name": [
-                "커리 소시지",
-                "커리 소시지",
-                "커리 소시지",
-                "커리 소시지"
+                "Curried Sausage",
+                "Curried Sausage",
+                "Curried Sausage",
+                "Curried Sausage"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4278,10 +4278,10 @@
         {
             "id": 352,
             "name": [
-                "당면",
-                "당면",
-                "당면",
-                "당면"
+                "Glass Noodles",
+                "Glass Noodles",
+                "Glass Noodles",
+                "Glass Noodles"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -4290,10 +4290,10 @@
         {
             "id": 353,
             "name": [
-                "썬 당면",
-                "썬 당면",
-                "썬 당면",
-                "썬 당면"
+                "Sliced Glass Noodles",
+                "Sliced Glass Noodles",
+                "Sliced Glass Noodles",
+                "Sliced Glass Noodles"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -4302,10 +4302,10 @@
         {
             "id": 354,
             "name": [
-                "당면+돼지",
-                "당면+돼지",
-                "당면+돼지",
-                "당면+돼지"
+                "Glass Noodles+Pork",
+                "Glass Noodles+Pork",
+                "Glass Noodles+Pork",
+                "Glass Noodles+Pork"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -4314,10 +4314,10 @@
         {
             "id": 355,
             "name": [
-                "생 순대",
-                "생 순대",
-                "생 순대",
-                "생 순대"
+                "Raw Blood Sausage",
+                "Raw Blood Sausage",
+                "Raw Blood Sausage",
+                "Raw Blood Sausage"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -4326,10 +4326,10 @@
         {
             "id": 356,
             "name": [
-                "순대",
-                "순대",
-                "순대",
-                "순대"
+                "Blood Sausage",
+                "Blood Sausage",
+                "Blood Sausage",
+                "Blood Sausage"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4340,10 +4340,10 @@
         {
             "id": 357,
             "name": [
-                "오크라",
-                "오크라",
-                "오크라",
-                "오크라"
+                "Okra",
+                "Okra",
+                "Okra",
+                "Okra"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -4352,10 +4352,10 @@
         {
             "id": 358,
             "name": [
-                "썬 오크라",
-                "썬 오크라",
-                "썬 오크라",
-                "썬 오크라"
+                "Sliced Okra",
+                "Sliced Okra",
+                "Sliced Okra",
+                "Sliced Okra"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -4364,10 +4364,10 @@
         {
             "id": 359,
             "name": [
-                "토마토+오크라",
-                "토마토+오크라",
-                "토마토+오크라",
-                "토마토+오크라"
+                "Tomato+Okra",
+                "Tomato+Okra",
+                "Tomato+Okra",
+                "Tomato+Okra"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4376,10 +4376,10 @@
         {
             "id": 360,
             "name": [
-                "토마토 오크라 스튜",
-                "토마토 오크라 스튜",
-                "토마토 오크라 스튜",
-                "토마토 오크라 스튜"
+                "Tomato Okra Stew",
+                "Tomato Okra Stew",
+                "Tomato Okra Stew",
+                "Tomato Okra Stew"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4390,10 +4390,10 @@
         {
             "id": 361,
             "name": [
-                "토마토+오크라+소고기",
-                "토마토+오크라+소고기",
-                "토마토+오크라+소고기",
-                "토마토+오크라+소고기"
+                "Tomato+Okra+Beef",
+                "Tomato+Okra+Beef",
+                "Tomato+Okra+Beef",
+                "Tomato+Okra+Beef"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4402,10 +4402,10 @@
         {
             "id": 362,
             "name": [
-                "토마토 오크라 비프 스튜",
-                "토마토 오크라 비프 스튜",
-                "토마토 오크라 비프 스튜",
-                "토마토 오크라 비프 스튜"
+                "Tomato Okra Beef Stew",
+                "Tomato Okra Beef Stew",
+                "Tomato Okra Beef Stew",
+                "Tomato Okra Beef Stew"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4416,10 +4416,10 @@
         {
             "id": 363,
             "name": [
-                "토마토+양고기",
-                "토마토+양고기",
-                "토마토+양고기",
-                "토마토+양고기"
+                "Tomato+Lamb",
+                "Tomato+Lamb",
+                "Tomato+Lamb",
+                "Tomato+Lamb"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4428,10 +4428,10 @@
         {
             "id": 364,
             "name": [
-                "토마토 양고기 스튜",
-                "토마토 양고기 스튜",
-                "토마토 양고기 스튜",
-                "토마토 양고기 스튜"
+                "Tomato Lamb Stew",
+                "Tomato Lamb Stew",
+                "Tomato Lamb Stew",
+                "Tomato Lamb Stew"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4442,10 +4442,10 @@
         {
             "id": 365,
             "name": [
-                "와인+양고기",
-                "와인+양고기",
-                "와인+양고기",
-                "와인+양고기"
+                "Wine+Lamb",
+                "Wine+Lamb",
+                "Wine+Lamb",
+                "Wine+Lamb"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -4454,10 +4454,10 @@
         {
             "id": 366,
             "name": [
-                "양고기 스튜",
-                "양고기 스튜",
-                "양고기 스튜",
-                "양고기 스튜"
+                "Lamb Stew",
+                "Lamb Stew",
+                "Lamb Stew",
+                "Lamb Stew"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4468,10 +4468,10 @@
         {
             "id": 367,
             "name": [
-                "정어리",
-                "정어리",
-                "정어리",
-                "정어리"
+                "Sardine",
+                "Sardine",
+                "Sardine",
+                "Sardine"
             ],
             "canMelt": false,
             "colorCode": "B",
@@ -4480,10 +4480,10 @@
         {
             "id": 368,
             "name": [
-                "손질한 정어리",
-                "손질한 정어리",
-                "손질한 정어리",
-                "손질한 정어리"
+                "Sliced Sardine",
+                "Sliced Sardine",
+                "Sliced Sardine",
+                "Sliced Sardine"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4492,10 +4492,10 @@
         {
             "id": 369,
             "name": [
-                "정어리+파이",
-                "정어리+파이",
-                "정어리+파이",
-                "정어리+파이"
+                "Sardine+Pie Dough",
+                "Sardine+Pie Dough",
+                "Sardine+Pie Dough",
+                "Sardine+Pie Dough"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4504,10 +4504,10 @@
         {
             "id": 370,
             "name": [
-                "파이+정어리+파이",
-                "파이+정어리+파이",
-                "파이+정어리+파이",
-                "파이+정어리+파이"
+                "PD+Sardine+PD",
+                "PD+Sardine+PD",
+                "PD+Sardine+PD",
+                "PD+Sardine+PD"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4516,10 +4516,10 @@
         {
             "id": 371,
             "name": [
-                "생 정어리 파이",
-                "생 정어리 파이",
-                "생 정어리 파이",
-                "생 정어리 파이"
+                "Raw Sardine Pie",
+                "Raw Sardine Pie",
+                "Raw Sardine Pie",
+                "Raw Sardine Pie"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4528,10 +4528,10 @@
         {
             "id": 372,
             "name": [
-                "정어리 파이",
-                "정어리 파이",
-                "정어리 파이",
-                "정어리 파이"
+                "Sardine Pie",
+                "Sardine Pie",
+                "Sardine Pie",
+                "Sardine Pie"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4542,10 +4542,10 @@
         {
             "id": 373,
             "name": [
-                "호두 필링",
-                "호두 필링",
-                "호두 필링",
-                "호두 필링"
+                "Walnut Filling",
+                "Walnut Filling",
+                "Walnut Filling",
+                "Walnut Filling"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4554,10 +4554,10 @@
         {
             "id": 374,
             "name": [
-                "생 호두 파이",
-                "생 호두 파이",
-                "생 호두 파이",
-                "생 호두 파이"
+                "Raw Walnut Pie",
+                "Raw Walnut Pie",
+                "Raw Walnut Pie",
+                "Raw Walnut Pie"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4566,10 +4566,10 @@
         {
             "id": 375,
             "name": [
-                "호두 파이",
-                "호두 파이",
-                "호두 파이",
-                "호두 파이"
+                "Walnut Pie",
+                "Walnut Pie",
+                "Walnut Pie",
+                "Walnut Pie"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4580,10 +4580,10 @@
         {
             "id": 376,
             "name": [
-                "생 호두 타르트",
-                "생 호두 타르트",
-                "생 호두 타르트",
-                "생 호두 타르트"
+                "Raw Walnut Tart",
+                "Raw Walnut Tart",
+                "Raw Walnut Tart",
+                "Raw Walnut Tart"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4592,10 +4592,10 @@
         {
             "id": 377,
             "name": [
-                "호두 타르트",
-                "호두 타르트",
-                "호두 타르트",
-                "호두 타르트"
+                "Walnut Tart",
+                "Walnut Tart",
+                "Walnut Tart",
+                "Walnut Tart"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4606,10 +4606,10 @@
         {
             "id": 378,
             "name": [
-                "파이 앤 매시",
-                "파이 앤 매시",
-                "파이 앤 매시",
-                "파이 앤 매시"
+                "Pie and Mash",
+                "Pie and Mash",
+                "Pie and Mash",
+                "Pie and Mash"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4620,10 +4620,10 @@
         {
             "id": 379,
             "name": [
-                "빵+불고기",
-                "빵+불고기",
-                "빵+불고기",
-                "빵+불고기"
+                "B+Bulgogi",
+                "B+Bulgogi",
+                "B+Bulgogi",
+                "B+Bulgogi"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4632,10 +4632,10 @@
         {
             "id": 380,
             "name": [
-                "불고기 버거",
-                "불고기 버거",
-                "불고기 버거",
-                "불고기 버거"
+                "Bulgogi Burger",
+                "Bulgogi Burger",
+                "Bulgogi Burger",
+                "Bulgogi Burger"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4646,10 +4646,10 @@
         {
             "id": 381,
             "name": [
-                "버팔로 윙",
-                "버팔로 윙",
-                "버팔로 윙",
-                "버팔로 윙"
+                "Buffalo Wings",
+                "Buffalo Wings",
+                "Buffalo Wings",
+                "Buffalo Wings"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4660,10 +4660,10 @@
         {
             "id": 382,
             "name": [
-                "양념치킨",
-                "양념치킨",
-                "양념치킨",
-                "양념치킨"
+                "Sweet&Spicy Chicken",
+                "Sweet&Spicy Chicken",
+                "Sweet&Spicy Chicken",
+                "Sweet&Spicy Chicken"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4674,10 +4674,10 @@
         {
             "id": 383,
             "name": [
-                "생 새우 패티",
-                "생 새우 패티",
-                "생 새우 패티",
-                "생 새우 패티"
+                "Raw Shrimp Patty",
+                "Raw Shrimp Patty",
+                "Raw Shrimp Patty",
+                "Raw Shrimp Patty"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4686,10 +4686,10 @@
         {
             "id": 384,
             "name": [
-                "새우 패티",
-                "새우 패티",
-                "새우 패티",
-                "새우 패티"
+                "Shrimp Patty",
+                "Shrimp Patty",
+                "Shrimp Patty",
+                "Shrimp Patty"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4698,10 +4698,10 @@
         {
             "id": 385,
             "name": [
-                "빵+새우",
-                "빵+새우",
-                "빵+새우",
-                "빵+새우"
+                "B+Shrimp",
+                "B+Shrimp",
+                "B+Shrimp",
+                "B+Shrimp"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4710,10 +4710,10 @@
         {
             "id": 386,
             "name": [
-                "새우 버거",
-                "새우 버거",
-                "새우 버거",
-                "새우 버거"
+                "Shrimp Burger",
+                "Shrimp Burger",
+                "Shrimp Burger",
+                "Shrimp Burger"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4724,10 +4724,10 @@
         {
             "id": 387,
             "name": [
-                "녹인 설탕",
-                "녹인 설탕",
-                "녹인 설탕",
-                "녹인 설탕"
+                "Melted Sugar",
+                "Melted Sugar",
+                "Melted Sugar",
+                "Melted Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4736,10 +4736,10 @@
         {
             "id": 388,
             "name": [
-                "통 사과 탕후루",
-                "통 사과 탕후루",
-                "통 사과 탕후루",
-                "통 사과 탕후루"
+                "Whole Apple Tanghulu",
+                "Whole Apple Tanghulu",
+                "Whole Apple Tanghulu",
+                "Whole Apple Tanghulu"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4748,10 +4748,10 @@
         {
             "id": 389,
             "name": [
-                "조각낸 초콜릿",
-                "조각낸 초콜릿",
-                "조각낸 초콜릿",
-                "조각낸 초콜릿"
+                "Chopped Chocolate",
+                "Chopped Chocolate",
+                "Chopped Chocolate",
+                "Chopped Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4760,10 +4760,10 @@
         {
             "id": 390,
             "name": [
-                "초코 시럽",
-                "초코 시럽",
-                "초코 시럽",
-                "초코 시럽"
+                "Chocolate Syrup",
+                "Chocolate Syrup",
+                "Chocolate Syrup",
+                "Chocolate Syrup"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4772,10 +4772,10 @@
         {
             "id": 391,
             "name": [
-                "구운 빵",
-                "구운 빵",
-                "구운 빵",
-                "구운 빵"
+                "Toasted Bread",
+                "Toasted Bread",
+                "Toasted Bread",
+                "Toasted Bread"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4784,10 +4784,10 @@
         {
             "id": 392,
             "name": [
-                "빵조각+설탕",
-                "빵조각+설탕",
-                "빵조각+설탕",
-                "빵조각+설탕"
+                "Bread Pieces+Sugar",
+                "Bread Pieces+Sugar",
+                "Bread Pieces+Sugar",
+                "Bread Pieces+Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4796,10 +4796,10 @@
         {
             "id": 393,
             "name": [
-                "식빵 러스크",
-                "식빵 러스크",
-                "식빵 러스크",
-                "식빵 러스크"
+                "Bread Rusk",
+                "Bread Rusk",
+                "Bread Rusk",
+                "Bread Rusk"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4808,10 +4808,10 @@
         {
             "id": 394,
             "name": [
-                "설탕 토스트",
-                "설탕 토스트",
-                "설탕 토스트",
-                "설탕 토스트"
+                "Sugar Toast",
+                "Sugar Toast",
+                "Sugar Toast",
+                "Sugar Toast"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4820,10 +4820,10 @@
         {
             "id": 395,
             "name": [
-                "사과 탕후루",
-                "사과 탕후루",
-                "사과 탕후루",
-                "사과 탕후루"
+                "Apple Tanghulu",
+                "Apple Tanghulu",
+                "Apple Tanghulu",
+                "Apple Tanghulu"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4832,10 +4832,10 @@
         {
             "id": 396,
             "name": [
-                "계란+빵",
-                "계란+빵",
-                "계란+빵",
-                "계란+빵"
+                "Egg+Bread",
+                "Egg+Bread",
+                "Egg+Bread",
+                "Egg+Bread"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4844,10 +4844,10 @@
         {
             "id": 397,
             "name": [
-                "계란빵",
-                "계란빵",
-                "계란빵",
-                "계란빵"
+                "Egg Bread",
+                "Egg Bread",
+                "Egg Bread",
+                "Egg Bread"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4856,10 +4856,10 @@
         {
             "id": 398,
             "name": [
-                "프렌치 토스트",
-                "프렌치 토스트",
-                "프렌치 토스트",
-                "프렌치 토스트"
+                "French Toast",
+                "French Toast",
+                "French Toast",
+                "French Toast"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4868,10 +4868,10 @@
         {
             "id": 399,
             "name": [
-                "사과잼 토스트",
-                "사과잼 토스트",
-                "사과잼 토스트",
-                "사과잼 토스트"
+                "Apple Jam Toast",
+                "Apple Jam Toast",
+                "Apple Jam Toast",
+                "Apple Jam Toast"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4880,10 +4880,10 @@
         {
             "id": 400,
             "name": [
-                "초코애플",
-                "초코애플",
-                "초코애플",
-                "초코애플"
+                "Choco-Dipped Apple",
+                "Choco-Dipped Apple",
+                "Choco-Dipped Apple",
+                "Choco-Dipped Apple"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4892,10 +4892,10 @@
         {
             "id": 401,
             "name": [
-                "초코 토스트",
-                "초코 토스트",
-                "초코 토스트",
-                "초코 토스트"
+                "Chocolate Toast",
+                "Chocolate Toast",
+                "Chocolate Toast",
+                "Chocolate Toast"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4904,10 +4904,10 @@
         {
             "id": 402,
             "name": [
-                "딸기",
-                "딸기",
-                "딸기",
-                "딸기"
+                "Strawberry",
+                "Strawberry",
+                "Strawberry",
+                "Strawberry"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4916,10 +4916,10 @@
         {
             "id": 403,
             "name": [
-                "으깬 딸기",
-                "으깬 딸기",
-                "으깬 딸기",
-                "으깬 딸기"
+                "Mashed Strawberry",
+                "Mashed Strawberry",
+                "Mashed Strawberry",
+                "Mashed Strawberry"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4928,10 +4928,10 @@
         {
             "id": 404,
             "name": [
-                "딸기+설탕",
-                "딸기+설탕",
-                "딸기+설탕",
-                "딸기+설탕"
+                "Strawberry+Sugar",
+                "Strawberry+Sugar",
+                "Strawberry+Sugar",
+                "Strawberry+Sugar"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4940,10 +4940,10 @@
         {
             "id": 405,
             "name": [
-                "딸기잼",
-                "딸기잼",
-                "딸기잼",
-                "딸기잼"
+                "Strawberry Jam",
+                "Strawberry Jam",
+                "Strawberry Jam",
+                "Strawberry Jam"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4952,10 +4952,10 @@
         {
             "id": 406,
             "name": [
-                "딸기 탕후루",
-                "딸기 탕후루",
-                "딸기 탕후루",
-                "딸기 탕후루"
+                "Strawberry Tanghulu",
+                "Strawberry Tanghulu",
+                "Strawberry Tanghulu",
+                "Strawberry Tanghulu"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4964,10 +4964,10 @@
         {
             "id": 407,
             "name": [
-                "초코베리",
-                "초코베리",
-                "초코베리",
-                "초코베리"
+                "Choco-Dipped Berry",
+                "Choco-Dipped Berry",
+                "Choco-Dipped Berry",
+                "Choco-Dipped Berry"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4976,10 +4976,10 @@
         {
             "id": 408,
             "name": [
-                "딸기잼 토스트",
-                "딸기잼 토스트",
-                "딸기잼 토스트",
-                "딸기잼 토스트"
+                "Strawberry Jam Toast",
+                "Strawberry Jam Toast",
+                "Strawberry Jam Toast",
+                "Strawberry Jam Toast"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4988,10 +4988,10 @@
         {
             "id": 409,
             "name": [
-                "우유",
-                "우유",
-                "우유",
-                "우유"
+                "Milk",
+                "Milk",
+                "Milk",
+                "Milk"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -5000,10 +5000,10 @@
         {
             "id": 410,
             "name": [
-                "딸기우유",
-                "딸기우유",
-                "딸기우유",
-                "딸기우유"
+                "Strawberry Milk",
+                "Strawberry Milk",
+                "Strawberry Milk",
+                "Strawberry Milk"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5014,10 +5014,10 @@
         {
             "id": 411,
             "name": [
-                "초코우유",
-                "초코우유",
-                "초코우유",
-                "초코우유"
+                "Chocolate Milk",
+                "Chocolate Milk",
+                "Chocolate Milk",
+                "Chocolate Milk"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -5028,10 +5028,10 @@
         {
             "id": 412,
             "name": [
-                "바나나",
-                "바나나",
-                "바나나",
-                "바나나"
+                "Banana",
+                "Banana",
+                "Banana",
+                "Banana"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5040,10 +5040,10 @@
         {
             "id": 413,
             "name": [
-                "깐 바나나",
-                "깐 바나나",
-                "깐 바나나",
-                "깐 바나나"
+                "Peeled Banana",
+                "Peeled Banana",
+                "Peeled Banana",
+                "Peeled Banana"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5052,10 +5052,10 @@
         {
             "id": 414,
             "name": [
-                "초코바나나",
-                "초코바나나",
-                "초코바나나",
-                "초코바나나"
+                "Choco-Dipped Banana",
+                "Choco-Dipped Banana",
+                "Choco-Dipped Banana",
+                "Choco-Dipped Banana"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -5066,10 +5066,10 @@
         {
             "id": 415,
             "name": [
-                "바나나 초코 토스트",
-                "바나나 초코 토스트",
-                "바나나 초코 토스트",
-                "바나나 초코 토스트"
+                "Banana Choco Toast",
+                "Banana Choco Toast",
+                "Banana Choco Toast",
+                "Banana Choco Toast"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -5080,10 +5080,10 @@
         {
             "id": 416,
             "name": [
-                "두반장",
-                "두반장",
-                "두반장",
-                "두반장"
+                "Doubanjiang",
+                "Doubanjiang",
+                "Doubanjiang",
+                "Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5092,10 +5092,10 @@
         {
             "id": 417,
             "name": [
-                "볶은 두반장",
-                "볶은 두반장",
-                "볶은 두반장",
-                "볶은 두반장"
+                "Stir-fried Doubanjiang",
+                "Stir-fried Doubanjiang",
+                "Stir-fried Doubanjiang",
+                "Stir-fried Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5104,10 +5104,10 @@
         {
             "id": 418,
             "name": [
-                "양꼬치",
-                "양꼬치",
-                "양꼬치",
-                "양꼬치"
+                "Lamb Skewers",
+                "Lamb Skewers",
+                "Lamb Skewers",
+                "Lamb Skewers"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5116,10 +5116,10 @@
         {
             "id": 419,
             "name": [
-                "매운 야채 육수",
-                "매운 야채 육수",
-                "매운 야채 육수",
-                "매운 야채 육수"
+                "Spicy Vegetable Broth",
+                "Spicy Vegetable Broth",
+                "Spicy Vegetable Broth",
+                "Spicy Vegetable Broth"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5128,10 +5128,10 @@
         {
             "id": 420,
             "name": [
-                "양고기 훠궈(백탕)",
-                "양고기 훠궈(백탕)",
-                "양고기 훠궈(백탕)",
-                "양고기 훠궈(백탕)"
+                "Mild Lamb Hotpot",
+                "Mild Lamb Hotpot",
+                "Mild Lamb Hotpot",
+                "Mild Lamb Hotpot"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -5140,10 +5140,10 @@
         {
             "id": 421,
             "name": [
-                "양고기 훠궈(홍탕)",
-                "양고기 훠궈(홍탕)",
-                "양고기 훠궈(홍탕)",
-                "양고기 훠궈(홍탕)"
+                "Spicy Lamb Hotpot",
+                "Spicy Lamb Hotpot",
+                "Spicy Lamb Hotpot",
+                "Spicy Lamb Hotpot"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5152,10 +5152,10 @@
         {
             "id": 422,
             "name": [
-                "돼지 훠궈(백탕)",
-                "돼지 훠궈(백탕)",
-                "돼지 훠궈(백탕)",
-                "돼지 훠궈(백탕)"
+                "Mild Pork Hotpot",
+                "Mild Pork Hotpot",
+                "Mild Pork Hotpot",
+                "Mild Pork Hotpot"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -5164,10 +5164,10 @@
         {
             "id": 423,
             "name": [
-                "돼지 훠궈(홍탕)",
-                "돼지 훠궈(홍탕)",
-                "돼지 훠궈(홍탕)",
-                "돼지 훠궈(홍탕)"
+                "Spicy Pork Hotpot",
+                "Spicy Pork Hotpot",
+                "Spicy Pork Hotpot",
+                "Spicy Pork Hotpot"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5176,10 +5176,10 @@
         {
             "id": 424,
             "name": [
-                "돼지 간장 조림",
-                "돼지 간장 조림",
-                "돼지 간장 조림",
-                "돼지 간장 조림"
+                "Soy-braised Pork",
+                "Soy-braised Pork",
+                "Soy-braised Pork",
+                "Soy-braised Pork"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -5188,10 +5188,10 @@
         {
             "id": 425,
             "name": [
-                "돼지 간장 구이",
-                "돼지 간장 구이",
-                "돼지 간장 구이",
-                "돼지 간장 구이"
+                "Soy-grilled Pork",
+                "Soy-grilled Pork",
+                "Soy-grilled Pork",
+                "Soy-grilled Pork"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -5200,10 +5200,10 @@
         {
             "id": 426,
             "name": [
-                "두반장 양념장",
-                "두반장 양념장",
-                "두반장 양념장",
-                "두반장 양념장"
+                "Doubanjiang Marinade",
+                "Doubanjiang Marinade",
+                "Doubanjiang Marinade",
+                "Doubanjiang Marinade"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5212,10 +5212,10 @@
         {
             "id": 427,
             "name": [
-                "야채+두반장",
-                "야채+두반장",
-                "야채+두반장",
-                "야채+두반장"
+                "Vegetables+Doubanjiang",
+                "Vegetables+Doubanjiang",
+                "Vegetables+Doubanjiang",
+                "Vegetables+Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5224,10 +5224,10 @@
         {
             "id": 428,
             "name": [
-                "두반장 야채볶음",
-                "두반장 야채볶음",
-                "두반장 야채볶음",
-                "두반장 야채볶음"
+                "Doubanjiang Stir-fried Vegetables",
+                "Doubanjiang Stir-fried Vegetables",
+                "Doubanjiang Stir-fried Vegetables",
+                "Doubanjiang Stir-fried Vegetables"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5236,10 +5236,10 @@
         {
             "id": 429,
             "name": [
-                "양고기+두반장",
-                "양고기+두반장",
-                "양고기+두반장",
-                "양고기+두반장"
+                "Lamb+Doubanjiang",
+                "Lamb+Doubanjiang",
+                "Lamb+Doubanjiang",
+                "Lamb+Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5248,10 +5248,10 @@
         {
             "id": 430,
             "name": [
-                "두반장 양고기볶음",
-                "두반장 양고기볶음",
-                "두반장 양고기볶음",
-                "두반장 양고기볶음"
+                "Doubanjiang Stir-fried Lamb",
+                "Doubanjiang Stir-fried Lamb",
+                "Doubanjiang Stir-fried Lamb",
+                "Doubanjiang Stir-fried Lamb"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5260,10 +5260,10 @@
         {
             "id": 431,
             "name": [
-                "돼지고기+두반장",
-                "돼지고기+두반장",
-                "돼지고기+두반장",
-                "돼지고기+두반장"
+                "Pork+Doubanjiang",
+                "Pork+Doubanjiang",
+                "Pork+Doubanjiang",
+                "Pork+Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5272,10 +5272,10 @@
         {
             "id": 432,
             "name": [
-                "두반장 돼지볶음",
-                "두반장 돼지볶음",
-                "두반장 돼지볶음",
-                "두반장 돼지볶음"
+                "Doubanjiang Stir-fried Pork",
+                "Doubanjiang Stir-fried Pork",
+                "Doubanjiang Stir-fried Pork",
+                "Doubanjiang Stir-fried Pork"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5284,10 +5284,10 @@
         {
             "id": 433,
             "name": [
-                "소고기 훠궈(백탕)",
-                "소고기 훠궈(백탕)",
-                "소고기 훠궈(백탕)",
-                "소고기 훠궈(백탕)"
+                "Mild Beef Hotpot",
+                "Mild Beef Hotpot",
+                "Mild Beef Hotpot",
+                "Mild Beef Hotpot"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -5298,10 +5298,10 @@
         {
             "id": 434,
             "name": [
-                "소고기 훠궈(홍탕)",
-                "소고기 훠궈(홍탕)",
-                "소고기 훠궈(홍탕)",
-                "소고기 훠궈(홍탕)"
+                "Spicy Beef Hotpot",
+                "Spicy Beef Hotpot",
+                "Spicy Beef Hotpot",
+                "Spicy Beef Hotpot"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5312,10 +5312,10 @@
         {
             "id": 435,
             "name": [
-                "두반장+소고기",
-                "두반장+소고기",
-                "두반장+소고기",
-                "두반장+소고기"
+                "Beef+Doubanjiang",
+                "Beef+Doubanjiang",
+                "Beef+Doubanjiang",
+                "Beef+Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5324,10 +5324,10 @@
         {
             "id": 436,
             "name": [
-                "두반장 소고기볶음",
-                "두반장 소고기볶음",
-                "두반장 소고기볶음",
-                "두반장 소고기볶음"
+                "Doubanjiang Stir-fried Beef",
+                "Doubanjiang Stir-fried Beef",
+                "Doubanjiang Stir-fried Beef",
+                "Doubanjiang Stir-fried Beef"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5338,10 +5338,10 @@
         {
             "id": 437,
             "name": [
-                "두반장+새우",
-                "두반장+새우",
-                "두반장+새우",
-                "두반장+새우"
+                "Shrimp+Doubanjiang",
+                "Shrimp+Doubanjiang",
+                "Shrimp+Doubanjiang",
+                "Shrimp+Doubanjiang"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -5350,10 +5350,10 @@
         {
             "id": 438,
             "name": [
-                "두반장 새우볶음",
-                "두반장 새우볶음",
-                "두반장 새우볶음",
-                "두반장 새우볶음"
+                "Doubanjiang Stir-fried Shrimp",
+                "Doubanjiang Stir-fried Shrimp",
+                "Doubanjiang Stir-fried Shrimp",
+                "Doubanjiang Stir-fried Shrimp"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -5364,10 +5364,10 @@
         {
             "id": 439,
             "name": [
-                "토르티야",
-                "토르티야",
-                "토르티야",
-                "토르티야"
+                "Tortilla",
+                "Tortilla",
+                "Tortilla",
+                "Tortilla"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5376,10 +5376,10 @@
         {
             "id": 440,
             "name": [
-                "토르티야 조각",
-                "토르티야 조각",
-                "토르티야 조각",
-                "토르티야 조각"
+                "Tortilla Pieces",
+                "Tortilla Pieces",
+                "Tortilla Pieces",
+                "Tortilla Pieces"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5388,10 +5388,10 @@
         {
             "id": 441,
             "name": [
-                "나초",
-                "나초",
-                "나초",
-                "나초"
+                "Nachos",
+                "Nachos",
+                "Nachos",
+                "Nachos"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5400,10 +5400,10 @@
         {
             "id": 442,
             "name": [
-                "타코 베이스",
-                "타코 베이스",
-                "타코 베이스",
-                "타코 베이스"
+                "Taco Base",
+                "Taco Base",
+                "Taco Base",
+                "Taco Base"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -5412,10 +5412,10 @@
         {
             "id": 443,
             "name": [
-                "소고기 타코",
-                "소고기 타코",
-                "소고기 타코",
-                "소고기 타코"
+                "Beef Taco",
+                "Beef Taco",
+                "Beef Taco",
+                "Beef Taco"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5424,10 +5424,10 @@
         {
             "id": 444,
             "name": [
-                "돼지고기 타코",
-                "돼지고기 타코",
-                "돼지고기 타코",
-                "돼지고기 타코"
+                "Pork Taco",
+                "Pork Taco",
+                "Pork Taco",
+                "Pork Taco"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5436,10 +5436,10 @@
         {
             "id": 445,
             "name": [
-                "양고기 타코",
-                "양고기 타코",
-                "양고기 타코",
-                "양고기 타코"
+                "Lamb Taco",
+                "Lamb Taco",
+                "Lamb Taco",
+                "Lamb Taco"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5448,10 +5448,10 @@
         {
             "id": 446,
             "name": [
-                "양고기 수육",
-                "양고기 수육",
-                "양고기 수육",
-                "양고기 수육"
+                "Boiled Lamb",
+                "Boiled Lamb",
+                "Boiled Lamb",
+                "Boiled Lamb"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5460,10 +5460,10 @@
         {
             "id": 447,
             "name": [
-                "썬 양고기 수육",
-                "썬 양고기 수육",
-                "썬 양고기 수육",
-                "썬 양고기 수육"
+                "Sliced Boiled Lamb",
+                "Sliced Boiled Lamb",
+                "Sliced Boiled Lamb",
+                "Sliced Boiled Lamb"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5472,10 +5472,10 @@
         {
             "id": 448,
             "name": [
-                "소고기 수육 타코",
-                "소고기 수육 타코",
-                "소고기 수육 타코",
-                "소고기 수육 타코"
+                "Boiled Beef Taco",
+                "Boiled Beef Taco",
+                "Boiled Beef Taco",
+                "Boiled Beef Taco"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5484,10 +5484,10 @@
         {
             "id": 449,
             "name": [
-                "돼지 수육 타코",
-                "돼지 수육 타코",
-                "돼지 수육 타코",
-                "돼지 수육 타코"
+                "Boiled Pork Taco",
+                "Boiled Pork Taco",
+                "Boiled Pork Taco",
+                "Boiled Pork Taco"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5496,10 +5496,10 @@
         {
             "id": 450,
             "name": [
-                "양고기 수육 타코",
-                "양고기 수육 타코",
-                "양고기 수육 타코",
-                "양고기 수육 타코"
+                "Boiled Lamb Taco",
+                "Boiled Lamb Taco",
+                "Boiled Lamb Taco",
+                "Boiled Lamb Taco"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5508,10 +5508,10 @@
         {
             "id": 451,
             "name": [
-                "소고기 타코+치즈",
-                "소고기 타코+치즈",
-                "소고기 타코+치즈",
-                "소고기 타코+치즈"
+                "Beef Taco+Cheese",
+                "Beef Taco+Cheese",
+                "Beef Taco+Cheese",
+                "Beef Taco+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5520,10 +5520,10 @@
         {
             "id": 452,
             "name": [
-                "소고기 퀘사디아",
-                "소고기 퀘사디아",
-                "소고기 퀘사디아",
-                "소고기 퀘사디아"
+                "Beef Quesadilla",
+                "Beef Quesadilla",
+                "Beef Quesadilla",
+                "Beef Quesadilla"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5532,10 +5532,10 @@
         {
             "id": 453,
             "name": [
-                "돼지고기 타코+치즈",
-                "돼지고기 타코+치즈",
-                "돼지고기 타코+치즈",
-                "돼지고기 타코+치즈"
+                "Pork Taco+Cheese",
+                "Pork Taco+Cheese",
+                "Pork Taco+Cheese",
+                "Pork Taco+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5544,10 +5544,10 @@
         {
             "id": 454,
             "name": [
-                "돼지고기 퀘사디아",
-                "돼지고기 퀘사디아",
-                "돼지고기 퀘사디아",
-                "돼지고기 퀘사디아"
+                "Pork Quesadilla",
+                "Pork Quesadilla",
+                "Pork Quesadilla",
+                "Pork Quesadilla"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5556,10 +5556,10 @@
         {
             "id": 455,
             "name": [
-                "양고기 타코+치즈",
-                "양고기 타코+치즈",
-                "양고기 타코+치즈",
-                "양고기 타코+치즈"
+                "Lamb Taco+Cheese",
+                "Lamb Taco+Cheese",
+                "Lamb Taco+Cheese",
+                "Lamb Taco+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5568,10 +5568,10 @@
         {
             "id": 456,
             "name": [
-                "양고기 퀘사디아",
-                "양고기 퀘사디아",
-                "양고기 퀘사디아",
-                "양고기 퀘사디아"
+                "Lamb Quesadilla",
+                "Lamb Quesadilla",
+                "Lamb Quesadilla",
+                "Lamb Quesadilla"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5580,10 +5580,10 @@
         {
             "id": 457,
             "name": [
-                "치즈 나초",
-                "치즈 나초",
-                "치즈 나초",
-                "치즈 나초"
+                "Cheese Nachos",
+                "Cheese Nachos",
+                "Cheese Nachos",
+                "Cheese Nachos"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5592,10 +5592,10 @@
         {
             "id": 458,
             "name": [
-                "감바스 타코",
-                "감바스 타코",
-                "감바스 타코",
-                "감바스 타코"
+                "Gambas Taco",
+                "Gambas Taco",
+                "Gambas Taco",
+                "Gambas Taco"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -5606,10 +5606,10 @@
         {
             "id": 459,
             "name": [
-                "치킨 타코",
-                "치킨 타코",
-                "치킨 타코",
-                "치킨 타코"
+                "Chicken Taco",
+                "Chicken Taco",
+                "Chicken Taco",
+                "Chicken Taco"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -5620,10 +5620,10 @@
         {
             "id": 460,
             "name": [
-                "치킨 타코+치즈",
-                "치킨 타코+치즈",
-                "치킨 타코+치즈",
-                "치킨 타코+치즈"
+                "Chicken Taco+Cheese",
+                "Chicken Taco+Cheese",
+                "Chicken Taco+Cheese",
+                "Chicken Taco+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -5632,10 +5632,10 @@
         {
             "id": 461,
             "name": [
-                "치킨 퀘사디아",
-                "치킨 퀘사디아",
-                "치킨 퀘사디아",
-                "치킨 퀘사디아"
+                "Chicken Quesadilla",
+                "Chicken Quesadilla",
+                "Chicken Quesadilla",
+                "Chicken Quesadilla"
             ],
             "canMelt": false,
             "colorCode": "D",
@@ -11008,10 +11008,10 @@
         {
             "id": 0,
             "name": [
-                "한식",
-                "한식",
-                "한식",
-                "한식"
+                "Korean Rice Bowls",
+                "Korean Rice Bowls",
+                "Korean Rice Bowls",
+                "Korean Rice Bowls"
             ],
             "fridge": [
                 26,
@@ -11053,10 +11053,10 @@
         {
             "id": 1,
             "name": [
-                "일식",
-                "일식",
-                "일식",
-                "일식"
+                "Japanese Sushi",
+                "Japanese Sushi",
+                "Japanese Sushi",
+                "Japanese Sushi"
             ],
             "fridge": [
                 60,
@@ -11102,10 +11102,10 @@
         {
             "id": 2,
             "name": [
-                "쌀국수",
-                "쌀국수",
-                "쌀국수",
-                "쌀국수"
+                "Southeast Asian Noodles",
+                "Southeast Asian Noodles",
+                "Southeast Asian Noodles",
+                "Southeast Asian Noodles"
             ],
             "fridge": [
                 103,
@@ -11146,10 +11146,10 @@
         {
             "id": 3,
             "name": [
-                "커리&필라프",
-                "커리&필라프",
-                "커리&필라프",
-                "커리&필라프"
+                "Indian Curry&Pilaf",
+                "Indian Curry&Pilaf",
+                "Indian Curry&Pilaf",
+                "Indian Curry&Pilaf"
             ],
             "fridge": [
                 126,
@@ -11193,10 +11193,10 @@
         {
             "id": 4,
             "name": [
-                "리소토&파스타",
-                "리소토&파스타",
-                "리소토&파스타",
-                "리소토&파스타"
+                "Italian Pasta&Risotto",
+                "Italian Pasta&Risotto",
+                "Italian Pasta&Risotto",
+                "Italian Pasta&Risotto"
             ],
             "fridge": [
                 103,
@@ -11239,10 +11239,10 @@
         {
             "id": 5,
             "name": [
-                "소시지",
-                "소시지",
-                "소시지",
-                "소시지"
+                "German Sausages",
+                "German Sausages",
+                "German Sausages",
+                "German Sausages"
             ],
             "fridge": [
                 198,
@@ -11286,10 +11286,10 @@
         {
             "id": 6,
             "name": [
-                "스튜",
-                "스튜",
-                "스튜",
-                "스튜"
+                "Western Stews",
+                "Western Stews",
+                "Western Stews",
+                "Western Stews"
             ],
             "fridge": [
                 26,
@@ -11329,10 +11329,10 @@
         {
             "id": 7,
             "name": [
-                "비프&파이",
-                "비프&파이",
-                "비프&파이",
-                "비프&파이"
+                "British Pies",
+                "British Pies",
+                "British Pies",
+                "British Pies"
             ],
             "fridge": [
                 26,
@@ -11373,10 +11373,10 @@
         {
             "id": 8,
             "name": [
-                "버거&치킨",
-                "버거&치킨",
-                "버거&치킨",
-                "버거&치킨"
+                "American Burgers&Chicken",
+                "American Burgers&Chicken",
+                "American Burgers&Chicken",
+                "American Burgers&Chicken"
             ],
             "fridge": [
                 26,
@@ -11418,10 +11418,10 @@
         {
             "id": 9,
             "name": [
-                "디저트",
-                "디저트",
-                "디저트",
-                "디저트"
+                "Street Desserts",
+                "Street Desserts",
+                "Street Desserts",
+                "Street Desserts"
             ],
             "fridge": [
                 347,
@@ -11463,10 +11463,10 @@
         {
             "id": 10,
             "name": [
-                "훠궈",
-                "훠궈",
-                "훠궈",
-                "훠궈"
+                "Chinese Hotpot",
+                "Chinese Hotpot",
+                "Chinese Hotpot",
+                "Chinese Hotpot"
             ],
             "fridge": [
                 416,
@@ -11506,10 +11506,10 @@
         {
             "id": 11,
             "name": [
-                "타코",
-                "타코",
-                "타코",
-                "타코"
+                "Mexican Tacos",
+                "Mexican Tacos",
+                "Mexican Tacos",
+                "Mexican Tacos"
             ],
             "fridge": [
                 26,

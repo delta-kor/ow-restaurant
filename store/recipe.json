@@ -29,7 +29,7 @@
             "name": [
                 "썬 소고기",
                 "Sliced Beef",
-                "スライス牛肉",
+                "薄切り牛肉",
                 "牛排"
             ],
             "canMelt": false,
@@ -54,8 +54,8 @@
             "id": 4,
             "name": [
                 "찹스테이크",
-                "Chopped Steak",
-                "チョップステーキ",
+                "Steak Bites",
+                "サイコロステーキ",
                 "煎牛排"
             ],
             "canMelt": false,
@@ -81,7 +81,7 @@
             "name": [
                 "썬 감자",
                 "Sliced Potato",
-                "スライスジャガイモ",
+                "薄切りジャガイモ",
                 "土豆条"
             ],
             "canMelt": false,
@@ -189,7 +189,7 @@
             "name": [
                 "썬 토마토",
                 "Sliced Tomato",
-                "スライスしたトマト",
+                "薄切りトマト",
                 "番茄块"
             ],
             "canMelt": false,
@@ -249,7 +249,7 @@
             "name": [
                 "슬라이스 치즈",
                 "Sliced Cheese",
-                "スライスチーズ",
+                "薄切りチーズ",
                 "芝士片"
             ],
             "canMelt": false,
@@ -272,8 +272,8 @@
             "id": 22,
             "name": [
                 "로제 소스",
-                "Rose Sauce",
-                "ロゼソース",
+                "Creamy Tomato Sauce",
+                "トマトクリームソース",
                 "奶油番茄酱"
             ],
             "canMelt": false,
@@ -320,8 +320,8 @@
             "id": 26,
             "name": [
                 "로제 파스타",
-                "Rose Pasta",
-                "ロゼパスタ",
+                "Creamy Tomato Pasta",
+                "トマトクリームパスタ",
                 "奶油番茄意大利面"
             ],
             "canMelt": false,
@@ -332,8 +332,8 @@
             "id": 27,
             "name": [
                 "로제치즈 파스타",
-                "Rose Cheese Pasta",
-                "ロゼチーズパスタ",
+                "Creamy Tomato Cheese Pasta",
+                "トマトクリームチーズパスタ",
                 "番茄奶油芝士意大利面"
             ],
             "canMelt": false,
@@ -368,8 +368,8 @@
             "id": 30,
             "name": [
                 "로제치즈 소스",
-                "Rose Cheese Sauce",
-                "ロゼチーズソース",
+                "Creamy Tomato Cheese Sauce",
+                "トマトクリームチーズソース",
                 "玫瑰芝士酱"
             ],
             "canMelt": false,
@@ -417,7 +417,7 @@
             "name": [
                 "썬 양상추",
                 "Sliced Lettuce",
-                "スライスしたレタス",
+                "薄切りレタス",
                 "生菜片"
             ],
             "canMelt": false,
@@ -453,7 +453,7 @@
             "name": [
                 "햄버거 빵",
                 "Burger Bun",
-                "ハンバーガーバン",
+                "ハンバーガーバンズ",
                 "汉堡面包"
             ],
             "canMelt": false,
@@ -489,7 +489,7 @@
             "name": [
                 "빵+패티",
                 "B+P",
-                "パン＋パティ",
+                "バンズ＋パティ",
                 "面包+肉饼"
             ],
             "canMelt": false,
@@ -501,7 +501,7 @@
             "name": [
                 "빵+치즈",
                 "B+C",
-                "パン＋チーズ",
+                "バンズ＋チーズ",
                 "面包+芝士"
             ],
             "canMelt": false,
@@ -513,7 +513,7 @@
             "name": [
                 "빵+토마토",
                 "B+T",
-                "パン＋トマト",
+                "バンズ＋トマト",
                 "面包+番茄"
             ],
             "canMelt": false,
@@ -525,7 +525,7 @@
             "name": [
                 "빵+양상추",
                 "B+L",
-                "パン＋レタス",
+                "バンズ＋レタス",
                 "面包+生菜"
             ],
             "canMelt": false,
@@ -537,7 +537,7 @@
             "name": [
                 "빵+패티+치즈",
                 "B+P+C",
-                "パン＋パティ＋チーズ",
+                "バンズ＋パティ＋チーズ",
                 "面包+肉饼+芝士"
             ],
             "canMelt": false,
@@ -549,7 +549,7 @@
             "name": [
                 "빵+패티+토마토",
                 "B+P+T",
-                "パン＋パティ＋トマト",
+                "バンズ＋パティ＋トマト",
                 "面包+肉饼+番茄"
             ],
             "canMelt": false,
@@ -561,7 +561,7 @@
             "name": [
                 "빵+패티+양상추",
                 "B+P+L",
-                "パン＋パティ＋レタス",
+                "バンズ＋パティ＋レタス",
                 "面包+肉饼+生菜"
             ],
             "canMelt": false,
@@ -573,7 +573,7 @@
             "name": [
                 "빵+치즈+토마토",
                 "B+C+T",
-                "パン＋チーズ＋トマト",
+                "バンズ＋チーズ＋トマト",
                 "面包+芝士+番茄"
             ],
             "canMelt": false,
@@ -585,7 +585,7 @@
             "name": [
                 "빵+치즈+양상추",
                 "B+C+L",
-                "パン＋チーズ＋レタス",
+                "バンズ＋チーズ＋レタス",
                 "面包+芝士+生菜"
             ],
             "canMelt": false,
@@ -597,7 +597,7 @@
             "name": [
                 "빵+토마토+양상추",
                 "B+T+L",
-                "パン＋トマト＋レタス",
+                "バンズ＋トマト＋レタス",
                 "面包+番茄+生菜"
             ],
             "canMelt": false,
@@ -609,7 +609,7 @@
             "name": [
                 "빵+패+치+토",
                 "B+P+C+T",
-                "パン＋パティ＋チーズ＋トマト",
+                "バンズ＋パティ＋チーズ＋トマト",
                 "面包+肉饼+芝士+番茄"
             ],
             "canMelt": false,
@@ -621,7 +621,7 @@
             "name": [
                 "빵+패+치+양",
                 "B+P+C+L",
-                "パン＋パティ＋チーズ＋レタス",
+                "バンズ＋パティ＋チーズ＋レタス",
                 "面包+肉饼+芝士+生菜"
             ],
             "canMelt": false,
@@ -633,7 +633,7 @@
             "name": [
                 "빵+패+토+양",
                 "B+P+T+L",
-                "パン＋パティ＋トマト＋レタス",
+                "バンズ＋パティ＋トマト＋レタス",
                 "面包+肉饼+番茄+生菜"
             ],
             "canMelt": false,
@@ -645,7 +645,7 @@
             "name": [
                 "빵+치+토+양",
                 "B+C+T+L",
-                "パン＋チーズ＋トマト＋レタス",
+                "バンズ＋チーズ＋トマト＋レタス",
                 "面包+芝士+番茄+生菜"
             ],
             "canMelt": false,
@@ -657,7 +657,7 @@
             "name": [
                 "빵+패+치+토+양",
                 "B+P+C+T+L",
-                "パン＋パティ＋チーズ＋トマト＋レタス",
+                "バンズ＋パティ＋チーズ＋トマト＋レタス",
                 "面包+肉饼+芝士+番茄+生菜"
             ],
             "canMelt": false,
@@ -692,7 +692,7 @@
             "id": 57,
             "name": [
                 "야채 버거",
-                "Vegetable Burger",
+                "Veggie Burger",
                 "ベジバーガー",
                 "蔬菜汉堡"
             ],
@@ -704,7 +704,7 @@
             "id": 58,
             "name": [
                 "치즈야채 버거",
-                "Cheese Vegetable Burger",
+                "Veggie CheeseBurger",
                 "チーズベジバーガー",
                 "芝士蔬菜汉堡"
             ],
@@ -751,9 +751,9 @@
         {
             "id": 62,
             "name": [
-                "보조도마용 칼",
-                "Auxiliary  Knife",
-                "補助ナイフ",
+                "탄소강 칼",
+                "Carbon-Steel Knife",
+                "炭化鋼ナイフ",
                 "辅助刀具"
             ],
             "canMelt": false,
@@ -813,7 +813,7 @@
             "name": [
                 "썬 닭고기",
                 "Sliced Chicken",
-                "スライス鶏肉",
+                "薄切り鶏肉",
                 "鸡块"
             ],
             "canMelt": false,
@@ -825,7 +825,7 @@
             "name": [
                 "조각낸 닭고기",
                 "Chopped Chicken",
-                "刻んだ鶏肉",
+                "角切り鶏肉",
                 "鸡排"
             ],
             "canMelt": false,
@@ -849,7 +849,7 @@
             "name": [
                 "썬 파",
                 "Sliced Green Onion",
-                "スライスしたネギ",
+                "薄切りネギ",
                 "葱段"
             ],
             "canMelt": false,
@@ -861,7 +861,7 @@
             "name": [
                 "다진 파",
                 "Minced Green Onion",
-                "刻ん切りネギ",
+                "刻みネギ",
                 "葱花"
             ],
             "canMelt": false,
@@ -872,7 +872,7 @@
             "id": 72,
             "name": [
                 "튀김가루",
-                "Frying Powder",
+                "Frying Mix",
                 "天ぷら粉",
                 "炸粉"
             ],
@@ -980,7 +980,7 @@
             "id": 81,
             "name": [
                 "닭+튀김가루",
-                "Chicken+Powder",
+                "Chicken+Frying Mix",
                 "鶏肉＋天ぷら粉",
                 "裹粉全鸡"
             ],
@@ -992,8 +992,8 @@
             "id": 82,
             "name": [
                 "썬 닭+튀김가루",
-                "Sliced Chicken+Powder",
-                "スライス鶏肉＋天ぷら粉",
+                "Sliced Chicken+Frying Mix",
+                "薄切り鶏肉＋天ぷら粉",
                 "裹粉鸡块"
             ],
             "canMelt": false,
@@ -1004,8 +1004,8 @@
             "id": 83,
             "name": [
                 "조각 닭+튀김가루",
-                "Chopped Chicken+Powder",
-                "刻んだ鶏肉＋天ぷら粉",
+                "Chopped Chicken+Frying Mix",
+                "角切り鶏肉＋天ぷら粉",
                 "裹粉鸡排"
             ],
             "canMelt": false,
@@ -1176,8 +1176,8 @@
             "id": 97,
             "name": [
                 "양념+튀긴 조각 닭",
-                "S&S Sauce+Fried Chopped Chicken",
-                "ヤンニョム＋から揚げ",
+                "Raw S&S Chicken Nugget",
+                "生ヤンニョム＋から揚げ",
                 "甜辣炸鸡排"
             ],
             "canMelt": false,
@@ -1501,7 +1501,7 @@
             "name": [
                 "썬 베이컨",
                 "Sliced Bacon",
-                "スライスしたベーコン",
+                "薄切りしたベーコン",
                 "培根片"
             ],
             "canMelt": false,
@@ -1669,7 +1669,7 @@
             "name": [
                 "구운 썬 베이컨",
                 "Grilled Sliced Bacon",
-                "焼いたスライスベーコン",
+                "焼いた薄切りベーコン",
                 "烤培根片"
             ],
             "canMelt": false,
@@ -1692,7 +1692,7 @@
             "id": 140,
             "name": [
                 "빵가루",
-                "Bread Crumbs",
+                "Breadcrumbs",
                 "パン粉",
                 "面包屑"
             ],
@@ -1729,7 +1729,7 @@
             "name": [
                 "썬 김치",
                 "Sliced Kimchi",
-                "スライスキムチ",
+                "薄切りキムチ",
                 "碎泡菜"
             ],
             "canMelt": false,
@@ -1789,7 +1789,7 @@
             "name": [
                 "썬 두부",
                 "Sliced Tofu",
-                "スライス豆腐",
+                "薄切り豆腐",
                 "豆腐块"
             ],
             "canMelt": false,
@@ -1861,7 +1861,7 @@
             "name": [
                 "다진 소고기",
                 "Minced Beef",
-                "刻んだ牛肉",
+                "牛ひき肉",
                 "牛肉糜"
             ],
             "canMelt": false,
@@ -1873,7 +1873,7 @@
             "name": [
                 "썬 소고기+간장",
                 "Sliced Beef+Soy Sauce",
-                "スライス牛肉＋醤油",
+                "薄切り牛肉＋醤油",
                 "酱油牛排"
             ],
             "canMelt": false,
@@ -1911,7 +1911,7 @@
             "name": [
                 "썬 당면",
                 "Sliced Glass Noodles",
-                "スライスした春雨",
+                "薄切りした春雨",
                 "碎粉条"
             ],
             "canMelt": false,
@@ -1935,7 +1935,7 @@
             "name": [
                 "썬 돼지고기",
                 "Sliced Pork",
-                "スライスポーク",
+                "薄切りポーク",
                 "猪排"
             ],
             "canMelt": false,
@@ -1947,7 +1947,7 @@
             "name": [
                 "다진 돼지고기",
                 "Minced Pork",
-                "刻んだポーク",
+                "ポークミンチ",
                 "猪肉糜"
             ],
             "canMelt": false,
@@ -2011,7 +2011,7 @@
             "name": [
                 "썬 수육",
                 "Sliced Boiled Pork",
-                "スライスボイルドポーク",
+                "薄切りボイルドポーク",
                 "碎煮猪肉"
             ],
             "canMelt": false,
@@ -2383,7 +2383,7 @@
             "name": [
                 "썬 돈가스",
                 "Sliced Pork Cutlet",
-                "スライスとんかつ",
+                "薄切りとんかつ",
                 "碎猪肉饼"
             ],
             "canMelt": false,
@@ -2617,7 +2617,7 @@
             "name": [
                 "썬 삶은 닭고기",
                 "Sliced Boiled Chicken",
-                "スライスしたゆで鶏肉",
+                "薄切りしたゆで鶏肉",
                 "碎煮鸡肉"
             ],
             "canMelt": false,
@@ -2676,8 +2676,8 @@
             "id": 221,
             "name": [
                 "썬 돼지+튀김가루",
-                "Sliced Pork+Powder",
-                "スライスだポーク＋天ぷら粉",
+                "Sliced Pork+Frying Mix",
+                "薄切りポーク＋天ぷら粉",
                 "裹粉猪排"
             ],
             "canMelt": false,
@@ -2688,7 +2688,7 @@
             "id": 222,
             "name": [
                 "다진 생선+튀김가루",
-                "Minced Fish+Powder",
+                "Minced Fish+Frying Mix",
                 "魚のミンチ＋天ぷら粉",
                 "裹粉鱼糜"
             ],
@@ -2712,7 +2712,7 @@
             "id": 224,
             "name": [
                 "손질한생선+튀김가루",
-                "Sliced Fish+Powder",
+                "Sliced Fish+Frying Mix",
                 "捌いた魚＋天ぷら粉",
                 "裹粉鱼片"
             ],
@@ -2941,7 +2941,7 @@
             "name": [
                 "끓인 육수",
                 "Boiled Broth",
-                "煮出汁",
+                "煮出し",
                 "高汤"
             ],
             "canMelt": false,
@@ -3049,7 +3049,7 @@
             "name": [
                 "자장면",
                 "Black Bean Noodle",
-                "ジャージャーメン",
+                "ジャージャー麺",
                 "豆豉汤面"
             ],
             "canMelt": false,
@@ -3063,7 +3063,7 @@
             "name": [
                 "썬 두부+김치",
                 "Sliced Tofu+Kimchi",
-                "スライス豆腐＋キムチ",
+                "薄切り豆腐＋キムチ",
                 "豆腐块+泡菜"
             ],
             "canMelt": false,
@@ -3123,7 +3123,7 @@
             "name": [
                 "떡국용 떡",
                 "Rice Cake",
-                "お餅",
+                "お雑煮用の餅",
                 "米糕"
             ],
             "canMelt": false,
@@ -3147,7 +3147,7 @@
             "name": [
                 "만둣국",
                 "Dumpling Soup",
-                "すいぎょうざ",
+                "水餃子",
                 "饺子汤"
             ],
             "canMelt": false,
@@ -3159,7 +3159,7 @@
             "name": [
                 "떡만둣국",
                 "Rice Cake Dumpling Soup",
-                "餃子+お雑煮",
+                "餃子お雑煮",
                 "米糕饺子汤"
             ],
             "canMelt": false,
@@ -3231,7 +3231,7 @@
             "name": [
                 "썬 회오리어묵",
                 "Sliced Narutomaki",
-                "スライス鳴門巻き",
+                "薄切り鳴門巻き",
                 "鸣门卷片"
             ],
             "canMelt": false,
@@ -3255,7 +3255,7 @@
             "name": [
                 "썬 양파",
                 "Sliced Onion",
-                "スライス玉ねぎ",
+                "薄切り玉ねぎ",
                 "洋葱片"
             ],
             "canMelt": false,
@@ -3267,7 +3267,7 @@
             "name": [
                 "다진 양파",
                 "Minced Onion",
-                "刻ん切り玉ねぎ",
+                "刻んだ玉ねぎ",
                 "洋葱碎"
             ],
             "canMelt": false,
@@ -3411,7 +3411,7 @@
         {
             "id": 282,
             "name": [
-                "구운 감바스 타코(밀)",
+                "구운 새우 타코(밀)",
                 "Grilled Shrimp Taco(Flour)",
                 "焼きエビタコス(小麦)",
                 "面粉烤虾卷饼"
@@ -3423,7 +3423,7 @@
         {
             "id": 283,
             "name": [
-                "구운 감바스 타코(옥수수)",
+                "구운 새우 타코(옥수수)",
                 "Grilled Shrimp Taco(Corn)",
                 "焼きエビタコス(コーン)",
                 "玉米烤虾卷饼"
@@ -3435,7 +3435,7 @@
         {
             "id": 284,
             "name": [
-                "찐 감바스 타코(밀)",
+                "찐 새우 타코(밀)",
                 "Steamed Shrimp Taco(Flour)",
                 "蒸しエビタコス(小麦)",
                 "面粉蒸虾卷饼"
@@ -3447,7 +3447,7 @@
         {
             "id": 285,
             "name": [
-                "찐 감바스 타코(옥수수)",
+                "찐 새우 타코(옥수수)",
                 "Steamed Shrimp Taco(Corn)",
                 "蒸しエビタコス(コーン)",
                 "玉米蒸虾卷饼"
@@ -3485,7 +3485,7 @@
             "name": [
                 "구운 새우+양파",
                 "Grilled Shrimp+Onion",
-                "炭火焼きエビ+玉ねぎ",
+                "焼きエビ+玉ねぎ",
                 "烤虾+洋葱"
             ],
             "canMelt": false,
@@ -4073,7 +4073,7 @@
             "name": [
                 "핫케이크",
                 "Pancake",
-                "パンケーキ",
+                "ホットケーキ",
                 "松饼"
             ],
             "canMelt": false,
@@ -4085,7 +4085,7 @@
             "name": [
                 "핫케이크+베이컨",
                 "Pancake+Bacon",
-                "パンケーキ+ベーコン",
+                "ホットケーキ+ベーコン",
                 "培根松饼"
             ],
             "canMelt": false,
@@ -4097,7 +4097,7 @@
             "name": [
                 "핫케이크+스크램블에그",
                 "Pancake+Scrambled Eggs",
-                "パンケーキ+スクランブルエッグ",
+                "ホットケーキ+スクランブルエッグ",
                 "炒蛋松饼"
             ],
             "canMelt": false,
@@ -4109,7 +4109,7 @@
             "name": [
                 "초코시럽핫케이크",
                 "Chocolate Syrup Pancake",
-                "チョコシロップパンケーキ",
+                "チョコシロップホットケーキ",
                 "巧克力酱松饼"
             ],
             "canMelt": false,
@@ -4121,7 +4121,7 @@
             "name": [
                 "초코시럽핫케이크+베이컨",
                 "Chocolate Syrup Pancake+Bacon",
-                "チョコシロップパンケーキ+ベーコン",
+                "チョコシロップホットケーキ+ベーコン",
                 "巧克力酱培根松饼"
             ],
             "canMelt": false,
@@ -4133,7 +4133,7 @@
             "name": [
                 "초코시럽핫케이크+스크램블에그",
                 "Chocolate Syrup Pancake+Scrambled Eggs",
-                "チョコシロップパンケーキ+スクランブルエッグ",
+                "チョコシロップホットケーキ+スクランブルエッグ",
                 "巧克力酱炒蛋松饼"
             ],
             "canMelt": false,
@@ -4145,7 +4145,7 @@
             "name": [
                 "초코핫케이크",
                 "Chocolate Pancake",
-                "チョコパンケーキ",
+                "チョコホットケーキ",
                 "巧克力松饼"
             ],
             "canMelt": false,
@@ -4157,7 +4157,7 @@
             "name": [
                 "초코핫케이크+베이컨",
                 "Chocolate Pancake+Bacon",
-                "チョコパンケーキ+ベーコン",
+                "チョコホットケーキ+ベーコン",
                 "巧克力培根松饼"
             ],
             "canMelt": false,
@@ -4169,7 +4169,7 @@
             "name": [
                 "초코핫케이크+스크램블에그",
                 "Chocolate Pancake+Scrambled Eggs",
-                "チョコパンケーキ+スクランブルエッグ",
+                "チョコホットケーキ+スクランブルエッグ",
                 "巧克力炒蛋松饼"
             ],
             "canMelt": false,
@@ -4180,8 +4180,8 @@
             "id": 346,
             "name": [
                 "초코초코핫케이크",
-                "Choco-Choco Pancake",
-                "チョコチョコパンケーキ",
+                "Double Chocolate Pancake",
+                "チョコチョコホットケーキ",
                 "巧克力至尊松饼"
             ],
             "canMelt": false,
@@ -4192,8 +4192,8 @@
             "id": 347,
             "name": [
                 "초코초코핫케이크+베이컨",
-                "Choco-Choco Pancake+Bacon",
-                "チョコチョコパンケーキ+ベーコン",
+                "Double Chocolate Pancake+Bacon",
+                "チョコチョコホットケーキ+ベーコン",
                 "巧克力至尊培根松饼"
             ],
             "canMelt": false,
@@ -4204,8 +4204,8 @@
             "id": 348,
             "name": [
                 "초코초코핫케이크+스크램블에그",
-                "Choco-Choco Pancake+Scrambled Eggs",
-                "チョコチョコパンケーキ+スクランブルエッグ",
+                "Double Chocolate Pancake+Scrambled Eggs",
+                "チョコチョコホットケーキ+スクランブルエッグ",
                 "巧克力至尊炒蛋松饼"
             ],
             "canMelt": false,
@@ -4217,7 +4217,7 @@
             "name": [
                 "딸기핫케이크",
                 "Strawberry Pancake",
-                "イチゴパンケーキ",
+                "イチゴホットケーキ",
                 "草莓松饼"
             ],
             "canMelt": false,
@@ -4229,7 +4229,7 @@
             "name": [
                 "딸기핫케이크+베이컨",
                 "Strawberry Pancake+Bacon",
-                "イチゴパンケーキ+ベーコン",
+                "イチゴホットケーキ+ベーコン",
                 "草莓培根松饼"
             ],
             "canMelt": false,
@@ -4241,7 +4241,7 @@
             "name": [
                 "딸기핫케이크+스크램블에그",
                 "Strawberry Pancake+Scrambled Eggs",
-                "イチゴパンケーキ+スクランブルエッグ",
+                "イチゴホットケーキ+スクランブルエッグ",
                 "草莓炒蛋松饼"
             ],
             "canMelt": false,
@@ -4276,7 +4276,7 @@
             "id": 354,
             "name": [
                 "헤드셰프의 칼",
-                "Headchef's Knife",
+                "Head Chef's Knife",
                 "ヘッドシェフの包丁",
                 "主厨刀"
             ],
@@ -4335,7 +4335,7 @@
         {
             "id": 359,
             "name": [
-                "도마 귀환 스펠",
+                "텔레포트 스펠",
                 "Teleport Spell",
                 "まな板帰還スペル",
                 "传送咒"
@@ -4409,7 +4409,7 @@
             "name": [
                 "썬 양고기",
                 "Sliced Lamb",
-                "スライスラム肉",
+                "薄切りラム肉",
                 "羊排"
             ],
             "canMelt": false,
@@ -4421,7 +4421,7 @@
             "name": [
                 "다진 양고기",
                 "Minced Lamb",
-                "刻んだラム肉",
+                "ラムひき肉",
                 "羊肉糜"
             ],
             "canMelt": false,
@@ -4447,7 +4447,7 @@
             "name": [
                 "구운 썬 양고기",
                 "Grilled Sliced Lamb",
-                "焼いたスライスラム肉",
+                "焼いた薄切りラム肉",
                 "烤羊排"
             ],
             "canMelt": false,
@@ -4483,7 +4483,7 @@
             "name": [
                 "썬 버섯",
                 "Sliced Mushroom",
-                "スライスマッシュルーム",
+                "薄切りマッシュルーム",
                 "蘑菇片"
             ],
             "canMelt": false,
@@ -4519,7 +4519,7 @@
             "name": [
                 "썬 배추",
                 "Sliced Cabbage",
-                "スライス白菜",
+                "薄切り白菜",
                 "卷心菜丝"
             ],
             "canMelt": false,
@@ -4712,7 +4712,7 @@
             "name": [
                 "썬 파인애플",
                 "Sliced Pineapple",
-                "スライスパイナップル",
+                "薄切りパイナップル",
                 "菠萝片"
             ],
             "canMelt": false,
@@ -4750,7 +4750,7 @@
             "name": [
                 "빵+치킨",
                 "B+Chicken",
-                "パン＋チキン",
+                "バンズ＋チキン",
                 "面包+鸡肉"
             ],
             "canMelt": false,
@@ -4777,7 +4777,7 @@
             "name": [
                 "썬 소고기+양념소스",
                 "Sliced Beef+Sweet&Spicy Sauce",
-                "スライス牛肉＋ヤンニョムソース",
+                "薄切り牛肉＋ヤンニョムソース",
                 "牛排+甜辣酱"
             ],
             "canMelt": false,
@@ -4928,7 +4928,7 @@
             "id": 406,
             "name": [
                 "호떡 반죽",
-                "Hotteok Batter",
+                "Hotteok Dough",
                 "ホットク生地",
                 "糖饼面团"
             ],
@@ -5024,7 +5024,7 @@
             "id": 413,
             "name": [
                 "딸기탕후루",
-                "Strawberry Candied Skewer",
+                "Strawberry Tanghulu",
                 "イチゴ飴がけ串",
                 "草莓糖葫芦"
             ],
@@ -5091,7 +5091,7 @@
             "name": [
                 "보쌈",
                 "Boiled Pork Wrap",
-                "ボッサム",
+                "ポッサム",
                 "煮猪肉卷"
             ],
             "canMelt": false,
@@ -5295,9 +5295,9 @@
         {
             "id": 435,
             "name": [
-                "명란젓",
-                "Spicy Cod Roe",
-                "明太子",
+                "명란젓 소스",
+                "Spicy Cod Roe Sauce",
+                "明太子ソース",
                 "鳕鱼子"
             ],
             "canMelt": false,
@@ -5307,7 +5307,7 @@
         {
             "id": 436,
             "name": [
-                "명란크림소스",
+                "명란크림 소스",
                 "Spicy Cod Roe Cream Sauce",
                 "明太子クリームソース",
                 "鳕鱼奶油酱"
@@ -5319,7 +5319,7 @@
         {
             "id": 437,
             "name": [
-                "명란크림파스타",
+                "명란크림 파스타",
                 "Mentaiko Pasta",
                 "明太子パスタ",
                 "明太子意面"
@@ -5333,7 +5333,7 @@
         {
             "id": 438,
             "name": [
-                "스테이크파스타",
+                "스테이크 파스타",
                 "Steak Pasta",
                 "ステーキスパゲッティ",
                 "奶油牛肉意大利面"
@@ -5478,7 +5478,7 @@
             "name": [
                 "빵+베이컨",
                 "B+Ba",
-                "パン＋ベーコン",
+                "バンズ＋ベーコン",
                 "B+Ba"
             ],
             "canMelt": false,
@@ -5490,7 +5490,7 @@
             "name": [
                 "빵+패+베",
                 "B+P+Ba",
-                "パン＋パティ＋ベーコン",
+                "バンズ＋パティ＋ベーコン",
                 "面包+肉饼+培根"
             ],
             "canMelt": false,
@@ -5502,7 +5502,7 @@
             "name": [
                 "빵+베+치",
                 "B+Ba+C",
-                "パン＋ベーコン＋チーズ",
+                "バンズ＋ベーコン＋チーズ",
                 "面包+培根+芝士"
             ],
             "canMelt": false,
@@ -5514,7 +5514,7 @@
             "name": [
                 "빵+패+베+치",
                 "B+P+Ba+C",
-                "パン＋パティ＋ベーコン＋チーズ",
+                "バンズ＋パティ＋ベーコン＋チーズ",
                 "面包+肉饼+培根+芝士"
             ],
             "canMelt": false,
@@ -5540,7 +5540,7 @@
             "name": [
                 "썬 돼지+양념소스",
                 "Sliced Pork + Sweet&Spicy Sauce",
-                "スライスポーク＋ヤンニョムソース",
+                "薄切りポーク＋ヤンニョムソース",
                 "猪排+甜辣酱"
             ],
             "canMelt": false,
@@ -5596,7 +5596,7 @@
             "id": 458,
             "name": [
                 "새우+튀김가루",
-                "Shrimp+Powder",
+                "Shrimp+Frying Mix",
                 "エビ+天ぷら粉",
                 "虾+炸粉"
             ],
@@ -5620,7 +5620,7 @@
             "id": 460,
             "name": [
                 "김+튀김가루",
-                "Seaweed+Powder",
+                "Seaweed+Frying Mix",
                 "海苔＋天ぷら粉",
                 "海苔+炸粉"
             ],
@@ -5886,6 +5886,16 @@
                 4
             ],
             "effort": 5
+        },
+        {
+            "type": 0,
+            "input": [
+                3
+            ],
+            "output": [
+                4
+            ],
+            "effort": 3
         },
         {
             "type": 0,
@@ -7833,7 +7843,7 @@
             "output": [
                 367
             ],
-            "effort": 4
+            "effort": 5
         },
         {
             "type": 0,
@@ -7863,7 +7873,7 @@
             "output": [
                 368
             ],
-            "effort": 5
+            "effort": 4
         },
         {
             "type": 0,
@@ -8013,7 +8023,7 @@
             "output": [
                 407
             ],
-            "effort": 5
+            "effort": 4
         },
         {
             "type": 3,
@@ -8205,7 +8215,7 @@
             "output": [
                 455
             ],
-            "effort": 5
+            "effort": 4
         },
         {
             "type": 2,
@@ -8235,7 +8245,7 @@
             "output": [
                 468
             ],
-            "effort": 5
+            "effort": 3
         },
         {
             "type": 4,
@@ -8255,7 +8265,7 @@
             "output": [
                 474
             ],
-            "effort": 5
+            "effort": 6
         },
         {
             "type": 6,
@@ -12151,7 +12161,7 @@
             "name": [
                 "핫케이크",
                 "Pancake",
-                "パンケーキ",
+                "ホットケーキ",
                 "松饼"
             ],
             "fridge": [

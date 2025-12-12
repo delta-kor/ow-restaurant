@@ -3,10 +3,10 @@
         {
             "id": 0,
             "name": [
-                "탄 음식",
-                "탄 음식",
-                "탄 음식",
-                "탄 음식"
+                "Burnt Food",
+                "Burnt Food",
+                "Burnt Food",
+                "Burnt Food"
             ],
             "canMelt": false,
             "colorCode": "D",
@@ -15,10 +15,10 @@
         {
             "id": 1,
             "name": [
-                "양산형 칼",
-                "양산형 칼",
-                "양산형 칼",
-                "양산형 칼"
+                "Butter Knife",
+                "Butter Knife",
+                "Butter Knife",
+                "Butter Knife"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -27,10 +27,10 @@
         {
             "id": 2,
             "name": [
-                "탄소강 칼",
-                "탄소강 칼",
-                "탄소강 칼",
-                "탄소강 칼"
+                "Carbon-Steel Knife",
+                "Carbon-Steel Knife",
+                "Carbon-Steel Knife",
+                "Carbon-Steel Knife"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -39,10 +39,10 @@
         {
             "id": 3,
             "name": [
-                "휴대용 칼",
-                "휴대용 칼",
-                "휴대용 칼",
-                "휴대용 칼"
+                "Portable Knife",
+                "Portable Knife",
+                "Portable Knife",
+                "Portable Knife"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -51,10 +51,10 @@
         {
             "id": 4,
             "name": [
-                "날카로운 칼",
-                "날카로운 칼",
-                "날카로운 칼",
-                "날카로운 칼"
+                "Sharp Knife",
+                "Sharp Knife",
+                "Sharp Knife",
+                "Sharp Knife"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -63,10 +63,10 @@
         {
             "id": 5,
             "name": [
-                "겐지의 단검",
-                "겐지의 단검",
-                "겐지의 단검",
-                "겐지의 단검"
+                "Genji's Dagger",
+                "Genji's Dagger",
+                "Genji's Dagger",
+                "Genji's Dagger"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -75,10 +75,10 @@
         {
             "id": 6,
             "name": [
-                "고급 부엌칼",
-                "고급 부엌칼",
-                "고급 부엌칼",
-                "고급 부엌칼"
+                "Kitchen Knife",
+                "Kitchen Knife",
+                "Kitchen Knife",
+                "Kitchen Knife"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -87,10 +87,10 @@
         {
             "id": 7,
             "name": [
-                "헤드셰프의 칼",
-                "헤드셰프의 칼",
-                "헤드셰프의 칼",
-                "헤드셰프의 칼"
+                "Head Chef's Knife",
+                "Head Chef's Knife",
+                "Head Chef's Knife",
+                "Head Chef's Knife"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -99,10 +99,10 @@
         {
             "id": 8,
             "name": [
-                "에너지 드링크",
-                "에너지 드링크",
-                "에너지 드링크",
-                "에너지 드링크"
+                "Energy Drink",
+                "Energy Drink",
+                "Energy Drink",
+                "Energy Drink"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -111,10 +111,10 @@
         {
             "id": 9,
             "name": [
-                "수상한 드링크",
-                "수상한 드링크",
-                "수상한 드링크",
-                "수상한 드링크"
+                "Suspicious Drinks",
+                "Suspicious Drinks",
+                "Suspicious Drinks",
+                "Suspicious Drinks"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -123,10 +123,10 @@
         {
             "id": 10,
             "name": [
-                "점프 부츠",
-                "점프 부츠",
-                "점프 부츠",
-                "점프 부츠"
+                "Jump Boots",
+                "Jump Boots",
+                "Jump Boots",
+                "Jump Boots"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -135,10 +135,10 @@
         {
             "id": 11,
             "name": [
-                "조미료 팩",
-                "조미료 팩",
-                "조미료 팩",
-                "조미료 팩"
+                "Seasoning Packets",
+                "Seasoning Packets",
+                "Seasoning Packets",
+                "Seasoning Packets"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -147,10 +147,10 @@
         {
             "id": 12,
             "name": [
-                "청소기",
-                "청소기",
-                "청소기",
-                "청소기"
+                "Vacuum",
+                "Vacuum",
+                "Vacuum",
+                "Vacuum"
             ],
             "canMelt": false,
             "colorCode": "T",
@@ -159,10 +159,10 @@
         {
             "id": 13,
             "name": [
-                "대시 부츠",
-                "대시 부츠",
-                "대시 부츠",
-                "대시 부츠"
+                "Dash Boots",
+                "Dash Boots",
+                "Dash Boots",
+                "Dash Boots"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -171,10 +171,10 @@
         {
             "id": 14,
             "name": [
-                "텔레포트 스펠",
-                "텔레포트 스펠",
-                "텔레포트 스펠",
-                "텔레포트 스펠"
+                "Teleport Spell",
+                "Teleport Spell",
+                "Teleport Spell",
+                "Teleport Spell"
             ],
             "canMelt": false,
             "colorCode": "U",
@@ -183,10 +183,10 @@
         {
             "id": 15,
             "name": [
-                "요리 복사 스펠",
-                "요리 복사 스펠",
-                "요리 복사 스펠",
-                "요리 복사 스펠"
+                "Food Dupe Spell",
+                "Food Dupe Spell",
+                "Food Dupe Spell",
+                "Food Dupe Spell"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -195,10 +195,10 @@
         {
             "id": 16,
             "name": [
-                "토치",
-                "토치",
-                "토치",
-                "토치"
+                "Gas Torch",
+                "Gas Torch",
+                "Gas Torch",
+                "Gas Torch"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -207,10 +207,10 @@
         {
             "id": 17,
             "name": [
-                "서빙볼",
-                "서빙볼",
-                "서빙볼",
-                "서빙볼"
+                "ServingBall",
+                "ServingBall",
+                "ServingBall",
+                "ServingBall"
             ],
             "canMelt": false,
             "colorCode": "Z",
@@ -231,10 +231,10 @@
         {
             "id": 19,
             "name": [
-                "물",
-                "물",
-                "물",
-                "물"
+                "Water",
+                "Water",
+                "Water",
+                "Water"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -243,10 +243,10 @@
         {
             "id": 20,
             "name": [
-                "얼음",
-                "얼음",
-                "얼음",
-                "얼음"
+                "Ice",
+                "Ice",
+                "Ice",
+                "Ice"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -255,10 +255,10 @@
         {
             "id": 21,
             "name": [
-                "원두",
-                "원두",
-                "원두",
-                "원두"
+                "Coffee Beans",
+                "Coffee Beans",
+                "Coffee Beans",
+                "Coffee Beans"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -267,10 +267,10 @@
         {
             "id": 22,
             "name": [
-                "커피가루",
-                "커피가루",
-                "커피가루",
-                "커피가루"
+                "Ground Coffee",
+                "Ground Coffee",
+                "Ground Coffee",
+                "Ground Coffee"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -279,10 +279,10 @@
         {
             "id": 23,
             "name": [
-                "에스프레소",
-                "에스프레소",
-                "에스프레소",
-                "에스프레소"
+                "Espresso",
+                "Espresso",
+                "Espresso",
+                "Espresso"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -291,10 +291,10 @@
         {
             "id": 24,
             "name": [
-                "아메리카노",
-                "아메리카노",
-                "아메리카노",
-                "아메리카노"
+                "Americano",
+                "Americano",
+                "Americano",
+                "Americano"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -303,10 +303,10 @@
         {
             "id": 25,
             "name": [
-                "아메리카노(아이스)",
-                "아메리카노(아이스)",
-                "아메리카노(아이스)",
-                "아메리카노(아이스)"
+                "Iced Americano",
+                "Iced Americano",
+                "Iced Americano",
+                "Iced Americano"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -315,10 +315,10 @@
         {
             "id": 26,
             "name": [
-                "우유",
-                "우유",
-                "우유",
-                "우유"
+                "Milk",
+                "Milk",
+                "Milk",
+                "Milk"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -327,10 +327,10 @@
         {
             "id": 27,
             "name": [
-                "스팀 밀크",
-                "스팀 밀크",
-                "스팀 밀크",
-                "스팀 밀크"
+                "Steamed Milk",
+                "Steamed Milk",
+                "Steamed Milk",
+                "Steamed Milk"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -339,10 +339,10 @@
         {
             "id": 28,
             "name": [
-                "카페 라떼",
-                "카페 라떼",
-                "카페 라떼",
-                "카페 라떼"
+                "Latte",
+                "Latte",
+                "Latte",
+                "Latte"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -351,10 +351,10 @@
         {
             "id": 29,
             "name": [
-                "카페 라떼(아이스)",
-                "카페 라떼(아이스)",
-                "카페 라떼(아이스)",
-                "카페 라떼(아이스)"
+                "Iced Latte",
+                "Iced Latte",
+                "Iced Latte",
+                "Iced Latte"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -363,10 +363,10 @@
         {
             "id": 30,
             "name": [
-                "바닐라 시럽",
-                "바닐라 시럽",
-                "바닐라 시럽",
-                "바닐라 시럽"
+                "Vanilla Syrup",
+                "Vanilla Syrup",
+                "Vanilla Syrup",
+                "Vanilla Syrup"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -375,10 +375,10 @@
         {
             "id": 31,
             "name": [
-                "바닐라 라떼",
-                "바닐라 라떼",
-                "바닐라 라떼",
-                "바닐라 라떼"
+                "Vanilla Latte",
+                "Vanilla Latte",
+                "Vanilla Latte",
+                "Vanilla Latte"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -387,10 +387,10 @@
         {
             "id": 32,
             "name": [
-                "바닐라 라떼(아이스)",
-                "바닐라 라떼(아이스)",
-                "바닐라 라떼(아이스)",
-                "바닐라 라떼(아이스)"
+                "Iced Vanilla Latte",
+                "Iced Vanilla Latte",
+                "Iced Vanilla Latte",
+                "Iced Vanilla Latte"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -399,10 +399,10 @@
         {
             "id": 33,
             "name": [
-                "카라멜 시럽",
-                "카라멜 시럽",
-                "카라멜 시럽",
-                "카라멜 시럽"
+                "Caramel Syrup",
+                "Caramel Syrup",
+                "Caramel Syrup",
+                "Caramel Syrup"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -411,10 +411,10 @@
         {
             "id": 34,
             "name": [
-                "카라멜 마키아토",
-                "카라멜 마키아토",
-                "카라멜 마키아토",
-                "카라멜 마키아토"
+                "Caramel Macchiato",
+                "Caramel Macchiato",
+                "Caramel Macchiato",
+                "Caramel Macchiato"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -423,10 +423,10 @@
         {
             "id": 35,
             "name": [
-                "카라멜 마키아토(아이스)",
-                "카라멜 마키아토(아이스)",
-                "카라멜 마키아토(아이스)",
-                "카라멜 마키아토(아이스)"
+                "Iced Caramel Macchiato",
+                "Iced Caramel Macchiato",
+                "Iced Caramel Macchiato",
+                "Iced Caramel Macchiato"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -435,10 +435,10 @@
         {
             "id": 36,
             "name": [
-                "초코 시럽",
-                "초코 시럽",
-                "초코 시럽",
-                "초코 시럽"
+                "Chocolate Syrup",
+                "Chocolate Syrup",
+                "Chocolate Syrup",
+                "Chocolate Syrup"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -447,10 +447,10 @@
         {
             "id": 37,
             "name": [
-                "카페 모카",
-                "카페 모카",
-                "카페 모카",
-                "카페 모카"
+                "Mocha",
+                "Mocha",
+                "Mocha",
+                "Mocha"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -459,10 +459,10 @@
         {
             "id": 38,
             "name": [
-                "카페 모카(아이스)",
-                "카페 모카(아이스)",
-                "카페 모카(아이스)",
-                "카페 모카(아이스)"
+                "Iced Mocha",
+                "Iced Mocha",
+                "Iced Mocha",
+                "Iced Mocha"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -471,10 +471,10 @@
         {
             "id": 39,
             "name": [
-                "커피 프라페",
-                "커피 프라페",
-                "커피 프라페",
-                "커피 프라페"
+                "Coffee Frappe",
+                "Coffee Frappe",
+                "Coffee Frappe",
+                "Coffee Frappe"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -483,10 +483,10 @@
         {
             "id": 40,
             "name": [
-                "얼린 우유",
-                "얼린 우유",
-                "얼린 우유",
-                "얼린 우유"
+                "Frozen Milk",
+                "Frozen Milk",
+                "Frozen Milk",
+                "Frozen Milk"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -495,10 +495,10 @@
         {
             "id": 41,
             "name": [
-                "빙수 베이스",
-                "빙수 베이스",
-                "빙수 베이스",
-                "빙수 베이스"
+                "Shaved Ice Base",
+                "Shaved Ice Base",
+                "Shaved Ice Base",
+                "Shaved Ice Base"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -507,10 +507,10 @@
         {
             "id": 42,
             "name": [
-                "단팥",
-                "단팥",
-                "단팥",
-                "단팥"
+                "Sweet Red Beans",
+                "Sweet Red Beans",
+                "Sweet Red Beans",
+                "Sweet Red Beans"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -519,10 +519,10 @@
         {
             "id": 43,
             "name": [
-                "팥빙수",
-                "팥빙수",
-                "팥빙수",
-                "팥빙수"
+                "Red Bean Shaved Ice",
+                "Red Bean Shaved Ice",
+                "Red Bean Shaved Ice",
+                "Red Bean Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -531,10 +531,10 @@
         {
             "id": 44,
             "name": [
-                "콩가루",
-                "콩가루",
-                "콩가루",
-                "콩가루"
+                "Soybean Powder",
+                "Soybean Powder",
+                "Soybean Powder",
+                "Soybean Powder"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -543,10 +543,10 @@
         {
             "id": 45,
             "name": [
-                "인절미 빙수",
-                "인절미 빙수",
-                "인절미 빙수",
-                "인절미 빙수"
+                "Injeolmi Shaved Ice",
+                "Injeolmi Shaved Ice",
+                "Injeolmi Shaved Ice",
+                "Injeolmi Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -555,10 +555,10 @@
         {
             "id": 46,
             "name": [
-                "팥절미 빙수",
-                "팥절미 빙수",
-                "팥절미 빙수",
-                "팥절미 빙수"
+                "Red Bean Injeolmi Shaved Ice",
+                "Red Bean Injeolmi Shaved Ice",
+                "Red Bean Injeolmi Shaved Ice",
+                "Red Bean Injeolmi Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -567,10 +567,10 @@
         {
             "id": 47,
             "name": [
-                "딸기",
-                "딸기",
-                "딸기",
-                "딸기"
+                "Strawberry",
+                "Strawberry",
+                "Strawberry",
+                "Strawberry"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -579,10 +579,10 @@
         {
             "id": 48,
             "name": [
-                "썬 딸기",
-                "썬 딸기",
-                "썬 딸기",
-                "썬 딸기"
+                "Sliced Strawberry",
+                "Sliced Strawberry",
+                "Sliced Strawberry",
+                "Sliced Strawberry"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -591,10 +591,10 @@
         {
             "id": 49,
             "name": [
-                "딸기 빙수",
-                "딸기 빙수",
-                "딸기 빙수",
-                "딸기 빙수"
+                "Strawberry Shaved Ice",
+                "Strawberry Shaved Ice",
+                "Strawberry Shaved Ice",
+                "Strawberry Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -603,10 +603,10 @@
         {
             "id": 50,
             "name": [
-                "초코 빙수",
-                "초코 빙수",
-                "초코 빙수",
-                "초코 빙수"
+                "Chocolate Shaved Ice",
+                "Chocolate Shaved Ice",
+                "Chocolate Shaved Ice",
+                "Chocolate Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -615,10 +615,10 @@
         {
             "id": 51,
             "name": [
-                "딸기초코 빙수",
-                "딸기초코 빙수",
-                "딸기초코 빙수",
-                "딸기초코 빙수"
+                "Strawberry Chocolate Shaved Ice",
+                "Strawberry Chocolate Shaved Ice",
+                "Strawberry Chocolate Shaved Ice",
+                "Strawberry Chocolate Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -627,10 +627,10 @@
         {
             "id": 52,
             "name": [
-                "녹차가루",
-                "녹차가루",
-                "녹차가루",
-                "녹차가루"
+                "Matcha Powder",
+                "Matcha Powder",
+                "Matcha Powder",
+                "Matcha Powder"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -639,10 +639,10 @@
         {
             "id": 53,
             "name": [
-                "녹차 빙수",
-                "녹차 빙수",
-                "녹차 빙수",
-                "녹차 빙수"
+                "Matcha Shaved Ice",
+                "Matcha Shaved Ice",
+                "Matcha Shaved Ice",
+                "Matcha Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -651,10 +651,10 @@
         {
             "id": 54,
             "name": [
-                "녹차 팥빙수",
-                "녹차 팥빙수",
-                "녹차 팥빙수",
-                "녹차 팥빙수"
+                "Matcha Red Bean Shaved Ice",
+                "Matcha Red Bean Shaved Ice",
+                "Matcha Red Bean Shaved Ice",
+                "Matcha Red Bean Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -663,10 +663,10 @@
         {
             "id": 55,
             "name": [
-                "녹차초코 빙수",
-                "녹차초코 빙수",
-                "녹차초코 빙수",
-                "녹차초코 빙수"
+                "Matcha Chocolate Shaved Ice",
+                "Matcha Chocolate Shaved Ice",
+                "Matcha Chocolate Shaved Ice",
+                "Matcha Chocolate Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -675,10 +675,10 @@
         {
             "id": 56,
             "name": [
-                "초콜릿",
-                "초콜릿",
-                "초콜릿",
-                "초콜릿"
+                "Chocolate",
+                "Chocolate",
+                "Chocolate",
+                "Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -687,10 +687,10 @@
         {
             "id": 57,
             "name": [
-                "초콜릿 칩",
-                "초콜릿 칩",
-                "초콜릿 칩",
-                "초콜릿 칩"
+                "Chocolate Chips",
+                "Chocolate Chips",
+                "Chocolate Chips",
+                "Chocolate Chips"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -699,10 +699,10 @@
         {
             "id": 58,
             "name": [
-                "녹인 초콜릿",
-                "녹인 초콜릿",
-                "녹인 초콜릿",
-                "녹인 초콜릿"
+                "Melted Chocolate",
+                "Melted Chocolate",
+                "Melted Chocolate",
+                "Melted Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -711,10 +711,10 @@
         {
             "id": 59,
             "name": [
-                "초코우유",
-                "초코우유",
-                "초코우유",
-                "초코우유"
+                "Chocolate Milk",
+                "Chocolate Milk",
+                "Chocolate Milk",
+                "Chocolate Milk"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -723,10 +723,10 @@
         {
             "id": 60,
             "name": [
-                "민트 시럽",
-                "민트 시럽",
-                "민트 시럽",
-                "민트 시럽"
+                "Mint Syrup",
+                "Mint Syrup",
+                "Mint Syrup",
+                "Mint Syrup"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -735,10 +735,10 @@
         {
             "id": 61,
             "name": [
-                "민트초코우유",
-                "민트초코우유",
-                "민트초코우유",
-                "민트초코우유"
+                "Mint Chocolate Milk",
+                "Mint Chocolate Milk",
+                "Mint Chocolate Milk",
+                "Mint Chocolate Milk"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -747,10 +747,10 @@
         {
             "id": 62,
             "name": [
-                "쿠키 반죽",
-                "쿠키 반죽",
-                "쿠키 반죽",
-                "쿠키 반죽"
+                "Cookie Dough",
+                "Cookie Dough",
+                "Cookie Dough",
+                "Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -759,10 +759,10 @@
         {
             "id": 63,
             "name": [
-                "쿠키",
-                "쿠키",
-                "쿠키",
-                "쿠키"
+                "Cookie",
+                "Cookie",
+                "Cookie",
+                "Cookie"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -771,10 +771,10 @@
         {
             "id": 64,
             "name": [
-                "초코칩 쿠키 반죽",
-                "초코칩 쿠키 반죽",
-                "초코칩 쿠키 반죽",
-                "초코칩 쿠키 반죽"
+                "Chocolate Chip Cookie Dough",
+                "Chocolate Chip Cookie Dough",
+                "Chocolate Chip Cookie Dough",
+                "Chocolate Chip Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -783,10 +783,10 @@
         {
             "id": 65,
             "name": [
-                "초코칩 쿠키",
-                "초코칩 쿠키",
-                "초코칩 쿠키",
-                "초코칩 쿠키"
+                "Chocolate Chip Cookie",
+                "Chocolate Chip Cookie",
+                "Chocolate Chip Cookie",
+                "Chocolate Chip Cookie"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -795,10 +795,10 @@
         {
             "id": 66,
             "name": [
-                "초코 쿠키 반죽",
-                "초코 쿠키 반죽",
-                "초코 쿠키 반죽",
-                "초코 쿠키 반죽"
+                "Chocolate Cookie Dough",
+                "Chocolate Cookie Dough",
+                "Chocolate Cookie Dough",
+                "Chocolate Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -807,10 +807,10 @@
         {
             "id": 67,
             "name": [
-                "초코 쿠키",
-                "초코 쿠키",
-                "초코 쿠키",
-                "초코 쿠키"
+                "Chocolate Cookie",
+                "Chocolate Cookie",
+                "Chocolate Cookie",
+                "Chocolate Cookie"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -819,10 +819,10 @@
         {
             "id": 68,
             "name": [
-                "아몬드",
-                "아몬드",
-                "아몬드",
-                "아몬드"
+                "Almond",
+                "Almond",
+                "Almond",
+                "Almond"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -831,10 +831,10 @@
         {
             "id": 69,
             "name": [
-                "아몬드 슬라이스",
-                "아몬드 슬라이스",
-                "아몬드 슬라이스",
-                "아몬드 슬라이스"
+                "Sliced Almonds",
+                "Sliced Almonds",
+                "Sliced Almonds",
+                "Sliced Almonds"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -843,10 +843,10 @@
         {
             "id": 70,
             "name": [
-                "구운 아몬드",
-                "구운 아몬드",
-                "구운 아몬드",
-                "구운 아몬드"
+                "Roasted Almonds",
+                "Roasted Almonds",
+                "Roasted Almonds",
+                "Roasted Almonds"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -855,10 +855,10 @@
         {
             "id": 71,
             "name": [
-                "아몬드 초콜릿",
-                "아몬드 초콜릿",
-                "아몬드 초콜릿",
-                "아몬드 초콜릿"
+                "Almond Chocolate",
+                "Almond Chocolate",
+                "Almond Chocolate",
+                "Almond Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -867,10 +867,10 @@
         {
             "id": 72,
             "name": [
-                "통 아몬드 쿠키 반죽",
-                "통 아몬드 쿠키 반죽",
-                "통 아몬드 쿠키 반죽",
-                "통 아몬드 쿠키 반죽"
+                "Whole Almond Cookie Dough",
+                "Whole Almond Cookie Dough",
+                "Whole Almond Cookie Dough",
+                "Whole Almond Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -879,10 +879,10 @@
         {
             "id": 73,
             "name": [
-                "통 아몬드 쿠키",
-                "통 아몬드 쿠키",
-                "통 아몬드 쿠키",
-                "통 아몬드 쿠키"
+                "Whole Almond Cookie",
+                "Whole Almond Cookie",
+                "Whole Almond Cookie",
+                "Whole Almond Cookie"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -891,10 +891,10 @@
         {
             "id": 74,
             "name": [
-                "아몬드 쿠키 반죽",
-                "아몬드 쿠키 반죽",
-                "아몬드 쿠키 반죽",
-                "아몬드 쿠키 반죽"
+                "Almond Cookie Dough",
+                "Almond Cookie Dough",
+                "Almond Cookie Dough",
+                "Almond Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -903,10 +903,10 @@
         {
             "id": 75,
             "name": [
-                "아몬드 쿠키",
-                "아몬드 쿠키",
-                "아몬드 쿠키",
-                "아몬드 쿠키"
+                "Almond Cookie",
+                "Almond Cookie",
+                "Almond Cookie",
+                "Almond Cookie"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -915,10 +915,10 @@
         {
             "id": 76,
             "name": [
-                "아몬드 초코칩 쿠키 반죽",
-                "아몬드 초코칩 쿠키 반죽",
-                "아몬드 초코칩 쿠키 반죽",
-                "아몬드 초코칩 쿠키 반죽"
+                "Almond Choco Chip Cookie Dough",
+                "Almond Choco Chip Cookie Dough",
+                "Almond Choco Chip Cookie Dough",
+                "Almond Choco Chip Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -927,10 +927,10 @@
         {
             "id": 77,
             "name": [
-                "아몬드 초코칩 쿠키",
-                "아몬드 초코칩 쿠키",
-                "아몬드 초코칩 쿠키",
-                "아몬드 초코칩 쿠키"
+                "Almond Choco Chip Cookie",
+                "Almond Choco Chip Cookie",
+                "Almond Choco Chip Cookie",
+                "Almond Choco Chip Cookie"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -939,10 +939,10 @@
         {
             "id": 78,
             "name": [
-                "아이스 초코",
-                "아이스 초코",
-                "아이스 초코",
-                "아이스 초코"
+                "Iced Chocolate",
+                "Iced Chocolate",
+                "Iced Chocolate",
+                "Iced Chocolate"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -951,10 +951,10 @@
         {
             "id": 79,
             "name": [
-                "초코 프라페",
-                "초코 프라페",
-                "초코 프라페",
-                "초코 프라페"
+                "Chocolate Frappe",
+                "Chocolate Frappe",
+                "Chocolate Frappe",
+                "Chocolate Frappe"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -963,10 +963,10 @@
         {
             "id": 80,
             "name": [
-                "아이스 민트초코",
-                "아이스 민트초코",
-                "아이스 민트초코",
-                "아이스 민트초코"
+                "Iced Mint Chocolate",
+                "Iced Mint Chocolate",
+                "Iced Mint Chocolate",
+                "Iced Mint Chocolate"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -975,10 +975,10 @@
         {
             "id": 81,
             "name": [
-                "민트초코 프라페",
-                "민트초코 프라페",
-                "민트초코 프라페",
-                "민트초코 프라페"
+                "Mint Chocolate Frappe",
+                "Mint Chocolate Frappe",
+                "Mint Chocolate Frappe",
+                "Mint Chocolate Frappe"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -987,10 +987,10 @@
         {
             "id": 82,
             "name": [
-                "늘린 빵 반죽",
-                "늘린 빵 반죽",
-                "늘린 빵 반죽",
-                "늘린 빵 반죽"
+                "Stretched Bread Dough",
+                "Stretched Bread Dough",
+                "Stretched Bread Dough",
+                "Stretched Bread Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -999,10 +999,10 @@
         {
             "id": 83,
             "name": [
-                "베이글 반죽",
-                "베이글 반죽",
-                "베이글 반죽",
-                "베이글 반죽"
+                "Bagel Dough",
+                "Bagel Dough",
+                "Bagel Dough",
+                "Bagel Dough"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1011,10 +1011,10 @@
         {
             "id": 84,
             "name": [
-                "베이글",
-                "베이글",
-                "베이글",
-                "베이글"
+                "Bagel",
+                "Bagel",
+                "Bagel",
+                "Bagel"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1023,10 +1023,10 @@
         {
             "id": 85,
             "name": [
-                "설탕",
-                "설탕",
-                "설탕",
-                "설탕"
+                "Sugar",
+                "Sugar",
+                "Sugar",
+                "Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1035,10 +1035,10 @@
         {
             "id": 86,
             "name": [
-                "녹인 설탕",
-                "녹인 설탕",
-                "녹인 설탕",
-                "녹인 설탕"
+                "Melted Sugar",
+                "Melted Sugar",
+                "Melted Sugar",
+                "Melted Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1047,10 +1047,10 @@
         {
             "id": 87,
             "name": [
-                "호떡 반죽",
-                "호떡 반죽",
-                "호떡 반죽",
-                "호떡 반죽"
+                "Hotteok Batter",
+                "Hotteok Batter",
+                "Hotteok Batter",
+                "Hotteok Batter"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1059,10 +1059,10 @@
         {
             "id": 88,
             "name": [
-                "호떡",
-                "호떡",
-                "호떡",
-                "호떡"
+                "Hotteok",
+                "Hotteok",
+                "Hotteok",
+                "Hotteok"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1071,10 +1071,10 @@
         {
             "id": 89,
             "name": [
-                "도넛",
-                "도넛",
-                "도넛",
-                "도넛"
+                "Donut",
+                "Donut",
+                "Donut",
+                "Donut"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1083,10 +1083,10 @@
         {
             "id": 90,
             "name": [
-                "설탕 도넛",
-                "설탕 도넛",
-                "설탕 도넛",
-                "설탕 도넛"
+                "Sugar Donut",
+                "Sugar Donut",
+                "Sugar Donut",
+                "Sugar Donut"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1095,10 +1095,10 @@
         {
             "id": 91,
             "name": [
-                "글레이즈 도넛",
-                "글레이즈 도넛",
-                "글레이즈 도넛",
-                "글레이즈 도넛"
+                "Glazed Donut",
+                "Glazed Donut",
+                "Glazed Donut",
+                "Glazed Donut"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1107,10 +1107,10 @@
         {
             "id": 92,
             "name": [
-                "으깬 딸기",
-                "으깬 딸기",
-                "으깬 딸기",
-                "으깬 딸기"
+                "Mashed Strawberry",
+                "Mashed Strawberry",
+                "Mashed Strawberry",
+                "Mashed Strawberry"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1119,10 +1119,10 @@
         {
             "id": 93,
             "name": [
-                "딸기+설탕",
-                "딸기+설탕",
-                "딸기+설탕",
-                "딸기+설탕"
+                "Strawberry+Sugar",
+                "Strawberry+Sugar",
+                "Strawberry+Sugar",
+                "Strawberry+Sugar"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1131,10 +1131,10 @@
         {
             "id": 94,
             "name": [
-                "딸기잼",
-                "딸기잼",
-                "딸기잼",
-                "딸기잼"
+                "Strawberry Jam",
+                "Strawberry Jam",
+                "Strawberry Jam",
+                "Strawberry Jam"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1143,10 +1143,10 @@
         {
             "id": 95,
             "name": [
-                "딸기잼 도넛",
-                "딸기잼 도넛",
-                "딸기잼 도넛",
-                "딸기잼 도넛"
+                "Strawberry Jam Donut",
+                "Strawberry Jam Donut",
+                "Strawberry Jam Donut",
+                "Strawberry Jam Donut"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1155,10 +1155,10 @@
         {
             "id": 96,
             "name": [
-                "초코 도넛",
-                "초코 도넛",
-                "초코 도넛",
-                "초코 도넛"
+                "Choco Donut",
+                "Choco Donut",
+                "Choco Donut",
+                "Choco Donut"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1167,10 +1167,10 @@
         {
             "id": 97,
             "name": [
-                "생크림",
-                "생크림",
-                "생크림",
-                "생크림"
+                "Whipped Cream",
+                "Whipped Cream",
+                "Whipped Cream",
+                "Whipped Cream"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1179,10 +1179,10 @@
         {
             "id": 98,
             "name": [
-                "생크림 도넛",
-                "생크림 도넛",
-                "생크림 도넛",
-                "생크림 도넛"
+                "Whipped Cream Donut",
+                "Whipped Cream Donut",
+                "Whipped Cream Donut",
+                "Whipped Cream Donut"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1191,10 +1191,10 @@
         {
             "id": 99,
             "name": [
-                "딸기크림",
-                "딸기크림",
-                "딸기크림",
-                "딸기크림"
+                "Strawberry Cream",
+                "Strawberry Cream",
+                "Strawberry Cream",
+                "Strawberry Cream"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1203,10 +1203,10 @@
         {
             "id": 100,
             "name": [
-                "딸기크림 도넛",
-                "딸기크림 도넛",
-                "딸기크림 도넛",
-                "딸기크림 도넛"
+                "Strawberry Cream Donut",
+                "Strawberry Cream Donut",
+                "Strawberry Cream Donut",
+                "Strawberry Cream Donut"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -1215,10 +1215,10 @@
         {
             "id": 101,
             "name": [
-                "초코크림",
-                "초코크림",
-                "초코크림",
-                "초코크림"
+                "Chocolate Cream",
+                "Chocolate Cream",
+                "Chocolate Cream",
+                "Chocolate Cream"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1227,10 +1227,10 @@
         {
             "id": 102,
             "name": [
-                "초코크림 도넛",
-                "초코크림 도넛",
-                "초코크림 도넛",
-                "초코크림 도넛"
+                "Chocolate Cream Donut",
+                "Chocolate Cream Donut",
+                "Chocolate Cream Donut",
+                "Chocolate Cream Donut"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1239,10 +1239,10 @@
         {
             "id": 103,
             "name": [
-                "녹차크림",
-                "녹차크림",
-                "녹차크림",
-                "녹차크림"
+                "Matcha Cream",
+                "Matcha Cream",
+                "Matcha Cream",
+                "Matcha Cream"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1251,10 +1251,10 @@
         {
             "id": 104,
             "name": [
-                "녹차크림 도넛",
-                "녹차크림 도넛",
-                "녹차크림 도넛",
-                "녹차크림 도넛"
+                "Matcha Cream Donut",
+                "Matcha Cream Donut",
+                "Matcha Cream Donut",
+                "Matcha Cream Donut"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1263,10 +1263,10 @@
         {
             "id": 105,
             "name": [
-                "찻잎",
-                "찻잎",
-                "찻잎",
-                "찻잎"
+                "Tea Leaves",
+                "Tea Leaves",
+                "Tea Leaves",
+                "Tea Leaves"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1275,10 +1275,10 @@
         {
             "id": 106,
             "name": [
-                "찻잎+물",
-                "찻잎+물",
-                "찻잎+물",
-                "찻잎+물"
+                "Matcha+Water",
+                "Matcha+Water",
+                "Matcha+Water",
+                "Matcha+Water"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -1287,10 +1287,10 @@
         {
             "id": 107,
             "name": [
-                "녹차",
-                "녹차",
-                "녹차",
-                "녹차"
+                "Matcha",
+                "Matcha",
+                "Matcha",
+                "Matcha"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -1299,10 +1299,10 @@
         {
             "id": 108,
             "name": [
-                "우롱차 잎",
-                "우롱차 잎",
-                "우롱차 잎",
-                "우롱차 잎"
+                "Oolong Tea Leaves",
+                "Oolong Tea Leaves",
+                "Oolong Tea Leaves",
+                "Oolong Tea Leaves"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1311,10 +1311,10 @@
         {
             "id": 109,
             "name": [
-                "우롱차 잎+물",
-                "우롱차 잎+물",
-                "우롱차 잎+물",
-                "우롱차 잎+물"
+                "Oolong Tea Leaves+Water",
+                "Oolong Tea Leaves+Water",
+                "Oolong Tea Leaves+Water",
+                "Oolong Tea Leaves+Water"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1323,10 +1323,10 @@
         {
             "id": 110,
             "name": [
-                "우롱차",
-                "우롱차",
-                "우롱차",
-                "우롱차"
+                "Oolong Tea",
+                "Oolong Tea",
+                "Oolong Tea",
+                "Oolong Tea"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1335,10 +1335,10 @@
         {
             "id": 111,
             "name": [
-                "비빈 찻잎",
-                "비빈 찻잎",
-                "비빈 찻잎",
-                "비빈 찻잎"
+                "Brewed Tea Leaves",
+                "Brewed Tea Leaves",
+                "Brewed Tea Leaves",
+                "Brewed Tea Leaves"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1347,10 +1347,10 @@
         {
             "id": 112,
             "name": [
-                "홍차 잎",
-                "홍차 잎",
-                "홍차 잎",
-                "홍차 잎"
+                "Black Tea Leaves",
+                "Black Tea Leaves",
+                "Black Tea Leaves",
+                "Black Tea Leaves"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1359,10 +1359,10 @@
         {
             "id": 113,
             "name": [
-                "홍차 잎+물",
-                "홍차 잎+물",
-                "홍차 잎+물",
-                "홍차 잎+물"
+                "Black Tea Leaves+Water",
+                "Black Tea Leaves+Water",
+                "Black Tea Leaves+Water",
+                "Black Tea Leaves+Water"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1371,10 +1371,10 @@
         {
             "id": 114,
             "name": [
-                "홍차",
-                "홍차",
-                "홍차",
-                "홍차"
+                "Black Tea",
+                "Black Tea",
+                "Black Tea",
+                "Black Tea"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -1383,10 +1383,10 @@
         {
             "id": 115,
             "name": [
-                "허브",
-                "허브",
-                "허브",
-                "허브"
+                "Herbs",
+                "Herbs",
+                "Herbs",
+                "Herbs"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -1395,10 +1395,10 @@
         {
             "id": 116,
             "name": [
-                "말린 허브",
-                "말린 허브",
-                "말린 허브",
-                "말린 허브"
+                "Dried Herbs",
+                "Dried Herbs",
+                "Dried Herbs",
+                "Dried Herbs"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1407,10 +1407,10 @@
         {
             "id": 117,
             "name": [
-                "허브+물",
-                "허브+물",
-                "허브+물",
-                "허브+물"
+                "Herbs+Water",
+                "Herbs+Water",
+                "Herbs+Water",
+                "Herbs+Water"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1419,10 +1419,10 @@
         {
             "id": 118,
             "name": [
-                "허브티",
-                "허브티",
-                "허브티",
-                "허브티"
+                "Herbal Tea",
+                "Herbal Tea",
+                "Herbal Tea",
+                "Herbal Tea"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1431,10 +1431,10 @@
         {
             "id": 119,
             "name": [
-                "아이스티",
-                "아이스티",
-                "아이스티",
-                "아이스티"
+                "Iced Tea",
+                "Iced Tea",
+                "Iced Tea",
+                "Iced Tea"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1443,10 +1443,10 @@
         {
             "id": 120,
             "name": [
-                "우유+설탕",
-                "우유+설탕",
-                "우유+설탕",
-                "우유+설탕"
+                "Milk+Sugar",
+                "Milk+Sugar",
+                "Milk+Sugar",
+                "Milk+Sugar"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1455,10 +1455,10 @@
         {
             "id": 121,
             "name": [
-                "끓인 물",
-                "끓인 물",
-                "끓인 물",
-                "끓인 물"
+                "Boiled Water",
+                "Boiled Water",
+                "Boiled Water",
+                "Boiled Water"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1467,10 +1467,10 @@
         {
             "id": 122,
             "name": [
-                "흑당 펄",
-                "흑당 펄",
-                "흑당 펄",
-                "흑당 펄"
+                "Brown Sugar Pearls",
+                "Brown Sugar Pearls",
+                "Brown Sugar Pearls",
+                "Brown Sugar Pearls"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1479,10 +1479,10 @@
         {
             "id": 123,
             "name": [
-                "밀크티",
-                "밀크티",
-                "밀크티",
-                "밀크티"
+                "Milk Tea",
+                "Milk Tea",
+                "Milk Tea",
+                "Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1491,10 +1491,10 @@
         {
             "id": 124,
             "name": [
-                "녹차 밀크티",
-                "녹차 밀크티",
-                "녹차 밀크티",
-                "녹차 밀크티"
+                "Matcha Milk Tea",
+                "Matcha Milk Tea",
+                "Matcha Milk Tea",
+                "Matcha Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1503,10 +1503,10 @@
         {
             "id": 125,
             "name": [
-                "우롱 밀크티",
-                "우롱 밀크티",
-                "우롱 밀크티",
-                "우롱 밀크티"
+                "Oolong Milk Tea",
+                "Oolong Milk Tea",
+                "Oolong Milk Tea",
+                "Oolong Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1515,10 +1515,10 @@
         {
             "id": 126,
             "name": [
-                "허브 밀크티",
-                "허브 밀크티",
-                "허브 밀크티",
-                "허브 밀크티"
+                "Herbal Milk Tea",
+                "Herbal Milk Tea",
+                "Herbal Milk Tea",
+                "Herbal Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1527,10 +1527,10 @@
         {
             "id": 127,
             "name": [
-                "타피오카 펄",
-                "타피오카 펄",
-                "타피오카 펄",
-                "타피오카 펄"
+                "Tapioca Pearls",
+                "Tapioca Pearls",
+                "Tapioca Pearls",
+                "Tapioca Pearls"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1539,10 +1539,10 @@
         {
             "id": 128,
             "name": [
-                "삶은 펄",
-                "삶은 펄",
-                "삶은 펄",
-                "삶은 펄"
+                "Cooked Tapioca Pearls",
+                "Cooked Tapioca Pearls",
+                "Cooked Tapioca Pearls",
+                "Cooked Tapioca Pearls"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -1551,10 +1551,10 @@
         {
             "id": 129,
             "name": [
-                "버블티",
-                "버블티",
-                "버블티",
-                "버블티"
+                "Bubble Tea",
+                "Bubble Tea",
+                "Bubble Tea",
+                "Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1563,10 +1563,10 @@
         {
             "id": 130,
             "name": [
-                "녹차 버블티",
-                "녹차 버블티",
-                "녹차 버블티",
-                "녹차 버블티"
+                "Matcha Bubble Tea",
+                "Matcha Bubble Tea",
+                "Matcha Bubble Tea",
+                "Matcha Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1575,10 +1575,10 @@
         {
             "id": 131,
             "name": [
-                "우롱 버블티",
-                "우롱 버블티",
-                "우롱 버블티",
-                "우롱 버블티"
+                "Oolong Bubble Tea",
+                "Oolong Bubble Tea",
+                "Oolong Bubble Tea",
+                "Oolong Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1587,10 +1587,10 @@
         {
             "id": 132,
             "name": [
-                "허브 버블티",
-                "허브 버블티",
-                "허브 버블티",
-                "허브 버블티"
+                "Herbal Bubble Tea",
+                "Herbal Bubble Tea",
+                "Herbal Bubble Tea",
+                "Herbal Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1599,10 +1599,10 @@
         {
             "id": 133,
             "name": [
-                "설탕물",
-                "설탕물",
-                "설탕물",
-                "설탕물"
+                "Sugar Water",
+                "Sugar Water",
+                "Sugar Water",
+                "Sugar Water"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1611,10 +1611,10 @@
         {
             "id": 134,
             "name": [
-                "설탕 시럽",
-                "설탕 시럽",
-                "설탕 시럽",
-                "설탕 시럽"
+                "Sugar Syrup",
+                "Sugar Syrup",
+                "Sugar Syrup",
+                "Sugar Syrup"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -1623,10 +1623,10 @@
         {
             "id": 135,
             "name": [
-                "흑당 밀크티",
-                "흑당 밀크티",
-                "흑당 밀크티",
-                "흑당 밀크티"
+                "Brown Sugar Milk Tea",
+                "Brown Sugar Milk Tea",
+                "Brown Sugar Milk Tea",
+                "Brown Sugar Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1635,10 +1635,10 @@
         {
             "id": 136,
             "name": [
-                "흑당 버블티",
-                "흑당 버블티",
-                "흑당 버블티",
-                "흑당 버블티"
+                "Brown Sugar Bubble Tea",
+                "Brown Sugar Bubble Tea",
+                "Brown Sugar Bubble Tea",
+                "Brown Sugar Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -1647,10 +1647,10 @@
         {
             "id": 137,
             "name": [
-                "아몬드 가루",
-                "아몬드 가루",
-                "아몬드 가루",
-                "아몬드 가루"
+                "Almond Flour",
+                "Almond Flour",
+                "Almond Flour",
+                "Almond Flour"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1659,10 +1659,10 @@
         {
             "id": 138,
             "name": [
-                "달걀",
-                "달걀",
-                "달걀",
-                "달걀"
+                "Egg",
+                "Egg",
+                "Egg",
+                "Egg"
             ],
             "canMelt": false,
             "colorCode": "W",
@@ -1671,10 +1671,10 @@
         {
             "id": 139,
             "name": [
-                "깐 달걀",
-                "깐 달걀",
-                "깐 달걀",
-                "깐 달걀"
+                "Peeled Egg",
+                "Peeled Egg",
+                "Peeled Egg",
+                "Peeled Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1683,10 +1683,10 @@
         {
             "id": 140,
             "name": [
-                "흰자",
-                "흰자",
-                "흰자",
-                "흰자"
+                "Egg White",
+                "Egg White",
+                "Egg White",
+                "Egg White"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1695,10 +1695,10 @@
         {
             "id": 141,
             "name": [
-                "노른자",
-                "노른자",
-                "노른자",
-                "노른자"
+                "Egg Yolk",
+                "Egg Yolk",
+                "Egg Yolk",
+                "Egg Yolk"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1707,10 +1707,10 @@
         {
             "id": 142,
             "name": [
-                "섞인 달걀",
-                "섞인 달걀",
-                "섞인 달걀",
-                "섞인 달걀"
+                "Mixed Egg",
+                "Mixed Egg",
+                "Mixed Egg",
+                "Mixed Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -1719,10 +1719,10 @@
         {
             "id": 143,
             "name": [
-                "버터",
-                "버터",
-                "버터",
-                "버터"
+                "Butter",
+                "Butter",
+                "Butter",
+                "Butter"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1731,10 +1731,10 @@
         {
             "id": 144,
             "name": [
-                "으깬 버터",
-                "으깬 버터",
-                "으깬 버터",
-                "으깬 버터"
+                "Mashed Butter",
+                "Mashed Butter",
+                "Mashed Butter",
+                "Mashed Butter"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1743,10 +1743,10 @@
         {
             "id": 145,
             "name": [
-                "커스터드 크림",
-                "커스터드 크림",
-                "커스터드 크림",
-                "커스터드 크림"
+                "Custard Cream",
+                "Custard Cream",
+                "Custard Cream",
+                "Custard Cream"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -1755,10 +1755,10 @@
         {
             "id": 146,
             "name": [
-                "푸딩",
-                "푸딩",
-                "푸딩",
-                "푸딩"
+                "Pudding",
+                "Pudding",
+                "Pudding",
+                "Pudding"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1767,10 +1767,10 @@
         {
             "id": 147,
             "name": [
-                "크림 브륄레",
-                "크림 브륄레",
-                "크림 브륄레",
-                "크림 브륄레"
+                "Crème Brûlée",
+                "Crème Brûlée",
+                "Crème Brûlée",
+                "Crème Brûlée"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1779,10 +1779,10 @@
         {
             "id": 148,
             "name": [
-                "버터 필링",
-                "버터 필링",
-                "버터 필링",
-                "버터 필링"
+                "Butter Filling",
+                "Butter Filling",
+                "Butter Filling",
+                "Butter Filling"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1791,10 +1791,10 @@
         {
             "id": 149,
             "name": [
-                "녹차 필링",
-                "녹차 필링",
-                "녹차 필링",
-                "녹차 필링"
+                "Matcha Filling",
+                "Matcha Filling",
+                "Matcha Filling",
+                "Matcha Filling"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1803,10 +1803,10 @@
         {
             "id": 150,
             "name": [
-                "홍차가루",
-                "홍차가루",
-                "홍차가루",
-                "홍차가루"
+                "Black Tea Powder",
+                "Black Tea Powder",
+                "Black Tea Powder",
+                "Black Tea Powder"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1815,10 +1815,10 @@
         {
             "id": 151,
             "name": [
-                "얼그레이 필링",
-                "얼그레이 필링",
-                "얼그레이 필링",
-                "얼그레이 필링"
+                "Earl Grey Filling",
+                "Earl Grey Filling",
+                "Earl Grey Filling",
+                "Earl Grey Filling"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1827,10 +1827,10 @@
         {
             "id": 152,
             "name": [
-                "흰자+설탕",
-                "흰자+설탕",
-                "흰자+설탕",
-                "흰자+설탕"
+                "Egg White+Sugar",
+                "Egg White+Sugar",
+                "Egg White+Sugar",
+                "Egg White+Sugar"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1839,10 +1839,10 @@
         {
             "id": 153,
             "name": [
-                "머랭",
-                "머랭",
-                "머랭",
-                "머랭"
+                "Meringue",
+                "Meringue",
+                "Meringue",
+                "Meringue"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1851,10 +1851,10 @@
         {
             "id": 154,
             "name": [
-                "머랭 쿠키",
-                "머랭 쿠키",
-                "머랭 쿠키",
-                "머랭 쿠키"
+                "Meringue Cookie",
+                "Meringue Cookie",
+                "Meringue Cookie",
+                "Meringue Cookie"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1863,10 +1863,10 @@
         {
             "id": 155,
             "name": [
-                "마카롱 반죽",
-                "마카롱 반죽",
-                "마카롱 반죽",
-                "마카롱 반죽"
+                "Macaron Batter",
+                "Macaron Batter",
+                "Macaron Batter",
+                "Macaron Batter"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1875,10 +1875,10 @@
         {
             "id": 156,
             "name": [
-                "마카롱 꼬끄",
-                "마카롱 꼬끄",
-                "마카롱 꼬끄",
-                "마카롱 꼬끄"
+                "Macaron Shells",
+                "Macaron Shells",
+                "Macaron Shells",
+                "Macaron Shells"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1887,10 +1887,10 @@
         {
             "id": 157,
             "name": [
-                "마카롱",
-                "마카롱",
-                "마카롱",
-                "마카롱"
+                "Macaron",
+                "Macaron",
+                "Macaron",
+                "Macaron"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -1899,10 +1899,10 @@
         {
             "id": 158,
             "name": [
-                "녹차 마카롱",
-                "녹차 마카롱",
-                "녹차 마카롱",
-                "녹차 마카롱"
+                "Matcha Macaron",
+                "Matcha Macaron",
+                "Matcha Macaron",
+                "Matcha Macaron"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -1911,10 +1911,10 @@
         {
             "id": 159,
             "name": [
-                "얼그레이 마카롱",
-                "얼그레이 마카롱",
-                "얼그레이 마카롱",
-                "얼그레이 마카롱"
+                "Earl Grey Macaron",
+                "Earl Grey Macaron",
+                "Earl Grey Macaron",
+                "Earl Grey Macaron"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -1923,10 +1923,10 @@
         {
             "id": 160,
             "name": [
-                "수플레 반죽",
-                "수플레 반죽",
-                "수플레 반죽",
-                "수플레 반죽"
+                "Soufflé Batter",
+                "Soufflé Batter",
+                "Soufflé Batter",
+                "Soufflé Batter"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -1935,10 +1935,10 @@
         {
             "id": 161,
             "name": [
-                "수플레 팬케이크",
-                "수플레 팬케이크",
-                "수플레 팬케이크",
-                "수플레 팬케이크"
+                "Soufflé Pancake",
+                "Soufflé Pancake",
+                "Soufflé Pancake",
+                "Soufflé Pancake"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1947,10 +1947,10 @@
         {
             "id": 162,
             "name": [
-                "크림화 버터",
-                "크림화 버터",
-                "크림화 버터",
-                "크림화 버터"
+                "Creamed Butter",
+                "Creamed Butter",
+                "Creamed Butter",
+                "Creamed Butter"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -1959,10 +1959,10 @@
         {
             "id": 163,
             "name": [
-                "버터+노른자",
-                "버터+노른자",
-                "버터+노른자",
-                "버터+노른자"
+                "Butter+Egg Yolk",
+                "Butter+Egg Yolk",
+                "Butter+Egg Yolk",
+                "Butter+Egg Yolk"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -1971,10 +1971,10 @@
         {
             "id": 164,
             "name": [
-                "계란 쿠키 반죽",
-                "계란 쿠키 반죽",
-                "계란 쿠키 반죽",
-                "계란 쿠키 반죽"
+                "Egg Cookie Dough",
+                "Egg Cookie Dough",
+                "Egg Cookie Dough",
+                "Egg Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -1983,10 +1983,10 @@
         {
             "id": 165,
             "name": [
-                "계란 쿠키",
-                "계란 쿠키",
-                "계란 쿠키",
-                "계란 쿠키"
+                "Egg Cookie",
+                "Egg Cookie",
+                "Egg Cookie",
+                "Egg Cookie"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -1995,10 +1995,10 @@
         {
             "id": 166,
             "name": [
-                "얼린 딸기",
-                "얼린 딸기",
-                "얼린 딸기",
-                "얼린 딸기"
+                "Frozen Strawberry",
+                "Frozen Strawberry",
+                "Frozen Strawberry",
+                "Frozen Strawberry"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2007,10 +2007,10 @@
         {
             "id": 167,
             "name": [
-                "딸기 주스",
-                "딸기 주스",
-                "딸기 주스",
-                "딸기 주스"
+                "Strawberry Juice",
+                "Strawberry Juice",
+                "Strawberry Juice",
+                "Strawberry Juice"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2019,10 +2019,10 @@
         {
             "id": 168,
             "name": [
-                "블루베리",
-                "블루베리",
-                "블루베리",
-                "블루베리"
+                "Blueberry",
+                "Blueberry",
+                "Blueberry",
+                "Blueberry"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2031,10 +2031,10 @@
         {
             "id": 169,
             "name": [
-                "얼린 블루베리",
-                "얼린 블루베리",
-                "얼린 블루베리",
-                "얼린 블루베리"
+                "Frozen Blueberry",
+                "Frozen Blueberry",
+                "Frozen Blueberry",
+                "Frozen Blueberry"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2043,10 +2043,10 @@
         {
             "id": 170,
             "name": [
-                "블루베리 주스",
-                "블루베리 주스",
-                "블루베리 주스",
-                "블루베리 주스"
+                "Blueberry Juice",
+                "Blueberry Juice",
+                "Blueberry Juice",
+                "Blueberry Juice"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2057,10 +2057,10 @@
         {
             "id": 171,
             "name": [
-                "망고",
-                "망고",
-                "망고",
-                "망고"
+                "Mango",
+                "Mango",
+                "Mango",
+                "Mango"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2069,10 +2069,10 @@
         {
             "id": 172,
             "name": [
-                "썬 망고",
-                "썬 망고",
-                "썬 망고",
-                "썬 망고"
+                "Sliced Mango",
+                "Sliced Mango",
+                "Sliced Mango",
+                "Sliced Mango"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2081,10 +2081,10 @@
         {
             "id": 173,
             "name": [
-                "얼린 망고",
-                "얼린 망고",
-                "얼린 망고",
-                "얼린 망고"
+                "Frozen Mango",
+                "Frozen Mango",
+                "Frozen Mango",
+                "Frozen Mango"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2093,10 +2093,10 @@
         {
             "id": 174,
             "name": [
-                "망고 주스",
-                "망고 주스",
-                "망고 주스",
-                "망고 주스"
+                "Mango Juice",
+                "Mango Juice",
+                "Mango Juice",
+                "Mango Juice"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2107,10 +2107,10 @@
         {
             "id": 175,
             "name": [
-                "바나나",
-                "바나나",
-                "바나나",
-                "바나나"
+                "Banana",
+                "Banana",
+                "Banana",
+                "Banana"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2119,10 +2119,10 @@
         {
             "id": 176,
             "name": [
-                "깐 바나나",
-                "깐 바나나",
-                "깐 바나나",
-                "깐 바나나"
+                "Peeled Banana",
+                "Peeled Banana",
+                "Peeled Banana",
+                "Peeled Banana"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2131,10 +2131,10 @@
         {
             "id": 177,
             "name": [
-                "얼린 바나나",
-                "얼린 바나나",
-                "얼린 바나나",
-                "얼린 바나나"
+                "Frozen Banana",
+                "Frozen Banana",
+                "Frozen Banana",
+                "Frozen Banana"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2143,10 +2143,10 @@
         {
             "id": 178,
             "name": [
-                "요거트 가루",
-                "요거트 가루",
-                "요거트 가루",
-                "요거트 가루"
+                "Yogurt Powder",
+                "Yogurt Powder",
+                "Yogurt Powder",
+                "Yogurt Powder"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2155,10 +2155,10 @@
         {
             "id": 179,
             "name": [
-                "요거트+우유",
-                "요거트+우유",
-                "요거트+우유",
-                "요거트+우유"
+                "Yogurt+Milk",
+                "Yogurt+Milk",
+                "Yogurt+Milk",
+                "Yogurt+Milk"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2167,10 +2167,10 @@
         {
             "id": 180,
             "name": [
-                "딸기+우유",
-                "딸기+우유",
-                "딸기+우유",
-                "딸기+우유"
+                "Strawberry+Milk",
+                "Strawberry+Milk",
+                "Strawberry+Milk",
+                "Strawberry+Milk"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2179,10 +2179,10 @@
         {
             "id": 181,
             "name": [
-                "딸기 스무디",
-                "딸기 스무디",
-                "딸기 스무디",
-                "딸기 스무디"
+                "Strawberry Smoothie",
+                "Strawberry Smoothie",
+                "Strawberry Smoothie",
+                "Strawberry Smoothie"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2191,10 +2191,10 @@
         {
             "id": 182,
             "name": [
-                "블루베리+우유",
-                "블루베리+우유",
-                "블루베리+우유",
-                "블루베리+우유"
+                "Blueberry+Milk",
+                "Blueberry+Milk",
+                "Blueberry+Milk",
+                "Blueberry+Milk"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2203,10 +2203,10 @@
         {
             "id": 183,
             "name": [
-                "블루베리 스무디",
-                "블루베리 스무디",
-                "블루베리 스무디",
-                "블루베리 스무디"
+                "Blueberry Smoothie",
+                "Blueberry Smoothie",
+                "Blueberry Smoothie",
+                "Blueberry Smoothie"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2215,10 +2215,10 @@
         {
             "id": 184,
             "name": [
-                "망고+우유",
-                "망고+우유",
-                "망고+우유",
-                "망고+우유"
+                "Mango+Milk",
+                "Mango+Milk",
+                "Mango+Milk",
+                "Mango+Milk"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2227,10 +2227,10 @@
         {
             "id": 185,
             "name": [
-                "망고 스무디",
-                "망고 스무디",
-                "망고 스무디",
-                "망고 스무디"
+                "Mango Smoothie",
+                "Mango Smoothie",
+                "Mango Smoothie",
+                "Mango Smoothie"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2239,10 +2239,10 @@
         {
             "id": 186,
             "name": [
-                "바나나+우유",
-                "바나나+우유",
-                "바나나+우유",
-                "바나나+우유"
+                "Banana+Milk",
+                "Banana+Milk",
+                "Banana+Milk",
+                "Banana+Milk"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2251,10 +2251,10 @@
         {
             "id": 187,
             "name": [
-                "딸기+바나나+우유",
-                "딸기+바나나+우유",
-                "딸기+바나나+우유",
-                "딸기+바나나+우유"
+                "Strawberry+Banana+Milk",
+                "Strawberry+Banana+Milk",
+                "Strawberry+Banana+Milk",
+                "Strawberry+Banana+Milk"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2263,10 +2263,10 @@
         {
             "id": 188,
             "name": [
-                "딸기바나나 스무디",
-                "딸기바나나 스무디",
-                "딸기바나나 스무디",
-                "딸기바나나 스무디"
+                "Strawberry Banana Smoothie",
+                "Strawberry Banana Smoothie",
+                "Strawberry Banana Smoothie",
+                "Strawberry Banana Smoothie"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2275,10 +2275,10 @@
         {
             "id": 189,
             "name": [
-                "망고+바나나+우유",
-                "망고+바나나+우유",
-                "망고+바나나+우유",
-                "망고+바나나+우유"
+                "Mango+Banana+Milk",
+                "Mango+Banana+Milk",
+                "Mango+Banana+Milk",
+                "Mango+Banana+Milk"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2287,10 +2287,10 @@
         {
             "id": 190,
             "name": [
-                "망고바나나 스무디",
-                "망고바나나 스무디",
-                "망고바나나 스무디",
-                "망고바나나 스무디"
+                "Mango Banana Smoothie",
+                "Mango Banana Smoothie",
+                "Mango Banana Smoothie",
+                "Mango Banana Smoothie"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2299,10 +2299,10 @@
         {
             "id": 191,
             "name": [
-                "딸기+블루베리+우유",
-                "딸기+블루베리+우유",
-                "딸기+블루베리+우유",
-                "딸기+블루베리+우유"
+                "Strawberry+Blueberry+Milk",
+                "Strawberry+Blueberry+Milk",
+                "Strawberry+Blueberry+Milk",
+                "Strawberry+Blueberry+Milk"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2311,10 +2311,10 @@
         {
             "id": 192,
             "name": [
-                "베리베리 스무디",
-                "베리베리 스무디",
-                "베리베리 스무디",
-                "베리베리 스무디"
+                "Mixed Berry Smoothie",
+                "Mixed Berry Smoothie",
+                "Mixed Berry Smoothie",
+                "Mixed Berry Smoothie"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2323,10 +2323,10 @@
         {
             "id": 193,
             "name": [
-                "딸기+요거트",
-                "딸기+요거트",
-                "딸기+요거트",
-                "딸기+요거트"
+                "Strawberry+Yogurt",
+                "Strawberry+Yogurt",
+                "Strawberry+Yogurt",
+                "Strawberry+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2335,10 +2335,10 @@
         {
             "id": 194,
             "name": [
-                "딸기 요거트 스무디",
-                "딸기 요거트 스무디",
-                "딸기 요거트 스무디",
-                "딸기 요거트 스무디"
+                "Strawberry Yogurt Smoothie",
+                "Strawberry Yogurt Smoothie",
+                "Strawberry Yogurt Smoothie",
+                "Strawberry Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -2347,10 +2347,10 @@
         {
             "id": 195,
             "name": [
-                "블루베리+요거트",
-                "블루베리+요거트",
-                "블루베리+요거트",
-                "블루베리+요거트"
+                "Blueberry+Yogurt",
+                "Blueberry+Yogurt",
+                "Blueberry+Yogurt",
+                "Blueberry+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -2359,10 +2359,10 @@
         {
             "id": 196,
             "name": [
-                "블루베리 요거트 스무디",
-                "블루베리 요거트 스무디",
-                "블루베리 요거트 스무디",
-                "블루베리 요거트 스무디"
+                "Blueberry Yogurt Smoothie",
+                "Blueberry Yogurt Smoothie",
+                "Blueberry Yogurt Smoothie",
+                "Blueberry Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -2371,10 +2371,10 @@
         {
             "id": 197,
             "name": [
-                "망고+요거트",
-                "망고+요거트",
-                "망고+요거트",
-                "망고+요거트"
+                "Mango+Yogurt",
+                "Mango+Yogurt",
+                "Mango+Yogurt",
+                "Mango+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2383,10 +2383,10 @@
         {
             "id": 198,
             "name": [
-                "망고 요거트 스무디",
-                "망고 요거트 스무디",
-                "망고 요거트 스무디",
-                "망고 요거트 스무디"
+                "Mango Yogurt Smoothie",
+                "Mango Yogurt Smoothie",
+                "Mango Yogurt Smoothie",
+                "Mango Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2395,10 +2395,10 @@
         {
             "id": 199,
             "name": [
-                "딸기+바나나+요거트",
-                "딸기+바나나+요거트",
-                "딸기+바나나+요거트",
-                "딸기+바나나+요거트"
+                "Strawberry+Banana+Yogurt",
+                "Strawberry+Banana+Yogurt",
+                "Strawberry+Banana+Yogurt",
+                "Strawberry+Banana+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2407,10 +2407,10 @@
         {
             "id": 200,
             "name": [
-                "딸기바나나 요거트 스무디",
-                "딸기바나나 요거트 스무디",
-                "딸기바나나 요거트 스무디",
-                "딸기바나나 요거트 스무디"
+                "Strawberry Banana Yogurt Smoothie",
+                "Strawberry Banana Yogurt Smoothie",
+                "Strawberry Banana Yogurt Smoothie",
+                "Strawberry Banana Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2419,10 +2419,10 @@
         {
             "id": 201,
             "name": [
-                "망고+바나나+요거트",
-                "망고+바나나+요거트",
-                "망고+바나나+요거트",
-                "망고+바나나+요거트"
+                "Mango+Banana+Yogurt",
+                "Mango+Banana+Yogurt",
+                "Mango+Banana+Yogurt",
+                "Mango+Banana+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2431,10 +2431,10 @@
         {
             "id": 202,
             "name": [
-                "망고바나나 요거트 스무디",
-                "망고바나나 요거트 스무디",
-                "망고바나나 요거트 스무디",
-                "망고바나나 요거트 스무디"
+                "Mango Banana Yogurt Smoothie",
+                "Mango Banana Yogurt Smoothie",
+                "Mango Banana Yogurt Smoothie",
+                "Mango Banana Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2443,10 +2443,10 @@
         {
             "id": 203,
             "name": [
-                "딸기+블루베리+요거트",
-                "딸기+블루베리+요거트",
-                "딸기+블루베리+요거트",
-                "딸기+블루베리+요거트"
+                "Strawberry+Blueberry+Yogurt",
+                "Strawberry+Blueberry+Yogurt",
+                "Strawberry+Blueberry+Yogurt",
+                "Strawberry+Blueberry+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2455,10 +2455,10 @@
         {
             "id": 204,
             "name": [
-                "베리베리 요거트 스무디",
-                "베리베리 요거트 스무디",
-                "베리베리 요거트 스무디",
-                "베리베리 요거트 스무디"
+                "Mixed Berry Yogurt Smoothie",
+                "Mixed Berry Yogurt Smoothie",
+                "Mixed Berry Yogurt Smoothie",
+                "Mixed Berry Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2467,10 +2467,10 @@
         {
             "id": 205,
             "name": [
-                "요거트 아이스크림",
-                "요거트 아이스크림",
-                "요거트 아이스크림",
-                "요거트 아이스크림"
+                "Yogurt Ice Cream",
+                "Yogurt Ice Cream",
+                "Yogurt Ice Cream",
+                "Yogurt Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2479,10 +2479,10 @@
         {
             "id": 206,
             "name": [
-                "딸기 요거트 아이스크림",
-                "딸기 요거트 아이스크림",
-                "딸기 요거트 아이스크림",
-                "딸기 요거트 아이스크림"
+                "Strawberry Yogurt Ice Cream",
+                "Strawberry Yogurt Ice Cream",
+                "Strawberry Yogurt Ice Cream",
+                "Strawberry Yogurt Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2491,10 +2491,10 @@
         {
             "id": 207,
             "name": [
-                "블루베리 요거트 아이스크림",
-                "블루베리 요거트 아이스크림",
-                "블루베리 요거트 아이스크림",
-                "블루베리 요거트 아이스크림"
+                "Blueberry Yogurt Ice Cream",
+                "Blueberry Yogurt Ice Cream",
+                "Blueberry Yogurt Ice Cream",
+                "Blueberry Yogurt Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -2503,10 +2503,10 @@
         {
             "id": 208,
             "name": [
-                "망고 요거트 아이스크림",
-                "망고 요거트 아이스크림",
-                "망고 요거트 아이스크림",
-                "망고 요거트 아이스크림"
+                "Mango Yogurt Ice Cream",
+                "Mango Yogurt Ice Cream",
+                "Mango Yogurt Ice Cream",
+                "Mango Yogurt Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2515,10 +2515,10 @@
         {
             "id": 209,
             "name": [
-                "바나나+요거트",
-                "바나나+요거트",
-                "바나나+요거트",
-                "바나나+요거트"
+                "Banana+Yogurt",
+                "Banana+Yogurt",
+                "Banana+Yogurt",
+                "Banana+Yogurt"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2527,10 +2527,10 @@
         {
             "id": 210,
             "name": [
-                "바나나 요거트 아이스크림",
-                "바나나 요거트 아이스크림",
-                "바나나 요거트 아이스크림",
-                "바나나 요거트 아이스크림"
+                "Banana Yogurt Ice Cream",
+                "Banana Yogurt Ice Cream",
+                "Banana Yogurt Ice Cream",
+                "Banana Yogurt Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2539,10 +2539,10 @@
         {
             "id": 211,
             "name": [
-                "빵 반죽",
-                "빵 반죽",
-                "빵 반죽",
-                "빵 반죽"
+                "Bread Dough",
+                "Bread Dough",
+                "Bread Dough",
+                "Bread Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -2551,10 +2551,10 @@
         {
             "id": 212,
             "name": [
-                "토마토",
-                "토마토",
-                "토마토",
-                "토마토"
+                "Tomato",
+                "Tomato",
+                "Tomato",
+                "Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2563,10 +2563,10 @@
         {
             "id": 213,
             "name": [
-                "썬 토마토",
-                "썬 토마토",
-                "썬 토마토",
-                "썬 토마토"
+                "Sliced Tomato",
+                "Sliced Tomato",
+                "Sliced Tomato",
+                "Sliced Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2575,10 +2575,10 @@
         {
             "id": 214,
             "name": [
-                "으깬 토마토",
-                "으깬 토마토",
-                "으깬 토마토",
-                "으깬 토마토"
+                "Mashed Tomato",
+                "Mashed Tomato",
+                "Mashed Tomato",
+                "Mashed Tomato"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2587,10 +2587,10 @@
         {
             "id": 215,
             "name": [
-                "토마토 소스",
-                "토마토 소스",
-                "토마토 소스",
-                "토마토 소스"
+                "Tomato Sauce",
+                "Tomato Sauce",
+                "Tomato Sauce",
+                "Tomato Sauce"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2599,10 +2599,10 @@
         {
             "id": 216,
             "name": [
-                "치즈",
-                "치즈",
-                "치즈",
-                "치즈"
+                "Cheese",
+                "Cheese",
+                "Cheese",
+                "Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2611,10 +2611,10 @@
         {
             "id": 217,
             "name": [
-                "슬라이스 치즈",
-                "슬라이스 치즈",
-                "슬라이스 치즈",
-                "슬라이스 치즈"
+                "Sliced Cheese",
+                "Sliced Cheese",
+                "Sliced Cheese",
+                "Sliced Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2623,10 +2623,10 @@
         {
             "id": 218,
             "name": [
-                "머핀",
-                "머핀",
-                "머핀",
-                "머핀"
+                "Muffin",
+                "Muffin",
+                "Muffin",
+                "Muffin"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2635,10 +2635,10 @@
         {
             "id": 219,
             "name": [
-                "계란빵",
-                "계란빵",
-                "계란빵",
-                "계란빵"
+                "Egg Bread",
+                "Egg Bread",
+                "Egg Bread",
+                "Egg Bread"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2647,10 +2647,10 @@
         {
             "id": 220,
             "name": [
-                "치즈+반죽",
-                "치즈+반죽",
-                "치즈+반죽",
-                "치즈+반죽"
+                "Cheese+Dough",
+                "Cheese+Dough",
+                "Cheese+Dough",
+                "Cheese+Dough"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -2659,10 +2659,10 @@
         {
             "id": 221,
             "name": [
-                "치즈빵",
-                "치즈빵",
-                "치즈빵",
-                "치즈빵"
+                "Cheese Bread",
+                "Cheese Bread",
+                "Cheese Bread",
+                "Cheese Bread"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2671,10 +2671,10 @@
         {
             "id": 222,
             "name": [
-                "치즈 붕어빵",
-                "치즈 붕어빵",
-                "치즈 붕어빵",
-                "치즈 붕어빵"
+                "Cheese Pancake",
+                "Cheese Pancake",
+                "Cheese Pancake",
+                "Cheese Pancake"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2683,10 +2683,10 @@
         {
             "id": 223,
             "name": [
-                "토마토+반죽",
-                "토마토+반죽",
-                "토마토+반죽",
-                "토마토+반죽"
+                "Tomato+Dough",
+                "Tomato+Dough",
+                "Tomato+Dough",
+                "Tomato+Dough"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2695,10 +2695,10 @@
         {
             "id": 224,
             "name": [
-                "토마토+치즈+반죽",
-                "토마토+치즈+반죽",
-                "토마토+치즈+반죽",
-                "토마토+치즈+반죽"
+                "Tomato+Cheese+Dough",
+                "Tomato+Cheese+Dough",
+                "Tomato+Cheese+Dough",
+                "Tomato+Cheese+Dough"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -2707,10 +2707,10 @@
         {
             "id": 225,
             "name": [
-                "피자빵",
-                "피자빵",
-                "피자빵",
-                "피자빵"
+                "Pizza Bread",
+                "Pizza Bread",
+                "Pizza Bread",
+                "Pizza Bread"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2719,10 +2719,10 @@
         {
             "id": 226,
             "name": [
-                "피자 붕어빵",
-                "피자 붕어빵",
-                "피자 붕어빵",
-                "피자 붕어빵"
+                "Pizza Pancake",
+                "Pizza Pancake",
+                "Pizza Pancake",
+                "Pizza Pancake"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -2731,10 +2731,10 @@
         {
             "id": 227,
             "name": [
-                "단팥+반죽",
-                "단팥+반죽",
-                "단팥+반죽",
-                "단팥+반죽"
+                "Sweet Red Bean+Dough",
+                "Sweet Red Bean+Dough",
+                "Sweet Red Bean+Dough",
+                "Sweet Red Bean+Dough"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2743,10 +2743,10 @@
         {
             "id": 228,
             "name": [
-                "단팥빵",
-                "단팥빵",
-                "단팥빵",
-                "단팥빵"
+                "Sweet Red Bean Bread",
+                "Sweet Red Bean Bread",
+                "Sweet Red Bean Bread",
+                "Sweet Red Bean Bread"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2755,10 +2755,10 @@
         {
             "id": 229,
             "name": [
-                "붕어빵",
-                "붕어빵",
-                "붕어빵",
-                "붕어빵"
+                "Sweet Bean Pancake",
+                "Sweet Bean Pancake",
+                "Sweet Bean Pancake",
+                "Sweet Bean Pancake"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2767,10 +2767,10 @@
         {
             "id": 230,
             "name": [
-                "커스터드 크림+반죽",
-                "커스터드 크림+반죽",
-                "커스터드 크림+반죽",
-                "커스터드 크림+반죽"
+                "Custard Cream+Dough",
+                "Custard Cream+Dough",
+                "Custard Cream+Dough",
+                "Custard Cream+Dough"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2779,10 +2779,10 @@
         {
             "id": 231,
             "name": [
-                "슈크림빵",
-                "슈크림빵",
-                "슈크림빵",
-                "슈크림빵"
+                "Cream Bread",
+                "Cream Bread",
+                "Cream Bread",
+                "Cream Bread"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2791,10 +2791,10 @@
         {
             "id": 232,
             "name": [
-                "슈크림 붕어빵",
-                "슈크림 붕어빵",
-                "슈크림 붕어빵",
-                "슈크림 붕어빵"
+                "Custard Pancake",
+                "Custard Pancake",
+                "Custard Pancake",
+                "Custard Pancake"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -2803,10 +2803,10 @@
         {
             "id": 233,
             "name": [
-                "초코칩+반죽",
-                "초코칩+반죽",
-                "초코칩+반죽",
-                "초코칩+반죽"
+                "Chocolate Chips+Dough",
+                "Chocolate Chips+Dough",
+                "Chocolate Chips+Dough",
+                "Chocolate Chips+Dough"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2815,10 +2815,10 @@
         {
             "id": 234,
             "name": [
-                "초코칩 빵",
-                "초코칩 빵",
-                "초코칩 빵",
-                "초코칩 빵"
+                "Choco Chip Bread",
+                "Choco Chip Bread",
+                "Choco Chip Bread",
+                "Choco Chip Bread"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2827,10 +2827,10 @@
         {
             "id": 235,
             "name": [
-                "초코 붕어빵",
-                "초코 붕어빵",
-                "초코 붕어빵",
-                "초코 붕어빵"
+                "Chocolate Pancake",
+                "Chocolate Pancake",
+                "Chocolate Pancake",
+                "Chocolate Pancake"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2839,10 +2839,10 @@
         {
             "id": 236,
             "name": [
-                "초코 반죽",
-                "초코 반죽",
-                "초코 반죽",
-                "초코 반죽"
+                "Chocolate Batter",
+                "Chocolate Batter",
+                "Chocolate Batter",
+                "Chocolate Batter"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2851,10 +2851,10 @@
         {
             "id": 237,
             "name": [
-                "초코빵",
-                "초코빵",
-                "초코빵",
-                "초코빵"
+                "Chocolate Bread",
+                "Chocolate Bread",
+                "Chocolate Bread",
+                "Chocolate Bread"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2863,10 +2863,10 @@
         {
             "id": 238,
             "name": [
-                "연유",
-                "연유",
-                "연유",
-                "연유"
+                "Condensed Milk",
+                "Condensed Milk",
+                "Condensed Milk",
+                "Condensed Milk"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -2875,10 +2875,10 @@
         {
             "id": 239,
             "name": [
-                "연유 라떼",
-                "연유 라떼",
-                "연유 라떼",
-                "연유 라떼"
+                "Condensed Milk Latte",
+                "Condensed Milk Latte",
+                "Condensed Milk Latte",
+                "Condensed Milk Latte"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2889,10 +2889,10 @@
         {
             "id": 240,
             "name": [
-                "연유 라떼(아이스)",
-                "연유 라떼(아이스)",
-                "연유 라떼(아이스)",
-                "연유 라떼(아이스)"
+                "Iced Condensed Milk Latte",
+                "Iced Condensed Milk Latte",
+                "Iced Condensed Milk Latte",
+                "Iced Condensed Milk Latte"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -2903,10 +2903,10 @@
         {
             "id": 241,
             "name": [
-                "연유 팥빙수",
-                "연유 팥빙수",
-                "연유 팥빙수",
-                "연유 팥빙수"
+                "Condensed Milk Red Bean Shaved Ice",
+                "Condensed Milk Red Bean Shaved Ice",
+                "Condensed Milk Red Bean Shaved Ice",
+                "Condensed Milk Red Bean Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2917,10 +2917,10 @@
         {
             "id": 242,
             "name": [
-                "앙버터",
-                "앙버터",
-                "앙버터",
-                "앙버터"
+                "Red Bean Butter Bun",
+                "Red Bean Butter Bun",
+                "Red Bean Butter Bun",
+                "Red Bean Butter Bun"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2929,10 +2929,10 @@
         {
             "id": 243,
             "name": [
-                "앙버터+반죽",
-                "앙버터+반죽",
-                "앙버터+반죽",
-                "앙버터+반죽"
+                "Red Bean Butter Dough",
+                "Red Bean Butter Dough",
+                "Red Bean Butter Dough",
+                "Red Bean Butter Dough"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -2941,10 +2941,10 @@
         {
             "id": 244,
             "name": [
-                "앙버터 붕어빵",
-                "앙버터 붕어빵",
-                "앙버터 붕어빵",
-                "앙버터 붕어빵"
+                "Red Bean Butter Pancake",
+                "Red Bean Butter Pancake",
+                "Red Bean Butter Pancake",
+                "Red Bean Butter Pancake"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -2955,10 +2955,10 @@
         {
             "id": 245,
             "name": [
-                "바닐라크림",
-                "바닐라크림",
-                "바닐라크림",
-                "바닐라크림"
+                "Vanilla Cream",
+                "Vanilla Cream",
+                "Vanilla Cream",
+                "Vanilla Cream"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -2967,10 +2967,10 @@
         {
             "id": 246,
             "name": [
-                "오 레",
-                "오 레",
-                "오 레",
-                "오 레"
+                "Chocolate Cookie+Vanilla Cream",
+                "Chocolate Cookie+Vanilla Cream",
+                "Chocolate Cookie+Vanilla Cream",
+                "Chocolate Cookie+Vanilla Cream"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2979,10 +2979,10 @@
         {
             "id": 247,
             "name": [
-                "오레오",
-                "오레오",
-                "오레오",
-                "오레오"
+                "Oreo",
+                "Oreo",
+                "Oreo",
+                "Oreo"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -2993,10 +2993,10 @@
         {
             "id": 248,
             "name": [
-                "시나몬 가루",
-                "시나몬 가루",
-                "시나몬 가루",
-                "시나몬 가루"
+                "Cinnamon Powder",
+                "Cinnamon Powder",
+                "Cinnamon Powder",
+                "Cinnamon Powder"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3005,10 +3005,10 @@
         {
             "id": 249,
             "name": [
-                "시나몬 쿠키 반죽",
-                "시나몬 쿠키 반죽",
-                "시나몬 쿠키 반죽",
-                "시나몬 쿠키 반죽"
+                "Cinnamon Cookie Dough",
+                "Cinnamon Cookie Dough",
+                "Cinnamon Cookie Dough",
+                "Cinnamon Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3017,10 +3017,10 @@
         {
             "id": 250,
             "name": [
-                "시나몬 쿠키",
-                "시나몬 쿠키",
-                "시나몬 쿠키",
-                "시나몬 쿠키"
+                "Cinnamon Cookie",
+                "Cinnamon Cookie",
+                "Cinnamon Cookie",
+                "Cinnamon Cookie"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3031,10 +3031,10 @@
         {
             "id": 251,
             "name": [
-                "망고 빙수",
-                "망고 빙수",
-                "망고 빙수",
-                "망고 빙수"
+                "Mango Shaved Ice",
+                "Mango Shaved Ice",
+                "Mango Shaved Ice",
+                "Mango Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3045,10 +3045,10 @@
         {
             "id": 252,
             "name": [
-                "슈크림 도넛",
-                "슈크림 도넛",
-                "슈크림 도넛",
-                "슈크림 도넛"
+                "Cream Donut",
+                "Cream Donut",
+                "Cream Donut",
+                "Cream Donut"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3059,10 +3059,10 @@
         {
             "id": 253,
             "name": [
-                "타로 가루",
-                "타로 가루",
-                "타로 가루",
-                "타로 가루"
+                "Taro Powder",
+                "Taro Powder",
+                "Taro Powder",
+                "Taro Powder"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3071,10 +3071,10 @@
         {
             "id": 254,
             "name": [
-                "타로 밀크티",
-                "타로 밀크티",
-                "타로 밀크티",
-                "타로 밀크티"
+                "Taro Milk Tea",
+                "Taro Milk Tea",
+                "Taro Milk Tea",
+                "Taro Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3085,10 +3085,10 @@
         {
             "id": 255,
             "name": [
-                "타로 버블티",
-                "타로 버블티",
-                "타로 버블티",
-                "타로 버블티"
+                "Taro Bubble Tea",
+                "Taro Bubble Tea",
+                "Taro Bubble Tea",
+                "Taro Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3099,10 +3099,10 @@
         {
             "id": 256,
             "name": [
-                "초콜릿 밀크티",
-                "초콜릿 밀크티",
-                "초콜릿 밀크티",
-                "초콜릿 밀크티"
+                "Chocolate Milk Tea",
+                "Chocolate Milk Tea",
+                "Chocolate Milk Tea",
+                "Chocolate Milk Tea"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3113,10 +3113,10 @@
         {
             "id": 257,
             "name": [
-                "초콜릿 버블티",
-                "초콜릿 버블티",
-                "초콜릿 버블티",
-                "초콜릿 버블티"
+                "Chocolate Bubble Tea",
+                "Chocolate Bubble Tea",
+                "Chocolate Bubble Tea",
+                "Chocolate Bubble Tea"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3127,10 +3127,10 @@
         {
             "id": 258,
             "name": [
-                "블루베리+설탕",
-                "블루베리+설탕",
-                "블루베리+설탕",
-                "블루베리+설탕"
+                "Blueberry+Sugar",
+                "Blueberry+Sugar",
+                "Blueberry+Sugar",
+                "Blueberry+Sugar"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -3139,10 +3139,10 @@
         {
             "id": 259,
             "name": [
-                "블루베리잼",
-                "블루베리잼",
-                "블루베리잼",
-                "블루베리잼"
+                "Blueberry Jam",
+                "Blueberry Jam",
+                "Blueberry Jam",
+                "Blueberry Jam"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -3151,10 +3151,10 @@
         {
             "id": 260,
             "name": [
-                "블루베리 필링",
-                "블루베리 필링",
-                "블루베리 필링",
-                "블루베리 필링"
+                "Blueberry Filling",
+                "Blueberry Filling",
+                "Blueberry Filling",
+                "Blueberry Filling"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3163,10 +3163,10 @@
         {
             "id": 261,
             "name": [
-                "블루베리 마카롱",
-                "블루베리 마카롱",
-                "블루베리 마카롱",
-                "블루베리 마카롱"
+                "Blueberry Macaron",
+                "Blueberry Macaron",
+                "Blueberry Macaron",
+                "Blueberry Macaron"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3177,10 +3177,10 @@
         {
             "id": 262,
             "name": [
-                "딸기 필링",
-                "딸기 필링",
-                "딸기 필링",
-                "딸기 필링"
+                "Strawberry Filling",
+                "Strawberry Filling",
+                "Strawberry Filling",
+                "Strawberry Filling"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3189,10 +3189,10 @@
         {
             "id": 263,
             "name": [
-                "딸기 마카롱",
-                "딸기 마카롱",
-                "딸기 마카롱",
-                "딸기 마카롱"
+                "Strawberry Macaron",
+                "Strawberry Macaron",
+                "Strawberry Macaron",
+                "Strawberry Macaron"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3203,10 +3203,10 @@
         {
             "id": 264,
             "name": [
-                "크림치즈",
-                "크림치즈",
-                "크림치즈",
-                "크림치즈"
+                "Cream Cheese",
+                "Cream Cheese",
+                "Cream Cheese",
+                "Cream Cheese"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3215,10 +3215,10 @@
         {
             "id": 265,
             "name": [
-                "크림치즈 필링",
-                "크림치즈 필링",
-                "크림치즈 필링",
-                "크림치즈 필링"
+                "Cream Cheese Filling",
+                "Cream Cheese Filling",
+                "Cream Cheese Filling",
+                "Cream Cheese Filling"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3227,10 +3227,10 @@
         {
             "id": 266,
             "name": [
-                "크림치즈 마카롱",
-                "크림치즈 마카롱",
-                "크림치즈 마카롱",
-                "크림치즈 마카롱"
+                "Cream Cheese Macaron",
+                "Cream Cheese Macaron",
+                "Cream Cheese Macaron",
+                "Cream Cheese Macaron"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3241,10 +3241,10 @@
         {
             "id": 267,
             "name": [
-                "카라멜 푸딩",
-                "카라멜 푸딩",
-                "카라멜 푸딩",
-                "카라멜 푸딩"
+                "Caramel Pudding",
+                "Caramel Pudding",
+                "Caramel Pudding",
+                "Caramel Pudding"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3255,10 +3255,10 @@
         {
             "id": 268,
             "name": [
-                "멜론",
-                "멜론",
-                "멜론",
-                "멜론"
+                "Melon",
+                "Melon",
+                "Melon",
+                "Melon"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3267,10 +3267,10 @@
         {
             "id": 269,
             "name": [
-                "썬 멜론",
-                "썬 멜론",
-                "썬 멜론",
-                "썬 멜론"
+                "Sliced Melon",
+                "Sliced Melon",
+                "Sliced Melon",
+                "Sliced Melon"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3279,10 +3279,10 @@
         {
             "id": 270,
             "name": [
-                "멜론 빙수",
-                "멜론 빙수",
-                "멜론 빙수",
-                "멜론 빙수"
+                "Melon Shaved Ice",
+                "Melon Shaved Ice",
+                "Melon Shaved Ice",
+                "Melon Shaved Ice"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3293,10 +3293,10 @@
         {
             "id": 271,
             "name": [
-                "커피 큐브",
-                "커피 큐브",
-                "커피 큐브",
-                "커피 큐브"
+                "Coffee Cubes",
+                "Coffee Cubes",
+                "Coffee Cubes",
+                "Coffee Cubes"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3305,10 +3305,10 @@
         {
             "id": 272,
             "name": [
-                "큐브 라떼",
-                "큐브 라떼",
-                "큐브 라떼",
-                "큐브 라떼"
+                "Coffee Cube Latte",
+                "Coffee Cube Latte",
+                "Coffee Cube Latte",
+                "Coffee Cube Latte"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3319,10 +3319,10 @@
         {
             "id": 273,
             "name": [
-                "아이스티(샷 추가)",
-                "아이스티(샷 추가)",
-                "아이스티(샷 추가)",
-                "아이스티(샷 추가)"
+                "Iced Tea (Extra Shot)",
+                "Iced Tea (Extra Shot)",
+                "Iced Tea (Extra Shot)",
+                "Iced Tea (Extra Shot)"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3333,10 +3333,10 @@
         {
             "id": 274,
             "name": [
-                "마시멜로",
-                "마시멜로",
-                "마시멜로",
-                "마시멜로"
+                "Marshmallow",
+                "Marshmallow",
+                "Marshmallow",
+                "Marshmallow"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3345,10 +3345,10 @@
         {
             "id": 275,
             "name": [
-                "마시멜로+초코 쿠키 반죽",
-                "마시멜로+초코 쿠키 반죽",
-                "마시멜로+초코 쿠키 반죽",
-                "마시멜로+초코 쿠키 반죽"
+                "Marshmallow+Choco Cookie Dough",
+                "Marshmallow+Choco Cookie Dough",
+                "Marshmallow+Choco Cookie Dough",
+                "Marshmallow+Choco Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3357,10 +3357,10 @@
         {
             "id": 276,
             "name": [
-                "마시멜로 초코 쿠키",
-                "마시멜로 초코 쿠키",
-                "마시멜로 초코 쿠키",
-                "마시멜로 초코 쿠키"
+                "Marshmallow Choco Cookie",
+                "Marshmallow Choco Cookie",
+                "Marshmallow Choco Cookie",
+                "Marshmallow Choco Cookie"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3371,10 +3371,10 @@
         {
             "id": 277,
             "name": [
-                "마시멜로+쿠키 반죽",
-                "마시멜로+쿠키 반죽",
-                "마시멜로+쿠키 반죽",
-                "마시멜로+쿠키 반죽"
+                "Marshmallow+Cookie Dough",
+                "Marshmallow+Cookie Dough",
+                "Marshmallow+Cookie Dough",
+                "Marshmallow+Cookie Dough"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -3383,10 +3383,10 @@
         {
             "id": 278,
             "name": [
-                "마시멜로 쿠키",
-                "마시멜로 쿠키",
-                "마시멜로 쿠키",
-                "마시멜로 쿠키"
+                "Marshmallow Cookie",
+                "Marshmallow Cookie",
+                "Marshmallow Cookie",
+                "Marshmallow Cookie"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -3397,10 +3397,10 @@
         {
             "id": 279,
             "name": [
-                "블루베리잼 도넛",
-                "블루베리잼 도넛",
-                "블루베리잼 도넛",
-                "블루베리잼 도넛"
+                "Blueberry Jam Donut",
+                "Blueberry Jam Donut",
+                "Blueberry Jam Donut",
+                "Blueberry Jam Donut"
             ],
             "canMelt": false,
             "colorCode": "Q",
@@ -3411,10 +3411,10 @@
         {
             "id": 280,
             "name": [
-                "요거트크림",
-                "요거트크림",
-                "요거트크림",
-                "요거트크림"
+                "Yogurt Cream",
+                "Yogurt Cream",
+                "Yogurt Cream",
+                "Yogurt Cream"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3423,10 +3423,10 @@
         {
             "id": 281,
             "name": [
-                "요거트크림 도넛",
-                "요거트크림 도넛",
-                "요거트크림 도넛",
-                "요거트크림 도넛"
+                "Yogurt Cream Donut",
+                "Yogurt Cream Donut",
+                "Yogurt Cream Donut",
+                "Yogurt Cream Donut"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -3437,10 +3437,10 @@
         {
             "id": 282,
             "name": [
-                "찹쌀가루",
-                "찹쌀가루",
-                "찹쌀가루",
-                "찹쌀가루"
+                "Glutinous Rice Flour",
+                "Glutinous Rice Flour",
+                "Glutinous Rice Flour",
+                "Glutinous Rice Flour"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -3449,10 +3449,10 @@
         {
             "id": 283,
             "name": [
-                "찹쌀 반죽",
-                "찹쌀 반죽",
-                "찹쌀 반죽",
-                "찹쌀 반죽"
+                "Glutinous Rice Dough",
+                "Glutinous Rice Dough",
+                "Glutinous Rice Dough",
+                "Glutinous Rice Dough"
             ],
             "canMelt": false,
             "colorCode": "E",
@@ -3461,10 +3461,10 @@
         {
             "id": 284,
             "name": [
-                "찹쌀 도너츠",
-                "찹쌀 도너츠",
-                "찹쌀 도너츠",
-                "찹쌀 도너츠"
+                "Glutinous Rice Donut",
+                "Glutinous Rice Donut",
+                "Glutinous Rice Donut",
+                "Glutinous Rice Donut"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3475,10 +3475,10 @@
         {
             "id": 285,
             "name": [
-                "초코 요거트 아이스크림",
-                "초코 요거트 아이스크림",
-                "초코 요거트 아이스크림",
-                "초코 요거트 아이스크림"
+                "Chocolate Yogurt Ice Cream",
+                "Chocolate Yogurt Ice Cream",
+                "Chocolate Yogurt Ice Cream",
+                "Chocolate Yogurt Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -3489,10 +3489,10 @@
         {
             "id": 286,
             "name": [
-                "얼린 멜론",
-                "얼린 멜론",
-                "얼린 멜론",
-                "얼린 멜론"
+                "Frozen Melon",
+                "Frozen Melon",
+                "Frozen Melon",
+                "Frozen Melon"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3501,10 +3501,10 @@
         {
             "id": 287,
             "name": [
-                "멜론+우유",
-                "멜론+우유",
-                "멜론+우유",
-                "멜론+우유"
+                "Melon+Milk",
+                "Melon+Milk",
+                "Melon+Milk",
+                "Melon+Milk"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3513,10 +3513,10 @@
         {
             "id": 288,
             "name": [
-                "멜론 스무디",
-                "멜론 스무디",
-                "멜론 스무디",
-                "멜론 스무디"
+                "Melon Smoothie",
+                "Melon Smoothie",
+                "Melon Smoothie",
+                "Melon Smoothie"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3527,10 +3527,10 @@
         {
             "id": 289,
             "name": [
-                "멜론+요거트+우유",
-                "멜론+요거트+우유",
-                "멜론+요거트+우유",
-                "멜론+요거트+우유"
+                "Melon+Yogurt+Milk",
+                "Melon+Yogurt+Milk",
+                "Melon+Yogurt+Milk",
+                "Melon+Yogurt+Milk"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3539,10 +3539,10 @@
         {
             "id": 290,
             "name": [
-                "멜론 요거트 스무디",
-                "멜론 요거트 스무디",
-                "멜론 요거트 스무디",
-                "멜론 요거트 스무디"
+                "Melon Yogurt Smoothie",
+                "Melon Yogurt Smoothie",
+                "Melon Yogurt Smoothie",
+                "Melon Yogurt Smoothie"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3553,10 +3553,10 @@
         {
             "id": 291,
             "name": [
-                "얼린 포도",
-                "얼린 포도",
-                "얼린 포도",
-                "얼린 포도"
+                "Frozen Grapes",
+                "Frozen Grapes",
+                "Frozen Grapes",
+                "Frozen Grapes"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -3567,10 +3567,10 @@
         {
             "id": 292,
             "name": [
-                "팥+인절미+반죽",
-                "팥+인절미+반죽",
-                "팥+인절미+반죽",
-                "팥+인절미+반죽"
+                "Red Bean+Injeolmi+Dough",
+                "Red Bean+Injeolmi+Dough",
+                "Red Bean+Injeolmi+Dough",
+                "Red Bean+Injeolmi+Dough"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3579,10 +3579,10 @@
         {
             "id": 293,
             "name": [
-                "팥절미 붕어빵",
-                "팥절미 붕어빵",
-                "팥절미 붕어빵",
-                "팥절미 붕어빵"
+                "Injeolmi Red Bean Pancake",
+                "Injeolmi Red Bean Pancake",
+                "Injeolmi Red Bean Pancake",
+                "Injeolmi Red Bean Pancake"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3593,10 +3593,10 @@
         {
             "id": 294,
             "name": [
-                "튀긴 빵",
-                "튀긴 빵",
-                "튀긴 빵",
-                "튀긴 빵"
+                "Fried Bread",
+                "Fried Bread",
+                "Fried Bread",
+                "Fried Bread"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3605,10 +3605,10 @@
         {
             "id": 295,
             "name": [
-                "꽈배기",
-                "꽈배기",
-                "꽈배기",
-                "꽈배기"
+                "Twisted Donut",
+                "Twisted Donut",
+                "Twisted Donut",
+                "Twisted Donut"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3619,10 +3619,10 @@
         {
             "id": 296,
             "name": [
-                "크림치즈 도넛",
-                "크림치즈 도넛",
-                "크림치즈 도넛",
-                "크림치즈 도넛"
+                "Cream Cheese Donut",
+                "Cream Cheese Donut",
+                "Cream Cheese Donut",
+                "Cream Cheese Donut"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3633,10 +3633,10 @@
         {
             "id": 297,
             "name": [
-                "크림치즈 베이글",
-                "크림치즈 베이글",
-                "크림치즈 베이글",
-                "크림치즈 베이글"
+                "Cream Cheese Bagel",
+                "Cream Cheese Bagel",
+                "Cream Cheese Bagel",
+                "Cream Cheese Bagel"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3647,10 +3647,10 @@
         {
             "id": 298,
             "name": [
-                "호두",
-                "호두",
-                "호두",
-                "호두"
+                "Walnut",
+                "Walnut",
+                "Walnut",
+                "Walnut"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3659,10 +3659,10 @@
         {
             "id": 299,
             "name": [
-                "호두+단팥+반죽",
-                "호두+단팥+반죽",
-                "호두+단팥+반죽",
-                "호두+단팥+반죽"
+                "Walnut+Red Bean+Dough",
+                "Walnut+Red Bean+Dough",
+                "Walnut+Red Bean+Dough",
+                "Walnut+Red Bean+Dough"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3671,10 +3671,10 @@
         {
             "id": 300,
             "name": [
-                "호두과자",
-                "호두과자",
-                "호두과자",
-                "호두과자"
+                "Walnut Cake",
+                "Walnut Cake",
+                "Walnut Cake",
+                "Walnut Cake"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3685,10 +3685,10 @@
         {
             "id": 301,
             "name": [
-                "찻잎+우유+설탕",
-                "찻잎+우유+설탕",
-                "찻잎+우유+설탕",
-                "찻잎+우유+설탕"
+                "Matcha+Milk+Sugar",
+                "Matcha+Milk+Sugar",
+                "Matcha+Milk+Sugar",
+                "Matcha+Milk+Sugar"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -3697,10 +3697,10 @@
         {
             "id": 302,
             "name": [
-                "우롱차 잎+우유+설탕",
-                "우롱차 잎+우유+설탕",
-                "우롱차 잎+우유+설탕",
-                "우롱차 잎+우유+설탕"
+                "Oolong Tea Leaves+Milk+Sugar",
+                "Oolong Tea Leaves+Milk+Sugar",
+                "Oolong Tea Leaves+Milk+Sugar",
+                "Oolong Tea Leaves+Milk+Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3709,10 +3709,10 @@
         {
             "id": 303,
             "name": [
-                "홍차 잎+우유+설탕",
-                "홍차 잎+우유+설탕",
-                "홍차 잎+우유+설탕",
-                "홍차 잎+우유+설탕"
+                "Black Tea Leaves+Milk+Sugar",
+                "Black Tea Leaves+Milk+Sugar",
+                "Black Tea Leaves+Milk+Sugar",
+                "Black Tea Leaves+Milk+Sugar"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3721,10 +3721,10 @@
         {
             "id": 304,
             "name": [
-                "말린 허브+우유+설탕",
-                "말린 허브+우유+설탕",
-                "말린 허브+우유+설탕",
-                "말린 허브+우유+설탕"
+                "Dried Herbs+Milk+Sugar",
+                "Dried Herbs+Milk+Sugar",
+                "Dried Herbs+Milk+Sugar",
+                "Dried Herbs+Milk+Sugar"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3733,10 +3733,10 @@
         {
             "id": 305,
             "name": [
-                "시나몬 설탕",
-                "시나몬 설탕",
-                "시나몬 설탕",
-                "시나몬 설탕"
+                "Cinnamon Sugar",
+                "Cinnamon Sugar",
+                "Cinnamon Sugar",
+                "Cinnamon Sugar"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3745,10 +3745,10 @@
         {
             "id": 306,
             "name": [
-                "츄러스",
-                "츄러스",
-                "츄러스",
-                "츄러스"
+                "Churros",
+                "Churros",
+                "Churros",
+                "Churros"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3759,10 +3759,10 @@
         {
             "id": 307,
             "name": [
-                "치즈+찹쌀 반죽",
-                "치즈+찹쌀 반죽",
-                "치즈+찹쌀 반죽",
-                "치즈+찹쌀 반죽"
+                "Cheese+Glutinous Rice Dough",
+                "Cheese+Glutinous Rice Dough",
+                "Cheese+Glutinous Rice Dough",
+                "Cheese+Glutinous Rice Dough"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3771,10 +3771,10 @@
         {
             "id": 308,
             "name": [
-                "치즈볼",
-                "치즈볼",
-                "치즈볼",
-                "치즈볼"
+                "Cheese Ball",
+                "Cheese Ball",
+                "Cheese Ball",
+                "Cheese Ball"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -3785,10 +3785,10 @@
         {
             "id": 309,
             "name": [
-                "베이컨",
-                "베이컨",
-                "베이컨",
-                "베이컨"
+                "Bacon",
+                "Bacon",
+                "Bacon",
+                "Bacon"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -3797,10 +3797,10 @@
         {
             "id": 310,
             "name": [
-                "계란 후라이",
-                "계란 후라이",
-                "계란 후라이",
-                "계란 후라이"
+                "Fried Egg",
+                "Fried Egg",
+                "Fried Egg",
+                "Fried Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3809,10 +3809,10 @@
         {
             "id": 311,
             "name": [
-                "스크램블 에그",
-                "스크램블 에그",
-                "스크램블 에그",
-                "스크램블 에그"
+                "Scrambled Eggs",
+                "Scrambled Eggs",
+                "Scrambled Eggs",
+                "Scrambled Eggs"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3821,10 +3821,10 @@
         {
             "id": 312,
             "name": [
-                "오믈렛",
-                "오믈렛",
-                "오믈렛",
-                "오믈렛"
+                "Omelette",
+                "Omelette",
+                "Omelette",
+                "Omelette"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3833,10 +3833,10 @@
         {
             "id": 313,
             "name": [
-                "구운 베이컨",
-                "구운 베이컨",
-                "구운 베이컨",
-                "구운 베이컨"
+                "Grilled Bacon",
+                "Grilled Bacon",
+                "Grilled Bacon",
+                "Grilled Bacon"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3845,10 +3845,10 @@
         {
             "id": 314,
             "name": [
-                "베이컨 계란 정식",
-                "베이컨 계란 정식",
-                "베이컨 계란 정식",
-                "베이컨 계란 정식"
+                "Bacon & Eggs",
+                "Bacon & Eggs",
+                "Bacon & Eggs",
+                "Bacon & Eggs"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3857,10 +3857,10 @@
         {
             "id": 315,
             "name": [
-                "삶은 달걀",
-                "삶은 달걀",
-                "삶은 달걀",
-                "삶은 달걀"
+                "Boiled Egg",
+                "Boiled Egg",
+                "Boiled Egg",
+                "Boiled Egg"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -3869,10 +3869,10 @@
         {
             "id": 316,
             "name": [
-                "딸기잼 베이글",
-                "딸기잼 베이글",
-                "딸기잼 베이글",
-                "딸기잼 베이글"
+                "Strawberry Jam Bagel",
+                "Strawberry Jam Bagel",
+                "Strawberry Jam Bagel",
+                "Strawberry Jam Bagel"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3881,10 +3881,10 @@
         {
             "id": 317,
             "name": [
-                "딸기잼 머핀",
-                "딸기잼 머핀",
-                "딸기잼 머핀",
-                "딸기잼 머핀"
+                "Strawberry Jam Muffin",
+                "Strawberry Jam Muffin",
+                "Strawberry Jam Muffin",
+                "Strawberry Jam Muffin"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -3893,10 +3893,10 @@
         {
             "id": 318,
             "name": [
-                "머핀+베이컨",
-                "머핀+베이컨",
-                "머핀+베이컨",
-                "머핀+베이컨"
+                "Muffin+Bacon",
+                "Muffin+Bacon",
+                "Muffin+Bacon",
+                "Muffin+Bacon"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3905,10 +3905,10 @@
         {
             "id": 319,
             "name": [
-                "머핀+계란",
-                "머핀+계란",
-                "머핀+계란",
-                "머핀+계란"
+                "Muffin+Egg",
+                "Muffin+Egg",
+                "Muffin+Egg",
+                "Muffin+Egg"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3917,10 +3917,10 @@
         {
             "id": 320,
             "name": [
-                "머핀+치즈",
-                "머핀+치즈",
-                "머핀+치즈",
-                "머핀+치즈"
+                "Muffin+Cheese",
+                "Muffin+Cheese",
+                "Muffin+Cheese",
+                "Muffin+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3929,10 +3929,10 @@
         {
             "id": 321,
             "name": [
-                "머핀+베이컨+계란",
-                "머핀+베이컨+계란",
-                "머핀+베이컨+계란",
-                "머핀+베이컨+계란"
+                "Muffin+Bacon+Egg",
+                "Muffin+Bacon+Egg",
+                "Muffin+Bacon+Egg",
+                "Muffin+Bacon+Egg"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3941,10 +3941,10 @@
         {
             "id": 322,
             "name": [
-                "머핀+베이컨+치즈",
-                "머핀+베이컨+치즈",
-                "머핀+베이컨+치즈",
-                "머핀+베이컨+치즈"
+                "Muffin+Bacon+Cheese",
+                "Muffin+Bacon+Cheese",
+                "Muffin+Bacon+Cheese",
+                "Muffin+Bacon+Cheese"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3953,10 +3953,10 @@
         {
             "id": 323,
             "name": [
-                "머핀+계란+치즈",
-                "머핀+계란+치즈",
-                "머핀+계란+치즈",
-                "머핀+계란+치즈"
+                "Muffin+Egg+Cheese",
+                "Muffin+Egg+Cheese",
+                "Muffin+Egg+Cheese",
+                "Muffin+Egg+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -3965,10 +3965,10 @@
         {
             "id": 324,
             "name": [
-                "머핀+베이컨+계란+치즈",
-                "머핀+베이컨+계란+치즈",
-                "머핀+베이컨+계란+치즈",
-                "머핀+베이컨+계란+치즈"
+                "Muffin+Bacon+Egg+Cheese",
+                "Muffin+Bacon+Egg+Cheese",
+                "Muffin+Bacon+Egg+Cheese",
+                "Muffin+Bacon+Egg+Cheese"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -3977,10 +3977,10 @@
         {
             "id": 325,
             "name": [
-                "베이컨 에그 머핀",
-                "베이컨 에그 머핀",
-                "베이컨 에그 머핀",
-                "베이컨 에그 머핀"
+                "Bacon Egg Muffin",
+                "Bacon Egg Muffin",
+                "Bacon Egg Muffin",
+                "Bacon Egg Muffin"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -3989,10 +3989,10 @@
         {
             "id": 326,
             "name": [
-                "에그 머핀",
-                "에그 머핀",
-                "에그 머핀",
-                "에그 머핀"
+                "Egg Muffin",
+                "Egg Muffin",
+                "Egg Muffin",
+                "Egg Muffin"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4001,10 +4001,10 @@
         {
             "id": 327,
             "name": [
-                "베이컨 머핀",
-                "베이컨 머핀",
-                "베이컨 머핀",
-                "베이컨 머핀"
+                "Bacon Muffin",
+                "Bacon Muffin",
+                "Bacon Muffin",
+                "Bacon Muffin"
             ],
             "canMelt": false,
             "colorCode": "P",
@@ -4013,10 +4013,10 @@
         {
             "id": 328,
             "name": [
-                "스크램블 에그+치즈",
-                "스크램블 에그+치즈",
-                "스크램블 에그+치즈",
-                "스크램블 에그+치즈"
+                "Scrambled Eggs+Cheese",
+                "Scrambled Eggs+Cheese",
+                "Scrambled Eggs+Cheese",
+                "Scrambled Eggs+Cheese"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4025,10 +4025,10 @@
         {
             "id": 329,
             "name": [
-                "치즈 오믈렛",
-                "치즈 오믈렛",
-                "치즈 오믈렛",
-                "치즈 오믈렛"
+                "Cheese Omelette",
+                "Cheese Omelette",
+                "Cheese Omelette",
+                "Cheese Omelette"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4037,10 +4037,10 @@
         {
             "id": 330,
             "name": [
-                "딸기 수플레 팬케이크",
-                "딸기 수플레 팬케이크",
-                "딸기 수플레 팬케이크",
-                "딸기 수플레 팬케이크"
+                "Strawberry Soufflé Pancake",
+                "Strawberry Soufflé Pancake",
+                "Strawberry Soufflé Pancake",
+                "Strawberry Soufflé Pancake"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4049,10 +4049,10 @@
         {
             "id": 331,
             "name": [
-                "딸기 크림치즈 베이글",
-                "딸기 크림치즈 베이글",
-                "딸기 크림치즈 베이글",
-                "딸기 크림치즈 베이글"
+                "Strawberry Cream Cheese Bagel",
+                "Strawberry Cream Cheese Bagel",
+                "Strawberry Cream Cheese Bagel",
+                "Strawberry Cream Cheese Bagel"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4063,10 +4063,10 @@
         {
             "id": 332,
             "name": [
-                "블루베리 수플레 팬케이크",
-                "블루베리 수플레 팬케이크",
-                "블루베리 수플레 팬케이크",
-                "블루베리 수플레 팬케이크"
+                "Blueberry Soufflé Pancake",
+                "Blueberry Soufflé Pancake",
+                "Blueberry Soufflé Pancake",
+                "Blueberry Soufflé Pancake"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4077,10 +4077,10 @@
         {
             "id": 333,
             "name": [
-                "블루베리 베이글 반죽",
-                "블루베리 베이글 반죽",
-                "블루베리 베이글 반죽",
-                "블루베리 베이글 반죽"
+                "Blueberry Bagel Dough",
+                "Blueberry Bagel Dough",
+                "Blueberry Bagel Dough",
+                "Blueberry Bagel Dough"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4089,10 +4089,10 @@
         {
             "id": 334,
             "name": [
-                "블루베리 베이글",
-                "블루베리 베이글",
-                "블루베리 베이글",
-                "블루베리 베이글"
+                "Blueberry Bagel",
+                "Blueberry Bagel",
+                "Blueberry Bagel",
+                "Blueberry Bagel"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4103,10 +4103,10 @@
         {
             "id": 335,
             "name": [
-                "아이스크림",
-                "아이스크림",
-                "아이스크림",
-                "아이스크림"
+                "Ice Cream",
+                "Ice Cream",
+                "Ice Cream",
+                "Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4115,10 +4115,10 @@
         {
             "id": 336,
             "name": [
-                "딸기 아이스크림",
-                "딸기 아이스크림",
-                "딸기 아이스크림",
-                "딸기 아이스크림"
+                "Strawberry Ice Cream",
+                "Strawberry Ice Cream",
+                "Strawberry Ice Cream",
+                "Strawberry Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4127,10 +4127,10 @@
         {
             "id": 337,
             "name": [
-                "초코 아이스크림",
-                "초코 아이스크림",
-                "초코 아이스크림",
-                "초코 아이스크림"
+                "Chocolate Ice Cream",
+                "Chocolate Ice Cream",
+                "Chocolate Ice Cream",
+                "Chocolate Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4139,10 +4139,10 @@
         {
             "id": 338,
             "name": [
-                "녹차 아이스크림",
-                "녹차 아이스크림",
-                "녹차 아이스크림",
-                "녹차 아이스크림"
+                "Matcha Ice Cream",
+                "Matcha Ice Cream",
+                "Matcha Ice Cream",
+                "Matcha Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -4151,10 +4151,10 @@
         {
             "id": 339,
             "name": [
-                "바닐라 아이스크림",
-                "바닐라 아이스크림",
-                "바닐라 아이스크림",
-                "바닐라 아이스크림"
+                "Vanilla Ice Cream",
+                "Vanilla Ice Cream",
+                "Vanilla Ice Cream",
+                "Vanilla Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4163,10 +4163,10 @@
         {
             "id": 340,
             "name": [
-                "밀크 셰이크",
-                "밀크 셰이크",
-                "밀크 셰이크",
-                "밀크 셰이크"
+                "Milkshake",
+                "Milkshake",
+                "Milkshake",
+                "Milkshake"
             ],
             "canMelt": false,
             "colorCode": "N",
@@ -4175,10 +4175,10 @@
         {
             "id": 341,
             "name": [
-                "딸기 셰이크",
-                "딸기 셰이크",
-                "딸기 셰이크",
-                "딸기 셰이크"
+                "Strawberry Shake",
+                "Strawberry Shake",
+                "Strawberry Shake",
+                "Strawberry Shake"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4187,10 +4187,10 @@
         {
             "id": 342,
             "name": [
-                "초코 셰이크",
-                "초코 셰이크",
-                "초코 셰이크",
-                "초코 셰이크"
+                "Chocolate Shake",
+                "Chocolate Shake",
+                "Chocolate Shake",
+                "Chocolate Shake"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4199,10 +4199,10 @@
         {
             "id": 343,
             "name": [
-                "녹차 셰이크",
-                "녹차 셰이크",
-                "녹차 셰이크",
-                "녹차 셰이크"
+                "Matcha Shake",
+                "Matcha Shake",
+                "Matcha Shake",
+                "Matcha Shake"
             ],
             "canMelt": false,
             "colorCode": "G",
@@ -4211,10 +4211,10 @@
         {
             "id": 344,
             "name": [
-                "바닐라 셰이크",
-                "바닐라 셰이크",
-                "바닐라 셰이크",
-                "바닐라 셰이크"
+                "Vanilla Shake",
+                "Vanilla Shake",
+                "Vanilla Shake",
+                "Vanilla Shake"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4223,10 +4223,10 @@
         {
             "id": 345,
             "name": [
-                "민트초코 아이스크림",
-                "민트초코 아이스크림",
-                "민트초코 아이스크림",
-                "민트초코 아이스크림"
+                "Mint Chocolate Ice Cream",
+                "Mint Chocolate Ice Cream",
+                "Mint Chocolate Ice Cream",
+                "Mint Chocolate Ice Cream"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -4237,10 +4237,10 @@
         {
             "id": 346,
             "name": [
-                "민트초코 셰이크",
-                "민트초코 셰이크",
-                "민트초코 셰이크",
-                "민트초코 셰이크"
+                "Mint Chocolate Shake",
+                "Mint Chocolate Shake",
+                "Mint Chocolate Shake",
+                "Mint Chocolate Shake"
             ],
             "canMelt": false,
             "colorCode": "J",
@@ -4251,10 +4251,10 @@
         {
             "id": 347,
             "name": [
-                "블루베리 파르페",
-                "블루베리 파르페",
-                "블루베리 파르페",
-                "블루베리 파르페"
+                "Blueberry Parfait",
+                "Blueberry Parfait",
+                "Blueberry Parfait",
+                "Blueberry Parfait"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4265,10 +4265,10 @@
         {
             "id": 348,
             "name": [
-                "바나나 파르페",
-                "바나나 파르페",
-                "바나나 파르페",
-                "바나나 파르페"
+                "Banana Parfait",
+                "Banana Parfait",
+                "Banana Parfait",
+                "Banana Parfait"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4279,10 +4279,10 @@
         {
             "id": 349,
             "name": [
-                "망고 파르페",
-                "망고 파르페",
-                "망고 파르페",
-                "망고 파르페"
+                "Mango Parfait",
+                "Mango Parfait",
+                "Mango Parfait",
+                "Mango Parfait"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4293,10 +4293,10 @@
         {
             "id": 350,
             "name": [
-                "멜론 파르페",
-                "멜론 파르페",
-                "멜론 파르페",
-                "멜론 파르페"
+                "Melon Parfait",
+                "Melon Parfait",
+                "Melon Parfait",
+                "Melon Parfait"
             ],
             "canMelt": false,
             "colorCode": "L",
@@ -4307,10 +4307,10 @@
         {
             "id": 351,
             "name": [
-                "냉각총",
-                "냉각총",
-                "냉각총",
-                "냉각총"
+                "Freeze Gun",
+                "Freeze Gun",
+                "Freeze Gun",
+                "Freeze Gun"
             ],
             "canMelt": false,
             "colorCode": "B",
@@ -4319,10 +4319,10 @@
         {
             "id": 352,
             "name": [
-                "얼음물",
-                "얼음물",
-                "얼음물",
-                "얼음물"
+                "Ice Water",
+                "Ice Water",
+                "Ice Water",
+                "Ice Water"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4331,10 +4331,10 @@
         {
             "id": 353,
             "name": [
-                "파이 생지",
-                "파이 생지",
-                "파이 생지",
-                "파이 생지"
+                "Pie Dough",
+                "Pie Dough",
+                "Pie Dough",
+                "Pie Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4343,10 +4343,10 @@
         {
             "id": 354,
             "name": [
-                "타르트 생지",
-                "타르트 생지",
-                "타르트 생지",
-                "타르트 생지"
+                "Tart Dough",
+                "Tart Dough",
+                "Tart Dough",
+                "Tart Dough"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4355,10 +4355,10 @@
         {
             "id": 355,
             "name": [
-                "사과",
-                "사과",
-                "사과",
-                "사과"
+                "Apple",
+                "Apple",
+                "Apple",
+                "Apple"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4367,10 +4367,10 @@
         {
             "id": 356,
             "name": [
-                "썬 사과",
-                "썬 사과",
-                "썬 사과",
-                "썬 사과"
+                "Sliced Apple",
+                "Sliced Apple",
+                "Sliced Apple",
+                "Sliced Apple"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4379,10 +4379,10 @@
         {
             "id": 357,
             "name": [
-                "생 호두 파이",
-                "생 호두 파이",
-                "생 호두 파이",
-                "생 호두 파이"
+                "Raw Walnut Pie",
+                "Raw Walnut Pie",
+                "Raw Walnut Pie",
+                "Raw Walnut Pie"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4391,10 +4391,10 @@
         {
             "id": 358,
             "name": [
-                "호두 파이",
-                "호두 파이",
-                "호두 파이",
-                "호두 파이"
+                "Walnut Pie",
+                "Walnut Pie",
+                "Walnut Pie",
+                "Walnut Pie"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4403,10 +4403,10 @@
         {
             "id": 359,
             "name": [
-                "생 딸기 파이",
-                "생 딸기 파이",
-                "생 딸기 파이",
-                "생 딸기 파이"
+                "Raw Strawberry Pie",
+                "Raw Strawberry Pie",
+                "Raw Strawberry Pie",
+                "Raw Strawberry Pie"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4415,10 +4415,10 @@
         {
             "id": 360,
             "name": [
-                "딸기 파이",
-                "딸기 파이",
-                "딸기 파이",
-                "딸기 파이"
+                "Strawberry Pie",
+                "Strawberry Pie",
+                "Strawberry Pie",
+                "Strawberry Pie"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4427,10 +4427,10 @@
         {
             "id": 361,
             "name": [
-                "생 사과 파이",
-                "생 사과 파이",
-                "생 사과 파이",
-                "생 사과 파이"
+                "Raw Apple Pie",
+                "Raw Apple Pie",
+                "Raw Apple Pie",
+                "Raw Apple Pie"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4439,10 +4439,10 @@
         {
             "id": 362,
             "name": [
-                "사과 파이",
-                "사과 파이",
-                "사과 파이",
-                "사과 파이"
+                "Apple Pie",
+                "Apple Pie",
+                "Apple Pie",
+                "Apple Pie"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4451,10 +4451,10 @@
         {
             "id": 363,
             "name": [
-                "생 블루베리 파이",
-                "생 블루베리 파이",
-                "생 블루베리 파이",
-                "생 블루베리 파이"
+                "Raw Blueberry Pie",
+                "Raw Blueberry Pie",
+                "Raw Blueberry Pie",
+                "Raw Blueberry Pie"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4463,10 +4463,10 @@
         {
             "id": 364,
             "name": [
-                "블루베리 파이",
-                "블루베리 파이",
-                "블루베리 파이",
-                "블루베리 파이"
+                "Blueberry Pie",
+                "Blueberry Pie",
+                "Blueberry Pie",
+                "Blueberry Pie"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4475,10 +4475,10 @@
         {
             "id": 365,
             "name": [
-                "생 호두 타르트",
-                "생 호두 타르트",
-                "생 호두 타르트",
-                "생 호두 타르트"
+                "Raw Walnut Tart",
+                "Raw Walnut Tart",
+                "Raw Walnut Tart",
+                "Raw Walnut Tart"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4487,10 +4487,10 @@
         {
             "id": 366,
             "name": [
-                "호두 타르트",
-                "호두 타르트",
-                "호두 타르트",
-                "호두 타르트"
+                "Walnut Tart",
+                "Walnut Tart",
+                "Walnut Tart",
+                "Walnut Tart"
             ],
             "canMelt": false,
             "colorCode": "M",
@@ -4499,10 +4499,10 @@
         {
             "id": 367,
             "name": [
-                "생 에그 타르트",
-                "생 에그 타르트",
-                "생 에그 타르트",
-                "생 에그 타르트"
+                "Raw Egg Tart",
+                "Raw Egg Tart",
+                "Raw Egg Tart",
+                "Raw Egg Tart"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4511,10 +4511,10 @@
         {
             "id": 368,
             "name": [
-                "에그 타르트",
-                "에그 타르트",
-                "에그 타르트",
-                "에그 타르트"
+                "Egg Tart",
+                "Egg Tart",
+                "Egg Tart",
+                "Egg Tart"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4523,10 +4523,10 @@
         {
             "id": 369,
             "name": [
-                "구운 타르트 지",
-                "구운 타르트 지",
-                "구운 타르트 지",
-                "구운 타르트 지"
+                "Baked Tart Shell",
+                "Baked Tart Shell",
+                "Baked Tart Shell",
+                "Baked Tart Shell"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4535,10 +4535,10 @@
         {
             "id": 370,
             "name": [
-                "딸기 타르트",
-                "딸기 타르트",
-                "딸기 타르트",
-                "딸기 타르트"
+                "Strawberry Tart",
+                "Strawberry Tart",
+                "Strawberry Tart",
+                "Strawberry Tart"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4547,10 +4547,10 @@
         {
             "id": 371,
             "name": [
-                "사과 타르트",
-                "사과 타르트",
-                "사과 타르트",
-                "사과 타르트"
+                "Apple Tart",
+                "Apple Tart",
+                "Apple Tart",
+                "Apple Tart"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4559,10 +4559,10 @@
         {
             "id": 372,
             "name": [
-                "블루베리 타르트",
-                "블루베리 타르트",
-                "블루베리 타르트",
-                "블루베리 타르트"
+                "Blueberry Tart",
+                "Blueberry Tart",
+                "Blueberry Tart",
+                "Blueberry Tart"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4571,10 +4571,10 @@
         {
             "id": 373,
             "name": [
-                "베리베리 타르트",
-                "베리베리 타르트",
-                "베리베리 타르트",
-                "베리베리 타르트"
+                "Mixed Berry Tart",
+                "Mixed Berry Tart",
+                "Mixed Berry Tart",
+                "Mixed Berry Tart"
             ],
             "canMelt": false,
             "colorCode": "A",
@@ -4583,10 +4583,10 @@
         {
             "id": 374,
             "name": [
-                "망고 타르트",
-                "망고 타르트",
-                "망고 타르트",
-                "망고 타르트"
+                "Mango Tart",
+                "Mango Tart",
+                "Mango Tart",
+                "Mango Tart"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4597,10 +4597,10 @@
         {
             "id": 375,
             "name": [
-                "초코 타르트",
-                "초코 타르트",
-                "초코 타르트",
-                "초코 타르트"
+                "Chocolate Tart",
+                "Chocolate Tart",
+                "Chocolate Tart",
+                "Chocolate Tart"
             ],
             "canMelt": false,
             "colorCode": "S",
@@ -4611,10 +4611,10 @@
         {
             "id": 376,
             "name": [
-                "생 크림치즈 타르트",
-                "생 크림치즈 타르트",
-                "생 크림치즈 타르트",
-                "생 크림치즈 타르트"
+                "Raw Cream Cheese Tart",
+                "Raw Cream Cheese Tart",
+                "Raw Cream Cheese Tart",
+                "Raw Cream Cheese Tart"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4623,10 +4623,10 @@
         {
             "id": 377,
             "name": [
-                "크림치즈 타르트",
-                "크림치즈 타르트",
-                "크림치즈 타르트",
-                "크림치즈 타르트"
+                "Cream Cheese Tart",
+                "Cream Cheese Tart",
+                "Cream Cheese Tart",
+                "Cream Cheese Tart"
             ],
             "canMelt": false,
             "colorCode": "H",
@@ -4637,10 +4637,10 @@
         {
             "id": 378,
             "name": [
-                "탄산수",
-                "탄산수",
-                "탄산수",
-                "탄산수"
+                "Sparkling Water",
+                "Sparkling Water",
+                "Sparkling Water",
+                "Sparkling Water"
             ],
             "canMelt": false,
             "colorCode": "F",
@@ -4649,10 +4649,10 @@
         {
             "id": 379,
             "name": [
-                "레몬",
-                "레몬",
-                "레몬",
-                "레몬"
+                "Lemon",
+                "Lemon",
+                "Lemon",
+                "Lemon"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4661,10 +4661,10 @@
         {
             "id": 380,
             "name": [
-                "썬 레몬",
-                "썬 레몬",
-                "썬 레몬",
-                "썬 레몬"
+                "Sliced Lemon",
+                "Sliced Lemon",
+                "Sliced Lemon",
+                "Sliced Lemon"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4673,10 +4673,10 @@
         {
             "id": 381,
             "name": [
-                "레몬즙",
-                "레몬즙",
-                "레몬즙",
-                "레몬즙"
+                "Lemon Juice",
+                "Lemon Juice",
+                "Lemon Juice",
+                "Lemon Juice"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4685,10 +4685,10 @@
         {
             "id": 382,
             "name": [
-                "자몽",
-                "자몽",
-                "자몽",
-                "자몽"
+                "Grapefruit",
+                "Grapefruit",
+                "Grapefruit",
+                "Grapefruit"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4697,10 +4697,10 @@
         {
             "id": 383,
             "name": [
-                "썬 자몽",
-                "썬 자몽",
-                "썬 자몽",
-                "썬 자몽"
+                "Sliced Grapefruit",
+                "Sliced Grapefruit",
+                "Sliced Grapefruit",
+                "Sliced Grapefruit"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4709,10 +4709,10 @@
         {
             "id": 384,
             "name": [
-                "자몽 주스",
-                "자몽 주스",
-                "자몽 주스",
-                "자몽 주스"
+                "Grapefruit Juice",
+                "Grapefruit Juice",
+                "Grapefruit Juice",
+                "Grapefruit Juice"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4721,10 +4721,10 @@
         {
             "id": 385,
             "name": [
-                "레몬+물",
-                "레몬+물",
-                "레몬+물",
-                "레몬+물"
+                "Lemon+Water",
+                "Lemon+Water",
+                "Lemon+Water",
+                "Lemon+Water"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4733,10 +4733,10 @@
         {
             "id": 386,
             "name": [
-                "레몬차",
-                "레몬차",
-                "레몬차",
-                "레몬차"
+                "Lemon Tea",
+                "Lemon Tea",
+                "Lemon Tea",
+                "Lemon Tea"
             ],
             "canMelt": false,
             "colorCode": "X",
@@ -4745,10 +4745,10 @@
         {
             "id": 387,
             "name": [
-                "자몽+물",
-                "자몽+물",
-                "자몽+물",
-                "자몽+물"
+                "Grapefruit+Water",
+                "Grapefruit+Water",
+                "Grapefruit+Water",
+                "Grapefruit+Water"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4757,10 +4757,10 @@
         {
             "id": 388,
             "name": [
-                "자몽차",
-                "자몽차",
-                "자몽차",
-                "자몽차"
+                "Grapefruit Tea",
+                "Grapefruit Tea",
+                "Grapefruit Tea",
+                "Grapefruit Tea"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4769,10 +4769,10 @@
         {
             "id": 389,
             "name": [
-                "사과+물",
-                "사과+물",
-                "사과+물",
-                "사과+물"
+                "Apple+Water",
+                "Apple+Water",
+                "Apple+Water",
+                "Apple+Water"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4781,10 +4781,10 @@
         {
             "id": 390,
             "name": [
-                "사과차",
-                "사과차",
-                "사과차",
-                "사과차"
+                "Apple Tea",
+                "Apple Tea",
+                "Apple Tea",
+                "Apple Tea"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4793,10 +4793,10 @@
         {
             "id": 391,
             "name": [
-                "사과 주스",
-                "사과 주스",
-                "사과 주스",
-                "사과 주스"
+                "Apple Juice",
+                "Apple Juice",
+                "Apple Juice",
+                "Apple Juice"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4805,10 +4805,10 @@
         {
             "id": 392,
             "name": [
-                "사과 에이드",
-                "사과 에이드",
-                "사과 에이드",
-                "사과 에이드"
+                "Apple Fizz",
+                "Apple Fizz",
+                "Apple Fizz",
+                "Apple Fizz"
             ],
             "canMelt": false,
             "colorCode": "O",
@@ -4817,10 +4817,10 @@
         {
             "id": 393,
             "name": [
-                "레몬 에이드",
-                "레몬 에이드",
-                "레몬 에이드",
-                "레몬 에이드"
+                "Lemon Fizz",
+                "Lemon Fizz",
+                "Lemon Fizz",
+                "Lemon Fizz"
             ],
             "canMelt": false,
             "colorCode": "Y",
@@ -4829,10 +4829,10 @@
         {
             "id": 394,
             "name": [
-                "자몽 에이드",
-                "자몽 에이드",
-                "자몽 에이드",
-                "자몽 에이드"
+                "Grapefruit Fizz",
+                "Grapefruit Fizz",
+                "Grapefruit Fizz",
+                "Grapefruit Fizz"
             ],
             "canMelt": false,
             "colorCode": "C",
@@ -4841,10 +4841,10 @@
         {
             "id": 395,
             "name": [
-                "딸기 에이드",
-                "딸기 에이드",
-                "딸기 에이드",
-                "딸기 에이드"
+                "Strawberry Fizz",
+                "Strawberry Fizz",
+                "Strawberry Fizz",
+                "Strawberry Fizz"
             ],
             "canMelt": false,
             "colorCode": "R",
@@ -4853,10 +4853,10 @@
         {
             "id": 396,
             "name": [
-                "블루베리 에이드",
-                "블루베리 에이드",
-                "블루베리 에이드",
-                "블루베리 에이드"
+                "Blueberry Fizz",
+                "Blueberry Fizz",
+                "Blueberry Fizz",
+                "Blueberry Fizz"
             ],
             "canMelt": false,
             "colorCode": "K",
@@ -4867,10 +4867,10 @@
         {
             "id": 397,
             "name": [
-                "망고 에이드",
-                "망고 에이드",
-                "망고 에이드",
-                "망고 에이드"
+                "Mango Fizz",
+                "Mango Fizz",
+                "Mango Fizz",
+                "Mango Fizz"
             ],
             "canMelt": false,
             "colorCode": "D",
@@ -7015,7 +7015,7 @@
             "type": 6,
             "input": [
                 19,
-                105
+                52
             ],
             "output": [
                 106
@@ -8269,7 +8269,7 @@
             "type": 6,
             "input": [
                 121,
-                105
+                52
             ],
             "output": [
                 107
@@ -8313,7 +8313,7 @@
             "type": 6,
             "input": [
                 120,
-                105
+                52
             ],
             "output": [
                 301
@@ -9282,10 +9282,10 @@
         {
             "id": 0,
             "name": [
-                "커피",
-                "커피",
-                "커피",
-                "커피"
+                "Coffee",
+                "Coffee",
+                "Coffee",
+                "Coffee"
             ],
             "fridge": [
                 26,
@@ -9328,10 +9328,10 @@
         {
             "id": 1,
             "name": [
-                "빙수",
-                "빙수",
-                "빙수",
-                "빙수"
+                "Bingsu(Shaved Ice)",
+                "Bingsu(Shaved Ice)",
+                "Bingsu(Shaved Ice)",
+                "Bingsu(Shaved Ice)"
             ],
             "fridge": [
                 26,
@@ -9367,10 +9367,10 @@
         {
             "id": 2,
             "name": [
-                "초코&쿠키",
-                "초코&쿠키",
-                "초코&쿠키",
-                "초코&쿠키"
+                "Choco&Cookie",
+                "Choco&Cookie",
+                "Choco&Cookie",
+                "Choco&Cookie"
             ],
             "fridge": [
                 26,
@@ -9414,10 +9414,10 @@
         {
             "id": 3,
             "name": [
-                "도넛",
-                "도넛",
-                "도넛",
-                "도넛"
+                "Donut",
+                "Donut",
+                "Donut",
+                "Donut"
             ],
             "fridge": [
                 211,
@@ -9459,10 +9459,10 @@
         {
             "id": 4,
             "name": [
-                "밀크티",
-                "밀크티",
-                "밀크티",
-                "밀크티"
+                "Tea",
+                "Tea",
+                "Tea",
+                "Tea"
             ],
             "fridge": [
                 26,
@@ -9510,10 +9510,10 @@
         {
             "id": 5,
             "name": [
-                "마카롱",
-                "마카롱",
-                "마카롱",
-                "마카롱"
+                "Macaron",
+                "Macaron",
+                "Macaron",
+                "Macaron"
             ],
             "fridge": [
                 137,
@@ -9547,10 +9547,10 @@
         {
             "id": 6,
             "name": [
-                "스무디",
-                "스무디",
-                "스무디",
-                "스무디"
+                "Smoothie",
+                "Smoothie",
+                "Smoothie",
+                "Smoothie"
             ],
             "fridge": [
                 26,
@@ -9594,10 +9594,10 @@
         {
             "id": 7,
             "name": [
-                "빵",
-                "빵",
-                "빵",
-                "빵"
+                "Bread",
+                "Bread",
+                "Bread",
+                "Bread"
             ],
             "fridge": [
                 211,
@@ -9642,10 +9642,10 @@
         {
             "id": 8,
             "name": [
-                "브런치",
-                "브런치",
-                "브런치",
-                "브런치"
+                "Brunch",
+                "Brunch",
+                "Brunch",
+                "Brunch"
             ],
             "fridge": [
                 211,
@@ -9689,10 +9689,10 @@
         {
             "id": 9,
             "name": [
-                "아이스크림",
-                "아이스크림",
-                "아이스크림",
-                "아이스크림"
+                "Ice Cream",
+                "Ice Cream",
+                "Ice Cream",
+                "Ice Cream"
             ],
             "fridge": [
                 26,
@@ -9734,10 +9734,10 @@
         {
             "id": 10,
             "name": [
-                "파이&타르트",
-                "파이&타르트",
-                "파이&타르트",
-                "파이&타르트"
+                "Pie&Tart",
+                "Pie&Tart",
+                "Pie&Tart",
+                "Pie&Tart"
             ],
             "fridge": [
                 211,
@@ -9777,10 +9777,10 @@
         {
             "id": 11,
             "name": [
-                "주스&에이드",
-                "주스&에이드",
-                "주스&에이드",
-                "주스&에이드"
+                "Juice&Fizz",
+                "Juice&Fizz",
+                "Juice&Fizz",
+                "Juice&Fizz"
             ],
             "fridge": [
                 378,

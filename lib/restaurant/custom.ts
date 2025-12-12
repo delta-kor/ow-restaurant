@@ -21,6 +21,16 @@ export const CustomRestaurantInfos: CustomRestaurantInfo[] = [
     recipeId: 'cook-intl',
   },
   {
+    name: 'Cafe (Eng)',
+    code: 'Z1TBZ',
+    recipeId: 'cafe-en',
+  },
+  {
+    name: 'World Cuisine (Eng)',
+    code: 'GXYZ5',
+    recipeId: 'cook-intl-en',
+  },
+  {
     name: 'Cafe (中文)',
     code: 'WM3MW',
     recipeId: 'cafe-zh-CN',
