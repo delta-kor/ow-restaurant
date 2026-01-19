@@ -16,6 +16,11 @@ export const CustomRestaurantInfos: CustomRestaurantInfo[] = [
     recipeId: 'third',
   },
   {
+    name: '뉴 3호점',
+    code: 'SSZ1Z1',
+    recipeId: 'new-third',
+  },
+  {
     name: '쿡제요리',
     code: 'P6ZAA',
     recipeId: 'cook-intl',
