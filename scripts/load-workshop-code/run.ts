@@ -70,7 +70,8 @@ export async function run() {
 
 export async function runCustom(
   customId: string,
-  workshopCodeType: WorkshopCodeType = WorkshopCodeType.Ko
+  workshopCodeType: WorkshopCodeType = WorkshopCodeType.Ko,
+  customFridgeIds: number[] = []
 ) {
   const customCodeProgram = Effect.gen(function* () {
     yield* Effect.annotateLogsScoped({ customId })
@@ -81,6 +82,10 @@ export async function runCustom(
 
     const workshopCodeParser = new CodeParser(workshopCode)
     const config = yield* workshopCodeParser.parse()
+
+    for (const fridge of config.fridgeList) {
+      fridge.push(...customFridgeIds)
+    }
 
     yield* Effect.logInfo('Parsed custom workshop codes')
 
