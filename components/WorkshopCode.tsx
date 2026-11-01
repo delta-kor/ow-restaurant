@@ -10,7 +10,7 @@ export default function WorkshopCode() {
   const code = defaults[locale] ?? defaults.en
   const rows = [
     { name: t('default'), code, href: bookHref('default-classic') },
-    { name: t('joseonEdition'), code: 'PG261', href: bookHref('joseon-third') },
+    { name: t('joseonEdition'), code: 'WM3MW', href: bookHref('joseon-third') },
     { name: t('thirdEdition'), code: 'ST6Z6', href: bookHref('third') },
   ]
   return (
