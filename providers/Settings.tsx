@@ -1,8 +1,10 @@
 'use client'
 
+import { normalizeScreenTheme, resolveScreenTheme, ScreenTheme } from '@/lib/theme'
 import React, { useEffect, useRef, useState } from 'react'
 
 export interface Settings {
+  screenTheme: ScreenTheme
   displayActionTime: boolean
   displayAlternative: boolean
   displayMainMenus: boolean
@@ -23,6 +25,7 @@ export interface ISettingsContext {
 const SettingsContext = React.createContext<ISettingsContext>({} as ISettingsContext)
 
 const DefaultSettings: Settings = {
+  screenTheme: 'system',
   displayActionTime: false,
   displayAlternative: true,
   displayMainMenus: true,
@@ -43,40 +46,49 @@ export function useSettings() {
 
 export default function SettingsProvider({ children }: { children: React.ReactNode }) {
   const [data, setData] = useState<Settings>(DefaultSettings)
+  const [loaded, setLoaded] = useState(false)
   const dataRef = useRef<Settings>(DefaultSettings)
 
   useEffect(() => {
     loadSettings()
   }, [])
 
-  const loadSettings = () => {
-    if (!localStorage) return
-
-    const settings = localStorage.getItem('ow_rest_settings')
-    if (!settings) {
-      saveData(data)
-      return
+  useEffect(() => {
+    if (!loaded) return
+    const query = window.matchMedia('(prefers-color-scheme: dark)')
+    const apply = () => {
+      const theme = resolveScreenTheme(data.screenTheme, query.matches)
+      document.documentElement.dataset.theme = theme
+      document.documentElement.style.colorScheme = theme
     }
+    apply()
+    query.addEventListener('change', apply)
+    return () => query.removeEventListener('change', apply)
+  }, [data.screenTheme, loaded])
 
+  const loadSettings = () => {
     try {
-      const parsedSettings = JSON.parse(settings) as unknown
-      if (typeof parsedSettings !== 'object' || parsedSettings === null) {
-        saveData(data)
-        return
+      const raw = localStorage.getItem('ow_rest_settings')
+      const parsed = raw ? JSON.parse(raw) : {}
+      const saved = parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {}
+      const next: Settings = {
+        ...DefaultSettings,
+        ...saved,
+        screenTheme: normalizeScreenTheme(saved.screenTheme),
       }
-
-      const newSettings: Settings = { ...DefaultSettings, ...parsedSettings }
-      setData(newSettings)
-      dataRef.current = newSettings
-    } catch (e) {
-      saveData(data)
-      return
+      setData(next)
+      dataRef.current = next
+    } catch {
+      // Storage can be disabled; the selected theme still works for this visit.
+    } finally {
+      setLoaded(true)
     }
   }
 
-  const saveData = (data: Settings) => {
-    if (!localStorage) return
-    localStorage.setItem('ow_rest_settings', JSON.stringify(data))
+  const saveData = (next: Settings) => {
+    try {
+      localStorage.setItem('ow_rest_settings', JSON.stringify(next))
+    } catch {}
   }
 
   const handleSetData = (key: keyof Settings, value: Settings[keyof Settings]) => {

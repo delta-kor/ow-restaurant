@@ -1,0 +1,608 @@
+[
+  {
+    "id": 8,
+    "name": "에너지 드링크",
+    "category": "도구",
+    "color": "#41ba38",
+    "icon": "take-a-breather",
+    "iconSource": "deprecated/cafe_kr.ow: Roadhog / Ability 2",
+    "keys": [
+      "ultimate"
+    ],
+    "singleUse": true,
+    "durabilityCost": null,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": []
+  },
+  {
+    "id": 9,
+    "name": "싼데비슷한 드링크",
+    "category": "도구",
+    "color": "#9f20c3",
+    "icon": "nano-boost",
+    "iconSource": "deprecated/cafe_kr.ow: Ana / Ultimate",
+    "keys": [
+      "ultimate"
+    ],
+    "singleUse": true,
+    "durabilityCost": null,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": []
+  },
+  {
+    "id": 11,
+    "name": "조미료 팩",
+    "category": "도구",
+    "color": "#ce9731",
+    "icon": "dynamite",
+    "iconSource": "deprecated/cafe_kr.ow: Ashe / Ability 2",
+    "keys": [
+      "ultimate"
+    ],
+    "singleUse": false,
+    "durabilityCost": 5,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": []
+  },
+  {
+    "id": 12,
+    "name": "청소기",
+    "category": "도구",
+    "color": "#397f34",
+    "icon": "kinetic-grasp",
+    "iconSource": "deprecated/cafe_kr.ow: Sigma / Ability 1",
+    "keys": [
+      "secondary-fire"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.5,
+    "durabilityUnit": "작동 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "요리 복사 스펠",
+    "category": "도구",
+    "color": "#9f20c3",
+    "icon": "amplification-matrix",
+    "iconSource": "deprecated/cafe_kr.ow: Baptiste / Ultimate",
+    "keys": [
+      "ultimate"
+    ],
+    "singleUse": false,
+    "durabilityCost": 20,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ],
+        "themes": [
+          "모듬회밥!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "토치",
+    "category": "도구",
+    "color": "#c83333",
+    "icon": "molten-core",
+    "iconSource": "deprecated/cafe_kr.ow: Torbjörn / Ultimate",
+    "keys": [
+      "secondary-fire"
+    ],
+    "singleUse": false,
+    "durabilityCost": 1,
+    "durabilityUnit": "작동 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ],
+        "themes": [
+          "모듬회밥!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ],
+        "themes": [
+          "모듬회밥!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ],
+        "themes": [
+          "모듬회밥!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ],
+        "themes": [
+          "카페!"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "서빙볼",
+    "category": "도구",
+    "color": "#9f20c3",
+    "icon": "roll",
+    "iconSource": "deprecated/cafe_kr.ow: Wrecking Ball / Ability 1",
+    "keys": [
+      "ultimate"
+    ],
+    "singleUse": true,
+    "durabilityCost": null,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인다이닝 부터 등장",
+        "color": [
+          110,
+          180,
+          255
+        ],
+        "themes": []
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "보존식 박스",
+    "category": "도구",
+    "color": "#ce9731",
+    "icon": "panopticon",
+    "iconSource": "deprecated/ko.ow: Domina / Ultimate",
+    "keys": [
+      "ultimate"
+    ],
+    "singleUse": true,
+    "durabilityCost": null,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": []
+  },
+  {
+    "id": 20,
+    "name": "냉각총",
+    "category": "도구",
+    "color": "#3478b5",
+    "icon": "cryo-freeze",
+    "iconSource": "deprecated/cafe_kr.ow: Mei / Ability 1",
+    "keys": [
+      "secondary-fire"
+    ],
+    "singleUse": false,
+    "durabilityCost": 1,
+    "durabilityUnit": "작동 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ],
+        "themes": [
+          "카페!"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ],
+        "themes": [
+          "카페!"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ],
+        "themes": [
+          "카페!"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "점프 부츠",
+    "category": "이동 장비",
+    "color": "#ff3291",
+    "icon": "exo-boots",
+    "iconSource": "deprecated/cafe_kr.ow: Baptiste / Crouch",
+    "keys": [
+      "jump"
+    ],
+    "singleUse": false,
+    "durabilityCost": 1,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인다이닝 부터 등장",
+        "color": [
+          110,
+          180,
+          255
+        ],
+        "themes": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "대시 부츠",
+    "category": "이동 장비",
+    "color": "#ff3291",
+    "icon": "charge",
+    "iconSource": "deprecated/cafe_kr.ow: Reinhardt / Ability 1",
+    "keys": [
+      "ability-1"
+    ],
+    "singleUse": false,
+    "durabilityCost": 2,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ],
+        "themes": [
+          "모듬회밥!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "텔레포트 스펠",
+    "category": "이동 장비",
+    "color": "#ff3291",
+    "icon": "swift-step",
+    "iconSource": "deprecated/cafe_kr.ow: Kiriko / Ability 1",
+    "keys": [
+      "ability-1"
+    ],
+    "singleUse": false,
+    "durabilityCost": 10,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": [
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "양산형 칼",
+    "category": "칼",
+    "color": "#41ba38",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.15,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 100,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "고급 부엌칼",
+    "category": "칼",
+    "color": "#1f681a",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.1,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 125,
+    "modes": []
+  },
+  {
+    "id": 2,
+    "name": "탄소강 칼",
+    "category": "칼",
+    "color": "#24bfc9",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.05,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 125,
+    "modes": []
+  },
+  {
+    "id": 3,
+    "name": "휴대용 칼",
+    "category": "칼",
+    "color": "#24bfc9",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "primary-fire",
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.05,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 125,
+    "modes": [
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "날카로운 칼",
+    "category": "칼",
+    "color": "#24bfc9",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.05,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 250,
+    "modes": []
+  },
+  {
+    "id": 5,
+    "name": "겐지의 단검",
+    "category": "칼",
+    "color": "#24bfc9",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.1,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 100,
+    "modes": []
+  },
+  {
+    "id": 7,
+    "name": "헤드셰프의 칼",
+    "category": "칼",
+    "color": "#9f20c3",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "primary-fire",
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": 0.03,
+    "durabilityUnit": "칼질 1회",
+    "knifeEfficiency": 500,
+    "modes": [
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ],
+        "themes": [
+          "모듬회밥!",
+          "카페!",
+          "쿡제요리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "$100",
+    "category": "기타",
+    "color": "#ce9731",
+    "icon": null,
+    "iconSource": null,
+    "keys": [
+      "interact"
+    ],
+    "singleUse": false,
+    "durabilityCost": null,
+    "durabilityUnit": "사용 1회",
+    "knifeEfficiency": null,
+    "modes": []
+  }
+]

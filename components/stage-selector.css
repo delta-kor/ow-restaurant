@@ -1,0 +1,46 @@
+/* Casual Dining hue from OW: Custom Color(140, 255, 180, 255). */
+.recipe-category {
+  border: 1px solid transparent;
+  background: var(--color-primary-background);
+  color: var(--color-primary);
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
+}
+.recipe-category:hover {
+  background: #e3ebff;
+}
+.recipe-category[data-active='true'] {
+  border-color: #bdcff6;
+  background: #dce6ff;
+  color: #2858dd;
+}
+.recipe-category[data-casual='true'] {
+  background: #effbf2;
+  color: #48835b;
+}
+.recipe-category[data-casual='true']:hover {
+  background: #e5f6e9;
+}
+.recipe-category[data-casual='true'][data-active='true'] {
+  border-color: #b6d9c0;
+  background: #d9f0df;
+  color: #326a45;
+}
+.recipe-category[data-muted='true'] {
+  background: #f5f6f8;
+  color: #a4a9b2;
+}
+.recipe-category[data-muted='true']:hover {
+  background: #eef0f3;
+  color: #8b929d;
+}
+.recipe-category[data-muted='true'][data-active='true'] {
+  border-color: #d4d9e2;
+  background: #e9ecf1;
+  color: #737d8b;
+}
+.recipe-category:focus-visible {
+  outline: 2px solid var(--color-primary-light);
+  outline-offset: 3px;
+}

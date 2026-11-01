@@ -1,4 +1,9 @@
 {
+  "screenTheme": "화면 테마",
+  "themeSystem": "시스템",
+  "themeLight": "라이트",
+  "themeDark": "다크",
+  "casualDiningOnly": "캐주얼 다이닝 메뉴만 표시",
   "add": "추가",
   "addCustomRestaurant": "커스텀 레스토랑 추가",
   "cookSpeed": "조리 속도",
@@ -6,7 +11,7 @@
   "customRestaurant": "커스텀 레스토랑",
   "cut": "썰기",
   "cuttingBoard": "도마",
-  "default": "기본",
+  "default": "모듬회밥!",
   "displayActionTime": "조리 시간 표시",
   "displayAlternative": "대안 표시",
   "displayHint": "힌트 표시",
@@ -16,7 +21,7 @@
   "gameTutorialChop": "<key>F</key>를 눌러 도마 위 아이템 썰기",
   "gameTutorialImpact": "<key>마우스 우클릭</key> 또는 아이템을 들고 <key>V</key>를 눌러 아이템 던지기 (뭉치기)",
   "grill": "그릴",
-  "ice": "제빙기",
+  "ice": "냉각",
   "impact": "던지기",
   "mainMenu": "메인 메뉴",
   "mix": "섞기",
@@ -37,5 +42,14 @@
   "sink": "싱크대",
   "specialMenu": "스페셜 메뉴",
   "stage": "스테이지",
-  "workshopCode": "워크샵 코드"
+  "workshopCode": "워크샵 코드",
+  "edition": "에디션",
+  "restaurantTheme": "레스토랑 테마",
+  "dishCategory": "요리 분류",
+  "joseonEdition": "헬JOSEON",
+  "thirdEdition": "3호점",
+  "language": "언어",
+  "copyCode": "코드 복사",
+  "gameTutorialIce": "재료를 든 채 I 키를 눌러 냉각합니다.",
+  "gameInfo": "게임 정보"
 }

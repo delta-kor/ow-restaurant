@@ -1,24 +1,46 @@
 'use client'
 
 import { Link, usePathname } from '@/i18n/routing'
+import { useTranslations } from 'next-intl'
+import { useEffect, useState } from 'react'
 import Icon, { IconType } from './Icon'
 
 const MenuList: [IconType, string | null][] = [
   [Icon.Home, null],
   [Icon.Book, '/book'],
+  [Icon.Info, '/info'],
   [Icon.Game, '/sandbox'],
   [Icon.Settings, '/settings'],
 ]
 
 export default function Sidebar() {
+  const t = useTranslations()
   const pathname = usePathname()
+  const [bookPath, setBookPath] = useState('/book')
+  useEffect(() => {
+    try {
+      if (pathname.startsWith('/book/')) {
+        localStorage.setItem('restaurant-book-path', pathname)
+        setBookPath(pathname)
+      } else {
+        const saved = localStorage.getItem('restaurant-book-path')
+        if (saved?.startsWith('/book/')) setBookPath(saved)
+      }
+    } catch {}
+  }, [pathname])
 
   return (
     <>
       <div className="tablet:block left-pc-x-padding fixed top-1/2 z-20 hidden -translate-y-1/2">
         <div className="rounded-16 bg-primary-background flex flex-col gap-40 px-24 py-32">
           {MenuList.map(([Icon, path]) => (
-            <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
+            <Link
+              key={path}
+              aria-label={path === '/info' ? t('gameInfo') : path?.slice(1) || 'Home'}
+              href={path === '/book' ? bookPath : path || '/'}
+              className="-m-20 p-20"
+              prefetch
+            >
               <Icon
                 className="text-primary-light data-[active=true]:text-primary size-48 transition-colors"
                 data-active={path ? pathname.startsWith(path) : pathname === '/'}
@@ -30,7 +52,13 @@ export default function Sidebar() {
       <div className="tablet:hidden fixed right-0 bottom-0 left-0 z-20 w-dvw">
         <div className="bg-primary-background flex items-center justify-around px-32 py-24">
           {MenuList.map(([Icon, path]) => (
-            <Link key={path} href={path || '/'} className="-m-20 p-20" prefetch>
+            <Link
+              key={path}
+              aria-label={path === '/info' ? t('gameInfo') : path?.slice(1) || 'Home'}
+              href={path === '/book' ? bookPath : path || '/'}
+              className="-m-20 p-20"
+              prefetch
+            >
               <Icon
                 className="text-primary-light data-[active=true]:text-primary size-32 transition-colors"
                 data-active={path ? pathname.startsWith(path) : pathname === '/'}

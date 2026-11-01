@@ -1,0 +1,1841 @@
+[
+  {
+    "mode": 1,
+    "rounds": [
+      {
+        "round": 1,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 15,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": 2,
+    "rounds": [
+      {
+        "round": 1,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 15,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": true,
+            "heroes": [
+              "sombra",
+              "sigma",
+              "moira",
+              "ramattra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": 3,
+    "rounds": [
+      {
+        "round": 1,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "reinhardt"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "junkerqueen"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "junkerqueen"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "reinhardt"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 15,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "reinhardt"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": true,
+            "heroes": [
+              "sombra",
+              "sigma",
+              "moira",
+              "ramattra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "junkerqueen"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": 4,
+    "rounds": [
+      {
+        "round": 1,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "bonus": true,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "bonus": true,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "bonus": true,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "bonus": true,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "moira"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "bonus": true,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "moira"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": true,
+            "heroes": [
+              "sigma",
+              "moira",
+              "ramattra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": 5,
+    "rounds": [
+      {
+        "round": 1,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "domina"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "hanzo"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "roadhog"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "bastion"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "dva"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "tracer"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "mauga"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 15,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "moira"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "soldier76"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 16,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "freja"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "zarya"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "hazard"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 17,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "lifeweaver"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "jetpackcat"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "ramattra"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 18,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "sigma"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "sombra"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "mercy"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 19,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "reinhardt"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          }
+        ]
+      },
+      {
+        "round": 20,
+        "bonus": false,
+        "customers": [
+          {
+            "random": false,
+            "heroes": [
+              "moira"
+            ]
+          },
+          {
+            "random": false,
+            "heroes": [
+              "kiriko"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

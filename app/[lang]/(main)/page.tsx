@@ -26,7 +26,7 @@ export default async function MainPage({ params }: { params: Promise<{ lang: str
           <WorkshopCode />
 
           <div className="flex flex-col gap-16 self-stretch">
-            <div className="flex basis-0 items-center gap-16 self-stretch">
+            <div className="flex basis-0 flex-wrap items-center gap-16 self-stretch">
               <Link
                 href={'/book'}
                 className="rounded-16 border-light-gray tablet:grow-0 tablet:px-24 tablet:py-16 flex grow items-center gap-12 border-2 px-20 py-14"
@@ -35,6 +35,15 @@ export default async function MainPage({ params }: { params: Promise<{ lang: str
                 <div className="text-gray tablet:text-20 text-16 grow font-bold">
                   {t('recipeBook')}
                 </div>
+                <Icon.RightChevron className="text-gray tablet:size-20 size-16 shrink-0" />
+              </Link>
+
+              <Link
+                href="/info"
+                className="rounded-16 border-light-gray tablet:grow-0 tablet:px-24 tablet:py-16 flex grow items-center gap-12 border-2 px-20 py-14"
+              >
+                <Icon.Info className="text-primary tablet:size-24 size-20 shrink-0" />
+                <div className="text-gray tablet:text-20 text-16 grow font-bold">Info</div>
                 <Icon.RightChevron className="text-gray tablet:size-20 size-16 shrink-0" />
               </Link>
 

@@ -1,3 +1,8 @@
+function themeColor(light: number, dark: number): number {
+  return typeof document !== 'undefined' && document.documentElement.dataset.theme === 'dark'
+    ? dark
+    : light
+}
 namespace GameConstraints {
   export const Tick = {
     Length: 10,
@@ -6,10 +11,18 @@ namespace GameConstraints {
   }
 
   export const Color = {
-    PrimaryBackground: 0xeff3ff,
-    PrimaryLight: 0xadc3ff,
-    Primary: 0x2858dd,
-    Black: 0x2c2d31,
+    get PrimaryBackground() {
+      return themeColor(0xeff3ff, 0x202d45)
+    },
+    get PrimaryLight() {
+      return themeColor(0xadc3ff, 0x7896c4)
+    },
+    get Primary() {
+      return themeColor(0x2858dd, 0x91b1ff)
+    },
+    get Black() {
+      return themeColor(0x2c2d31, 0xe8edf5)
+    },
     White: 0xffffff,
   }
 
@@ -23,14 +36,24 @@ namespace GameConstraints {
 
   export const Area = {
     Rounded: 4,
-    BackgroundColor: Color.PrimaryBackground,
-    HoveringBackgroundColor: Color.PrimaryLight,
-    StrokeColor: Color.White,
-    HighlightedStrokeColor: Color.PrimaryLight,
+    get BackgroundColor() {
+      return Color.PrimaryBackground
+    },
+    get HoveringBackgroundColor() {
+      return Color.PrimaryLight
+    },
+    get StrokeColor() {
+      return themeColor(Color.White, 0x334155)
+    },
+    get HighlightedStrokeColor() {
+      return Color.PrimaryLight
+    },
   }
 
   export const Machine = {
-    BackgroundColor: Color.PrimaryBackground,
+    get BackgroundColor() {
+      return Color.PrimaryBackground
+    },
   }
 
   export const View = {
@@ -174,7 +197,9 @@ namespace GameConstraints {
   export const Label = {
     FontSize: '12px',
     FontWeight: '600',
-    TextColor: Color.PrimaryLight,
+    get TextColor() {
+      return Color.PrimaryLight
+    },
   }
 }
 

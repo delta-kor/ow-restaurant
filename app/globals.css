@@ -1,5 +1,5 @@
 @import url('https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme inline {
   --spacing-*: initial;
@@ -96,14 +96,14 @@
   --radius-32: var(--unit-32);
   --radius-full: 9999px;
 
-  --color-primary: #2858DD;
-  --color-primary-background: #EFF3FF;
-  --color-primary-light: #ADC3FF;
-  --color-black: #2C2D31;
-  --color-gray: #6C707C;
-  --color-light-gray: #E6E7E9;
-  --color-light-gray-hover: #CCD0DB;
-  --color-white: #FFFFFF;
+  --color-primary: var(--app-primary);
+  --color-primary-background: var(--app-primary-background);
+  --color-primary-light: var(--app-primary-light);
+  --color-black: var(--app-black);
+  --color-gray: var(--app-gray);
+  --color-light-gray: var(--app-light-gray);
+  --color-light-gray-hover: var(--app-light-gray-hover);
+  --color-white: #ffffff;
 
   --text-12: var(--unit-12);
   --text-14: var(--unit-14);
@@ -146,4 +146,32 @@ body {
 .flow-graph::-webkit-scrollbar-thumb:hover,
 .flow-graph::-webkit-scrollbar-thumb:active {
   background: var(--color-light-gray-hover);
+}
+:root {
+  --app-primary: #2858dd;
+  --color-primary: var(--app-primary);
+  --app-primary-background: #eff3ff;
+  --color-primary-background: var(--app-primary-background);
+  --app-primary-light: #adc3ff;
+  --color-primary-light: var(--app-primary-light);
+  --app-black: #2c2d31;
+  --color-black: var(--app-black);
+  --app-gray: #6c707c;
+  --color-gray: var(--app-gray);
+  --app-light-gray: #e6e7e9;
+  --color-light-gray: var(--app-light-gray);
+  --app-light-gray-hover: #ccd0db;
+  --color-light-gray-hover: var(--app-light-gray-hover);
+  --app-background: #ffffff;
+  --app-surface: #ffffff;
+  color-scheme: light;
+}
+body {
+  background-color: var(--app-background);
+  color: var(--app-black);
+}
+@layer utilities {
+  .bg-white {
+    background-color: var(--app-surface);
+  }
 }

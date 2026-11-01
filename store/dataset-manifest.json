@@ -1,0 +1,193 @@
+{
+  "sources": {
+    "kr_deluxe.ow": "cb1594754e5c2c9f8464c7a0457b04be38f0e15f065791ebfa783a23c9b2f2d3",
+    "en_deluxe.ow": "5d75c58abece99bf23d8820192339d15834c93c1dc3c4a53b1e4f2b77904e39f",
+    "jp_deluxe.ow": "79d0f0d6f5708b4e2cd6e7472f015998533984e97c7d0f7025069206ed3d8124",
+    "Joseon_deluxe.ow": "d38994fa7392535f02f40cc9b61b33c48a7af6d8cc009400fd7ec742796f9b4c",
+    "kc_kr.ow": "fc1e9239b804dc813678433ab3c6d6bac95403668fdd162f498e6d592ea14fed"
+  },
+  "datasets": [
+    {
+      "id": "default-classic",
+      "language": "ko",
+      "source": "kr_deluxe.ow",
+      "initializer": "ORG",
+      "items": 476,
+      "actions": 549,
+      "stages": 12
+    },
+    {
+      "id": "default-cafe",
+      "language": "ko",
+      "source": "kr_deluxe.ow",
+      "initializer": "CAFE",
+      "items": 399,
+      "actions": 414,
+      "stages": 12
+    },
+    {
+      "id": "default-world",
+      "language": "ko",
+      "source": "kr_deluxe.ow",
+      "initializer": "GC",
+      "items": 464,
+      "actions": 507,
+      "stages": 12
+    },
+    {
+      "id": "default-classic",
+      "language": "en",
+      "source": "en_deluxe.ow",
+      "initializer": "ORG",
+      "items": 476,
+      "actions": 549,
+      "stages": 12
+    },
+    {
+      "id": "default-cafe",
+      "language": "en",
+      "source": "en_deluxe.ow",
+      "initializer": "CAFE",
+      "items": 399,
+      "actions": 414,
+      "stages": 12
+    },
+    {
+      "id": "default-world",
+      "language": "en",
+      "source": "en_deluxe.ow",
+      "initializer": "GC",
+      "items": 464,
+      "actions": 507,
+      "stages": 12
+    },
+    {
+      "id": "default-classic",
+      "language": "ja",
+      "source": "jp_deluxe.ow",
+      "initializer": "ORG",
+      "items": 476,
+      "actions": 549,
+      "stages": 12
+    },
+    {
+      "id": "default-cafe",
+      "language": "ja",
+      "source": "jp_deluxe.ow",
+      "initializer": "CAFE",
+      "items": 399,
+      "actions": 414,
+      "stages": 12
+    },
+    {
+      "id": "default-world",
+      "language": "ja",
+      "source": "jp_deluxe.ow",
+      "initializer": "GC",
+      "items": 464,
+      "actions": 507,
+      "stages": 12
+    },
+    {
+      "id": "joseon-third",
+      "language": "ko",
+      "source": "Joseon_deluxe.ow",
+      "initializer": "N3",
+      "items": 516,
+      "actions": 520,
+      "stages": 12
+    },
+    {
+      "id": "joseon-cafe",
+      "language": "ko",
+      "source": "Joseon_deluxe.ow",
+      "initializer": "CAFE",
+      "items": 522,
+      "actions": 530,
+      "stages": 14
+    },
+    {
+      "id": "third",
+      "language": "ko",
+      "source": "kc_kr.ow",
+      "initializer": null,
+      "items": 351,
+      "actions": 356,
+      "stages": 8
+    },
+    {
+      "id": "default-classic",
+      "language": "zh-CN",
+      "source": "en_deluxe.ow",
+      "initializer": "ORG",
+      "items": 476,
+      "actions": 549,
+      "stages": 12,
+      "structureLanguage": "en",
+      "translation": "store/translations/zh-CN.json",
+      "traditionalConversion": null
+    },
+    {
+      "id": "default-classic",
+      "language": "zh-TW",
+      "source": "en_deluxe.ow",
+      "initializer": "ORG",
+      "items": 476,
+      "actions": 549,
+      "stages": 12,
+      "structureLanguage": "en",
+      "translation": "store/translations/zh-CN.json",
+      "traditionalConversion": "OpenCC s2twp"
+    },
+    {
+      "id": "default-cafe",
+      "language": "zh-CN",
+      "source": "en_deluxe.ow",
+      "initializer": "CAFE",
+      "items": 399,
+      "actions": 414,
+      "stages": 12,
+      "structureLanguage": "en",
+      "translation": "store/translations/zh-CN.json",
+      "traditionalConversion": null
+    },
+    {
+      "id": "default-cafe",
+      "language": "zh-TW",
+      "source": "en_deluxe.ow",
+      "initializer": "CAFE",
+      "items": 399,
+      "actions": 414,
+      "stages": 12,
+      "structureLanguage": "en",
+      "translation": "store/translations/zh-CN.json",
+      "traditionalConversion": "OpenCC s2twp"
+    },
+    {
+      "id": "default-world",
+      "language": "zh-CN",
+      "source": "en_deluxe.ow",
+      "initializer": "GC",
+      "items": 464,
+      "actions": 507,
+      "stages": 12,
+      "structureLanguage": "en",
+      "translation": "store/translations/zh-CN.json",
+      "traditionalConversion": null
+    },
+    {
+      "id": "default-world",
+      "language": "zh-TW",
+      "source": "en_deluxe.ow",
+      "initializer": "GC",
+      "items": 464,
+      "actions": 507,
+      "stages": 12,
+      "structureLanguage": "en",
+      "translation": "store/translations/zh-CN.json",
+      "traditionalConversion": "OpenCC s2twp"
+    }
+  ],
+  "missingChinese": [],
+  "schemaVersion": 1
+}

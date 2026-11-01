@@ -14,7 +14,7 @@
 /coverage
 
 # next.js
-/.next/
+/.next
 /out/
 
 # production
@@ -46,3 +46,9 @@ next-env.d.ts
 # workshop codes
 scripts/load-workshop-code/code
 scripts/load-workshop-code/code*
+# Recipe conversion environment
+.venv/
+__pycache__/
+
+# Local dependencies and caches excluded from cloud sync
+/*.nosync

@@ -4,6 +4,7 @@ import { Stage } from '@/lib/restaurant/stage'
 import { Context, Effect, Layer, Schema } from 'effect'
 
 export interface RecipeJson {
+  sinkItems?: number[]
   items: ItemJson[]
   actions: ActionJson[]
   stages: StageJson[]
@@ -25,11 +26,13 @@ export interface ItemJson {
 }
 
 export interface StageJson {
+  casualDining?: boolean
   id: number
   name: string[]
   fridge: number[]
   menus: number[]
   hazardMenus: number[]
+  additionalMenu?: boolean
   weaverMenus: number[]
 }
 
@@ -82,14 +85,15 @@ export class Recipe {
 
       const stages = json.stages.map((stage) => Stage.create(stage, items))
 
-      return new Recipe(items, actions, stages)
+      return new Recipe(items, actions, stages, json.sinkItems ?? [])
     })
   }
 
   private constructor(
     private readonly items: Item[],
     private readonly actions: Action[],
-    public readonly stages: Stage[]
+    public readonly stages: Stage[],
+    public readonly sinkItemIds: number[]
   ) {}
 
   public getLayer() {
@@ -135,7 +139,7 @@ export class Recipe {
   }
 
   public static isAdditionalMenuStage(stage: Stage) {
-    return stage.id === 11
+    return stage.additionalMenu
   }
 }
 
