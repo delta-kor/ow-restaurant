@@ -19,7 +19,7 @@ Freely practice recipes and handling different customers.
 
 - Starts at {{d:0}} difficulty, with five selected easy dishes from each cuisine category.
 - Item and basic control instructions are shown; the order list may display a tutorial.
-- Starts with four storage slots. The first service has 40 seconds of preparation and five minutes of service time.
+- Starts with four storage slots. The first service has 120 seconds of preparation and five minutes of service time.
 - Starts with {{c:soldier76}}; other customer types join as you progress.
 - [**Thrown-food serving has the widest acceptance range.**](#advantage)
 - With five or fewer players, [**{{i:17}} automatically assists during service**](#advantage).
@@ -30,7 +30,7 @@ Freely practice recipes and handling different customers.
 Use the full menu and handle a wider range of customers.
 
 - Starts at {{d:1}} difficulty, with every dish from each cuisine category.
-- Starts with four storage slots. The first service has 30 seconds of preparation and five minutes of service time.
+- Starts with four storage slots. The first service has 40 seconds of preparation and five minutes of service time.
 - [**Customers arrive faster than in {{m:1}}, and more customer types appear.**](#penalty)
 - The final service includes a random fusion theme and [**a random boss customer**](#penalty).
 - [**{{i:17}} automatically assists when playing alone**](#advantage). [**Multiplayer requires the {{i:17}} item**](#penalty).
@@ -52,7 +52,7 @@ Use the full menu and handle a wider range of customers.
 
 [**Start at {{d:1}} difficulty and progress through {{d:2}} to {{d:3}}.**](#mechanic)
 
-- [**Starts without storage slots.**](#penalty) The first service has 30 seconds of preparation and three minutes of service time.
+- [**Starts without storage slots.**](#penalty) The first service has 40 seconds of preparation and three minutes of service time.
 - Cuisine order and later fusion themes are randomized.
 - Finish one difficulty to restart from the first cuisine category at a higher difficulty. [**Service failures reset when difficulty increases.**](#advantage)
 - [**Three accumulated service failures within one difficulty end the run.**](#penalty)
