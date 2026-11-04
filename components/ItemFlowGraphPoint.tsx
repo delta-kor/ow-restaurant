@@ -11,9 +11,11 @@ export default function ItemFlowGraphPoint({ point }: { point: Point }) {
   return (
     <div
       style={{ background: getItemColor(item), color: getItemTextColor(item) }}
-      className="text-12 flex size-56 shrink-0 items-center justify-center rounded-full text-center font-semibold text-pretty"
+      className="text-12 flex size-56 shrink-0 items-center justify-center rounded-full text-center font-semibold"
     >
-      {name}
+      <span className="block w-full min-w-0 px-2 whitespace-normal [overflow-wrap:anywhere]">
+        {name}
+      </span>
     </div>
   )
 }
