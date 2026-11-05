@@ -1,0 +1,141 @@
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --app-primary: #91b1ff;
+  --app-primary-background: #202d45;
+  --app-primary-light: #647ca7;
+  --app-black: #e8edf5;
+  --app-gray: #b3bfd0;
+  --app-light-gray: #334155;
+  --app-light-gray-hover: #52627b;
+  --guide-mode-text-1: #9ee3b5;
+  --guide-mode-text-2: #9cc9f7;
+  --guide-mode-text-3: #ead387;
+  --guide-mode-text-4: #f2aaaa;
+  --guide-mode-text-5: #d1d0ed;
+  --guide-mode-background-5: #303047;
+  --guide-mode-border-5: #606079;
+  background: #101722;
+}
+:root[data-theme='dark'] body {
+  background: #101722;
+  color: #e8edf5;
+}
+:root[data-theme='dark'] .bg-primary-background {
+  background-color: #202d45;
+}
+:root[data-theme='dark'] .text-primary {
+  color: #91b1ff;
+}
+:root[data-theme='dark'] .text-primary-light {
+  color: #647ca7;
+}
+:root[data-theme='dark'] .text-primary-light[data-active='true'] {
+  color: #91b1ff;
+}
+:root[data-theme='dark'] .text-gray {
+  color: #b3bfd0;
+}
+:root[data-theme='dark'] .border-light-gray {
+  border-color: #334155;
+}
+:root[data-theme='dark'] .border-primary-background {
+  border-color: #33435d;
+}
+:root[data-theme='dark'] .info-page > section {
+  background: #151e2c;
+}
+:root[data-theme='dark'] .info-page nav[aria-label='Info'] button[aria-pressed='true'],
+:root[data-theme='dark'] [role='option'][aria-selected='true'] {
+  background: #3559ab;
+  color: #f5f8ff;
+}
+:root[data-theme='dark'] [role='listbox'] {
+  background: #182335;
+  border-color: #33435d;
+  box-shadow: 0 12px 32px #0006;
+}
+:root[data-theme='dark'] .recipe-category {
+  background: #202d45;
+  color: #a7c0fa;
+}
+:root[data-theme='dark'] .recipe-category:hover {
+  background: #2a3b59;
+}
+:root[data-theme='dark'] .recipe-category[data-active='true'] {
+  background: #30476d;
+  border-color: #6682b6;
+  color: #d3e1ff;
+}
+:root[data-theme='dark'] .info-page .guide-boss-name {
+  color: #ff969f;
+}
+:root[data-theme='dark'] .info-page .guide-advantage,
+:root[data-theme='dark'] .info-page .guide-score[data-tone='advantage'] {
+  color: #9cc9f7;
+}
+:root[data-theme='dark'] .info-page .guide-penalty,
+:root[data-theme='dark'] .info-page .guide-score[data-tone='penalty'] {
+  color: #f2aaaa;
+}
+:root[data-theme='dark'] .info-page .guide-mechanic,
+:root[data-theme='dark'] .info-page .guide-score[data-tone='mechanic'],
+:root[data-theme='dark'] .info-page .guide-usage-tag[data-single-use='true'] {
+  color: #ead387;
+}
+:root[data-theme='dark'] .info-page .guide-mode-section .guide-mechanic {
+  color: var(--guide-mode-mechanic);
+}
+:root[data-theme='dark'] .info-page .guide-score,
+:root[data-theme='dark'] .info-page .guide-input-tag,
+:root[data-theme='dark'] .info-page .guide-usage-tag {
+  background: #263245;
+  color: #c4cfdf;
+}
+:root[data-theme='dark'] .info-page .guide-input-caption {
+  color: #a5b4c9;
+}
+:root[data-theme='dark'] .info-page .guide-score[data-tone='advantage'] {
+  background: #203751;
+  color: #9cc9f7;
+}
+:root[data-theme='dark'] .info-page .guide-score[data-tone='penalty'] {
+  background: #422a34;
+  color: #f2aaaa;
+}
+:root[data-theme='dark'] .info-page .guide-score[data-tone='mechanic'],
+:root[data-theme='dark'] .info-page .guide-usage-tag[data-single-use='true'] {
+  background: #3a3424;
+  color: #ead387;
+}
+
+:root[data-theme='dark'] {
+  --app-background: #101722;
+  --app-surface: #182335;
+}
+:root[data-theme='dark'] .bg-primary,
+:root[data-theme='dark'] [class~='data-[active=true]:bg-primary'][data-active='true'] {
+  background-color: #3559ab;
+}
+:root[data-theme='dark'] .recipe-category[data-casual='true'] {
+  background: #20382b;
+  color: #a6dfb7;
+}
+:root[data-theme='dark'] .recipe-category[data-casual='true'][data-active='true'] {
+  background: #304e3b;
+  color: #d0f0d9;
+  border-color: #638e70;
+}
+:root[data-theme='dark'] .recipe-category[data-muted='true'] {
+  background: #202733;
+  color: #7d8b9f;
+}
+:root[data-theme='dark'] .recipe-category[data-muted='true'][data-active='true'] {
+  background: #303a48;
+  color: #b2bfd1;
+  border-color: #596c87;
+}
+
+label:has(input[name='screen-theme']:focus-visible) {
+  outline: 2px solid var(--app-primary);
+  outline-offset: 3px;
+}

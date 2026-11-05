@@ -11,7 +11,7 @@ import { filterFlowLineInfosWithSearchQuery } from '@/lib/search'
 import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
 import { AnimatePresence, motion } from 'motion/react'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { useState } from 'react'
 
@@ -29,7 +29,8 @@ export default function MenuItemList({
   stageId: number
   recipeId: string | null
 }) {
-  const recipe = getRecipe(recipeId)
+  const locale = useLocale()
+  const recipe = getRecipe(recipeId, locale)
 
   const t = useTranslations()
   const settings = useSettings()

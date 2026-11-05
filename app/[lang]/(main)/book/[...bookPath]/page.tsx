@@ -1,83 +1,36 @@
 import MenuItemList from '@/components/MenuItemList'
+import { bookHref, parseBookPath } from '@/lib/restaurant/catalog'
 import { Item } from '@/lib/restaurant/item'
 import { getRecipe } from '@/lib/restaurant/restaurant'
 import { FlowLine } from '@/lib/restaurant/solution'
 import { Effect } from 'effect'
 import { Metadata } from 'next'
 import { setRequestLocale } from 'next-intl/server'
-import { notFound } from 'next/navigation'
-
+import { notFound, redirect } from 'next/navigation'
 export interface MenuFlowLineInfo {
   item: Item
   flowLines: FlowLine[]
 }
-
-export default async function StagePage({
-  params,
-}: {
-  params: Promise<{ bookPath: string[]; lang: string }>
-}) {
+type Params = Promise<{ bookPath: string[]; lang: string }>
+function selection(bookPath: string[], lang: string) {
+  const selected = parseBookPath(bookPath)
+  if (!selected) notFound()
+  const recipe = getRecipe(selected.theme, lang)
+  // Locale datasets may have different category counts. Reset invalid selections.
+  const stage = selected.stage < recipe.stages.length ? selected.stage : 0
+  return { ...selected, stage, recipe }
+}
+export default async function StagePage({ params }: { params: Params }) {
   const { bookPath, lang } = await params
   setRequestLocale(lang)
-
-  if (bookPath.length !== 1 && bookPath.length !== 2) notFound()
-
-  let stageIdText: string
-  switch (bookPath.length) {
-    case 1:
-      stageIdText = bookPath[0]
-      break
-    case 2:
-      stageIdText = bookPath[1]
-      break
-  }
-
-  const recipeId = bookPath.length === 1 ? null : bookPath[0]
-  const stageId = parseInt(stageIdText)
-
-  if (isNaN(stageId)) {
-    notFound()
-  }
-
-  return <MenuItemList stageId={stageId} recipeId={recipeId} />
+  const s = selection(bookPath, lang)
+  const canonical = bookHref(s.theme, s.stage)
+  if (`/book/${bookPath.join('/')}` !== canonical) redirect(`/${lang}${canonical}`)
+  return <MenuItemList key={`${s.theme}:${lang}:${s.stage}`} stageId={s.stage} recipeId={s.theme} />
 }
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ bookPath: string[]; lang: string }>
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { bookPath, lang } = await params
-
-  if (bookPath.length !== 1 && bookPath.length !== 2) notFound()
-
-  let stageIdText: string
-  switch (bookPath.length) {
-    case 1:
-      stageIdText = bookPath[0]
-      break
-    case 2:
-      stageIdText = bookPath[1]
-      break
-  }
-
-  const recipeId = bookPath.length === 1 ? null : bookPath[0]
-  const stageId = parseInt(stageIdText)
-
-  if (isNaN(stageId)) {
-    notFound()
-  }
-
-  const stage = getRecipe(recipeId)
-    .getStage(stageId)
-    .pipe(
-      Effect.catchTag('RecipeStageNotFoundError', () => Effect.succeed(null)),
-      Effect.runSync
-    )
-
-  if (stage === null) return notFound()
-
-  return {
-    title: `${stage.getName(lang)} - OW Restaurant`,
-  } satisfies Metadata
+  const s = selection(bookPath, lang)
+  const stage = s.recipe.getStage(s.stage).pipe(Effect.runSync)
+  return { title: `${stage.getName(lang)} - OW Restaurant` }
 }

@@ -17,6 +17,7 @@ import HomeSvg from '@/public/icons/home.svg'
 import IceSvg from '@/public/icons/ice.svg'
 import IcecreamSvg from '@/public/icons/icecream.svg'
 import ImpactSvg from '@/public/icons/impact.svg'
+import InfoSvg from '@/public/icons/info.svg'
 import KnifeSvg from '@/public/icons/knife.svg'
 import LeftChevronSvg from '@/public/icons/left-chevron.svg'
 import MeatSvg from '@/public/icons/meat.svg'
@@ -35,6 +36,7 @@ import TimerSvg from '@/public/icons/timer.svg'
 import WarningSvg from '@/public/icons/warning.svg'
 
 const Icon = {
+  Info: InfoSvg,
   Book: BookSvg,
   Game: GameSvg,
   Settings: SettingsSvg,

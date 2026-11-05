@@ -1,10 +1,11 @@
 import { useTranslations } from 'next-intl'
 
-export default function GameTutorial() {
+export default function GameTutorial({ hasIceMaker }: { hasIceMaker: boolean }) {
   const t = useTranslations()
 
   return (
     <div className="flex flex-col items-end gap-2">
+      {hasIceMaker && <div className="text-14 text-gray font-semibold">{t('gameTutorialIce')}</div>}
       <div className="text-14 text-gray flex items-center gap-4 font-semibold">
         {t.rich('gameTutorialImpact', {
           key: (text) => (

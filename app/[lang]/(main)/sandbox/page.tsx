@@ -2,6 +2,7 @@ import Game from '@/components/Game'
 import MobileModal from '@/components/MobileModal'
 import { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { Suspense } from 'react'
 
 export default async function SandboxPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
@@ -9,7 +10,9 @@ export default async function SandboxPage({ params }: { params: Promise<{ lang: 
 
   return (
     <div className="flex h-dvh grow items-center">
-      <Game />
+      <Suspense fallback={<div>…</div>}>
+        <Game />
+      </Suspense>
       <MobileModal />
     </div>
   )

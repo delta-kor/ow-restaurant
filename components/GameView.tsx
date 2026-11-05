@@ -1,12 +1,15 @@
 import GameRenderer from '@/components/GameRenderer'
 import { Item } from '@/lib/restaurant/item'
+import { Recipe } from '@/lib/restaurant/recipe'
 import { Application } from '@pixi/react'
 import { useRef } from 'react'
 
 export default function GameView({
+  recipe,
   stageId,
   onItemCreate,
 }: {
+  recipe: Recipe
   stageId: number
   onItemCreate: (item: Item) => void
 }) {
@@ -19,7 +22,7 @@ export default function GameView({
       ref={wrapperRef}
     >
       <Application resizeTo={wrapperRef} backgroundAlpha={0} antialias={true} resolution={1}>
-        <GameRenderer stageId={stageId} onItemCreate={onItemCreate} />
+        <GameRenderer recipe={recipe} stageId={stageId} onItemCreate={onItemCreate} />
       </Application>
     </div>
   )

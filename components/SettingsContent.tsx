@@ -1,6 +1,7 @@
 'use client'
 
 import Icon from '@/components/Icon'
+import { ScreenTheme } from '@/lib/theme'
 import { SettingsKey, useSettings } from '@/providers/Settings'
 import { useLocale, useTranslations } from 'next-intl'
 
@@ -8,7 +9,8 @@ const LocaleOptions = [
   ['ko', '한국어'],
   ['en', 'English'],
   ['ja', '日本語'],
-  ['zh-CN', '中文'],
+  ['zh-CN', '简体中文'],
+  ['zh-TW', '繁體中文'],
 ]
 
 export function SettingsToggleOption({
@@ -70,12 +72,30 @@ export default function SettingsContent() {
                 </a>
               ))}
             </div>
-            {locale === 'zh-CN' && (
-              <div className="text-16 text-primary-light">
-                由于这是非官方翻译版本，可能与最新版本的食谱不一致。
-              </div>
-            )}
           </div>
+
+          <fieldset className="flex flex-col gap-8">
+            <legend className="text-18 text-primary mb-8 font-bold">{t('screenTheme')}</legend>
+            <div className="flex max-w-[480px] flex-wrap gap-8">
+              {(['system', 'light', 'dark'] as ScreenTheme[]).map((theme) => (
+                <label
+                  key={theme}
+                  className="rounded-8 border-primary-background bg-primary-background text-14 data-[active=true]:border-primary-light cursor-pointer border-2 px-16 py-10 text-black"
+                  data-active={settings.data.screenTheme === theme}
+                >
+                  <input
+                    className="sr-only"
+                    type="radio"
+                    name="screen-theme"
+                    value={theme}
+                    checked={settings.data.screenTheme === theme}
+                    onChange={() => settings.setData('screenTheme', theme)}
+                  />
+                  {t(`theme${theme[0].toUpperCase()}${theme.slice(1)}`)}
+                </label>
+              ))}
+            </div>
+          </fieldset>
 
           <div className="flex flex-col gap-8">
             <div className="text-18 text-primary font-bold">{t('recipeBook')}</div>

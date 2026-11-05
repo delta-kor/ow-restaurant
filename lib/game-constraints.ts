@@ -1,3 +1,8 @@
+function themeColor(light: number, dark: number): number {
+  return typeof document !== 'undefined' && document.documentElement.dataset.theme === 'dark'
+    ? dark
+    : light
+}
 namespace GameConstraints {
   export const Tick = {
     Length: 10,
@@ -6,10 +11,18 @@ namespace GameConstraints {
   }
 
   export const Color = {
-    PrimaryBackground: 0xeff3ff,
-    PrimaryLight: 0xadc3ff,
-    Primary: 0x2858dd,
-    Black: 0x2c2d31,
+    get PrimaryBackground() {
+      return themeColor(0xeff3ff, 0x202d45)
+    },
+    get PrimaryLight() {
+      return themeColor(0xadc3ff, 0x7896c4)
+    },
+    get Primary() {
+      return themeColor(0x2858dd, 0x91b1ff)
+    },
+    get Black() {
+      return themeColor(0x2c2d31, 0xe8edf5)
+    },
     White: 0xffffff,
   }
 
@@ -23,14 +36,24 @@ namespace GameConstraints {
 
   export const Area = {
     Rounded: 4,
-    BackgroundColor: Color.PrimaryBackground,
-    HoveringBackgroundColor: Color.PrimaryLight,
-    StrokeColor: Color.White,
-    HighlightedStrokeColor: Color.PrimaryLight,
+    get BackgroundColor() {
+      return Color.PrimaryBackground
+    },
+    get HoveringBackgroundColor() {
+      return Color.PrimaryLight
+    },
+    get StrokeColor() {
+      return themeColor(Color.White, 0x334155)
+    },
+    get HighlightedStrokeColor() {
+      return Color.PrimaryLight
+    },
   }
 
   export const Machine = {
-    BackgroundColor: Color.PrimaryBackground,
+    get BackgroundColor() {
+      return Color.PrimaryBackground
+    },
   }
 
   export const View = {
@@ -77,8 +100,9 @@ namespace GameConstraints {
     Rounded: 8,
     getWidth: () => Pan.PaddingX * 2 + Pan.AreaWidth,
     getHeight: () => Pan.PaddingY * 2 + Pan.AreaHeight,
-    getX: (screenWidth: number) =>
+    getX: (screenWidth: number, hasIceMaker = false) =>
       screenWidth -
+      (hasIceMaker ? IceMaker.getWidth() + View.MachineGap : 0) -
       View.PaddingRight -
       Fridge.getWidth() -
       Pot.getWidth() -
@@ -86,7 +110,8 @@ namespace GameConstraints {
       Pan.getWidth(),
     getY: () => View.PaddingTop,
     LabelMargin: 4,
-    getLabelX: (screenWidth: number) => Pan.getX(screenWidth) + Pan.getWidth(),
+    getLabelX: (screenWidth: number, hasIceMaker = false) =>
+      Pan.getX(screenWidth, hasIceMaker) + Pan.getWidth(),
     getLabelY: () => View.PaddingTop + Pan.getHeight() + Pan.LabelMargin,
   }
 
@@ -98,8 +123,9 @@ namespace GameConstraints {
     Rounded: 8,
     getWidth: () => Grill.PaddingX * 2 + Grill.AreaWidth,
     getHeight: () => Grill.PaddingY * 2 + Grill.AreaHeight,
-    getX: (screenWidth: number) =>
+    getX: (screenWidth: number, hasIceMaker = false) =>
       screenWidth -
+      (hasIceMaker ? IceMaker.getWidth() + View.MachineGap : 0) -
       View.PaddingRight -
       Fridge.getWidth() -
       Pot.getWidth() -
@@ -108,7 +134,8 @@ namespace GameConstraints {
       Grill.getWidth(),
     getY: () => View.PaddingTop,
     LabelMargin: 4,
-    getLabelX: (screenWidth: number) => Grill.getX(screenWidth) + Grill.getWidth(),
+    getLabelX: (screenWidth: number, hasIceMaker = false) =>
+      Grill.getX(screenWidth, hasIceMaker) + Grill.getWidth(),
     getLabelY: () => View.PaddingTop + Grill.getHeight() + Grill.LabelMargin,
   }
 
@@ -126,6 +153,22 @@ namespace GameConstraints {
     getLabelX: (screenWidth: number) => Sink.getX(screenWidth) + Sink.getWidth(),
     getLabelY: (screenHeight: number) =>
       Sink.getY(screenHeight) + Sink.getHeight() + Sink.LabelMargin,
+  }
+
+  export const IceMaker = {
+    PaddingX: 8,
+    PaddingY: 8,
+    AreaWidth: 76,
+    AreaHeight: Pan.AreaHeight,
+    Rounded: 8,
+    getWidth: () => IceMaker.PaddingX * 2 + IceMaker.AreaWidth,
+    getHeight: () => IceMaker.PaddingY * 2 + IceMaker.AreaHeight,
+    getX: (screenWidth: number) => Pot.getX(screenWidth) - View.MachineGap - IceMaker.getWidth(),
+    getY: (_screenHeight: number) => View.PaddingTop,
+    LabelMargin: 4,
+    getLabelX: (screenWidth: number) => IceMaker.getX(screenWidth) + IceMaker.getWidth(),
+    getLabelY: (screenHeight: number) =>
+      IceMaker.getY(screenHeight) + IceMaker.getHeight() + IceMaker.LabelMargin,
   }
 
   export const Knife = {
@@ -174,7 +217,9 @@ namespace GameConstraints {
   export const Label = {
     FontSize: '12px',
     FontWeight: '600',
-    TextColor: Color.PrimaryLight,
+    get TextColor() {
+      return Color.PrimaryLight
+    },
   }
 }
 
