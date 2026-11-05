@@ -29,6 +29,9 @@ for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW']) {
     for (const theme of edition.themes) {
       const { recipe, language } = getRecipeSelection(theme, locale)
       assert(recipe.stages.length > 0)
+      const cafe = theme === 'default-cafe' || theme === 'joseon-cafe'
+      assert.equal(recipe.heatingAppliance, cafe ? 'oven' : 'grill')
+      assert.equal(recipe.hasIceMaker, cafe)
       if (theme.startsWith('joseon')) assert.equal(language, 'ko')
       for (const stage of recipe.stages)
         assert.equal(stage.additionalMenu, theme === 'default-classic' && stage.id === 11)

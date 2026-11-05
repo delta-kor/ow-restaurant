@@ -122,6 +122,7 @@ export default function useGameManager(
       AreaType.Pot1,
       AreaType.Pot2,
     ]
+    if (recipe.hasIceMaker) types.push(AreaType.Ice)
     for (const type of types) {
       const area = new Area(gameManager, type)
       areasRef.current.push(area)
@@ -135,12 +136,6 @@ export default function useGameManager(
       (e.target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA'].includes(e.target.tagName))
     )
       return
-    if (e.code === 'KeyI' && holdingEntity) {
-      const action = recipe
-        .getActionsByItemAndActionType(holdingEntity.item, ActionType.Ice)
-        .pipe(Effect.runSync)[0]
-      if (action) holdingEntity.setAction(action)
-    }
     if (e.code === 'KeyF') {
       handleKnifeChop()
     }
@@ -325,6 +320,7 @@ export default function useGameManager(
 
     const types: AreaType[] = [AreaType.Sink]
     for (const action of actions) {
+      if (action.type === ActionType.Ice && recipe.hasIceMaker) types.push(AreaType.Ice)
       if (action.type === ActionType.Grill) types.push(AreaType.Grill)
       if (action.type === ActionType.Pan) types.push(AreaType.Pan)
       if (action.type === ActionType.Fry) types.push(AreaType.Fry)
@@ -407,6 +403,15 @@ export default function useGameManager(
     if (area.type === AreaType.Sink) {
       gameManager.destroyEntity(entity)
       return false
+    }
+
+    if (area.type === AreaType.Ice) {
+      const action = recipe
+        .getActionsByItemAndActionType(entity.item, ActionType.Ice)
+        .pipe(Effect.runSync)[0]
+      if (!action) return true
+
+      entity.setAction(action)
     }
 
     if (area.type === AreaType.Grill) {

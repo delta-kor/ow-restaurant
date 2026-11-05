@@ -64,7 +64,7 @@ export default function Game() {
             onItemCreate={handleItemCreate}
           />
         </div>
-        <GameTutorial />
+        <GameTutorial hasIceMaker={recipe.hasIceMaker} />
       </div>
       {settings.data.displayMenuList && (
         <GameStageMenus recipe={recipe} stageId={stageId} createdItems={createdItems} />

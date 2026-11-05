@@ -20,6 +20,8 @@
   "fry": "フライヤー",
   "gameTutorialChop": "<key>F</key> を押して、まな板の上のアイテムを切る",
   "gameTutorialImpact": "<key>右クリック</key> またはアイテムを持ったまま <key>V</key> を押してアイテムを投げる（ぶつける）",
+  "oven": "オーブン",
+  "iceMaker": "製氷機",
   "grill": "グリル",
   "ice": "冷却",
   "impact": "ぶつける",
@@ -50,6 +52,6 @@
   "thirdEdition": "ソウルフード (old)",
   "language": "言語",
   "copyCode": "コードをコピー",
-  "gameTutorialIce": "食材を持って I キーで冷却します。",
+  "gameTutorialIce": "食材を製氷機に置くと冷却します。",
   "gameInfo": "ゲーム情報"
 }

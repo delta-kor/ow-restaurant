@@ -20,6 +20,8 @@
   "fry": "Fry",
   "gameTutorialChop": "Press <key>F</key> to chop items on the cutting board",
   "gameTutorialImpact": "<key>Right Click</key> or hold the item and press <key>V</key> to throw (impact) the item",
+  "oven": "Oven",
+  "iceMaker": "Ice Maker",
   "grill": "Grill",
   "ice": "Freeze",
   "impact": "Impact",
@@ -50,6 +52,6 @@
   "thirdEdition": "Seoul Food (old)",
   "language": "Language",
   "copyCode": "Copy code",
-  "gameTutorialIce": "Hold an item and press I to freeze it.",
+  "gameTutorialIce": "Place ingredients in the ice maker to freeze them.",
   "gameInfo": "Game information"
 }

@@ -61,7 +61,7 @@ export function createBackgroundGraphics(gameManager: GameManager) {
   // Render pan
   const pan = new Graphics()
     .roundRect(
-      GameConstraints.Pan.getX(screenWidth),
+      GameConstraints.Pan.getX(screenWidth, gameManager.recipe.hasIceMaker),
       GameConstraints.Pan.getY(),
       GameConstraints.Pan.getWidth(),
       GameConstraints.Pan.getHeight(),
@@ -73,7 +73,7 @@ export function createBackgroundGraphics(gameManager: GameManager) {
     text: t('pan'),
     style: labelFont,
     anchor: { x: 1, y: 0 },
-    x: GameConstraints.Pan.getLabelX(screenWidth),
+    x: GameConstraints.Pan.getLabelX(screenWidth, gameManager.recipe.hasIceMaker),
     y: GameConstraints.Pan.getLabelY(),
   })
 
@@ -82,7 +82,7 @@ export function createBackgroundGraphics(gameManager: GameManager) {
   // Render grill
   const grill = new Graphics()
     .roundRect(
-      GameConstraints.Grill.getX(screenWidth),
+      GameConstraints.Grill.getX(screenWidth, gameManager.recipe.hasIceMaker),
       GameConstraints.Grill.getY(),
       GameConstraints.Grill.getWidth(),
       GameConstraints.Grill.getHeight(),
@@ -91,10 +91,10 @@ export function createBackgroundGraphics(gameManager: GameManager) {
     .fill(GameConstraints.Machine.BackgroundColor)
 
   const grillText = new Text({
-    text: t('grill'),
+    text: t(gameManager.recipe.heatingAppliance),
     style: labelFont,
     anchor: { x: 1, y: 0 },
-    x: GameConstraints.Grill.getLabelX(screenWidth),
+    x: GameConstraints.Grill.getLabelX(screenWidth, gameManager.recipe.hasIceMaker),
     y: GameConstraints.Grill.getLabelY(),
   })
 
@@ -120,6 +120,27 @@ export function createBackgroundGraphics(gameManager: GameManager) {
   })
 
   graphics.push(sink, sinkText)
+
+  if (gameManager.recipe.hasIceMaker) {
+    const machine = GameConstraints.IceMaker
+    const iceMaker = new Graphics()
+      .roundRect(
+        machine.getX(screenWidth),
+        machine.getY(screenHeight),
+        machine.getWidth(),
+        machine.getHeight(),
+        machine.Rounded
+      )
+      .fill(GameConstraints.Machine.BackgroundColor)
+    const iceMakerText = new Text({
+      text: t('iceMaker'),
+      style: labelFont,
+      anchor: { x: 1, y: 0 },
+      x: machine.getLabelX(screenWidth),
+      y: machine.getLabelY(screenHeight),
+    })
+    graphics.push(iceMaker, iceMakerText)
+  }
 
   // Render knife
   const knife = new Graphics()

@@ -100,8 +100,9 @@ namespace GameConstraints {
     Rounded: 8,
     getWidth: () => Pan.PaddingX * 2 + Pan.AreaWidth,
     getHeight: () => Pan.PaddingY * 2 + Pan.AreaHeight,
-    getX: (screenWidth: number) =>
+    getX: (screenWidth: number, hasIceMaker = false) =>
       screenWidth -
+      (hasIceMaker ? IceMaker.getWidth() + View.MachineGap : 0) -
       View.PaddingRight -
       Fridge.getWidth() -
       Pot.getWidth() -
@@ -109,7 +110,8 @@ namespace GameConstraints {
       Pan.getWidth(),
     getY: () => View.PaddingTop,
     LabelMargin: 4,
-    getLabelX: (screenWidth: number) => Pan.getX(screenWidth) + Pan.getWidth(),
+    getLabelX: (screenWidth: number, hasIceMaker = false) =>
+      Pan.getX(screenWidth, hasIceMaker) + Pan.getWidth(),
     getLabelY: () => View.PaddingTop + Pan.getHeight() + Pan.LabelMargin,
   }
 
@@ -121,8 +123,9 @@ namespace GameConstraints {
     Rounded: 8,
     getWidth: () => Grill.PaddingX * 2 + Grill.AreaWidth,
     getHeight: () => Grill.PaddingY * 2 + Grill.AreaHeight,
-    getX: (screenWidth: number) =>
+    getX: (screenWidth: number, hasIceMaker = false) =>
       screenWidth -
+      (hasIceMaker ? IceMaker.getWidth() + View.MachineGap : 0) -
       View.PaddingRight -
       Fridge.getWidth() -
       Pot.getWidth() -
@@ -131,7 +134,8 @@ namespace GameConstraints {
       Grill.getWidth(),
     getY: () => View.PaddingTop,
     LabelMargin: 4,
-    getLabelX: (screenWidth: number) => Grill.getX(screenWidth) + Grill.getWidth(),
+    getLabelX: (screenWidth: number, hasIceMaker = false) =>
+      Grill.getX(screenWidth, hasIceMaker) + Grill.getWidth(),
     getLabelY: () => View.PaddingTop + Grill.getHeight() + Grill.LabelMargin,
   }
 
@@ -149,6 +153,22 @@ namespace GameConstraints {
     getLabelX: (screenWidth: number) => Sink.getX(screenWidth) + Sink.getWidth(),
     getLabelY: (screenHeight: number) =>
       Sink.getY(screenHeight) + Sink.getHeight() + Sink.LabelMargin,
+  }
+
+  export const IceMaker = {
+    PaddingX: 8,
+    PaddingY: 8,
+    AreaWidth: 76,
+    AreaHeight: Pan.AreaHeight,
+    Rounded: 8,
+    getWidth: () => IceMaker.PaddingX * 2 + IceMaker.AreaWidth,
+    getHeight: () => IceMaker.PaddingY * 2 + IceMaker.AreaHeight,
+    getX: (screenWidth: number) => Pot.getX(screenWidth) - View.MachineGap - IceMaker.getWidth(),
+    getY: (_screenHeight: number) => View.PaddingTop,
+    LabelMargin: 4,
+    getLabelX: (screenWidth: number) => IceMaker.getX(screenWidth) + IceMaker.getWidth(),
+    getLabelY: (screenHeight: number) =>
+      IceMaker.getY(screenHeight) + IceMaker.getHeight() + IceMaker.LabelMargin,
   }
 
   export const Knife = {

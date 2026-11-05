@@ -16,6 +16,9 @@ export function getRecipeSelection(id: string | null, locale: string) {
     const source = data[theme][language]
     const configured = {
       ...source,
+      heatingAppliance: (theme === 'default-cafe' || theme === 'joseon-cafe' ? 'oven' : 'grill') as
+        | 'oven'
+        | 'grill',
       stages: source.stages.map((stage) => ({
         ...stage,
         additionalMenu: editionFor(theme).butcherShopEnabled && (stage.additionalMenu ?? false),

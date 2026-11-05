@@ -4,6 +4,7 @@ import { Stage } from '@/lib/restaurant/stage'
 import { Context, Effect, Layer, Schema } from 'effect'
 
 export interface RecipeJson {
+  heatingAppliance?: 'grill' | 'oven'
   sinkItems?: number[]
   items: ItemJson[]
   actions: ActionJson[]
@@ -85,7 +86,13 @@ export class Recipe {
 
       const stages = json.stages.map((stage) => Stage.create(stage, items))
 
-      return new Recipe(items, actions, stages, json.sinkItems ?? [])
+      return new Recipe(
+        items,
+        actions,
+        stages,
+        json.sinkItems ?? [],
+        json.heatingAppliance ?? 'grill'
+      )
     })
   }
 
@@ -93,8 +100,13 @@ export class Recipe {
     private readonly items: Item[],
     private readonly actions: Action[],
     public readonly stages: Stage[],
-    public readonly sinkItemIds: number[]
+    public readonly sinkItemIds: number[],
+    public readonly heatingAppliance: 'grill' | 'oven'
   ) {}
+
+  public get hasIceMaker() {
+    return this.actions.some((action) => action.type === ActionType.Ice)
+  }
 
   public getLayer() {
     return Layer.succeed(RecipeService, this)

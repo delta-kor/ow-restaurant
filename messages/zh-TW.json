@@ -20,6 +20,8 @@
   "fry": "油炸鍋",
   "gameTutorialChop": "按<key>F</key>在砧板上切食物",
   "gameTutorialImpact": "<key>Right Click</key> 或拖拽住食材按 <key>V</key> 來摔 (揉搓) 食材",
+  "oven": "烤箱",
+  "iceMaker": "製冰機",
   "grill": "烤架",
   "ice": "冷凍",
   "impact": "摔",
@@ -50,6 +52,6 @@
   "thirdEdition": "首爾美食 (old)",
   "language": "語言",
   "copyCode": "複製程式碼",
-  "gameTutorialIce": "拿起食材後按 I 鍵冷凍。",
+  "gameTutorialIce": "將食材放入製冰機即可冷凍。",
   "gameInfo": "遊戲資訊"
 }
