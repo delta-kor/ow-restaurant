@@ -4,14 +4,15 @@ import { createBackgroundGraphics } from '@/lib/game/background'
 import { Entity } from '@/lib/game/entity'
 import { ActionType } from '@/lib/restaurant/action'
 import { Item } from '@/lib/restaurant/item'
-import { getRecipe } from '@/lib/restaurant/restaurant'
+import { Recipe } from '@/lib/restaurant/recipe'
 import { useSettings } from '@/providers/Settings'
 import { Effect } from 'effect'
 import { useLocale, useTranslations } from 'next-intl'
-import { Application, Renderer, TickerCallback } from 'pixi.js'
+import { Application, ContainerChild, Renderer, TickerCallback } from 'pixi.js'
 import { useEffect, useRef, useState } from 'react'
 
 export interface GameManager {
+  recipe: Recipe
   app: Application<Renderer>
   t: any
   locale: string
@@ -27,10 +28,10 @@ export interface GameManager {
 export default function useGameManager(
   app: Application<Renderer>,
   fridge: Item[],
-  onItemCreate: (item: Item) => void
+  onItemCreate: (item: Item) => void,
+  recipe: Recipe,
+  ready: boolean
 ) {
-  const recipe = getRecipe(null)
-
   const locale = useLocale()
   const t = useTranslations()
   const settings = useSettings()
@@ -40,22 +41,28 @@ export default function useGameManager(
   const entityIndexRef = useRef<number>(0)
   const entitiesRef = useRef<Entity[]>([])
 
+  const backgroundRef = useRef<ContainerChild[]>([])
   const areasRef = useRef<Area[]>([])
 
   const tickMsRef = useRef<any>(0)
 
   useEffect(() => {
-    if (!app) return
+    if (!ready || !app.renderer) return
 
     initializeGame()
-  }, [app])
+    return () => {
+      app.ticker?.remove(handleMicroTick)
+    }
+  }, [app, ready])
 
   useEffect(() => {
+    if (!ready || !app.renderer) return
     clearFridge()
     stockFridge()
-  }, [fridge])
+  }, [fridge, ready])
 
   useEffect(() => {
+    if (!ready || !app.renderer) return
     window.addEventListener('keydown', handleKeyDown)
     highlightAreaByType(getHighlightAreaTypes(holdingEntity))
     highlightEntities(getHighlightEntities(holdingEntity))
@@ -63,7 +70,23 @@ export default function useGameManager(
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [holdingEntity])
+  }, [holdingEntity, ready])
+
+  useEffect(() => {
+    if (!ready || !app.renderer) return
+    const updatePalette = () => {
+      renderBackground()
+      for (const area of areasRef.current) area.setStrokeColor(GameConstraints.Area.StrokeColor)
+      highlightAreaByType(getHighlightAreaTypes(holdingEntity))
+      highlightHoveringAreaByEntity(holdingEntity)
+    }
+    const observer = new MutationObserver(updatePalette)
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    })
+    return () => observer.disconnect()
+  }, [app, ready, holdingEntity, settings.data.displayHint])
 
   const initializeGame = () => {
     app.stage.eventMode = 'static'
@@ -80,8 +103,13 @@ export default function useGameManager(
   }
 
   const renderBackground = () => {
+    for (const graphic of backgroundRef.current) {
+      graphic.removeFromParent()
+      graphic.destroy()
+    }
     const graphics = createBackgroundGraphics(gameManager)
-    app.stage.addChild(...graphics)
+    backgroundRef.current = graphics
+    graphics.forEach((graphic, index) => app.stage.addChildAt(graphic, index))
   }
 
   const renderArea = () => {
@@ -94,6 +122,7 @@ export default function useGameManager(
       AreaType.Pot1,
       AreaType.Pot2,
     ]
+    if (recipe.hasIceMaker) types.push(AreaType.Ice)
     for (const type of types) {
       const area = new Area(gameManager, type)
       areasRef.current.push(area)
@@ -102,6 +131,11 @@ export default function useGameManager(
   }
 
   const handleKeyDown = (e: KeyboardEvent) => {
+    if (
+      e.target instanceof HTMLElement &&
+      (e.target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA'].includes(e.target.tagName))
+    )
+      return
     if (e.code === 'KeyF') {
       handleKnifeChop()
     }
@@ -159,7 +193,8 @@ export default function useGameManager(
   const stockFridge = () => {
     let fridgeIndex: number = -1
     fridgeLoop: for (const fridgeItem of fridge) {
-      fridgeIndex++
+      const sinkSupply = recipe.sinkItemIds.includes(fridgeItem.id)
+      if (!sinkSupply) fridgeIndex++
 
       for (const entity of entitiesRef.current) {
         if (entity.isInFridge && entity.item.id === fridgeItem.id) continue fridgeLoop
@@ -180,7 +215,16 @@ export default function useGameManager(
         (GameConstraints.Entity.Height + GameConstraints.Fridge.GapY) * (py - 1) +
         GameConstraints.Entity.Radius
 
-      gameManager.addEntity(fridgeItem, x, y, true)
+      gameManager.addEntity(
+        fridgeItem,
+        sinkSupply
+          ? GameConstraints.Sink.getX(app.screen.width) + GameConstraints.Sink.getWidth() / 2
+          : x,
+        sinkSupply
+          ? GameConstraints.Sink.getY(app.screen.height) + GameConstraints.Sink.getHeight() / 2
+          : y,
+        true
+      )
     }
   }
 
@@ -276,6 +320,7 @@ export default function useGameManager(
 
     const types: AreaType[] = [AreaType.Sink]
     for (const action of actions) {
+      if (action.type === ActionType.Ice && recipe.hasIceMaker) types.push(AreaType.Ice)
       if (action.type === ActionType.Grill) types.push(AreaType.Grill)
       if (action.type === ActionType.Pan) types.push(AreaType.Pan)
       if (action.type === ActionType.Fry) types.push(AreaType.Fry)
@@ -358,6 +403,15 @@ export default function useGameManager(
     if (area.type === AreaType.Sink) {
       gameManager.destroyEntity(entity)
       return false
+    }
+
+    if (area.type === AreaType.Ice) {
+      const action = recipe
+        .getActionsByItemAndActionType(entity.item, ActionType.Ice)
+        .pipe(Effect.runSync)[0]
+      if (!action) return true
+
+      entity.setAction(action)
     }
 
     if (area.type === AreaType.Grill) {
@@ -498,6 +552,7 @@ export default function useGameManager(
   }
 
   const gameManager: GameManager = {
+    recipe,
     app,
     t,
     locale,

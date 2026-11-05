@@ -10,6 +10,7 @@ export enum AreaType {
   Pan,
   Grill,
   Fry,
+  Ice,
 }
 
 export class Area extends Container {
@@ -51,6 +52,9 @@ export class Area extends Container {
         case AreaType.Fry:
           Constraints = GameConstraints.Fryer
           break
+        case AreaType.Ice:
+          Constraints = GameConstraints.IceMaker
+          break
         case AreaType.Grill:
           Constraints = GameConstraints.Grill
           break
@@ -58,7 +62,7 @@ export class Area extends Container {
 
       const graphics = new Graphics()
         .roundRect(
-          Constraints.getX(screenWidth) + Constraints.PaddingX,
+          Constraints.getX(screenWidth, this.gameManager.recipe.hasIceMaker) + Constraints.PaddingX,
           Constraints.getY(screenHeight) + Constraints.PaddingY,
           Constraints.getWidth() - Constraints.PaddingX * 2,
           Constraints.getHeight() - Constraints.PaddingY * 2,

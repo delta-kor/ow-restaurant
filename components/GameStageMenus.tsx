@@ -1,18 +1,20 @@
 import { Item } from '@/lib/restaurant/item'
-import { getRecipe } from '@/lib/restaurant/restaurant'
+import { Recipe } from '@/lib/restaurant/recipe'
 import { Effect } from 'effect'
 import { useLocale } from 'next-intl'
 
 export default function GameStageMenus({
+  recipe,
   stageId,
   createdItems,
 }: {
+  recipe: Recipe
   stageId: number
   createdItems: Item[]
 }) {
   const locale = useLocale()
 
-  const stage = getRecipe(null).getStage(stageId).pipe(Effect.runSync)
+  const stage = recipe.getStage(stageId).pipe(Effect.runSync)
   const fridge = stage.fridge
 
   const menus = [...new Set(stage.menus)]

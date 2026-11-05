@@ -1,0 +1,1025 @@
+[
+  {
+    "hero": "Soldier: 76",
+    "slug": "soldier76",
+    "name": "평범한 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 0,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Roadhog",
+    "slug": "roadhog",
+    "name": "대식가",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 5,
+      "orders": 2,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Tracer",
+    "slug": "tracer",
+    "name": "성급한 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 5,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Bastion",
+    "slug": "bastion",
+    "name": "깐깐한 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Hanzo",
+    "slug": "hanzo",
+    "name": "음식 평론가",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": -5,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Zarya",
+    "slug": "zarya",
+    "name": "푸드파이터",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 0,
+      "orders": 1,
+      "multiPlate": true,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Mercy",
+    "slug": "mercy",
+    "name": "예약 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 1,
+        "name": "캐주얼 다이닝",
+        "color": [
+          140,
+          255,
+          180
+        ]
+      },
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Hazard",
+    "slug": "hazard",
+    "name": "괴식가",
+    "boss": false,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 0,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "LifeWeaver",
+    "slug": "lifeweaver",
+    "name": "요리연구가",
+    "boss": false,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Freja",
+    "slug": "freja",
+    "name": "혼밥 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 5,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Mauga",
+    "slug": "mauga",
+    "name": "포악한 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": -5,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "D.Va",
+    "slug": "dva",
+    "name": "먹방 유튜버",
+    "boss": false,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 5,
+      "orders": 2,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Kiriko",
+    "slug": "kiriko",
+    "name": "여우같은 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 50
+    }
+  },
+  {
+    "hero": "Jetpack Cat",
+    "slug": "jetpackcat",
+    "name": "배달냥이",
+    "boss": false,
+    "modes": [
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 5,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Domina",
+    "slug": "domina",
+    "name": "미식가",
+    "boss": false,
+    "modes": [
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Reinhardt",
+    "slug": "reinhardt",
+    "name": "거대식가",
+    "boss": false,
+    "modes": [
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 0,
+      "orders": 1,
+      "multiPlate": true,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Junker Queen",
+    "slug": "junkerqueen",
+    "name": "시끄러운 손님",
+    "boss": false,
+    "modes": [
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 0,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Sombra",
+    "slug": "sombra",
+    "name": "수상한 손님",
+    "boss": true,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 15,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Sigma",
+    "slug": "sigma",
+    "name": "대혼돈의 손님",
+    "boss": true,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 1,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Moira",
+    "slug": "moira",
+    "name": "엘버피 VVIP",
+    "boss": true,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 15,
+      "orders": 4,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  },
+  {
+    "hero": "Ramattra",
+    "slug": "ramattra",
+    "name": "관심이가는손님",
+    "boss": true,
+    "modes": [
+      {
+        "id": 2,
+        "name": "파인 다이닝",
+        "color": [
+          110,
+          180,
+          255
+        ]
+      },
+      {
+        "id": 3,
+        "name": "스타 비스트로",
+        "color": [
+          255,
+          225,
+          120
+        ]
+      },
+      {
+        "id": 4,
+        "name": "마스터쿡 챌린지",
+        "color": [
+          255,
+          120,
+          120
+        ]
+      },
+      {
+        "id": 5,
+        "name": "헤드셰프 챌린지",
+        "color": [
+          38,
+          38,
+          65
+        ]
+      }
+    ],
+    "score": {
+      "adjustment": 10,
+      "orders": 2,
+      "multiPlate": false,
+      "bonus": 0
+    }
+  }
+]

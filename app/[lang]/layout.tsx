@@ -23,14 +23,10 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html>
-      <NextIntlClientProvider messages={messages}>
-        <body>
-          <SettingsProvider>{children}</SettingsProvider>
-        </body>
-        <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID || ''} />
-      </NextIntlClientProvider>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <SettingsProvider>{children}</SettingsProvider>
+      <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID || ''} />
+    </NextIntlClientProvider>
   )
 }
 

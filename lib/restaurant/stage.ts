@@ -20,10 +20,12 @@ export class Stage {
       englishName,
       japaneseName,
       chineseName,
+      json.additionalMenu ?? false,
       fridge,
       menus,
       hazardMenus,
-      weaverMenus
+      weaverMenus,
+      json.casualDining ?? false
     )
   }
 
@@ -33,10 +35,12 @@ export class Stage {
     private readonly englishName: string,
     private readonly japaneseName: string,
     private readonly chineseName: string,
+    public readonly additionalMenu: boolean,
     public readonly fridge: Item[],
     public readonly menus: Item[],
     public readonly hazardMenus: Item[],
-    public readonly weaverMenus: Item[]
+    public readonly weaverMenus: Item[],
+    public readonly casualDining: boolean
   ) {}
 
   public getName(locale: string) {
@@ -48,6 +52,7 @@ export class Stage {
       case 'ja':
         return this.japaneseName
       case 'zh-CN':
+      case 'zh-TW':
         return this.chineseName
       default:
         return this.koreanName
