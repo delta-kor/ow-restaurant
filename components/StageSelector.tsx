@@ -30,8 +30,10 @@ export default function StageSelector() {
   const [casualOnly, setCasualOnly] = useState(false)
   const { bookPath } = useParams<{ bookPath: string[] }>()
   const selected = parseBookPath(bookPath)
+
   if (!selected) return null
   const stages = getRecipe(selected.theme, locale).stages
+
   return (
     <div className="flex flex-col gap-16">
       <div className="flex flex-wrap items-end justify-between gap-12">

@@ -11,9 +11,8 @@
   background: #e3ebff;
 }
 .recipe-category[data-active='true'] {
-  border-color: #bdcff6;
-  background: #dce6ff;
-  color: #2858dd;
+  background: #2858dd;
+  color: #ffffff;
 }
 .recipe-category[data-casual='true'] {
   background: #effbf2;
@@ -23,9 +22,8 @@
   background: #e5f6e9;
 }
 .recipe-category[data-casual='true'][data-active='true'] {
-  border-color: #b6d9c0;
-  background: #d9f0df;
-  color: #326a45;
+  background: #326a45;
+  color: #ffffff;
 }
 .recipe-category[data-muted='true'] {
   background: #f5f6f8;
@@ -36,7 +34,6 @@
   color: #8b929d;
 }
 .recipe-category[data-muted='true'][data-active='true'] {
-  border-color: #d4d9e2;
   background: #e9ecf1;
   color: #737d8b;
 }
