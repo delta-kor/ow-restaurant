@@ -68,10 +68,24 @@ const assetRoot =
 function heroes(children: ReactNode, difficulties: string[]): ReactNode {
   return Children.map(children, (child) => {
     if (typeof child !== 'string') return child
-    const escaped = difficulties.map((name) => name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')
+    const escaped = difficulties
+      .map((name) => name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+      .join('|')
     return child.split(new RegExp(`(\\[hero [^\\]]+\\]|${escaped})`, 'g')).map((part, index) => {
       const difficulty = difficulties.indexOf(part)
-      if (difficulty >= 0) return <span key={index} className="guide-difficulty" style={{color: `var(--guide-mode-text-${difficulty + 1}, ${['#39724d', '#356795', '#80651e', '#a34b4b'][difficulty]})`, fontWeight: 700}}>{part}</span>
+      if (difficulty >= 0)
+        return (
+          <span
+            key={index}
+            className="guide-difficulty"
+            style={{
+              color: `var(--guide-mode-text-${difficulty + 1}, ${['#39724d', '#356795', '#80651e', '#a34b4b'][difficulty]})`,
+              fontWeight: 700,
+            }}
+          >
+            {part}
+          </span>
+        )
       const match = part.match(/^\[hero (.*?)(?:\s*\{\s*size:\s*["'](medium|large)["']\s*\})?\]$/)
       if (!match) return part
       const slug = match[1]
@@ -96,8 +110,8 @@ function heroes(children: ReactNode, difficulties: string[]): ReactNode {
   })
 }
 export default function GuideMarkdown({ value }: { value: string }) {
-  const {terms,t,category} = useInfoLocale()
-  const renderInline = (children:ReactNode) => heroes(children, terms.difficulties)
+  const { terms, t, category } = useInfoLocale()
+  const renderInline = (children: ReactNode) => heroes(children, terms.difficulties)
   return (
     <div className="guide-markdown">
       <ReactMarkdown
@@ -108,15 +122,23 @@ export default function GuideMarkdown({ value }: { value: string }) {
             const title = Children.toArray(children)
               .filter((child) => typeof child === 'string')
               .join('')
-            const rounds = [...title.matchAll(/\[([^\]]+)\]/g)].filter((match)=>!match[1].startsWith('hero ') && !match[1].startsWith('item '))
+            const rounds = [...title.matchAll(/\[([^\]]+)\]/g)].filter(
+              (match) => !match[1].startsWith('hero ') && !match[1].startsWith('item ')
+            )
             const modeId = terms.modes.indexOf(title.replace(/\s*\[[^\]]+\]/g, ''))
             if (modeId >= 0)
               return (
-                <h2 style={{color: `var(--guide-mode-text-${modeId}, ${['#b52c69', '#39724d', '#356795', '#80651e', '#a34b4b', '#51516d'][modeId]})`}}>
+                <h2
+                  style={{
+                    color: `var(--guide-mode-text-${modeId}, ${['#b52c69', '#39724d', '#356795', '#80651e', '#a34b4b', '#51516d'][modeId]})`,
+                  }}
+                >
                   <span>{title.replace(/\s*\[[^\]]+\]/g, '')}</span>
                   <span className="guide-round-tags">
                     {rounds.map((match, index) => (
-                      <span key={index} className="guide-round-tag">{match[1]}</span>
+                      <span key={index} className="guide-round-tag">
+                        {match[1]}
+                      </span>
                     ))}
                   </span>
                 </h2>
@@ -126,7 +148,7 @@ export default function GuideMarkdown({ value }: { value: string }) {
             if (item)
               return (
                 <h2>
-                  <ItemHeading item={{...item,name:terms.items[String(item.id)]}} />
+                  <ItemHeading item={{ ...item, name: terms.items[String(item.id)] }} />
                 </h2>
               )
             const hero = title
@@ -139,7 +161,15 @@ export default function GuideMarkdown({ value }: { value: string }) {
                 <span
                   className={`guide-customer-heading ${customer?.boss ? 'guide-boss-name' : ''}`}
                 >
-                  {customer ? renderInline(Children.map(children, (child) => typeof child === 'string' ? child.replace(customer.name,terms.customers[customer.slug]) : child)) : renderInline(children)}
+                  {customer
+                    ? renderInline(
+                        Children.map(children, (child) =>
+                          typeof child === 'string'
+                            ? child.replace(customer.name, terms.customers[customer.slug])
+                            : child
+                        )
+                      )
+                    : renderInline(children)}
                   {customer && <CustomerScore score={customer.score} />}
                 </span>
                 {customer && (
@@ -148,14 +178,12 @@ export default function GuideMarkdown({ value }: { value: string }) {
                     role="group"
                     aria-label={t('appearsIn')}
                   >
-                    <span className="guide-item-mode-label">{t('appearsIn')}</span>
                     {customer.modes.map((mode) => (
                       <span
                         key={mode.id}
                         className="guide-mode-tag"
                         style={{
-                          backgroundColor: `var(--guide-mode-background-${mode.id}, rgba(${mode.color.join(',')}, 0.12))`,
-                          borderColor: `var(--guide-mode-border-${mode.id}, rgba(${mode.color.join(',')}, 0.38))`,
+                          backgroundColor: `var(--guide-mode-background-${mode.id}, rgba(${mode.color.join(',')}, 0.26))`,
                           color: `var(--guide-mode-text-${mode.id}, ${['#24323d', '#39724d', '#356795', '#80651e', '#a34b4b', '#51516d'][mode.id]})`,
                         }}
                       >

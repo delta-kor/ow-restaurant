@@ -28,9 +28,11 @@ export default function ItemHeading({
     keys: string[]
   }
 }) {
-  const {terms,t,category,theme} = useInfoLocale()
-  const unit = t(item.category === '칼' ? 'cut' : item.durabilityUnit === '작동 1회' ? 'activation' : 'use')
-  const defaultModes = item.modes.every((mode)=>mode.themes.length > 0)
+  const { terms, t, category, theme } = useInfoLocale()
+  const unit = t(
+    item.category === '칼' ? 'cut' : item.durabilityUnit === '작동 1회' ? 'activation' : 'use'
+  )
+  const defaultModes = item.modes.every((mode) => mode.themes.length > 0)
   return (
     <>
       <span className="guide-item-heading">
@@ -76,9 +78,9 @@ export default function ItemHeading({
         {item.category === '칼' && (
           <span
             className="guide-usage-tag"
-            title={t('efficiencyHelp',{knife:terms.items['1']})}
+            title={t('efficiencyHelp', { knife: terms.items['1'] })}
           >
-            {t('efficiency',{value:(item.knifeEfficiency ?? 100) / 100})}
+            {t('efficiency', { value: (item.knifeEfficiency ?? 100) / 100 })}
           </span>
         )}
         {(item.singleUse || item.durabilityCost !== null) && (
@@ -88,47 +90,53 @@ export default function ItemHeading({
             title={
               item.singleUse
                 ? t('singleUseHelp')
-                : t('wearHelp',{unit,value:item.durabilityCost ?? 0}) + (item.durabilityUnit === '작동 1회' ? t('repeatHelp') : '')
+                : t('wearHelp', { unit, value: item.durabilityCost ?? 0 }) +
+                  (item.durabilityUnit === '작동 1회' ? t('repeatHelp') : '')
             }
           >
             {item.category === '칼'
-              ? t('durability',{value:item.durabilityCost ?? 0})
+              ? t('durability', { value: item.durabilityCost ?? 0 })
               : item.singleUse
                 ? t('singleUse')
                 : item.durabilityCost! >= 5
-                  ? t('uses',{value:Math.floor(100 / item.durabilityCost!)})
-                  : t('wear',{unit,value:item.durabilityCost ?? 0})}
+                  ? t('uses', { value: Math.floor(100 / item.durabilityCost!) })
+                  : t('wear', { unit, value: item.durabilityCost ?? 0 })}
           </span>
         )}
       </span>
       <span className="guide-item-meta">
-      <span className="guide-item-category" data-category={item.category}>{category(item.category)}</span>
-      {item.modes?.length > 0 && (
-        <span
-          className="guide-mode-tags guide-item-mode-group"
-          data-default={defaultModes}
-          role="group"
-          aria-label={defaultModes ? t('defaultProvided') : t('appearanceModes')}
-        >
-          {defaultModes && (
-            <span className="guide-item-mode-label">{t('defaultProvided')}</span>
-          )}
-          {item.modes.map((mode) => (
-            <span
-              key={mode.id}
-              className="guide-mode-tag"
-              title={mode.themes.length ? t('defaultThemes',{themes:mode.themes.map(theme).join(', ')}) : t('fromFine',{mode:terms.modes[2]})}
-              style={{
-                backgroundColor: `var(--guide-mode-background-${mode.id}, rgba(${mode.color.join(',')}, 0.12))`,
-                borderColor: `var(--guide-mode-border-${mode.id}, rgba(${mode.color.join(',')}, 0.38))`,
-                color: `var(--guide-mode-text-${mode.id}, ${['#24323d', '#39724d', '#356795', '#80651e', '#a34b4b', '#51516d'][mode.id]})`,
-              }}
-            >
-              {mode.themes.length ? terms.modes[mode.id] : t('fromFine',{mode:terms.modes[2]})}
-            </span>
-          ))}
+        <span className="guide-item-category" data-category={item.category}>
+          {category(item.category)}
         </span>
-      )}
+        {item.modes?.length > 0 && (
+          <span
+            className="guide-mode-tags guide-item-mode-group"
+            data-default={defaultModes}
+            role="group"
+            aria-label={defaultModes ? t('defaultProvided') : t('appearanceModes')}
+          >
+            {defaultModes && <span className="guide-item-mode-label">{t('defaultProvided')}</span>}
+            {item.modes.map((mode) => (
+              <span
+                key={mode.id}
+                className="guide-mode-tag"
+                title={
+                  mode.themes.length
+                    ? t('defaultThemes', { themes: mode.themes.map(theme).join(', ') })
+                    : t('fromFine', { mode: terms.modes[2] })
+                }
+                style={{
+                  backgroundColor: `var(--guide-mode-background-${mode.id}, rgba(${mode.color.join(',')}, 0.26))`,
+                  color: `var(--guide-mode-text-${mode.id}, ${['#24323d', '#39724d', '#356795', '#80651e', '#a34b4b', '#51516d'][mode.id]})`,
+                }}
+              >
+                {mode.themes.length
+                  ? terms.modes[mode.id]
+                  : t('fromFine', { mode: terms.modes[2] })}
+              </span>
+            ))}
+          </span>
+        )}
       </span>
     </>
   )

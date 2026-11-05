@@ -7,9 +7,6 @@
     background-color 160ms ease,
     color 160ms ease;
 }
-.recipe-category:hover {
-  background: #e3ebff;
-}
 .recipe-category[data-active='true'] {
   background: #2858dd;
   color: #ffffff;
