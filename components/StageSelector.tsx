@@ -6,8 +6,8 @@ import { getRecipe } from '@/lib/restaurant/restaurant'
 import { useLocale, useTranslations } from 'next-intl'
 import { useParams } from 'next/navigation'
 import { useState } from 'react'
-import LanguageSelector from './LanguageSelector'
 import RestaurantSelector from './RestaurantSelector'
+// @ts-expect-error
 import './stage-selector.css'
 export const StageIconMap = [
   Icon.Steak,
@@ -35,13 +35,18 @@ export default function StageSelector() {
   const stages = getRecipe(selected.theme, locale).stages
 
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col gap-24">
       <div className="flex flex-wrap items-end justify-between gap-12">
         <div className="flex flex-wrap items-end gap-12">
           <RestaurantSelector value={selected.theme} onChange={(id) => router.push(bookHref(id))} />
+        </div>
+        {/* <LanguageSelector /> */}
+      </div>
+      <div className="flex flex-col gap-6">
+        <div className="flex items-center gap-8">
+          <div className="text-gray text-16 font-bold">{t('dishCategory')}</div>
           <div
-            data-active={casualOnly}
-            className="text-gray text-14 bg-primary-background rounded-12 flex cursor-pointer items-center gap-8 px-14 py-10 font-semibold select-none"
+            className="text-gray text-14 flex cursor-pointer items-center gap-8 px-8 py-4 font-semibold select-none"
             onClick={() => setCasualOnly(!casualOnly)}
           >
             <div
@@ -51,25 +56,23 @@ export default function StageSelector() {
             {t('casualDiningOnly')}
           </div>
         </div>
-        <LanguageSelector />
-      </div>
-      <div className="text-gray text-16 font-bold">{t('dishCategory')}</div>
-      <div className="flex flex-wrap gap-8">
-        {stages.map((stage) =>
-          casualOnly && !stage.casualDining ? null : (
-            <Link
-              key={stage.id}
-              href={bookHref(selected.theme, stage.id)}
-              data-active={selected.stage === stage.id}
-              data-casual={stage.casualDining}
-              data-muted={casualOnly && !stage.casualDining}
-              aria-current={selected.stage === stage.id ? 'page' : undefined}
-              className="recipe-category rounded-8 text-14 px-12 py-6 font-semibold transition-colors"
-            >
-              {stage.getName(locale)}
-            </Link>
-          )
-        )}
+        <div className="flex flex-wrap gap-8">
+          {stages.map((stage) =>
+            casualOnly && !stage.casualDining ? null : (
+              <Link
+                key={stage.id}
+                href={bookHref(selected.theme, stage.id)}
+                data-active={selected.stage === stage.id}
+                data-casual={stage.casualDining}
+                data-muted={casualOnly && !stage.casualDining}
+                aria-current={selected.stage === stage.id ? 'page' : undefined}
+                className="recipe-category rounded-8 text-14 px-12 py-6 font-semibold transition-colors"
+              >
+                {stage.getName(locale)}
+              </Link>
+            )
+          )}
+        </div>
       </div>
     </div>
   )
