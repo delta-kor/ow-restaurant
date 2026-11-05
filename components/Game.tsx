@@ -49,7 +49,7 @@ export default function Game() {
           <LanguageSelector />
         </div>
         <div className="flex flex-col">
-          <div className="flex items-end justify-between">
+          <div className="flex items-start justify-between">
             <div className="text-primary-light text-32 font-semibold">Sandbox</div>
             <GameStageSelector
               recipe={recipe}

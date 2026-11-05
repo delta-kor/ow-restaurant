@@ -15,11 +15,13 @@ export default function SelectMenu<T extends string>({
   label,
   value,
   options,
+  inline = false,
   onChange,
 }: {
   label: string
   value: T
   options: readonly SelectOption<T>[]
+  inline?: boolean
   onChange: (value: T) => void
 }) {
   const id = useId()
@@ -79,7 +81,10 @@ export default function SelectMenu<T extends string>({
     if (options[index] && options[index].value !== value) onChange(options[index].value)
   }
   return (
-    <div className="flex max-w-full min-w-0 flex-col gap-6">
+    <div
+      data-inline={inline}
+      className="flex max-w-full min-w-0 flex-col gap-6 data-[inline=true]:flex-row data-[inline=true]:items-center data-[inline=true]:gap-12"
+    >
       <span id={`${id}-label`} className="text-16 text-gray font-bold">
         {label}
       </span>

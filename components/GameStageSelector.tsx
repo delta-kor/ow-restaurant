@@ -1,6 +1,7 @@
 import { Recipe } from '@/lib/restaurant/recipe'
 import { useLocale, useTranslations } from 'next-intl'
 import SelectMenu from './SelectMenu'
+
 export default function GameStageSelector({
   recipe,
   stageId,
@@ -20,6 +21,7 @@ export default function GameStageSelector({
         value: String(stage.id),
         label: stage.getName(locale),
       }))}
+      inline={true}
       onChange={(value) => onStageSelect(Number(value))}
     />
   )
