@@ -7,8 +7,8 @@ import { useLocale, useTranslations } from 'next-intl'
 import { useParams } from 'next/navigation'
 import { useState } from 'react'
 import RestaurantSelector from './RestaurantSelector'
-// @ts-expect-error
 import './stage-selector.css'
+
 export const StageIconMap = [
   Icon.Steak,
   Icon.Burger,
@@ -23,6 +23,7 @@ export const StageIconMap = [
   Icon.Pancake,
   Icon.Meat,
 ]
+
 export default function StageSelector() {
   const locale = useLocale(),
     t = useTranslations(),

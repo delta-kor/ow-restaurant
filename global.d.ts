@@ -5,4 +5,9 @@ declare global {
     const component: FC<SVGProps<SVGSVGElement>>
     export default component
   }
+
+  module "*.css" {
+    const content: { [className: string]: string };
+    export default content;
+  }
 }

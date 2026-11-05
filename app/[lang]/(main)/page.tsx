@@ -43,7 +43,9 @@ export default async function MainPage({ params }: { params: Promise<{ lang: str
                 className="rounded-16 border-light-gray tablet:grow-0 tablet:px-24 tablet:py-16 flex grow items-center gap-12 border-2 px-20 py-14"
               >
                 <Icon.Info className="text-primary tablet:size-24 size-20 shrink-0" />
-                <div className="text-gray tablet:text-20 text-16 grow font-bold">Info</div>
+                <div className="text-gray tablet:text-20 text-16 grow font-bold">
+                  {t('gameInfo')}
+                </div>
                 <Icon.RightChevron className="text-gray tablet:size-20 size-16 shrink-0" />
               </Link>
 
