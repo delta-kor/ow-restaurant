@@ -80,7 +80,7 @@ export default function SelectMenu<T extends string>({
   }
   return (
     <div className="flex max-w-full min-w-0 flex-col gap-6">
-      <span id={`${id}-label`} className="text-12 text-gray font-bold">
+      <span id={`${id}-label`} className="text-16 text-gray font-bold">
         {label}
       </span>
       <button
@@ -92,7 +92,7 @@ export default function SelectMenu<T extends string>({
         aria-expanded={open}
         aria-controls={open ? `${id}-list` : undefined}
         aria-activedescendant={open ? `${id}-${active}` : undefined}
-        className="group rounded-12 border-primary-background bg-primary-background text-primary hover:border-primary-light focus-visible:outline-primary text-14 flex min-h-44 max-w-full min-w-[168px] cursor-pointer items-center justify-between gap-16 border-2 px-14 py-10 font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2"
+        className="group rounded-12 bg-primary-background text-primary text-14 flex min-h-44 max-w-full min-w-[168px] cursor-pointer items-center justify-between gap-16 px-14 py-10 font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2"
         onClick={() => {
           setActive(selected)
           setOpen(!open)
@@ -153,10 +153,8 @@ export default function SelectMenu<T extends string>({
           }
         }}
       >
-        <span className="min-w-0 truncate">{options[selected]?.label}</span>
-        <Icon.DownChevron
-          className={`size-16 shrink-0 opacity-60 transition-transform ${open ? 'rotate-180' : ''}`}
-        />
+        <span className="min-w-0 truncate select-none">{options[selected]?.label}</span>
+        <Icon.DownChevron className={`size-16 shrink-0 opacity-60 ${open ? 'rotate-180' : ''}`} />
       </button>
       {typeof document !== 'undefined' &&
         createPortal(
@@ -167,12 +165,12 @@ export default function SelectMenu<T extends string>({
                 id={`${id}-list`}
                 role="listbox"
                 aria-labelledby={`${id}-label`}
-                initial={{ opacity: 0, y: -4, scale: 0.98 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                exit={{ opacity: 0, y: -4, scale: 0.98 }}
-                transition={{ duration: 0.14 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.1 }}
                 style={position}
-                className="rounded-12 border-primary-background fixed z-50 overflow-y-auto overscroll-contain border-2 bg-white p-6 shadow-[0_12px_32px_rgba(55,80,160,0.12)]"
+                className="rounded-12 border-primary-background fixed z-50 overflow-y-auto overscroll-contain border-2 bg-white p-6"
               >
                 {options.map((option, index) => (
                   <div
@@ -184,25 +182,9 @@ export default function SelectMenu<T extends string>({
                     onMouseDown={(e) => e.preventDefault()}
                     onClick={() => choose(index)}
                     data-active={active === index}
-                    className={`rounded-8 text-14 flex min-h-40 cursor-pointer items-center justify-between gap-16 px-12 py-10 font-semibold transition-colors ${option.value === value ? 'bg-primary text-white' : 'text-gray data-[active=true]:bg-primary-background data-[active=true]:text-primary'}`}
+                    className={`rounded-8 text-14 flex min-h-40 cursor-pointer items-center justify-between gap-16 px-12 py-8 font-semibold transition-colors ${option.value === value ? 'bg-primary text-white' : 'text-gray data-[active=true]:bg-primary-background data-[active=true]:text-primary'}`}
                   >
-                    <span>{option.label}</span>
-                    {option.value === value && (
-                      <svg
-                        className="size-16 shrink-0"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        aria-hidden="true"
-                      >
-                        <path
-                          d="m4 10 4 4 8-8"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    )}
+                    <span className="select-none">{option.label}</span>
                   </div>
                 ))}
               </motion.div>
